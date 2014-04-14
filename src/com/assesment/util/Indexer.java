@@ -14,13 +14,21 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.store.FSDirectory;
 
 /**
- * 
+ * This class calls the lucene utility method to index the files
  * @author nanjum
  *
  */
 public class Indexer {
 		
 	
+	/**
+	 * This Method calls the native lucene methods to create indices on the file located.
+	 * @param indexDir directory where indices needs to be stored
+	 * @param dataDir directory where UTF8 files are present
+	 * @param suffix File types to be searched, here it is UTF8.
+	 * @return Total files indexed
+	 * @throws Exception exception
+	 */
 	public int index(File indexDir, File dataDir, String suffix) throws Exception {
 		
 		IndexWriter indexWriter = new IndexWriter(
@@ -40,6 +48,13 @@ public class Indexer {
 		
 	}
 	
+	/**
+	 * This methods recursively digs into the directory, if any. file location specified. 
+	 * @param indexDir directory where indices needs to be stored
+	 * @param dataDir directory where UTF8 files are present
+	 * @param suffix File types to be searched, here it is UTF8.
+	 * @throws IOException exception to be thrown
+	 */
 	private void indexDirectory(IndexWriter indexWriter, File dataDir, String suffix) throws IOException {
 		File[] files = dataDir.listFiles();
 		for (int i = 0; i < files.length; i++) {
@@ -53,6 +68,13 @@ public class Indexer {
 		}
 	}
 	
+	/**
+	 * This method operates a file with specific extension
+	 * @param indexWriter indexWritter
+	 * @param f file to be indexed
+	 * @param suffix file extension
+	 * @throws IOException exception to be thrown
+	 */
 	private void indexFileWithIndexWriter(IndexWriter indexWriter, File f, String suffix) throws IOException {
 		if (f.isHidden() || f.isDirectory() || !f.canRead() || !f.exists()) {
 			return;

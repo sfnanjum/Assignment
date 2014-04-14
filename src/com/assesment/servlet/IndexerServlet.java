@@ -6,7 +6,6 @@ package com.assesment.servlet;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.net.URISyntaxException;
 import java.net.URL;
 
 import javax.servlet.http.HttpServlet;
@@ -14,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.assesment.util.Indexer;
-import java.lang.Thread;
 
 /**
  * This Servlet direct the indexing request from the browser

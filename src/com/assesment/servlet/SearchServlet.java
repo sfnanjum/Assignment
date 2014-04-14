@@ -6,7 +6,6 @@ package com.assesment.servlet;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.net.URISyntaxException;
 import java.net.URL;
 
 import javax.servlet.http.HttpServlet;
@@ -14,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.assesment.util.SimpleSearcher;
-import com.sun.org.apache.xml.internal.serialize.Printer;
 
 /**
  * This servlet searches for the query string
@@ -48,9 +46,7 @@ public class SearchServlet extends HttpServlet {
 		if(query!=null) {
 			query = query.split("=")[1];
 		}else{
-			out.print("<h2>");
 			out.print("No Query string specified, please append the following -  ?query=<search string>");
-			out.print("</h2>");
 			return;
 		}
 		
@@ -67,9 +63,7 @@ public class SearchServlet extends HttpServlet {
         if(hits==-2) {
         	out.println("Please run indexer once");
         }else{	
-        	out.println("{");
-        	out.println("count:"+hits);
-        	out.println("}");
+        	out.println("{count:"+hits+"}");
         }
         out.close();
 	}
