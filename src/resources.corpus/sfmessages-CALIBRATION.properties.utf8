@@ -1,0 +1,875 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-CALIBRATION.properties.utf8 488222 2014-01-24 06:09:16Z kwang $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+# Calibration Error Messages (returned by controller to JS)
+CALIBRATION_ERROR_Contact_Support=There was an error retrieving data. Please contact support.
+CALIBRATION_ERROR_Session_Does_Not_Exist=The session does not exist.
+CALIBRATION_ERROR_Configure_DataSource=Please configure data sources before configuring the views.
+CALIBRATION_INFO_Finalized_Session_Successfully=You have finalized your session successfully, however you do not have permission to access the finalized session details.
+CALIBRATION_ERROR_No_Permission_To_Session=You do not have permission to access this session.
+CALIBRATION_ERROR_No_Permission_To_Template=You do not have permission to access this template.
+CALIBRATION_ERROR_No_Permission_To_Edit_Form=You do not have permission to edit form.
+CALIBRATION_ERROR_Duplicate_Template_Name=Another template with same name already exists. Please enter a different name.
+CALIBRATION_ERROR_Cannot_Update_Session=This session cannot be modified.
+CALIBRATION_ERROR_Cannot_Activate_Session=This session cannot be activated.
+CALIBRATION_ERROR_Cannot_Deactivate_Session=This session cannot be deactivated.
+CALIBRATION_Template_Status=Status
+CALIBRATION_Template_Enabled=Enabled
+CALIBRATION_Template_Disabled=Disabled
+CALIBRATION_ERROR_Not_A_Valid_Template=Not a valid template. Changing template status failed.
+CALIBRATION_ERROR_PM2_Form_Not_In_Calibration_Step=Sorry, a problem seems to have occurred with the routing of your forms in this session. <br/>\
+  All forms must be in the $(CALIBRATION_Calibration) step and the following form(s) are not. <br/>\
+  Please have your administrator contact customer support to route these forms back to the $(CALIBRATION_Calibration) step:<br/>\
+  Form Name: {0} Form ID: {1}
+CALIBRATION_ERROR_PM2_Form_Corrupted=Sorry, a problem seems to have occurred with the data on your performance management forms. <br/>\
+  The data has been corrupted and is blank. <br/>\
+  Please have your administrator contact customer support to investigate the form data for the following users:<br/>\
+  Form Name: {0} Form ID: {1}
+
+# Calibration static content (used in JUIC components)
+CALIBRATION_Calibration=Calibration
+CALIBRATION_calibration=calibration
+CALIBRATION_Calibrate=Calibrate
+CALIBRATION_calibrate=calibrate
+CALIBRATION_Calibrated=Calibrated
+CALIBRATION_calibrated=calibrated
+CALIBRATION_Edit_Axis_Data=Edit {0}
+CALIBRATION_View_Axis_Data=View {0}
+CALIBRATION_One_Subject=This box has 1 subject. ({0}% of the total subjects in this session.)
+CALIBRATION_Count_Subjects=This box has {0} subjects. ({1}% of the total subjects in this session.)
+CALIBRATION_Legend=Legend
+CALIBRATION_Both_Ratings=Both Ratings:
+CALIBRATION_Drag_to_diff_box=Drag to different box
+CALIBRATION_Click_to_select_rating=Click to select rating to edit
+CALIBRATION_Session=Session
+CALIBRATION_Status=Status
+CALIBRATION_Not_In_Session=Not in session
+CALIBRATION_Owner=Owner
+CALIBRATION_Owners=Owners
+CALIBRATION_Subject=Subject
+CALIBRATION_Subjects=Subjects
+CALIBRATION_Number_Of_Subjects=# of Subjects
+CALIBRATION_Discussed=Discussed?
+CALIBRATION_Dashboard_View=Dashboard
+CALIBRATION_List_View=List View
+CALIBRATION_Advanced_Options_Reason_Code=Comment on Change of Ratings
+CALIBRATION_Reason_Code=Reason Code
+CALIBRATION_Enforce_Options=Select the options you want to enforce your users to enter data into for comments when ratings change
+CALIBRATION_General=General
+CALIBRATION_Participant=Participant
+CALIBRATION_Participants=Participants
+CALIBRATION_Number_Of_Participants=# of Participants
+CALIBRATION_Participants_Percentage=Distribution (%)
+CALIBRATION_Participants_Actual=Actual
+CALIBRATION_Manager=Manager
+CALIBRATION_Facilitator=Facilitator
+CALIBRATION_Creator=Creator
+CALIBRATION_CoFacilitator=Co-facilitator
+CALIBRATION_Executive_Reviewer=Executive Reviewer
+CALIBRATION_myRoles= My Role(s)
+CALIBRATION_Last_Modified_Date=Last Modified Date
+CALIBRATION_Created_By=Created By
+CALIBRATION_Date_Range=Date range
+CALIBRATION_In_Progress=In Progress
+CALIBRATION_Approved=Approved
+CALIBRATION_Approving=Approving
+CALIBRATION_Search_Go=Go
+CALIBRATION_Sessions_Search_Result_Message=Your search criteria didn't match any of the $(CALIBRATION_Calibration) sessions.
+CALIBRATION_Setup=Setup
+CALIBRATION_Deactivated=Deactivated
+CALIBRATION_SUBJECT_INIT=Init
+CALIBRATION_SUBJECT_VALID=Valid
+CALIBRATION_SUBJECT_INVALID=Invalid
+CALIBRATION_SUBJECT_DELETED=Deleted
+CALIBRATION_Take_Action=Take Action
+CALIBRATION_Delete_Session=Delete Session
+CALIBRATION_Clone_Session=Clone Session
+CALIBRATION_Create_New=Create New
+CALIBRATION_Activate_Session=Activate
+CALIBRATION_Click_To_Delete=Remove user from session
+CALIBRATION_Basic_Info=Basic Info
+CALIBRATION_People=People
+CALIBRATION_Data_Guidelines=Data
+CALIBRATION_Views=Views
+CALIBRATION_Validation=Validation
+CALIBRATION_Select_Participants_And_Subjects=Select participants ({0}) & subjects ({1})
+CALIBRATION_Use_Org_Chart=Use Org Chart...
+CALIBRATION_Use_Advanced_Filters=Use Advanced Filters...
+CALIBRATION_Search_Results=Search Results:
+CALIBRATION_Your_Search_Returns=Your search found {0} users.
+CALIBRATION_Actions_Add_To_List=Add to {0}
+CALIBRATION_Session_Role=Role In Session
+CALIBRATION_Number_Selected={0} selected
+CALIBRATION_Seach_To_View_List=Click <strong>Search</strong> to see the list of users.
+CALIBRATION_In_Another_Session=(in another session)
+CALIBRATION_Already_In_Session=(already in session)
+CALIBRATION_Too_Many_Users_Message=Your search found too many users to display on this page.
+CALIBRATION_Too_Many_Users_Message_Detail=The first {0} users are displayed. You can <a href="javascript: void(0);" onclick="{1}">view the complete list of users</a> or try again by narrowing your search. <br><em>Note</em>: It can take a few minutes to process and display the complete list of users.
+CALIBRATION_Too_Many_Users_Message_Detail_Over_Max=We can only display {0} users at a time. Please narrow your search and try again.
+CALIBRATION_NOT_SET_SUBJECT_TARGET=No detail $(CALIBRATION_calibration) target users
+CALIBRATION_NOT_SET_SUBJECT_TARGET_DETAIL=There are no target subjects for you to create a session; please contact your admin.
+CALIBRATION_No_Search_Results=Your search did not find any matching users.
+CALIBRATION_No_Search_Results_Detail=Please change your search criteria and try again.
+CALIBRATION_Define_The_Session_Details=Define the Session details:
+CALIBRATION_Template_Info=Select the name of the template the session will be based on.
+CALIBRATION_Session_Name=Session Name
+CALIBRATION_Session_Names=Session Names:
+CALIBRATION_Session_Name_Info=Give the $(CALIBRATION_Calibration) Session a unique and descriptive name.
+CALIBRATION_Session_Activation_Date=Planned Activation Date
+CALIBRATION_Session_Activation_Date_Error=The $(CALIBRATION_Session_Activation_Date) cannot be after the $(CALIBRATION_Session_Date).
+CALIBRATION_Session_Activation_Date_Info=Specify the date the session will be recorded in the system and be ready to use.  This date should be before the Session Date, which is the actual start date.
+CALIBRATION_Session_Auto_Populate=Select subjects and participants automatically according to the owners.
+CALIBRATION_Session_Auto_Populate_Info=In a $(CALIBRATION_Calibration) Session, Managers reporting to the Session Owner are <b>Participants</b> of the session. Individual Contributors reporting to these Managers are <b>Subjects</b>.<br/><br/> Select this option if you want the  Participants and Subjects associated with this session to be automatically added to your people list. You can always modify this list on the <b>People</b> tab.
+CALIBRATION_Session_Date=Session Date
+CALIBRATION_Session_Date_Info=Specify the start date the session be held.
+CALIBRATION_Session_Location=Location
+CALIBRATION_Session_Location_Info=Optional.  Specify the place where the session is to be held. This is useful when participants are located in different offices.
+CALIBRATION_Session_Owners=Session Owners
+CALIBRATION_Session_Owners_Info=$(CALIBRATION_Session_Owners) are managers who have more than two levels reporting into them.  List the Managers who will be calibrating the ratings. <br/><br/><b>Why have $(CALIBRATION_Session_Owners)?</b> <br/><br/>$(CALIBRATION_Session_Owners) ensure all managers reporting into them use the same metrics for rating their team members, ensuring that the ratings and compensation decisions across teams are fair, consistent and matching company standards.
+CALIBRATION_Other_Facilitators=Session Facilitators
+CALIBRATION_Other_Facilitators_Info=$(CALIBRATION_Other_Facilitators) is a neutral role responsible for managing the session and ensuring that the information required to $(CALIBRATION_calibrate) employee ratings is available. HR usually performs this role.
+CALIBRATION_Add_Attachment= Add Attachment
+CALIBRATION_Upload=Upload
+CALIBRATION_Upload_Failed=Upload Failed
+CALIBRATION_Uploaded=Uploaded
+CALIBRATION_Attachment=Attachment
+CALIBRATION_Remove=Remove
+CALIBRATION_Find_Users=Find...
+CALIBRATION_New_Calibration_Session=New $(CALIBRATION_Calibration) Session
+CALIBRATION_Title_Step_X_of_Y=Step {0} of {1} - {2}
+CALIBRATION_Enter_Start_Before_End=The start date must be before the end date
+CALIBRATION_Validate_All_Fields=Validate all required fields.
+CALIBRATION_Validation_Errors=Validation Errors
+CALIBRATION_Subjects_Not_At_Calibration=<a href="#{0}"><strong>{1} subjects</strong></a> have forms not yet routed to $(CALIBRATION_calibration).
+CALIBRATION_Subjects_Not_At_Calibration_Singular=<a href="#{0}"><strong>1 subject</strong></a> has a form not yet routed to $(CALIBRATION_calibration).
+CALIBRATION_Subjects_PM_Not_At_Calibration=<a href="#{0}"><strong>{1} subjects</strong></a> have $(CALIBRATION_datasource_performance) forms not yet routed to the <strong>{2}</strong> step.
+CALIBRATION_Subjects_PM_Not_At_Calibration_Singular=<a href="#{0}"><strong>1 subject</strong></a> has a $(CALIBRATION_datasource_performance) form not yet routed to the <strong>{2}</strong> step.
+CALIBRATION_Subjects_COMP_Not_At_Calibration=<a href="#{0}"><strong>{1} subjects</strong></a> have $(CALIBRATION_datasource_compensation) forms not yet routed to the <strong>{2}</strong> step.
+CALIBRATION_Subjects_COMP_Not_At_Calibration_Singular=<a href="#{0}"><strong>1 subject</strong></a> has a $(CALIBRATION_datasource_compensation) form not yet routed to the <strong>{2}</strong> step.
+CALIBRATION_Subjects_In_Other_Sessions=<a href="#{0}"><strong>{1} subjects</strong></a> have already been selected in other sessions.
+CALIBRATION_Subjects_In_Other_Sessions_Singular=<a href="#{0}"><strong>1 subject</strong></a> has already been selected in other sessions.
+CALIBRATION_Subjects_In_Non_Active_Sessions=<a href="#{0}"><strong>{1} subjects</strong></a> have already been selected in other non-activated sessions.
+CALIBRATION_Subjects_In_Non_Active_Sessions_Singular=<a href="#{0}"><strong>1 subject</strong></a> has already been selected in other non-activated sessions.
+CALIBRATION_Subjects_No_Form=<a href="#{0}"><strong>{1} subjects</strong></a> have no form.
+CALIBRATION_Subjects_No_Form_Singular=<a href="#{0}"><strong>1 subject</strong></a> has no form.
+CALIBRATION_Subjects_No_Permission=<a href="#{0}"><strong>{1} users</strong></a> are outside of your assigned administrative group.
+CALIBRATION_Subjects_No_Permission_Singular=<a href="#{0}"><strong>1 user</strong></a> is outside of your assigned administrative group.
+CALIBRATION_Subjects_Inactive=<a href="#{0}"><strong>{1} users</strong></a> are inactive.
+CALIBRATION_Subjects_Inactive_Singular=<a href="#{0}"><strong>1 user</strong></a> is inactive.
+CALIBRATION_Subjects_Invalid_Live_Profile_Ratings=<a href="#{0}"><strong>{1} subjects</strong></a> have decimal $(COMMON_EMPLOYEE_PROFILE) ratings. Please enable <strong>$(CALIBRATION_datasource_live_profile_support_decimal)</strong> in the $(CALIBRATION_Calibration) template.
+CALIBRATION_Subjects_Invalid_Live_Profile_Ratings_Singular=<a href="#{0}"><strong>1 subject</strong></a> has decimal $(COMMON_EMPLOYEE_PROFILE) ratings. Please enable <strong>$(CALIBRATION_datasource_live_profile_support_decimal)</strong> in the $(CALIBRATION_Calibration) template.
+CALIBRATION_Request_Ratings=Request Routing
+CALIBRATION_Automatically_Route_Forms=Route Forms to $(CALIBRATION_Calibration)
+CALIBRATION_Not_At_Calibration_Step=Not yet routed to $(CALIBRATION_calibration) ({0})
+CALIBRATION_With_Other_Sessions=In other sessions ({0})
+CALIBRATION_No_Form=No forms ({0})
+CALIBRATION_No_Permission=No admin privileges ({0})
+#{0} - number of inactive users
+CALIBRATION_Inactive=Inactive ({0})
+CALIBRATION_Invalid_Live_Profile_Ratings=Invalid $(COMMON_EMPLOYEE_PROFILE) $(COMMON_Ratings) ({0})
+CALIBRATION_In_Non_Active_Sessions=In other non-activated sessions ({0})
+CALIBRATION_Warn_Inactive_Users=Warning: There are inactive users included in this session.
+CALIBRATION_Validation_Successful=Validation finished. No problems found.
+CALIBRATION_Validation_Successful_Detail=You are now ready to activate the session.
+CALIBRATION_Validation_Successful_Detail_With_Warning=$(CALIBRATION_Validation_Successful_Detail) But please be warned of the following:
+CALIBRATION_Validation_Failed=Validation Failed!
+CALIBRATION_Must_Have_One_Data_Source=You must specify at least one Data Source.
+CALIBRATION_Must_Have_One_View=You must specify at least one View.
+CALIBRATION_Must_Have_One_Subject=You must specify at least one Subject.
+CALIBRATION_Must_Have_One_Participant=You must specify at least one Participant.
+CALIBRATION_Visit_Page_To_Correct=You can do that on the {0} page.
+CALIBRATION_Save_Before_Validation=You have unsaved changes
+CALIBRATION_Save_Before_Validation_Detail=Click Save so we can validate the session.
+CALIBRATION_Wait_For_Validation=Validating the session...
+CALIBRATION_This_May_Take_Time_Minutes=This action may take up to {0} minute/s
+CALIBRATION_FORCE_ROUTE_FORMS_IN_ASYNC_MODE=&nbsp;<b>Currently routing of forms is in progress which is processed as an asynchronous process with Job ID: {0}. You will be notified with the results of the process in an email.</b>
+CALIBRATION_Confirm_Activate_Session=Do you want to activate the session now?
+CALIBRATION_Confirm_Activate_Session_Detail=You cannot make any changes to the session once it is activated.
+CALIBRATION_Users_Will_Be_Removed_From_Session=<ul style="margin-left: 12px; padding-left: 4px;"><li>The following subjects will be removed.</li><li>You can't make any changes once the session is activated.</li></ul>
+CALIBRATION_Confirm_Delete_Data_Source_Title=Confirmation
+CALIBRATION_Confirm_Delete_Data_Source=Some used data source is deselected.
+CALIBRATION_Views_Will_Be_Removed=The following view(s) referencing the deselected data source will be deleted.
+CALIBRATION_Email_Send_To=Send to:
+CALIBRATION_Email_Subject=Email Subject:
+CALIBRATION_Email_Message=Message:
+CALIBRATION_Request_Ratings_Dialog_Title=Request Routing
+CALIBRATION_Request_Ratings_Dialog_Note=You're about to send this email to the participant(s) in this $(CALIBRATION_calibration) session so they can route forms to $(CALIBRATION_calibration).
+CALIBRATION_Request_Ratings_Table_Title=Request Routing from participant(s)
+CALIBRATION_Notification=Notification
+CALIBRATION_Send_Notification=Send Email
+CALIBRATION_Notification_Sent_Successfully=Notification sent successfully
+CALIBRATION_Notification_Sent_Unsuccessfully=Notification failure
+CALIBRATION_Sending_Notification=Sending...
+CALIBRATION_Request_Has_Been_Sent=Request has been sent
+CALIBRATION_Session_List=Session List
+CALIBRATION_Session_List_Search_Title=Filter session by session name
+CALIBRATION_Session_Approved_Dialog_Title=Session Finalized
+CALIBRATION_Session_Approved_Dialog_Note=You can send notification of this session's finalization below.
+CALIBRATION_Session_Approving_Dialog_Title=Session Results are being finalized
+CALIBRATION_Session_Approving_Dialog_Note=Your results are being finalized, once the process is completed a notification will be sent out.
+CALIBRATION_Session_Approved_Table_Title=Send notification about session finalization
+CALIBRATION_Session_Approval_Warning_Title=Finalize Session
+CALIBRATION_Session_Approval_Warning_Message=Are you sure you want to finalize this session?
+CALIBRATION_Session_Approval_Warning_Message_Detail=This action cannot be undone. Further editing of this $(CALIBRATION_calibration) session will not be allowed.
+CALIBRATION_Session_Approval_Warning_Message_Detail2=Forms for the following users have been deleted, we cannot route them during session finalization.
+CALIBRATION_Session_Approval_Job_Status_Finalizing=The session is being finalized.
+#{0} is the number of subjects
+CALIBRATION_Session_Approval_Job_Status_Subjects_Number= And {0} subjects have been processed.
+CALIBRATION_Session_Approval_Job_Status_Finalize_Failed=The session finalization failed, please finalize the session again.
+CALIBRATION_Approve_All_Changes=Finalize
+CALIBRATION_Auto_Route_Dialog_Title=Auto Route Forms
+CALIBRATION_Auto_Route_Dialog_Note=Are you sure you want to auto route the forms for these subjects?
+CALIBRATION_Auto_Route_Dialog_Detail=The forms of these subjects will be automatically routed to the $(CALIBRATION_calibration) step.
+CALIBRATION_Auto_Route_Dialog_Send_Email=Send notification to participant(s) about the automatic routing
+CALIBRATION_Session_Activated_Dialog_Title=Session Activated
+CALIBRATION_Session_Activated_Dialog_Note=Your session has been activated
+CALIBRATION_Session_Activated_Dialog_Note_Detail=All forms have been routed to the $(CALIBRATION_calibration) step. Facilitators for this session may now visit the $(CALIBRATION_calibration) tab to view this activated session and make changes.
+CALIBRATION_Session_Activated_Dialog_Table_Title=Send notification about session activation
+CALIBRATION_Session_Count=Sessions using this template
+CALIBRATION_Template=Template
+CALIBRATION_Delete_Template=Delete Template
+CALIBRATION_Clone_Template=Clone Template
+CALIBRATION_Define_The_Template_Details=Define the Template details:
+CALIBRATION_Template_Name=Template Name
+CALIBRATION_Template_Name_Info=Provide a unique name for the template. We recommend using a descriptive name so it's easier to identify the template when creating a session.
+CALIBRATION_Review_Period=Review Period
+CALIBRATION_Review_Period_Info=Specify the review period this $(CALIBRATION_Calibration) template is associated with.
+CALIBRATION_New_Calibration_Template=New $(CALIBRATION_Calibration) Template
+CALIBRATION_Select_An_Owner_To_Use_Org_Chart=No people are shown because no Owners were specified. To see more People results, either specify Owners (from the <a href="javascript:void(0)" onclick="{0}return false;">$(CALIBRATION_Basic_Info)</a> page) or search for a specific user using the Search box above.
+CALIBRATION_Back_To_Session_List=Back to session list
+CALIBRATION_Back_To_Template_List=Back to template list
+CALIBRATION_Save_And_Activate=Save & Activate
+CALIBRATION_Template_Being_Used=At least one $(CALIBRATION_calibration) session is using this template.
+CALIBRATION_Template_Being_Used_Detail=Any changes you made will take effect on those sessions immediately.
+CALIBRATION_REQUEST_RATINGS_EMAIL=Notify $(CALIBRATION_Calibration) Participants to Submit Ratings
+CALIBRATION_REQUEST_RATINGS_EMAIL_DESC=This is a notification email sent to $(CALIBRATION_calibration) participants to submit their ratings.
+CALIBRATION_REQUEST_RATINGS_EMAIL_SUBJ=Please submit your $(CALIBRATION_calibration) ratings
+CALIBRATION_REQUEST_RATINGS_EMAIL_BODY=Please submit ratings for your $(direct_reports) for the [[SESSION_NAME]] session.\n\
+ [[SIGNATURE]]
+CALIBRATION_SESSION_APPROVED_EMAIL=Notify $(CALIBRATION_Calibration) Participants of Session Finalization
+CALIBRATION_SESSION_APPROVED_EMAIL_DESC=This is a notification email sent to $(CALIBRATION_calibration) participants of session finalization.
+CALIBRATION_SESSION_APPROVED_EMAIL_SUBJ=[[SESSION_NAME]] $(CALIBRATION_Calibration) Session Finalized
+CALIBRATION_SESSION_APPROVED_EMAIL_BODY=The [[SESSION_NAME]] $(CALIBRATION_calibration) session has been finalized and approved.\n\
+ [[SIGNATURE]]
+CALIBRATION_AUTO_ROUTE_FORMS_EMAIL=Notify $(CALIBRATION_Calibration) Participants of Auto-Routed Forms
+CALIBRATION_AUTO_ROUTE_FORMS_EMAIL_DESC=This is a notification email sent to $(CALIBRATION_calibration) participants of auto-routed forms.
+CALIBRATION_AUTO_ROUTE_FORMS_EMAIL_SUBJ=[[SESSION_NAME]] $(CALIBRATION_Calibration) Forms have been Automatically Routed
+CALIBRATION_AUTO_ROUTE_FORMS_EMAIL_BODY=The [[SESSION_NAME]] $(CALIBRATION_calibration) session has automatically routed forms for some of your $(direct_reports).\n\
+ [[SIGNATURE]]
+CALIBRATION_SESSION_ACTIVATED_EMAIL=Notify $(CALIBRATION_Calibration) Participants of Session Activation
+CALIBRATION_SESSION_ACTIVATED_EMAIL_DESC=This is a notification email sent to $(CALIBRATION_calibration) participants of session activation.
+CALIBRATION_SESSION_ACTIVATED_EMAIL_SUBJ=[[SESSION_NAME]] $(CALIBRATION_Calibration) Session Activated
+CALIBRATION_SESSION_ACTIVATED_EMAIL_BODY=The [[SESSION_NAME]] $(CALIBRATION_calibration) session has been activated.\n\
+ [[SIGNATURE]]
+
+CALIBRATION_SESSION_APPROVING_EMAIL=Notify $(CALIBRATION_Calibration) Participants of Session Finalization
+CALIBRATION_SESSION_APPROVING_EMAIL_DESC=This is a notification email sent to $(CALIBRATION_calibration) participants of session finalization.
+CALIBRATION_SESSION_APPROVING_EMAIL_SUBJ=[[SESSION_NAME]] $(CALIBRATION_Calibration) Session Results are being Finalized
+CALIBRATION_SESSION_APPROVING_EMAIL_BODY=The [[SESSION_NAME]] $(CALIBRATION_calibration) session are being finalized, once the process is complete a notification will be sent out.\n\
+ [[SIGNATURE]]
+CALIBRATION_RATING_CHANGES_EMAIL_SUBJ=Rating changes for [[SESSION_NAME]]
+CALIBRATION_RATING_CHANGES_EMAIL_BODY=The [[SESSION_NAME]] $(CALIBRATION_calibration) session has been finalized and here are rating changes of your $(direct_reports).\n\n\
+ Subject Name                    Rating Type                     Old Value                       New Value\n\
+ [[RATING_CHANGES]]\n\n\
+ If you have any question about this, please contact facilitator [[FACILITATOR_NAME]] at [[FACILITATOR_EMAIL]].\n\
+ [[SIGNATURE]]
+
+CALIBRATION_Session_Has_Already_Been_Activated=Session has already been activated
+CALIBRATION_Session_Has_Already_Been_Activated_Detail=Your session has already been activated or approved, validation for this session is not required.
+CALIBRATION_Confirm_Delete_Session=Are you sure you want to delete this session?
+CALIBRATION_Confirm_Delete_Session_Detail=This will permanently delete this session. You will no longer be able to report on this session once it is deleted. If you $(CALIBRATION_calibrated) Live Profile data, changes made to Live Profile ratings as part of this session will be deleted as well. This will not impact any changes that were already made to compensation or performance review forms.
+CALIBRATION_Confirm_Disable_Template_Status=Are you sure you want to disable this template?
+CALIBRATION_Confirm_Disable_Template_Status_Detail=You can only create sessions with templates that are enabled.
+CALIBRATION_Confirm_Enable_Template_Status=Are you sure you want to enable this template?
+CALIBRATION_Confirm_Enable_Template_Status_Detail=This will enable you to create sessions with this template.
+CALIBRATION_Disable_Template_Header=Disable Template
+CALIBRATION_Enable_Template_Header=Enable Template
+CALIBRATION_Clone_Of_Name=Clone of {0}
+CALIBRATION_Calibrated_Checkbox_Detail=Check to indicate that subject has been discussed.
+CALIBRATION_basicinfo_select_one_template=Please select a template...
+CALIBRATION_Cannot_Add_More_Subjects=A single session cannot contain more than {0} subjects.
+CALIBRATION_Cannot_Add_More_Subjects_Detail=Consider splitting this session into multiple smaller sessions.
+CALIBRATION_Cannot_Add_More_Subjects_Title=Too Many Subjects
+CALIBRATION_Cannot_Find_Scale_For_Rating=Cannot find scale value for the given decimal rating (wrong rating scale configured?)
+CALIBRATION_Rating_Not_Changed=Rating not changed
+CALIBRATION_Enter_Rating_For=Please enter a new rating for
+CALIBRATION_Current_Rating=Current Rating
+CALIBRATION_New_Rating=New Rating
+CALIBRATION_Warning_For_More_Subjects_Title=Warning: Too Many Subjects  in Session
+CALIBRATION_Warning_For_More_Subjects=Adding more than 250 subjects per session may cause slow performance.
+CALIBRATION_Warning_For_More_Subjects_Detail=Consider splitting this session into multiple smaller sessions.
+CALIBRATION_Session_Approval_In_Progress=Finalizing Session...
+CALIBRATION_Session_Activation_In_Progress=Activating Session...
+CALIBRATION_Filter_In_Progress=Filtering Users...
+CALIBRATION_Session_Auto_Route_In_Progress=Routing {0} subject(s) to $(CALIBRATION_calibration). This may take a moment...
+CALIBRATION_Session_Auto_Route_With_Email_In_Progress=Sending email and routing {0} subject(s) to $(CALIBRATION_calibration). This may take a moment...
+CALIBRATION_DataSource_Type=Form Type
+CALIBRATION_DataSource_Step_Name=Form Status
+CALIBRATION_DataSource_Current_Owner=Current Owner
+CALIBRATION_Right_Click_To_Open_Menu=Right click to see other options
+CALIBRATION_Comment=Comment
+#{0} - Subject's full-name
+CALIBRATION_Comment_For=Comment for {0}
+#{0} - Subject's full-name
+CALIBRATION_Comment_Box_Title=Rating Changes for {0}
+CALIBRATION_Authorized_By_Label=Authorized By
+CALIBRATION_Reason_of_Rating_Change_Label=Reason of change in rating
+CALIBRATION_Enter_Comment=Please enter a comment
+CALIBRATION_Enter_Required_Values=Please provide valid values for the required fields
+#in all the three below the parameters would be the name of the fields that are being validated
+CALIBRATION_Validation_Msg_One_Field=Please provide a valid value for '{0}'
+CALIBRATION_Validation_Msg_Two_Fields=Please provide valid values for '{0}' and '{1}'
+CALIBRATION_Validation_Msg_Three_Fields=Please provide valid values for '{0}', '{1}' and '{2}'
+CALIBRATION_Changed_Ratings_Label=Changed Ratings
+#{0}-Rating-type (ex. -Performance, Potential etc.); {1} & {2}-Rating Labels (ex. - Potential 3.0, 2 etc.)
+CALIBRATION_Ratings_Changed_From_Label='{0}' changed from '{1}' to '{2}'
+CALIBRATION_Ratings_Unrated_Label=unrated
+CALIBRATION_Add_Subjects=Add {0} subject(s)
+CALIBRATION_Remove_Subjects=Remove {0} subject(s)
+CALIBRATION_Add_Users_Title=Need to add {0} more subject(s) into this bin to meet the target distribution
+CALIBRATION_Remove_Users_Title=Need to remove {0} subject(s) out of this bin to meet the target distribution
+CALIBRATION_Users_With_Form_Errors_Title=Users were found with deleted forms
+CALIBRATION_Users_With_Form_Errors=The following users have been removed from the session
+CALIBRATION_Users_With_Form_Errors_Detail=Forms for these users may have been deleted after the session activation
+CALIBRATION_Duplicate_Entries=This template has already been selected.  Please choose a different one.
+CALIBRATION_Display_Option_User_Quick_Card=Quick card
+CALIBRATION_Display_Option_User_Calibrated=Discussed flag
+CALIBRATION_Display_Option_Subject_Count=Count
+CALIBRATION_Display_Option_Group_Classifier_Icons=Icons from Succession Matrix Report
+CALIBRATION_Display_Option_Group_Others=Other Options
+CALIBRATION_Deactivate_Session=Deactivate
+CALIBRATION_Deactivate_Message=This session has already been activated and is currently in progress.
+CALIBRATION_Deactivate_Message_Detail=To add or remove subjects or participants, click the '$(CALIBRATION_Deactivate_Session)' button. (Note: While deactivated, the session cannot be accessed and data cannot be edited. To resume the session, you need to validate the data and activate the session again.)
+CALIBRATION_Deactivated_Session_Message=The session has been deactivated. To reactivate the session, click the '$(CALIBRATION_Activate_Session)' button in the $(CALIBRATION_Validation) section.
+CALIBRATION_Confirm_Deactivate_Session_Title=Deactivate Session
+CALIBRATION_Confirm_Deactivate_Session=Are you sure you want to deactivate this session?
+CALIBRATION_Confirm_Deactivate_Session_Detail=While deactivated, the session cannot be accessed and data cannot be edited. To resume the session, you need to validate the data and activate the session again.
+CALIBRATION_Overall_Form_Rating=Overall Form Rating
+CALIBRATION_Overall_Potential_Rating=Overall Potential Rating
+CALIBRATION_Overall_Objective_Rating=Overall Objective Rating
+CALIBRATION_Overall_Competency_Rating=Overall Competency Rating
+CALIBRATION_SUBJECT_CALIBRATED_YES=Yes
+CALIBRATION_SUBJECT_CALIBRATED_NO=No
+CALIBRATION_Ratio_From_And_To_Percent={0} to < {1}%
+CALIBRATION_Ratio_Only_From_Percent=>= {0}%
+CALIBRATION_Ratio_Only_To_Percent=< {0}%
+#{2} in the following could be 'USD', '$' or ''
+CALIBRATION_Ratio_From_And_To_Currency={2}{0} to < {2}{1}
+#{1} in the following two messages could be 'USD', '$' or ''
+CALIBRATION_Ratio_Only_From_Currency=>= {1}{0}
+CALIBRATION_Ratio_Only_To_Currency=< {1}{0}
+CALIBRATION_ROLE_ACCESS_PERMISSION_CHOICE=No Permission Set
+CALIBRATION_ROLE_ACCESS_PERMISSION_CHOICE_DETAIL=Set at least one role access permission
+CALIBRATION_CloseZoom=Close zoom
+CALIBRATION_UserAffected=This option will only affect the following users:
+#Calibration
+CALIBRATION_TALENT_FLAG=Talent Flag
+CALIBRATION_TALENT_FLAG_Info=If you have defined standard Succession elements Risk of Loss and/or Impact of Loss, they can be included in the template to $(CALIBRATION_calibrate). Typically these are included to plot on a 9-box. 
+CALIBRATION_BATCH_ROUTE_FORM_JOB=Route Forms To The Next Step Of $(CALIBRATION_Calibration)
+CALIBRATION_MASS_CREATE_SESSIONS=Mass Create $(CALIBRATION_Calibration) Sessions
+CALIBRATION_MASS_CREATE_File_Empty=Uploaded file is empty.
+CALIBRATION_MASS_CREATE_NO_FILE_UPLOADED=No file uploaded
+CALIBRATION_MASS_CREATE_NOT_A_CSV_TYPE_FILE=Not a CSV type file
+CALIBRATION_MASS_CREATE_FILE_HAS_NO_DATA=File has no data
+#{0} will be replaced by the value of either CALIBRATION_MASS_CREATE_SESSIONS or CALIBRATION_Validation
+CALIBRATION_Mass_Create_Job_submitted_OK=The {0} request has been submitted successfully. Please check your email for the final process status. Keep in mind that the email notification will not be sent until the process has been completed. The process could take half to an hour, depending on the number of plans. If you do not receive any email notification regarding your process at all, please contact our technical support. <br/> \
+ Job name: "{1}", request ID: "{2}"
+CALIBRATION_MASS_CREATE_No_Templates_found_for_user=No $(CALIBRATION_Calibration) Templates found for user {0}
+CALIBRATION_MASS_CREATE_Missing_Field=Line number: {1}. Error: Missing required field {0}.
+CALIBRATION_MASS_CREATE_Template_not_found=Line number: {1}. Error: Template "{0}" not found.
+CALIBRATION_MASS_CREATE_Session_has_template=Line number: {3}. Error: Session "{0}" already configured with template "{1}". Ignoring "{2}".
+CALIBRATION_MASS_CREATE_CSV_Parse_Errors=CSV parse errors:
+CALIBRATION_MASS_CREATE_Errors_encountered=Here is a summary of errors encountered while processing the imported data.
+CALIBRATION_MASS_CREATE_Invalid_Sessions=Invalid Sessions:
+CALIBRATION_MASS_CREATE_These_are_incomplete=The following session(s) have been configured with incomplete/inconsistent information. Please correct your import file.
+CALIBRATION_MASS_CREATE_Session_Name=Session Name:
+CALIBRATION_MASS_CREATE_Problems=Problem(s):
+CALIBRATION_MASS_CREATE_Session_has_no_template=Session has no template.
+CALIBRATION_MASS_CREATE_Session_has_no_facilitators=Session has no facilitators.
+CALIBRATION_MASS_CREATE_Session_has_no_participants=Session has no participants.
+CALIBRATION_MASS_CREATE_Session_has_no_subjects=Session has no subjects.
+CALIBRATION_MASS_CREATE_Invald_userids=Invalid User ID(s):
+CALIBRATION_MASS_CREATE_These_usernames_are_invalid=The following user names are invalid. Please remove them from the import file.
+CALIBRATION_MASS_CREATE_These_sessions_will_be_created=The import file contains the following session configurations.
+CALIBRATION_MASS_CREATE_The_file_contains_no_session_information=The import file contains no valid session configurations.
+CALIBRATION_MASS_CREATE_There_were_errors=There were some errors while processing the imported data.
+CALIBRATION_MASS_CREATE_Job_has_finished_processing={0} has finished processing.
+CALIBRATION_MASS_CREATE_Number_of_sessions_created={0} number of sessions have been successfully created.
+CALIBRATION_MASS_CREATE_See_below_for_details=Please see below for further details.
+CALIBRATION_MASS_CREATE_Failed_Sessions=Failed to create following {0} session(s). For more information see "Errors" section below.
+CALIBRATION_MASS_CREATE_Could_not_parse_date=Line number: {1}. Error: Could not parse date "{0}". Dates should be in this format "{2}".
+CALIBRATION_MASS_CREATE_Activation_date_after_session_date=Line number: {0}. Error: $(CALIBRATION_Session_Activation_Date_Error) Ignoring activation date. Dates should be in this format "{1}".
+CALIBRATION_MASS_CREATE_Page_Desc=Use this page to bulk create $(CALIBRATION_Calibration) Sessions. If this is your first time, download the <a href\=\"{0}\" >file template</a> so you can see how it's formatted. Please note that some jobs may take up to a few minutes depending on the size of the file.
+CALIBRATION_MASS_CREATE_File_Name=File Name:
+CALIBRATION_MASS_CREATE_Step_1=Step 1:
+CALIBRATION_MASS_CREATE_Step_2=Step 2:
+CALIBRATION_MASS_CREATE_Validate_Import_File=Validate Import File
+CALIBRATION_MASS_CREATE_Create_Sessions=Create Sessions
+CALIBRATION_MASS_CREATE_Job_Completed_Email_Subject=Job "{0}" completed
+# in the following {0} is file name, {2} is submission date/time
+CALIBRATION_MASS_CREATE_Creation_Job_Name=Mass Session Creation Job {0}
+CALIBRATION_MASS_CREATE_Validate_Job_Name=Mass Session Validation Job {0}
+CALIBRATION_MASS_CREATE_The_following_sessions_created_successfully=The following sessions from the import file have been successfully created.
+CALIBRATION_MASS_CREATE_There_were_no_validation_errors=There were no validation errors found in the imported data.
+CALIBRATION_MASS_CREATE_Following_validation_errors_occurred=The following validation errors have been found.
+CALIBRATION_MASS_CREATE_Note_no_sessions_created=Please note that the import process has not created any sessions in the system. Please see below for the summary of validation status.
+
+
+#force to route forms to calibration step
+CALIBRATION_FORCE_ROUTE_FORM_JOB=Route Forms To $(CALIBRATION_Calibration) Step
+#{0} is subject full name
+CALIBRATION_ROUTE_FORM_ERROR_NO_PM_FORM={0} does not have $(CALIBRATION_datasource_performance) form.\n
+#{0} is subject full name
+CALIBRATION_ROUTE_FORM_ERROR_NO_COMP_FORM={0} does not have $(CALIBRATION_datasource_compensation) form.\n
+#{0} is $(CALIBRATION_calibration) session name
+CALIBRATION_ROUTE_FORM_EMAIL_BODY=The $(CALIBRATION_calibration) session({0}) has been finalized.\n
+#{0} is form data id, {1} is subject full name
+CALIBRATION_ROUTE_FORM_ERROR_PM_FORM_FAILED=The $(CALIBRATION_datasource_performance) form for {1} with document ID {0} could not be routed to the next step as part of $(CALIBRATION_Calibration) session finalization process. A manual action may be needed to move this form to the next step in the route map.\n
+#{0} is form data id, {1} is subject full name
+CALIBRATION_ROUTE_FORM_ERROR_COMP_FORM_FAILED=The $(CALIBRATION_datasource_compensation) form for {1} with document ID {0} could not be routed to the next step as part of $(CALIBRATION_Calibration) session finalization process.\n
+#{0} is $(CALIBRATION_calibration) session name
+
+CALIBRATION_FORCE_ROUTE_FORM_EMAIL_BODY=All forms in $(CALIBRATION_calibration) session ({0}) have been routed to $(CALIBRATION_calibration) step successfully.\n
+CALIBRATION_FORCE_ROUTE_FORM_ERROR_PM_FORM_FAILED=The $(CALIBRATION_datasource_performance) form for {1} with document ID {0} could not be routed to the $(CALIBRATION_calibration) step. A manual action may be needed to move this form to the $(CALIBRATION_calibration) step in the route map.\n
+#{0} is form data id, {1} is subject full name
+CALIBRATION_FORCE_ROUTE_FORM_ERROR_COMP_FORM_FAILED=The $(CALIBRATION_datasource_compensation) form for {1} with document ID {0} could not be routed to the $(CALIBRATION_calibration) step.\n
+
+CALIBRATION_title=$(CALIBRATION_Calibration)
+CALIBRATION_session_management=Session Management
+CALIBRATION_admin_back_to=Back to
+CALIBRATION_views_calibration_elements=$(CALIBRATION_Calibration) element(s):
+CALIBRATION_views_calibration_elements_Info=Specify the X and Y axis for the view. To create a one-dimensional view, where only one rating is displayed, specify the rating to use on the X-axis (down) only.  To create a two-dimensional view where two elements are being compared, specify one rating for the X-axis (down), and another for the Y-axis (across).
+CALIBRATION_views_view_name=View name:
+CALIBRATION_views_view_name_Info=Provide a name for this view.
+CALIBRATION_views_new_view_name=New view name
+CALIBRATION_views_select_x_axis=Select X axis
+CALIBRATION_views_select_y_axis=Select Y axis
+CALIBRATION_views_disable_drag_drop=Enable Drag and Drop
+CALIBRATION_views_disable_drag_drop_Info=Select this option to allow users to drag and drop names on the page.
+CALIBRATION_views_enforce_when_rating_changes=Enforce comments on rating change
+CALIBRATION_views_show_calculated_rating=Show calculated rating in addition to manual rating (only applicable to Bin view)
+CALIBRATION_views_define_box_names=Define the names of the boxes below:
+CALIBRATION_views_name_this_box=Name this box
+CALIBRATION_views_background_color=Background:
+CALIBRATION_views_foreground_color=Label Color
+CALIBRATION_views_label=Label
+CALIBRATION_views_error_invalid_color=Please enter a 6-digit hexadecimal value.
+CALIBRATION_views_add_view=Add View
+CALIBRATION_views_delete_view=Delete View
+CALIBRATION_views_confirm_delete_view=Are you sure that you want to delete this view?
+CALIBRATION_views_no_datasrc_msg=Please select data source in $(CALIBRATION_Data_Guidelines) page first
+CALIBRATION_views_duplicate_view=The same view ({0}) already exists. Please delete or change this view.
+CALIBRATION_views_select_language=Select language:
+CALIBRATION_views_select_language_Info=Specify the language for the view. This option is most useful when you want to create localized views.
+# {0} versus {1} where {0} and {1} are drop down lists
+CALIBRATION_views_XAxis_vs_YAxis={0} vs {1}
+CALIBRATION_views_enforce_on_ratings_change=Enforce when ratings change
+CALIBRATION_views_enforce_authorized_by=Authorized By
+CALIBRATION_views_enforce_reason_code=Reason Code
+CALIBRATION_views_enforce_comment=Comment
+CALIBRATION_datasource_no_datasrc_msg=Please select data source
+CALIBRATION_datasource_performance=$(COMMON_PERFORMANCE_TAB)
+CALIBRATION_datasource_compensation=$(COMMON_COMPENSATION_TAB)
+CALIBRATION_datasource_others=Others
+CALIBRATION_datasource_others_Info=Select this option to make other information resources available to the managers. Note that these information sources are meant for reference only and cannot be $(CALIBRATION_calibrated).
+CALIBRATION_datasource_others_note=Specify if you want to make data from certain modules available in $(CALIBRATION_Calibration) sessions. The data can be used for reference only, and can't be a $(CALIBRATION_calibration) factor. You can also specify if you want additional indicators to display.
+CALIBRATION_datasource_others_more_info=This option allows you to access the subject's $(IDP) during the session. You will be able to edit the information as you go through the session.
+CALIBRATION_datasource_others_employee_profile=Allow modifications to Employee Profile
+# {0} contains an arrow icon for a drop-down menu
+CALIBRATION_datasource_others_employee_profile_info=During the $(CALIBRATION_Calibration) session, the Session Facilitators will have access and editing rights to the Subject's $(COMMON_EMPLOYEE_PROFILE), by clicking the blue arrow {0} next to the Subject's name and select $(COMMON_EMPLOYEE_PROFILE) from the menu.
+CALIBRATION_datasource_others_development_plan=Allow access to $(COMMON_CDP_DEVELOPMENT_TAB)
+# {0} contains an arrow icon for a drop-down menu
+CALIBRATION_datasource_others_development_plan_info=This option gives Session Facilitators access to a Subject's $(IDP). Facilitators can find the $(IDP) they want by clicking the {0} by the Subject's name.
+CALIBRATION_datasource_others_transcript=Allow access to $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE)
+# {0} contains an arrow icon for a drop-down menu
+CALIBRATION_datasource_others_transcript_info=This option gives Session Facilitators access to a Subject's $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE). Facilitators can find the $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE) they want by clicking the {0} by the Subject's name.
+CALIBRATION_datasource_others_succession_classifier=Show Succession status icons from the Succession Matrix Report
+CALIBRATION_datasource_others_succession_classifier_info=This option displays the Succession status icons for each Subject. Status is pulled from the Succession Matrix Report.
+CALIBRATION_datasource_others_quickcard=Display QuickCards
+CALIBRATION_datasource_others_quickcard_info=This option adds access to QuickCards {0} for each Subject. QuickCards provide team and performance information about employees.
+CALIBRATION_datasource_live_profile_note=Allow access and modification to subject's $(COMMON_EMPLOYEE_PROFILE) and/or custom ratings (if any) during the session.
+CALIBRATION_datasource_live_profile_include_ratings=Rating Type to be $(CALIBRATION_calibrated):
+CALIBRATION_datasource_live_profile_include_ratings_Info=Select the ratings to be $(CALIBRATION_calibrated).
+CALIBRATION_datasource_live_profile_support_decimal=Support decimal rating
+CALIBRATION_datasource_talent_flag_note=Allow access and modification to subject's $(CALIBRATION_TALENT_FLAG) during the session.
+CALIBRATION_datasource_talent_flag_include_flags=Include the following flag(s) in $(CALIBRATION_calibration):
+CALIBRATION_datasource_distributions_optional=(optional)
+CALIBRATION_datasource_select_datasource_title=Select the data source for the elements you want to $(CALIBRATION_calibrate):
+CALIBRATION_datasource_select_datasource_info=For example, if you wish to $(CALIBRATION_calibrate) performance ratings and goal ratings, select <strong>$(COMMON_PERFORMANCE_TAB)</strong> and pick the template that contains those elements.
+CALIBRATION_datasource_performance_def=$(COMMON_PERFORMANCE_TAB) $(CALIBRATION_calibration) includes the evaluation of performance, goals, potential, or other customer-defined elements.
+CALIBRATION_datasource_performance_template_hint=Note: sometimes your $(CALIBRATION_calibration) data might come from multiple templates. In that case, the system only supports the elements defined in the primary template (indicated with the <span class="starIcon">&#160;&#160;&#160;&#160;&#160;</span>).
+CALIBRATION_datasource_select_form_templates=Select the form template(s) that contains the elements you want to $(CALIBRATION_calibrate)
+CALIBRATION_datasource_select_form_elements=Select at least one element for $(CALIBRATION_calibration). Then define its distribution guideline.
+CALIBRATION_datasource_distribution_info=<strong>Elements:</strong> Select the type of rating to be $(CALIBRATION_calibrated). The types of ratings displayed are pulled up from the $(ADMINV2_PERFORMANCE_TABNAME) Template.<br><br><strong>Distribution Guideline:</strong> Specify a guideline for Managers indicating how employee ratings should be distributed.<br/><br/>Note: Guidelines are informational and do not get validated.
+CALIBRATION_datasource_comp_def=$(COMMON_COMPENSATION_TAB) $(CALIBRATION_calibration) allows you to $(CALIBRATION_calibrate) $(employee's) compensation ratios (see step 2. below).
+CALIBRATION_datasource_all_fields_required=All fields are required.
+CALIBRATION_datasource_elements_from_primary_template=The elements are obtained from the primary template.
+CALIBRATION_datasource_select_comp_template=Select the compensation template:
+CALIBRATION_datasource_select_comp_ratio=Select a ratio and set up the range groups:
+CALIBRATION_datasource_select_comp_ratio_Info=<strong>Ratio:</strong> Select the rating to be $(CALIBRATION_calibrated). The list of ratings or ratios displayed are picked up from the Compensation Template selected.<br><br><strong>Range Groups:</strong> Specify the different ranges.
+CALIBRATION_datasource_setup_comp_ranges=Set up the range groups for
+CALIBRATION_datasource_enter_number=Please enter a valid number
+CALIBRATION_datasource_enter_number_range=Please enter a valid number between {0} and {1}
+CALIBRATION_datasource_wrong_total=Total guideline should add up to 100%
+CALIBRATION_datasource_source=Template
+CALIBRATION_datasource_source_Info=Select the $(ADMINV2_PERFORMANCE_TABNAME) Template associated with the rating to be $(CALIBRATION_calibrated).
+CALIBRATION_datasource_route_map=Route map
+CALIBRATION_datasource_at_route_step=At which routing step can the data be used?
+CALIBRATION_datasource_data_to_calibrate=Data to $(CALIBRATION_calibrate)
+CALIBRATION_datasource_competencies=Competencies
+CALIBRATION_datasource_total_individual_ratings=Total individual ratings
+CALIBRATION_datasource_potential=Potential
+CALIBRATION_datasource_compa_ratio_range_group=Compa-ratio Range Groups
+CALIBRATION_datasource_below=Below
+CALIBRATION_datasource_to=to
+CALIBRATION_datasource_beyond=and beyond
+CALIBRATION_datasource_add=Add
+CALIBRATION_datasource_select_one=Select a template...
+CALIBRATION_datasource_select_ratio_type=Select a ratio type...
+CALIBRATION_datasource_select_no_available=No available template!
+CALIBRATION_datasource_select_data_to_calibrate=Select the data to $(CALIBRATION_calibrate)
+CALIBRATION_datasource_ratio_range_groups=Number of range groups
+CALIBRATION_datasource_select_one_step=Select a step...
+CALIBRATION_datasource_select_routing_step_info=You need to associate the $(CALIBRATION_Calibration) Template to the $(CALIBRATION_Calibration) step in your Performance Management Workflow. Select the $(CALIBRATION_Calibration) step from the dropdown.
+CALIBRATION_datasource_ratio_range_error=Invalid
+CALIBRATION_datasource_no_form_select_error=Error: no form is selected!
+CALIBRATION_datasource_no_rate_type_select_error=(No rating type found in the first form)
+CALIBRATION_datasource_no_template_select_error=Error: No template is selected!
+CALIBRATION_datasource_no_route_step_select_error=Error: No template routing step is selected!
+CALIBRATION_datasource_no_ratio_type_select_error=(No ratio type found in the form)
+CALIBRATION_datasource_incorrect_range_input_error=Error: Incorrect range inputs!
+CALIBRATION_datasource_set_target_distribution=Set distribution guideline
+CALIBRATION_datasource_clear_target_distribution=clear target distribution
+CALIBRATION_datasource_enter_valid_target_distribution=Please enter valid distribution
+CALIBRATION_datasource_rating_scale=Rating
+CALIBRATION_datasource_of_total_subjects=Guideline
+
+CALIBRATION_BTN_EXTERNAL_SUMMARY=Open ISG
+CALIBRATION_window_blocked=Pop-up window is blocked by browser. Please check your browser settings.
+CALIBRATION_Detailed_Calibration_Permission_Search_Desc=Use this page to control the visible $(employee) populations for a given user in $(CALIBRATION_calibration) sessions.
+CALIBRATION_Detailed_Calibration=Detailed $(CALIBRATION_Calibration)
+#used in CalTemplateUtils.constructDataTypeLabelMap(), need make sure type in key is the same as name of CalSessionEntryDataTypeEnum
+CALIBRATION_datasource_goalRating=Goal ratings
+CALIBRATION_datasource_competencyRating=Competency Rating
+CALIBRATION_datasource_pmRating=Performance Rating
+CALIBRATION_datasource_potentialRating=Potential Rating
+CALIBRATION_datasource_compaRatio=Compa Ratio
+CALIBRATION_datasource_rangePenetration=Range Penetration
+CALIBRATION_datasource_compSalaryPromo=Promotion
+CALIBRATION_datasource_compSalaryMerit=Merit
+CALIBRATION_datasource_compSalaryLumpsum=Lump Sum
+CALIBRATION_datasource_compSalaryLumpsum2=Lump Sum 2
+CALIBRATION_datasource_compSalaryExtra=Adjustment
+CALIBRATION_datasource_compSalaryExtra2=Adjustment2
+CALIBRATION_datasource_compStockUnits=Stock Units
+CALIBRATION_datasource_compStockOption=Stock Option
+CALIBRATION_datasource_compStockStock=Stock
+CALIBRATION_datasource_compStockOther1=Stock Other1
+CALIBRATION_datasource_compStockOther2=Stock Other2
+CALIBRATION_datasource_compStockOther3=Stock Other3
+CALIBRATION_datasource_compBonusTotal=Bonus Total
+CALIBRATION_datasource_compBonusTarget=Bonus Target
+CALIBRATION_datasource_define_rating_ranges=Define how you want map the ratings:
+CALIBRATION_datasource_maps_to=Maps to
+CALIBRATION_datasource_no_rating_scale=You cannot configure this option due to the rating scale/pick list definition missing
+CALIBRATION_Analyze=Analyze
+CALIBRATION_Analyze_Discard_Changes=Don't Save
+CALIBRATION_Analyze_Overall=Overall
+CALIBRATION_Analyze_Save_Changes=Please save your changes before closing the dialog.
+CALIBRATION_Analyze_Save_Or_Discard_Changes=Do you want to save changes before continuing?
+CALIBRATION_Subject_Checkbox_Detail=Check to select this subject
+CALIBRATION_Actions=Actions
+CALIBRATION_Mark_Discussed=Mark as Discussed
+CALIBRATION_Unmark_Discussed=Unmark as Discussed
+CALIBRATION_Actions_Analyze_Title_Save_Changes=Please save pending changes to enable Analyzer
+CALIBRATION_Actions_Analyze_Title_Threshold=Please select no more than {0} subjects to enable Analyzer
+CALIBRATION_Session_View_Rating=Rating
+CALIBRATION_Session_View_Percentage=%
+CALIBRATION_Session_View_Percentage_Title={0} (%)
+CALIBRATION_Session_View_Rank=Rank
+CALIBRATION_Template_Advanced=Advanced
+CALIBRATION_Template_Advanced_Enable_Inactive_Users=Include inactive users
+CALIBRATION_Template_Advanced_Enable_Inactive_Users_Info=If you have a need to $(CALIBRATION_calibrate) individuals who are now deactivated, enable this option to include them in the $(CALIBRATION_calibration) session.
+CALIBRATION_Template_Advanced_Auto_Route_Forms=Automatically route forms on session finalization
+CALIBRATION_Template_Advanced_Auto_Route_Forms_Info=Select this option to automatically move forms to the next step when the session is finalized.
+CALIBRATION_Template_Advanced_Enable_Manager_Notification=Manager notification with rating changes on session finalization
+CALIBRATION_Template_Advanced_Enable_Manager_Notification_Info=Enable if you would like to notify managers with a summary email highlighting the details of employee rating changes. The summary email shows both the old and new values for each employee modified.
+CALIBRATION_Template_Advanced_Stack_Rank=Enable rank column in bin view
+CALIBRATION_Template_Advanced_Stack_Rank_Info=Select this option to enable Managers to Stack Rank their employees.
+CALIBRATION_Template_Advanced_Enable_Dashboard=Enable dashboard
+CALIBRATION_Template_Advanced_Enable_Dashboard_Info=Select this option to enable the Dashboard view.
+CALIBRATION_Template_Advanced_Enable_Comment=Enable comment
+CALIBRATION_Template_Advanced_Enable_Comment_Info=Select this option to allow Managers to write comments.
+CALIBRATION_Template_Advanced_Enable_Auto_Route_Option=Enable force route button in validation step
+CALIBRATION_Template_Advanced_Enable_Auto_Route_Option_Info=This option gives facilitators more control to push forms to the next step by showing the 'force route' button in the validation page to push forms into the $(CALIBRATION_calibration) step.
+CALIBRATION_Template_Advanced_Thresholds=Thresholds
+CALIBRATION_Template_Advanced_Threshold_Finalization=The auto route form during finalization and force routing will be a background process when the session goes beyond this specified number of subjects:
+CALIBRATION_Template_Advanced_Threshold_Finalization_Info=For $(CALIBRATION_Calibration) sessions that have a large number of employees, consider setting a threshold that would process the session finalization and automatic routing with a background job for maximum efficiency.
+CALIBRATION_Template_Advanced_Threshold_Subject_View=The maximum number of viewable subjects without filtering
+CALIBRATION_Template_Advanced_Threshold_Subject_View_Info=Specify the maximum number of employees to be listed on the page in a single view.
+CALIBRATION_Template_Advanced_Enable_Analyzer=Enable stack ranker within $(CALIBRATION_Calibration)
+CALIBRATION_Template_Advanced_Enable_Analyzer_Info=Enables stack ranker within $(CALIBRATION_Calibration). Adds another capability to make participant usage easier and more streamlined.
+CALIBRATION_Template_Advanced_Enable_Mouse_Over_Open_Quick_Card=Quick card display on hover in list view
+CALIBRATION_Template_Advanced_Enable_Mouse_Over_Open_Quick_Card_Info=Optionally enable the ability to access the employee profile quick card by just hovering on the name of the subject in the list view. Users can still click to go directly to Employee Profile, but this saves extra clicks.
+CALIBRATION_Template_Advanced_Over_Max_Threshold=Maximum threshold is {0}
+CALIBRATION_Template_Advanced_Summarize_Data=Show Rating of Data Element in List View
+CALIBRATION_Template_Advanced_Summarize_Data_Info=This will show selected data elements as defined on the Data tab, within the list view columns in a $(CALIBRATION_calibration) session
+CALIBRATION_Template_Advanced_Summarize_Views=Show Grid Cell Label in List View
+CALIBRATION_Template_Advanced_Summarize_Views_Info=This will show the labels for the cells the employee is assigned to, within the list view columns in a $(CALIBRATION_calibration) session
+CALIBRATION_Template_Advanced_Enable_Target_Population=Restrict participants to view only their target population
+CALIBRATION_Template_Advanced_Enable_Target_Population_Info=By default $(CALIBRATION_calibration) sessions allow all participants to see and access relevant data for all subjects. If you wish to restrict participants to only see subjects within their target population permissions, enable this feature.
+CALIBRATION_Template_Advanced_Enable_Reverse_Scale=Enable Reverse Scale
+CALIBRATION_Template_Advanced_Select_User_Fields=Select user fields to display
+CALIBRATION_Template_Advanced_Select_User_Fields_Info=Click on the cell to select the fields you would like to include in the list view of a $(CALIBRATION_calibration) session. You can click the cell again to de-select it.
+CALIBRATION_Template_Advanced_Reason_Codes_Title=Reason Codes
+CALIBRATION_Template_Advanced_Picklist_ID_Label=Picklist-ID of the picklist for Reason-Codes:
+CALIBRATION_Template_Advanced_Error_Msg=Picklist with this ID does not exist
+CALIBRATION_Template_Advanced_Empty_Reason_Code_Msg=Please provide a valid picklist-ID
+CALIBRATION_Template_Executive_Review=Executive Review
+CALIBRATION_Template_Executive_Review_Tab=Executive Review Tab
+CALIBRATION_Template_Executive_Review_Tab_Desc=Configuring ER Page in the Manage $(CALIBRATION_Calibration) Template Tool
+CALIBRATION_Template_Executive_Review_Tab_Message=The Executive Review is a feature that only permissioned users can use to access aggregated graphs and session details for this template. This page is used to enable or disable graphs on the Executive Review. There are multiple types of graphs and information you can show as described below.
+CALIBRATION_Template_Executive_Review_Standard_Graph_Title=Standard Graphs from $(CALIBRATION_Calibration) Template
+CALIBRATION_Template_Executive_Review_Standard_Graph_Desc=Any of the graphs or charts you configured as  a part of this $(CALIBRATION_Calibration) template are available to aggregate on the Executive Review. The graphs are configured through the Views tab. They might include 9-box(es) or rating distribution graph(s). Check the box to enable the graph on your Executive Review page for this template.
+CALIBRATION_Template_Executive_Review_Sensitive_Data_Title=Sensitive Data
+CALIBRATION_Template_Executive_Review_Sensitive_Data_Desc=You have the choice to add additional graphs that chart data that is considered sensitive and not for all eyes in the organization. Each of these is available to add to the Executive Review page to plot against any ratings you have configured for $(CALIBRATION_Calibration) views in this template (it will not plot against all rating sources in this template – only ones with views configured for them). Check the box to enable the graph on your Executive Review page for this template.
+CALIBRATION_Template_Executive_Review_Distribution_Bar_Chart=Distribution Bar Chart
+CALIBRATION_Template_Executive_Review_Matrix_Chart=Matrix Chart
+CALIBRATION_Template_Executive_Review_Show_Chart_MSG=Click here to show chart.
+CALIBRATION_Template_Executive_Review_Template_Standard_Graph=Standard Graph(s)
+CALIBRATION_Template_Executive_Review_Template_Standard_Graph_Desc=These are graphs representing data rolled up from your standard template views. The data will dynamically update as you change the filter conditions. <br>If you have more than 6 charts, you can click the chart to load and view it. 
+CALIBRATION_Template_Executive_Review_Sensitive_Data_Graph=Sensitive Data Graph(s)
+CALIBRATION_Template_Executive_Review_Sensitive_Data_Graph_Desc=These are graphs representing sensitive data elements. You may choose to expand or hide this depending on who you are meeting with. Select the rating you would like to analyze sensitive data charting for. The graphs will automatically update to reflect the data element against the selected rating.
+CALIBRATION_Template_Executive_Review_Filter_By_Subjtects=Filter by Subjects:
+CALIBRATION_Template_Executive_Review_Filter_By_Sessions=Filter by Sessions:
+CALIBRATION_Template_Executive_Review_Generate=Generate
+CALIBRATION_Template_Executive_Review_No_Standard_Graph_Desc=No Standard Graph enabled in this template. Please configure ER Page in the Manage $(CALIBRATION_Calibration) Template Tool.
+CALIBRATION_Template_Executive_Review_Overview_Title=Overview
+CALIBRATION_Template_Executive_Review_Show_Filter=Show Filter
+CALIBRATION_Template_Executive_Review_Hide_Filter=Hide Filter
+CALIBRATION_Filter_Options=Filter Options
+CALIBRATION_Filter_By_X=By {0}
+CALIBRATION_Filter_By_Manager=Manager
+CALIBRATION_Filter_Options_Select_All=Select All
+CALIBRATION_Filter_Options_Not_Applicable=N/A
+#{0} is a filter option (e.g. 'Risk of Loss', 'Impact of Loss')
+CALIBRATION_Filter_Options_Not_Applicable_Note=Deselect this checkbox to filter out subjects who have no value set for <em>{0}</em>.
+CALIBRATION_Filter_Options_No_Manager=No Manager
+CALIBRATION_Filter_Options_Start_Over=Start over
+CALIBRATION_Filter_Options_Submit=Submit
+CALIBRATION_Filter_Options_Could_Not_Filter_Subjects=There was an error retrieving the filter results
+CALIBRATION_Filter_Options_Over_Subject_Threshold=This view has been configured to view up to {0} subjects at a time, currently there are {1} subjects.
+CALIBRATION_Filter_Options_Over_Subject_Threshold_Detail=Please use the filter options to reduce the number of visible subjects to {0} or below.
+CALIBRATION_Filter_Options_No_Results=The current filter criteria returned 0 subjects.
+CALIBRATION_Filter_Options_No_Results_Detail=Please change filter criteria to return one or more subjects.
+CALIBRATION_Filter_Options_Subject_Count=Subject Count:
+CALIBRATION_Filter_Options_Subject_Count_Title=Currently selected filter options will display {0} subject(s).
+CALIBRATION_Filter_Options_Confirm_Unsaved_Title=Unsaved Changes
+CALIBRATION_Filter_Options_Confirm_Unsaved=Are you sure you want to submit the filter?
+CALIBRATION_Filter_Options_Confirm_Unsaved_Detail=Any unsaved changes will be lost upon submitting this filter.
+CALIBRATION_People_Display_Invalid_User=This user is inactive.
+CALIBRATION_People_Display_Remove_Invalid_User=remove this user from the session
+CALIBRATION_Remove_From_Session=Remove from Session
+CALIBRATION_People_Display_Delete_All_Link_Label=Delete All
+CALIBRATION_People_Display_Delete_All=Delete All Subjects
+CALIBRATION_People_Msg_Delete_All_Title=Are you sure you want to delete all subject(s)?
+CALIBRATION_People_Msg_Delete_All_Detail=All subject(s) will be deleted from this session.
+CALIBRATION_People_Msg_Delete_Participant=Delete Participant and/or Reports
+CALIBRATION_People_Msg_Delete_Participant_Title=Do you want to delete {0} direct report(s) from {1}'s subject list?
+CALIBRATION_People_Msg_Delete_Participant_Detail=Click "Yes" to delete this participant's $(direct_reports).<br>Click "No" to delete only this participant
+CALIBRATION_People_Msg_Add_Participants=Would you like to add the {0} direct report(s) of the participant(s) as subject(s)?
+CALIBRATION_People_Msg_Add_Participant_Detail= Press "Yes" to add the $(direct_reports) as subjects<br>Press "No" to only add the selected participants
+CALIBRATION_People_Msg_Add_Participant_Title=Add $(Direct_Reports)
+#Some sessions are calibrated, template changes may cause some issues
+CALIBRATION_Template_Changes_Msg=You are about to save the changes for $(CALIBRATION_Calibration) Template, which might cause following issues in the sessions that are already launched.
+#list all the potential issues
+CALIBRATION_Template_Changes_Msg_Detail=<br>1.&nbsp;&nbsp;Changes in review period may cause lost ratings for the sessions launched before 1207 release.<br>2.&nbsp;&nbsp;Adding new data sources may cause subjects to be deleted if there is no matched rating found in the system. This may also cause wrong data in reports.<br>3.&nbsp;&nbsp;If the changes to the template are with regard to "Support Decimal Live Profile Rating", please note that this will affect subject's ratings in the sessions that are already launched.<br>4.&nbsp;&nbsp;If 'Include Inactive Users' is being changed from true to false, system will not remove Inactive Users in existing sessions. If needed, Admin users could manually remove them from sessions.<br>5.&nbsp;&nbsp;Any views you have modified will be reflected in the Executive Review immediately. Any configuration you have added or removed from Executive Review will be reflected immediately.<br><br>Here are some sessions that could potentially be affected. Do you want to continue?<br>
+CALIBRATION_Template_Changes_Msg_Session_Name=$(CALIBRATION_Session_Name)(s)
+CALIBRATION_FindUser_Clear=Clear
+CALIBRATION_Export_Excel=Export
+CALIBRATION_Export_Excel_Filter_Confirmation_Title=$(CALIBRATION_Export_Excel)
+CALIBRATION_Export_Excel_Filter_Confirmation=You have filtered the subjects, do you want to export all subjects?
+CALIBRATION_Export_Excel_Filter_Confirmation_Detail=Press "$(COMMON_Yes)" to export all subjects<br>Press "$(COMMON_No)" to export only the filtered subjects
+CALIBRATION_BACK_TO_PM2_TEAM_OVERVIEW=Back To $(COMMON_PM2_TEAMOVERVIEW_TAB)
+CALIBRATION_SETTINGS_Session_In_Progress=Session in progress
+CALIBRATION_SETTINGS_Session_Approved=Approved session
+CALIBRATION_SETTINGS_Read_Permission=Read
+CALIBRATION_SETTINGS_Write_Permission=Write
+CALIBRATION_SETTINGS_Field_Name=Field Name
+CALIBRATION_SETTINGS_Included=Include Field
+CALIBRATION_SETTINGS_Default=Make Default
+CALIBRATION_SETTINGS_Permission_Tab=Permissions
+CALIBRATION_SETTINGS_Manager_Template=Manager Template
+CALIBRATION_SETTINGS_Manager_Template_Title=Please choose a $(CALIBRATION_calibration) template, which can be used in pm2 team overview page to launch $(CALIBRATION_calibration) session.
+CALIBRATION_SETTINGS_Search_Fields_Tab=Search Results Fields
+CALIBRATION_SETTINGS_Search_Result_Info=You have the option to define which fields will return in the search results within the manage $(CALIBRATION_calibration) sessions tool. While all of these fields can returned in the search to help those setting up $(CALIBRATION_calibration) sessions to know exactly who they are selecting, you may want to also define which of the search fields return by default. Simply check the boxes next to each and click save. If you do not mark the field as default, those who are setting up $(CALIBRATION_calibration) sessions can configure the search to show those fields on their own.
+
+CALIBRATION_FORM_READONLY_CODE_SESSION_STATUS=The session is not at status of in progress
+CALIBRATION_FORM_READONLY_CODE_PERMISSION_SETTING=You don't have permission to edit this session, please contact admin user
+CALIBRATION_FORM_READONLY_CODE_FORM_STEP=The form is not at $(CALIBRATION_calibration) process step and can't be edited at this time
+CALIBRATION_FORM_READONLY_CODE_FORM_DELETED=The form has been deleted and can't be edited at this time
+
+CALIBRATION_Manager_Session_Create_Session=$(CALIBRATION_Create_New)
+CALIBRATION_Manager_Session_Create_Session_Title=New Session
+CALIBRATION_Manager_Session_Select_Template=$(CALIBRATION_basicinfo_select_one_template)
+CALIBRATION_Manager_Session_Include_Levels=Include Levels:
+CALIBRATION_Manager_Session_First_Level=$(Direct_Reports)
+CALIBRATION_Manager_Session_Level_Below={0} Below
+CALIBRATION_Manager_Session_Create_Session_Confirm=$(CALIBRATION_Create_New)
+CALIBRATION_Manager_Session_Error_Creating_Session=There was an error creating the manager session
+CALIBRATION_Edit_Session_Name=Edit Session Name
+
+CALIBRATION_Manager_Session_Success_Title=Session Creation
+CALIBRATION_Manager_Session_Success_Message=Session created successfully
+CALIBRATION_Manager_Session_Success_Detail={0} subject(s) were added to the session. Would you like to go to this session now?
+CALIBRATION_Manager_Session_Validation_Title=$(CALIBRATION_Manager_Session_Success_Title)
+CALIBRATION_Manager_Session_Validation_Message=There were validation errors
+CALIBRATION_Manager_Session_Validation_Message_Incl_Inactive=There were validation warnings
+CALIBRATION_Manager_Session_Validation_Detail=Would you like to create the session including only the {0} subject(s) that were valid?
+CALIBRATION_Manager_Session_Validation_Detail_Incl_Inactive=Would you like to create the session including inactive user(s)?
+CALIBRATION_Manager_Session_No_Valid_Users_Title=Session Creation Failure
+CALIBRATION_Manager_Session_No_Valid_Users_Message_PM2=There are no subject(s) ready for a $(CALIBRATION_calibration) session yet
+CALIBRATION_Manager_Session_No_Valid_Users_Message=There were no valid users to create a session
+CALIBRATION_Manager_Session_Over_Threshold_Title=$(CALIBRATION_Manager_Session_No_Valid_Users_Title)
+CALIBRATION_Manager_Session_Over_Threshold_Message=There were too many users to create a session
+CALIBRATION_Manager_Session_Over_Threshold_Detail=Your are attempting to create a session with {0} subjects. The maximum number of subjects that can be included in a session is {1}.
+CALIBRATION_Manager_Session_No_Active_Users=There were no active users to add to the session
+
+# Session List Advanced Search
+CALIBRATION_Advanced_Search=Advanced Search
+CALIBRATION_Advanced_Search_Column_Name=Column Name
+CALIBRATION_Advanced_Search_Filter=Filter
+CALIBRATION_Advanced_Search_Value=Value
+CALIBRATION_Advanced_Search_Select_Filter=Select Filter
+CALIBRATION_Advanced_Search_Contains=contains
+CALIBRATION_Advanced_Search_Starts_With=starts with
+CALIBRATION_Advanced_Search_Ends_With=ends with
+CALIBRATION_Advanced_Search_String_Equals=matches exactly
+CALIBRATION_Advanced_Search_String_Not_Equal_To=does not equal
+CALIBRATION_Advanced_Search_Equals=equals
+CALIBRATION_Advanced_Search_Not_Equal_To=not equal to
+CALIBRATION_Advanced_Search_Greater_Than=greater than
+CALIBRATION_Advanced_Search_Greater_Than_Or_Equal=greater than or equal to
+CALIBRATION_Advanced_Search_Less_Than=less than
+CALIBRATION_Advanced_Search_Less_Than_Or_Equal=less than or equal to
+CALIBRATION_Advanced_Search_Range=range
+CALIBRATION_Advanced_Search_User_Equals=include this person
+CALIBRATION_Advanced_Search_Multi_Enum_Equals=include
+CALIBRATION_Advanced_Search_Multi_Enum_Not_Equal_To=do not include
+CALIBRATION_Advanced_Search_Date_Equals=on this date
+CALIBRATION_Advanced_Search_Date_Not_Equal_To=not on this date
+CALIBRATION_Advanced_Search_Date_Greater_Than=after this date
+CALIBRATION_Advanced_Search_Date_Greater_Than_Or_Equal=on or after this date
+CALIBRATION_Advanced_Search_Date_Less_Than=before this date
+CALIBRATION_Advanced_Search_Date_Less_Than_Or_Equal_To=on or before this date
+CALIBRATION_Advanced_Search_Date_Range=between these dates
+CALIBRATION_Advanced_Search_Select_Status=Select Session Status
+CALIBRATION_Advanced_Search_Select_Role=Select Role
+CALIBRATION_Advanced_Search_Range_Start=From:
+CALIBRATION_Advanced_Search_Range_End=To:
+CALIBRATION_Advanced_Search_Range_Start_Numeric=From:
+CALIBRATION_Advanced_Search_Range_End_Numeric=To:
+
+#Multi-Select Filter
+CALIBRATION_Multi_Selected_Values={0} {1} Selected
+CALIBRATION_Multi_Select_All=Select {0}
+
+#Soft Limit for Subject Threshold
+CALIBRATION_Soft_Limit_Subject_Threshold_Title=$(COMMON_Warning)
+CALIBRATION_Soft_Limit_Subject_Threshold=Performance Issues May Occur
+CALIBRATION_Soft_Limit_Subject_Threshold_Detail=Having a maximum number of viewable subjects over {0} may cause performance issues
+
+CALIBRATION_Session_List_Page_Help=Use this page to configure your $(CALIBRATION_Calibration) Session. You can create a new session, clone(copy) or modify an existing one and delete a session that is not required. \
+ A $(CALIBRATION_Calibration) Session defines the timeframe the session is applicable to, as well as the owner, participants and subjects of the session. You can have multiple active sessions.<br/> \
+ <br/>\
+ Tip! Each $(CALIBRATION_Calibration) Session generally groups employees with a similar background, allowing for a meaningful comparison.
+
+CALIBRATION_Session_Clone_Page_Help=Use this page to create a copy of an existing $(CALIBRATION_Calibration) Session. Cloning allows you to reuse information from a previous session and make any changes required to suit your requirements.
+
+CALIBRATION_New_Session_Page_Help=Use this page to create a new $(CALIBRATION_Calibration) Session. A $(CALIBRATION_Calibration) Session defines the timeframe the session is applicable to, as well as the owner, participants and subjects of the session.
+CALIBRATION_Template_List_Page_Help=A $(CALIBRATION_Calibration) Template defines the dates, roles, and forms for your $(CALIBRATION_Calibration) Sessions. You can apply the same $(CALIBRATION_Calibration) Template to multiple sessions. On this page, you can create a new template or modify an existing  one.
+CALIBRATION_Template_Config_Page_Help=Use this page to provide basic information such as the name of the template and the review period the template is applicable to.
+
+CALIBRATION_EMPLOYEE_PROFILE_Info=If ratings are stored in the Employee Profile, select this option as the data source for $(CALIBRATION_calibration).
+CALIBRATION_EMPLOYEE_PROFILE_Error=You are missing configuration in your data model for the Employee Profile integration. You must have at least one of the following elements configured: sysOverallPerfromance, sysOverallPotential, sysOverallObjective, sysOverallCompetency, sysOverallCustom1, sysOverallCustom2 and at least one rating.
+
+CALIBRATION_SHOW_EXTRA_COL_IN_BIN_VIEW=Show an extra column for bin view:
+CALIBRATION_SELECT_EXTRA_COL=Select a column
+
+CALIBRATION_Global_Settings=Global Settings
+CALIBRATION_First_Name=First Name
+CALIBRATION_Last_Name=Last Name
+
+CALIBRATION_Executive_Review=Executive Review
+CALIBRATION_Manage_Executive_Review=Manage Permissions for $(CALIBRATION_Executive_Review)
+CALIBRATION_Manage_Executive_Review_Page_Info=The $(CALIBRATION_Manage_Executive_Review) page lets you assign \
+  users who will be allowed to access the $(CALIBRATION_Executive_Review) page for a given $(CALIBRATION_Calibration) template. \
+  When access is granted to those users, they will see an extra link in $(CALIBRATION_Calibration) to "$(CALIBRATION_Executive_Review)". \
+  This is where they will see a full aggregation of all data, for all sessions that are in progress or finalized \
+  for the named template. Follow the steps below to assign these permissions. \
+  If you want to set the permissions for the $(CALIBRATION_Executive_Review) role, this is a separate task and can be \
+  done by navigating to $(ADMIN_TOOLS) > $(FB_ADMIN_CALIBRATION_SETTINGS).
+CALIBRATION_Create_New_Permission=Create New Permission
+CALIBRATION_Create_New_Permission_Info=Choose a $(CALIBRATION_Template) and search for the relative reviewer, \
+  then click $(CALIBRATION_Assign_Permission).
+CALIBRATION_Assign_Permission=Assign Permission
+CALIBRATION_Reviewer=Reviewer
+CALIBRATION_User_Is_Already_ER=User already has permission to the template. No changes were made.
+CALIBRATION_Assigned_Permissions=Reviewing Permissions Already Configured
+CALIBRATION_Assigned_Permissions_Info=In this list, you can review which users have been assigned access to see the Executive Review page for each template.
+CALIBRATION_Select_Executive_Review_Template=Select a calibration template first:
+CALIBRATION_Select_Template=Step 1: Select Template
+CALIBRATION_Select_Template_Desc=Select the template you wish to grant access to:
+CALIBRATION_Select_User=Step 2: Select User
+CALIBRATION_Select_User_Desc=Select the user you wish to grant access to the $(CALIBRATION_Executive_Review) page for the above named template.
+CALIBRATION_Assign_The_Permission=Step 3: Assign the Permission
+CALIBRATION_Assign_The_Permission_Desc=Click $(CALIBRATION_Assign_Permission) to grant the user access to the $(CALIBRATION_Executive_Review) page for the selected template. This will take effect immediately.
+CALIBRATION_Revoke_Permission=Revoke Permission
+# where {0} is rating type (impactOfLoss, riskOfLoss) or "Gender"
+CALIBRATION_Sensitive_Chart_Title={0} Distribution
+CALIBRATION_Gender=Gender
+CALIBRATION_ANALYZE_DIALOG_UPDATE_INFO_BLANK=Blank
+#{0} is a user full name and {1} is a rating (number), e.g. "Kevin's summary has been updated to 5.00"
+CALIBRATION_ANALYZE_DIALOG_UPDATE_INFO={0}'s summary has been updated to {1}
+CALIBRATION_SESSION_LIST_COLUMN_DISPLAY_OPTIONS_TITLE=Column Display Options
+#{0} is a user full name
+CALIBRATION_ANALYZE_DIALOG_SUMMARY_COMMENTS=Comment for {0}'s summary 
+#{0} is a user full name and {1} could be "performance", "potential", or the name of a competency, e.g. "adaptability/flexibility"
+CALIBRATION_ANALYZE_DIALOG_RATING_COMMENTS=Comment for {0}'s {1}
+CALIBRATION_FULL_SCREEN=Maximize/Minimize screen
+CALIBRATION_Diagnosis_Tool_Description=This tool is to be used for any $(CALIBRATION_Calibration) customer issues. Begin by grabbing the session ID for the $(CALIBRATION_Calibration) Session in question. The session ID is in the URL when you are in the session itself (“sessionId=123”). Once you enter the session ID, click Find Session. This will summarize the data elements the diagnosis tool will pull. Once complete, click Capture Data. This produces a zip file with all critical elements to log a JIRA for engineering to investigate including PM and Comp forms, template configuration, route maps, etc.  
+CALIBRATION_Template_Label=$(CALIBRATION_Template):
+CALIBRATION_Session_Name_Label=$(CALIBRATION_Session_Name):
+CALIBRATION_Session_Date_Label=$(CALIBRATION_Session_Date):
+CALIBRATION_Session_Location_Label=$(CALIBRATION_Session_Location):
+CALIBRATION_Session_Owners_Label=$(CALIBRATION_Session_Owners):
+CALIBRATION_Other_Facilitators_Label=$(CALIBRATION_Other_Facilitators):
+CALIBRATION_Template_Name_Label=$(CALIBRATION_Template_Name):
+CALIBRATION_Review_Period_Label=$(CALIBRATION_Review_Period):
+CALIBRATION_Options_Label=$(COMMON_Options):
+CALIBRATION_Session_Label=$(CALIBRATION_Session):
+CALIBRATION_Status_Label=$(CALIBRATION_Status):
+CALIBRATION_Subject_Label=$(CALIBRATION_Subject):
+CALIBRATION_Number_Of_Subjects_Label=$(CALIBRATION_Number_Of_Subjects):
+CALIBRATION_Number_Of_Participants_Label=$(CALIBRATION_Number_Of_Participants):
+CALIBRATION_Facilitator_Label=$(CALIBRATION_Facilitator):
+CALIBRATION_Participants_Label=$(CALIBRATION_Participants):
+CALIBRATION_Subjects_Label=$(CALIBRATION_Subjects):
+CALIBRATION_Owners_Label=$(CALIBRATION_Owners):
+CALIBRATION_myRoles_Label=$(CALIBRATION_myRoles):
+CALIBRATION_Last_Modified_Date_Label=$(CALIBRATION_Last_Modified_Date):
+CALIBRATION_Created_By_Label=$(CALIBRATION_Created_By):
+CALIBRATION_Session_Activation_Date_Label=$(CALIBRATION_Session_Activation_Date):

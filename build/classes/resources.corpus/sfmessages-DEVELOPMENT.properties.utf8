@@ -1,0 +1,428 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-DEVELOPMENT.properties.utf8 488831 2014-01-27 06:42:43Z haixunlu $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+##CDP messages start##
+DEVELOPMENT_Add_to_Development_Plan=Add to $(IDP)
+DEVELOPMENT_View_IDP=View $(IDP)
+DEVELOPMENT_Successfully_add_to_IDP=Successfully added to your $(IDP)
+DEVELOPMENT_ERR_INTERNAL=Unexpected error.
+DEVELOPMENT_MORE_DETAILS=More details...
+DEVELOPMENT_MORE_DETAILS_LABEL=More Details
+#DPW
+DEVELOPMENT_DevelopmentPlanWizard=$(Development) Planning Wizard: Step {0} of {1}
+DEVELOPMENT_DevelopmentGoalFor=$(IDP_Item) for {0}
+DEVELOPMENT_DevelopmentPlanWizard_Button=Create $(IDP)
+DEVELOPMENT_CompWizard_SelectComp=Which of the following $(competencies) would you like {0} to work on?
+DEVELOPMENT_CompWizard_EditComp=Edit and measure the $(IDP_Items):
+DEVELOPMENT_CompWizard_ConfirmComp=Confirm $(IDP_Items) for {0}:
+DEVELOPMENT_CompWizard_Menu_1=Select $(competencies)
+DEVELOPMENT_CompWizard_Menu_2=Identify needs
+DEVELOPMENT_CompWizard_Menu_3=Confirm
+DEVELOPMENT_CompWizard_Search_Label=Keywords:
+DEVELOPMENT_CompWizard_SearchResult_Label=Search results:
+DEVELOPMENT_CompWizard_SelectNone_Error=You need to select at least one $(competency).
+DEVELOPMENT_CompWizard_AddMoreCompetencies=Add more $(competencies)
+DEVELOPMENT_CompWizard_SearchCompetencyTab=Search
+DEVELOPMENT_CompWizard_BrowseCompetencyTab=Browse
+DEVELOPMENT_CompWizard_SearchNotFound=Search Not Found
+DEVELOPMENT_CompWizard_RemoveThisGoal=Remove this goal
+DEVELOPMENT_DevelopmentWizard_RequiredFieldMissing=Required information is missing. Please complete the field above.
+DEVELOPMENT_CompWizard_GapGraphNotAvailable=Not Available
+DEVELOPMENT_CompWizard_Category=Category
+DEVELOPMENT_CompWizard_Goal_Name_Prefix=Develop:
+DEVELOPMENT_DPW_CONFIRM_DELETE_MSG=Are you sure you want to remove this $(IDP_item)?
+DEVELOPMENT_Back_to_Career_Worksheet=Back to Career Worksheet
+DEVELOPMENT_Date_Convert_Message=Invalid date format. Example: MM/DD/YYYY
+DEVELOPMENT_Date_Convert_Message_Start=Invalid start date format. Example: MM/DD/YYYY
+DEVELOPMENT_Creating_Dev_Goal=Creating $(IDP_items)...
+DEVELOPMENT_StartBeforeDateError=Start date should be before due date.
+DEVELOPMENT_DateEmpty=Date cannot be empty.
+
+#messages for LMS Home
+DEVELOPMENT_LMS_HOME_TITLE=$(NAV_LABELLMS)
+DEVELOPMENT_LMS_HOME_DESC=You have opened $(NAV_LABELLMS) in a new browser window because it is being handled by a third-party organization.
+DEVELOPMENT_LMS_HOME_ERROR=Failed to get the $(NAV_LABELLMS) URL.
+DEVELOPMENT_LMS_HOME_PROXY_CONFIRM=You are logged in as a proxy which is not supported for LMS based SSO.  You will be logged into the LMS as {0}.
+#messages for LA Wizard in Development plan
+DEVELOPMENT_LA_Custom_LA=Custom $(Learning_Activity)
+DEVELOPMENT_LAWizard_ADD_NEW_LA=Add $(Learning_Activity)
+DEVELOPMENT_LAWizard_BTN_CUSTOM_LA=$(DEVELOPMENT_LA_Custom_LA)
+#messages for Career worksheet
+DEVELOPMENT_GAP_GRAPH_TIP=Last Rating: {0}, Expected Rating: {1}
+DEVELOPMENT_CWS_SHOW_IN_PROFILE=Show in $(Live_Profile)
+DEVELOPMENT_CWS_SHOW_IN_PROFILE_TOOLTIP=Selecting this check box will add/remove this role to your $(Live_Profile) {0}  section.
+DEVELOPMENT_CWS_LIVE_PROFILE=$(Live_Profile)
+DEVELOPMENT_CWS_LBL_Competency_Description=$(Competency) Description
+DEVELOPMENT_CWS_READINESS_NA=Readiness not available either because there are no expected ratings or user has not been rated on any of the $(competencies) for this prospective role.
+#{0} is either COMMON_Num_year or COMMON_Num_years, {1} is either COMMON_Num_month or COMMON_Num_months
+DEVELOPMENT_CWS_CURRENT_ROLE_DATE_Year_Month_No_Separator={0} {1}
+DEVELOPMENT_CWS_CURRENT_ROLE_DATE_LESS_THAN_A_MONTH=less than a month
+#{0} will be a number
+DEVELOPMENT_CWS_MORE_COMPETENCIES=<strong>{0}</strong> more required $(competencies).
+#{0} will be a number
+DEVELOPMENT_CWS_MORE_COMPETENCIES_ALT={0} more required $(competencies).
+DEVELOPMENT_CWS_NO_COMPETENCIES=Readiness not available because there are no $(competencies) for this prospective role.
+DEVELOPMENT_CWS_DELETE_ROLE_CONFIRMATION=Are you sure you want to delete this $(role)?
+#messages for learning activity
+DEVELOPMENT_LEARNING_DELETE_CONFIRMATION=Are you sure you want to delete this $(Learning_Activity)?
+DEVELOPMENT_GOAL_DELETE_CONFIRMATION=Are you sure you want to delete this $(IDP_Item)?
+#messages for Transcript
+DEVELOPMENT_TRANSCRIPT_MY_LR=My Learning Reports:
+DEVELOPMENT_TRANSCRIPT_TRANSCRIPT=learning activity
+DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS=learning activities
+DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE=Learning Activity
+DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE=Learning Activities
+# additional key value pairs required for languages
+#{0} is the label of the field need edited
+DEVELOPMENT_TRANSCRIPT_Click_to_edit_with_param=Click to Edit {0}
+DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_genitive=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT)
+DEVELOPMENT_TRANSCRIPT_FEATURE=Transcript
+DEVELOPMENT_TRANSCRIPT_REQUIRED_FIELD_VALIDATION_FEATURE=Use default value for required field validation
+DEVELOPMENT_TRANSCRIPT_MANUAL_ADD_ENABLE_FEATURE=Enable Add Learning Activity Manually
+DEVELOPMENT_TRANSCRIPT_SAVE=Save
+DEVELOPMENT_TRANSCRIPT_CANCEL=Cancel
+DEVELOPMENT_TRANSCRIPT_SORT=Custom Sort
+DEVELOPMENT_TRANSCRIPT_SORT_TITLE=Custom Sort Order
+DEVELOPMENT_TRANSCRIPT_SORT_SORT_DUPLICATE=You cannot set duplicate column order.
+DEVELOPMENT_TRANSCRIPT_SORT_EMPTY_SORT=You must specify at least one column order.
+DEVELOPMENT_TRANSCRIPT_SORT_ASC=Ascending \u2191
+DEVELOPMENT_TRANSCRIPT_SORT_DESC=Descending \u2193
+DEVELOPMENT_TRANSCRIPT_SORT_COLUMN=Column
+DEVELOPMENT_TRANSCRIPT_SORT_ORDER=Order
+DEVELOPMENT_TRANSCRIPT_SORT_SORT_BY=Sort by
+DEVELOPMENT_TRANSCRIPT_SORT_THEN_BY=Then by
+DEVELOPMENT_TRANSCRIPT_RETURN_LAS=Return to $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS) for {0}
+DEVELOPMENT_TRANSCRIPT_ADD_ACTIVITY=Add New $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE)
+DEVELOPMENT_TRANSCRIPT_PRINT_PREVIEW=Print Preview
+DEVELOPMENT_TRANSCRIPT_DELETE=Delete
+DEVELOPMENT_TRANSCRIPT_ADD_CUSTOM=Custom $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE)
+DEVELOPMENT_TRANSCRIPT_ADD_FIND=Find in catalog
+DEVELOPMENT_TRANSCRIPT_ADD_SEARCH_BY_COMPETENCY=Search By $(Competency)
+DEVELOPMENT_TRANSCRIPT_ADD_GOAL=Add
+DEVELOPMENT_TRANSCRIPT_EDIT_GOAL=Edit
+DEVELOPMENT_TRANSCRIPT_HEAD_STATUS=Status
+DEVELOPMENT_TRANSCRIPT_HEAD_ACTIVITY=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE)
+DEVELOPMENT_TRANSCRIPT_HEAD_DEVPLAN=Development Plan
+DEVELOPMENT_TRANSCRIPT_LIST_CONFIRM=Confirm
+DEVELOPMENT_TRANSCRIPT_DEVPLAN_CONTINUE=Continue
+DEVELOPMENT_TRANSCRIPT_DEVPLAN_NOFIFY=This $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) is not associated with any $(Objective). Please click "Add" to associate.
+DEVELOPMENT_TRANSCRIPT_EVENT_SAVE=Saving...
+DEVELOPMENT_TRANSCRIPT_EVENT_LOAD=Loading...
+DEVELOPMENT_TRANSCRIPT_EVENT_DELETE=Deleting...
+DEVELOPMENT_TRANSCRIPT_EVENT_SAVE_FAIL=Save failed
+DEVELOPMENT_TRANSCRIPT_EVENT_LOAD_FAIL=Load user data failed
+DEVELOPMENT_TRANSCRIPT_EVENT_CHANGEUSER_FAIL=Change user failed
+DEVELOPMENT_TRANSCRIPT_EVENT_DELETE_FAIL=Delete failed
+DEVELOPMENT_TRANSCRIPT_EVENT_FIND_FAIL=$(DEVELOPMENT_TRANSCRIPT_ADD_FIND) failed
+DEVELOPMENT_TRANSCRIPT_EVENT_SEARCH_BY_COMPETENCY_FAIL=$(DEVELOPMENT_TRANSCRIPT_ADD_SEARCH_BY_COMPETENCY) failed
+DEVELOPMENT_TRANSCRIPT_EVENT_DISOPT_FAIL=Change display Option failed
+DEVELOPMENT_TRANSCRIPT_EVENT_SAVE_OK=Saved successfully
+DEVELOPMENT_TRANSCRIPT_EVENT_LOAD_OK=Loaded successfully
+DEVELOPMENT_TRANSCRIPT_EVENT_CHANGEUSER_OK=Changed user successfully
+DEVELOPMENT_TRANSCRIPT_EVENT_DELETE_OK=Deleted successfully
+DEVELOPMENT_TRANSCRIPT_EVENT_CHANGE_TITLE=Change pending
+DEVELOPMENT_TRANSCRIPT_EVENT_CHANGE_DESC=You must click "Save" in order to keep your changes
+DEVELOPMENT_TRANSCRIPT_LABEL_DEEPLINK=Launch $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT)
+DEVELOPMENT_TRANSCRIPT_EVENT_DEEPLINK=Launching $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT), please wait...
+DEVELOPMENT_TRANSCRIPT_EVENT_DEEPLINK_FAIL=Launching $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) failed
+DEVELOPMENT_TRANSCRIPT_EVENT_MOREDETAILS=Getting more details for $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT), please wait...
+DEVELOPMENT_TRANSCRIPT_EVENT_MOREDETAILS_FAIL=Request for more details failed.
+DEVELOPMENT_TRANSCRIPT_ABORT_CONFIRM=This operation will cause modification lost, are you sure to continue?
+DEVELOPMENT_TRANSCRIPT_DELETE_CONFIRM=Are you sure you want to delete this $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT)?
+DEVELOPMENT_TRANSCRIPT_DELETE_FROM_PLATEAU_CONFIRM=Do you want to delete this $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) from To-Do list also?
+DEVELOPMENT_TRANSCRIPT_FILTER_APPLY=Apply
+DEVELOPMENT_TRANSCRIPT_PEOPLE_TITLE=View more information about this person
+DEVELOPMENT_TRANSCRIPT_LA=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE):
+DEVELOPMENT_TRANSCRIPT_LA_LIST=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE):
+DEVELOPMENT_TRANSCRIPT_CONNECTION_FAIL=Encountered error.
+DEVELOPMENT_TRANSCRIPT_LIST_EMPTY=No matched records found.
+DEVELOPMENT_TRANSCRIPT_LRP=Displaying {0} of your {1} reports
+DEVELOPMENT_TRANSCRIPT_LRP_DESC=There are too many learning reports to be displayed. Use search above for more learning reports.
+DEVELOPMENT_TRANSCRIPT_UPLOAD=Upload Certificate
+DEVELOPMENT_TRANSCRIPT_CERT_DEL_CONFIRM=Certificate deleting can't be restored, are you sure to continue?
+DEVELOPMENT_TRANSCRIPT_FILTER_ACTION=Action
+DEVELOPMENT_TRANSCRIPT_CANCEL_GOAL_CONFIRM=Selected $(IDP_Items) have been changed, are you sure to cancel?
+DEVELOPMENT_TRANSCRIPT_GOTO_PLAN=Go to Development Plan
+DEVELOPMENT_TRANSCRIPT_GOTO_PLAN_CONFIRM=Selected $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) have been changed without save, are you sure to go to development plan?
+DEVELOPMENT_TRANSCRIPT_GOAL_EDITOR_TITLE=Edit Associations with $(IDP_Items)
+DEVELOPMENT_TRANSCRIPT_UPLOAD_SUCCESS=Upload successfully.
+DEVELOPMENT_TRANSCRIPT_UPLOAD_FAIL=Upload failed
+DEVELOPMENT_TRANSCRIPT_UPLOAD_INVALID_LEARNING_ID=Cannot find $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+DEVELOPMENT_TRANSCRIPT_UPLOAD_MAX_UPLOAD_ERR=You cannot upload more than 2 files.
+DEVELOPMENT_TRANSCRIPT_UPLOAD_GET_CERT_EXCEPTION=Unexpected error when uploading file.
+DEVELOPMENT_TRANSCRIPT_UPLOAD_LOAD_TEMPLATE_ERR=Unable to load $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) template.
+DEVELOPMENT_TRANSCRIPT_FILTER_OPT=Filter Options
+DEVELOPMENT_TRANSCRIPT_LEARNING_ADMIN=Learning Administrator
+DEVELOPMENT_TRANSCRIPT_LEARNING_REP=Educational Representative
+DEVELOPMENT_TRANSCRIPT_FIND_DLG_TITLE=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE) Update
+DEVELOPMENT_TRANSCRIPT_FIND_DLG_BODY=You're adding a new $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE) from the catalog handled by an external application. Click OK to close this window and see the updated list.
+DEVELOPMENT_TRANSCRIPT_ERR_GET_LAREPORTS=Failed to get learning reports.
+# ijiang added few lines below, they are used not only for exception handler but also business failure
+DEVELOPMENT_TRANSCRIPT_ERR_NO_ACTION_PERMISSION=You don't have permission to complete this action.
+DEVELOPMENT_TRANSCRIPT_ERR_NO_DATA_PERMISSION=You don't have permission to modify one or more data field(s).
+DEVELOPMENT_TRANSCRIPT_ERR_NONE_EXIST=The request data does not exist.
+DEVELOPMENT_TRANSCRIPT_ERR_MISSING_REQUIRED_INFO=Missing required information:{0}
+DEVELOPMENT_TRANSCRIPT_ERR_NO_USER_SELECTED=No user is selected.
+DEVELOPMENT_TRANSCRIPT_ERR_NO_FIELD_READ_PERMISSION=You do not have permission to view $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS) of selected user(s).
+DEVELOPMENT_TRANSCRIPT_ERR_CSV_FORMAT=Invalid CSV format.
+DEVELOPMENT_TRANSCRIPT_ERR_EXCEED_MAX_ROW=Exceed the max allowed rows {0} in CSV file.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_OL_SUCCESS=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE) in file have been updated successfully.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_JOB_SUCCESS=Your import has been scheduled. An email will be sent to you when the import finished.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_JOB_FAILED=Failed to schedule your import. Please try again later or contact your system administrator.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_FILE_TOO_LARGE=File too large to upload, maximum file size is 5MB.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY={0} rows in the import file, {1} row(s) failed to import.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_MORE_ERROR=There are too many errors/warnings, the rest were ignored.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_SUCCESS_WITH_WARNINGS={0} rows import successfully with warnings.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_NO_ACTION_PERMISSION=You don't have permission to complete this action for {0} rows.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_NO_DATA_PERMISSION=You don't have permission to modify one or more data field(s) for {0} rows.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_NONE_EXIST=The request data does not exist for {0} rows.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_MISSING_REQUIRED_INFO=Missing required information for {0} rows.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_CSV_FORMAT=Invalid CSV format for {0} rows.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_INTERNAL_ERROR=Unexpected error for {0} rows.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_ROW_ERROR=Line {0}:
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_SUMMARY_DATE_VALIDATION_ERROR=Date validation error for {0} rows.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_UNAUTH_FIELDS=You do not have write permission for field(s): {0}.
+DEVELOPMENT_TRANSCRIPT_MASSIMPORT_UNAUTH_FIELDS_WITH_COMMON=You do not have write permission for field(s): {0}. Common information of a catalog $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) cannot be changed by import.
+# hlu exception handler.
+DEVELOPMENT_TRANSCRIPT_ERR_CREATE_TRANSCRIPT=Failed to create new $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+DEVELOPMENT_TRANSCRIPT_ERR_DELETE_CERTIFICATION=Failed to delete certificate.
+DEVELOPMENT_TRANSCRIPT_ERR_DELETE_TRANSCRIPT=Failed to delete $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+DEVELOPMENT_TRANSCRIPT_ERR_DELETE_TRANSCRIPT_FROM_FORM=Failed to delete $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) from form.
+DEVELOPMENT_TRANSCRIPT_ERR_DELETE_TRANSCRIPT_FROM_OBJ=Failed to delete $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) from $(Objective).
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_CERTIFICATION=Failed to get certificates.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_TRANSCRIPT_TEMPLATE=Failed to get the default $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) template.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_OBJ=Failed to get $(Objective).
+DEVELOPMENT_TRANSCRIPT_ERR_DELETE_LA_ASSOCIATED=Failed to delete $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) because it is associated.
+DEVELOPMENT_TRANSCRIPT_ERR_DELETE_LA_PLATEAU=Failed to delete $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) from To-Do list.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_OBJ_PLAN=Failed to get $(Objective) plan.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_PREFERENCES=Failed to get display options.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_TRANSCRIPT=Failed to get $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_USER=Failed to get user.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_USER_LIST=Failed to get user list.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_WS_ASSIGNEE=Failed to get the assignee.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_WS_SERVER=Failed to get the LMS server URL.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_WS_NAMESPACE=Failed to get the LMS Web Service Namespace.
+DEVELOPMENT_TRANSCRIPT_ERR_FETCH_WS_SERVICENAME=Failed to get the LMS Web Service Service Name.
+DEVELOPMENT_TRANSCRIPT_ERR_WS_EMPTY_GUID=GUID can't be empty.
+DEVELOPMENT_TRANSCRIPT_ERR_WS_INVALID_GUID=GUID is invalid.
+DEVELOPMENT_TRANSCRIPT_ERR_WS_INVALID_PLANTYPE=Invalid $(Objective) Plan Type.
+DEVELOPMENT_TRANSCRIPT_ERR_LAUNCH_NOT_SUPPORT=You cannot launch this $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+DEVELOPMENT_TRANSCRIPT_ERR_PROXY_LAUNCH_NOT_SUPPORT=You are logged in as a proxy which is not supported to launch this $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) for LMS.
+DEVELOPMENT_TRANSCRIPT_ERR_WS_INVALID_URL = Unexpected error in getting deep link.
+DEVELOPMENT_TRANSCRIPT_ERR_INVALID_ASSIGNEES = assignee is invalid.
+DEVELOPMENT_TRANSCRIPT_ERR_EMPTY_ASSIGNEES =assignees can't be empty
+DEVELOPMENT_TRANSCRIPT_ERR_INVALID_ENDPOINT=Invalid endpoint configuration.
+DEVELOPMENT_TRANSCRIPT_ERR_INVOKE_WS=Unexpected error when invoking learning website.
+DEVELOPMENT_TRANSCRIPT_ERR_CONFIGURATION=Cannot get user name and password from configuration.
+DEVELOPMENT_TRANSCRIPT_ERR_LOGIN=Cannot login to LMS server.
+DEVELOPMENT_TRANSCRIPT_ERR_FIND_IN_CATALOG=Unexpected error in finding in catalog.
+DEVELOPMENT_TRANSCRIPT_ERR_SEARCH_BY_COMPETENCY=Unexpected error in searching by $(competency).
+DEVELOPMENT_TRANSCRIPT_ERR_INTERNAL=Unexpected error.
+DEVELOPMENT_TRANSCRIPT_ERR_LA_NOT_FOUND=Unable to find the $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) you requested. Please try again.
+DEVELOPMENT_TRANSCRIPT_ERR_ROW_NODATA = This line was skipped because there is no data in this row to import.
+#{0} is the column header, like Description
+DEVELOPMENT_TRANSCRIPT_ERR_COLUMN_CONFLICT_VALUE = the value of column {0} in this line is in conflict with other lines with the same Product Key.
+DEVELOPMENT_TRANSCRIPT_ERR_NO_FIELD = Unable to process because this field is not defined in the Development template.
+DEVELOPMENT_TRANSCRIPT_ERR_NO_PARSER = Unable to process because this field is not supported in the Development template.
+DEVELOPMENT_TRANSCRIPT_ERR_INVALID_OBJ_ASSIGNEE=You don't have this $(Objective).
+DEVELOPMENT_TRANSCRIPT_ERR_UPDATE_TRANSCRIPT=Failed to update $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+DEVELOPMENT_TRANSCRIPT_ERR_UPDATE_PREFERENCES=Failed to update display options.
+DEVELOPMENT_TRANSCRIPT_ERR_UPLOAD_CERTIFICATION=Failed to upload certificate.
+DEVELOPMENT_TRANSCRIPT_ERR_VALIDATE_TRANSCRIPT_STATUS=All the associated $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS) should be completed before $(Objective) completed.
+DEVELOPMENT_TRANSCRIPT_ERR_VALIDATE_OBJ_STATUS=You cannot update $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) to uncompleted if one of associated $(Objective) completed.
+DEVELOPMENT_TRANSCRIPT_ERR_STATUS_CONFIG=There is no status configured in the template.
+DEVELOPMENT_TRANSCRIPT_ERR_VALIDATE_VALUE =Invalid field value according to template for {0}.
+DEVELOPMENT_TRANSCRIPT_ERR_DESC=You can't save the $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) due to the following errors:
+DEVELOPMENT_TRANSCRIPT_ERR_DEFAULT_VALUE_CHANGE={0} should be changed from default value.
+DEVELOPMENT_TRANSCRIPT_ERR_LIST_VALIDATE_HEADER=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) {0} has the following errors:
+DEVELOPMENT_TRANSCRIPT_ERR_NO_TEMPLATE_PERM=You don't have permission to access $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) Template. Please contact your Administrator for more information.
+DEVELOPMENT_TRANSCRIPT_ERR_INVALID_PERMITTED_VALUES=You do not have permission to change field {0} to {1}.
+DEVELOPMENT_TRANSCRIPT_ERR_CONFIG_PERMITTED_VALUES =$(DEVELOPMENT_TRANSCRIPT_ERR_INVALID_PERMITTED_VALUES) There is a configuration error, please contact customer support.
+DEVELOPMENT_TRANSCRIPT_ERR_HAS_NO_OBJ_TEMPLATE_ACCESS_PERMISSION=You do not have permission to access this user's $(objective) plan!
+#Transcript Audit Trail
+DEVELOPMENT_TRANSCRIPT_ERR_NO_AUDIT=No change history for this $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+
+#Add by Luke Wen
+DEVELOPMENT_TRANSCRIPT_SINGLE_SELECT_DEFAULT=Please select...
+DEVELOPMENT_TRANSCRIPT_EDIT_LA=Edit $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE)
+#Add by Luke Wen End
+# massadd by luke wen
+DEVELOPMENT_TRANSCRIPT_AUDIT_BUTTON_CHANGE_HISTORY=Change History
+DEVELOPMENT_TRANSCRIPT_AUDIT_BUTTON_CLOSE=Close
+DEVELOPMENT_TRANSCRIPT_AUDIT_TITLE=Change History
+DEVELOPMENT_TRANSCRIPT_AUDIT_CHANGE_DATE=Change Date
+DEVELOPMENT_TRANSCRIPT_AUDIT_FIELD=Field
+DEVELOPMENT_TRANSCRIPT_AUDIT_CHANGE_BY=Change By
+DEVELOPMENT_TRANSCRIPT_AUDIT_ORG_VALUE=Original Value
+DEVELOPMENT_TRANSCRIPT_AUDIT_NEW_VALUE=New Value
+
+DEVELOPMENT_CWS_SHOW_DETAILS_FOR=$(Show_Details) for {0} 
+DEVELOPMENT_CWS_HIDE_DETAILS_FOR=$(Hide_Details) for {0}
+DEVELOPMENT_CWS_SHOW_DETAILS=$(Show_Details)
+DEVELOPMENT_CWS_HIDE_DETAILS=$(Hide_Details)
+DEVELOPMENT_CWS_NO_EMPLOYEES=No $(employees)
+DEVELOPMENT_CWS_SINGULAR_EMPLOYEE = {0} $(employee)
+DEVELOPMENT_CWS_MORE_THAN_ONE_EMPLOYEE = {0} $(employees)
+DEVELOPMENT_CWS_NO_OPENINGS = 0 $(openings)
+DEVELOPMENT_CWS_SINGULAR_OPENING = + {0} $(opening)
+DEVELOPMENT_CWS_MORE_THAN_ONE_OPENINGS = + {0} $(openings)
+DEVELOPMENT_CWS_ERR_NO_VIEW_PERMISSION = You do not have permission to view this user's $(CareerWorksheet) plan.
+DEVELOPMENT_MASSADD_TITLT_LA_GROUPS=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE) for Groups
+DEVELOPMENT_MASSADD_HEAD_DESC_LA_GROUPS=You can propose a new $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) to the employee groups here or edit assigned $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS). Select the group from below list or create new group and perform the action.
+
+DEVELOPMENT_MASSADD_NAME=Name
+DEVELOPMENT_MASSADD_MEMBERSHIP=Membership
+DEVELOPMENT_MASSADD_LAST_MODIFIED=Last Modified
+DEVELOPMENT_MASSADD_ACTIONS=Actions
+DEVELOPMENT_MASSADD_MORE_DETAILS=More details...
+DEVELOPMENT_MASSADD_BUTTON_CLOSE=Close
+DEVELOPMENT_MASSADD_TITLE_MORE_DETAIL=Detail messages
+DEVELOPMENT_MASSADD_TITLE_IMPORT_SUCCESS=Import successfully
+DEVELOPMENT_MASSADD_TITLE_IMPORT_FAIL=Import failed
+DEVELOPMENT_MASSADD_CONFIRM_DELETE_GROUP=Are you sure to delete this group?
+DEVELOPMENT_MASSADD_TITLE_IMPORT_DATA_FILE=Import data file
+DEVELOPMENT_MASSADD_BUTTON_NEW_GROUP=Create New Group
+DEVELOPMENT_MASSADD_BUTTON_IMPORT_FILE=Import Data File...
+DEVELOPMENT_MASSADD_TOOLTIP_CLONE_GROUP=Clone Group
+DEVELOPMENT_MASSADD_TOOLTIP_DELETE_GROUP=Delete Group
+
+DEVELOPMENT_MASSADD_TEXT_EDIT_LA=Edit Assigned $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE) for Groups
+
+DEVELOPMENT_MASSADD_HEAD_DESC_PROPOSE_LA=Select the employees you want to add $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) from left and choose appropriate way from right to add $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+DEVELOPMENT_MASSADD_LABEL_EMPLOYEES_SEARCH_REAULTS=Employees Search Result(s)
+DEVELOPMENT_MASSADD_LABEL_SELECTED_ALL_EMPLOYEES=Select all employees
+DEVELOPMENT_MASSADD_MSG_NO_RESULT=No record(s) found.
+DEVELOPMENT_MASSADD_LABEL_SELECTED_EMPLOYEES=Selected Employee(s):
+DEVELOPMENT_MASSADD_DESC_SELECTED_EMPLOYEES=Select one of the followings to add a $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) to the selected employee(s):
+DEVELOPMENT_MASSADD_DESC_SELECTED_EMPLOYEES_MANUAL_DISABLED=Click the following button to add a $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT) to the selected employee(s):
+DEVELOPMENT_MASSADD_BUTTON_PICK_LA_FROM_CATALOG=Pick a $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE) from Catalog
+DEVELOPMENT_MASSADD_BUTTON_UPLOAD_LA_MANUALLY=Upload a $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT_TITLE) Manually
+DEVELOPMENT_MASSADD_BUTTON_BACK_GROUPS_LIST=<a href="{0}">Go back to groups list</a>
+DEVELOPMENT_MASSADD_BUTTON_EDIT_GROUPS_LIST=<a href="javascript:void(0);" onclick="{0}">Edit this group</a>
+
+DEVELOPMENT_MASSADD_SUBTITLE_EDIT_LA=Edit Employees & $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE)
+DEVELOPMENT_MASSADD_HEAD_DESC_EDIT_LA=Select the employees in the left search results, you may search for $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS) and click the <b>Export Data...</b> button in the right. <br />By exporting you can easily edit the $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS) details for individual or groups in exported file.
+DEVELOPMENT_MASSADD_BUTTON_EXPORT_DATA=Export Data...
+DEVELOPMENT_MASSADD_DESC_EXPORT=Search for $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE):
+DEVELOPMENT_PROVISIONING_GENERATE_TEMPLATE= Field Permission Section Generator In Learning Activity Template
+DEVELOPMENT_PROVISIONING_GENERATE_TEMPLATE_DESC=Use this page to generate field permission section in the learning activity template.
+DEVELOPMENT_PROVISIONING_PERMISSIONTEMPLATE_FILE=Learning Activity Template Permission File
+DEVELOPMENT_PROVISIONING_GENERATE_TEMPLATEBTN=Generate
+DEVELOPMENT_MASSADD_EXPORT_FILTER_ERROR=Unable to Export due to search condition error.
+DEVELOPMENT_MASSADD_EXPORT_VIEW_LESS=View less filters...
+DEVELOPMENT_MASSADD_EXPORT_VIEW_MORE=View more filters...
+DEVELOPMENT_MASSADD_NOPERM_ERROR=Permission denied for {0}
+DEVELOPMENT_MASSADD_NOPERM_ERROR_ALL=You have no permission with the users selected, please check your group definition.
+DEVELOPMENT_MASSADD_Equals=Equals
+DEVELOPMENT_MASSADD_Contains=Contains
+DEVELOPMENT_MASSADD_Starts_With=Starts With
+
+# massadd end
+DEVELOPMENT_MASSADD_MSG_EXPORT_LA_BEGIN=Updated begin
+DEVELOPMENT_MASSADD_MSG_EXPORT_LA_END=Updated end
+DEVELOPMENT_MASSADD_MSG_SUCCESS= {0} user(s) were successfully assigned this $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT); {1} user(s) were not eligible to be assigned this $(DEVELOPMENT_TRANSCRIPT_TRANSCRIPT).
+
+DEVELOPMENT_CONFIRM_ADD_OBJECTIVE_TO_SCORECARD=Are you sure you want to add this $(IDP_Item) in $(Scorecard)?
+DEVELOPMENT_CONFIRM_REMOVE_OBJECTIVE_FROM_SCORECARD=Are you sure you want to remove this $(IDP_Item) from $(Scorecard)?
+DEVELOPMENT_PORTLET_ADD_OBJECTIVE_TO_SCORECARD=Add $(IDP_Item) in $(Scorecard).
+DEVELOPMENT_PORTLET_REMOVE_OBJECTIVE_FROM_SCORECARD=Remove $(IDP_Item) from $(Scorecard).
+DEVELOPMENT_ON_FORM_INSTRUCT=To add existing $(IDP_items) to the form, select the checkboxes next to the appropriate $(IDP_items), and click the "{0}" button.
+
+DEVELOPMENT_RETURN_DEV_PLAN = Return to $(IDP) for {0}
+
+#Career Ladder
+DEVELOPMENT_CAREER_PATH=Career Path
+DEVELOPMENT_career_path=career path
+DEVELOPMENT_CAREER_PATHS=Career Paths
+DEVELOPMENT_CAREER_PATH_DIAGRAM_TITLE=$(DEVELOPMENT_CAREER_PATH) Diagram
+DEVELOPMENT_CAREER_PATH_SHOW=Show $(DEVELOPMENT_CAREER_PATH)
+DEVELOPMENT_CAREER_PATH_FETCH_ERROR=Fail to fetch $(DEVELOPMENT_career_path) data
+DEVELOPMENT_CAREER_PATH_TARGETED=Job role I'm considering
+DEVELOPMENT_CAREER_PATH_ROLE_DESC=Description & Associated $(competencies)
+DEVELOPMENT_CAREER_PATH_ROLE_TARGET=Click to target this $(role)
+DEVELOPMENT_CAREER_PATH_ROLE_UNTARGET=Click to untarget this $(role)
+DEVELOPMENT_CAREER_PATH_CURRENT=My current $(role)
+DEVELOPMENT_CAREER_PATH_SELECTED=Selected $(role)
+DEVELOPMENT_CAREER_PATH_LEGEND=Legend:
+DEVELOPMENT_CAREER_SELECT_ONE_ROLE=Please select a $(role)
+#Manage career path revolution
+DEVELOPMENT_CAREER_PATH_FIND_ROLE=Find a $(FUNCBLOCK_FAMILY_ROLES_ROLE)
+DEVELOPMENT_CAREER_PATH_LEAF=(Leads to 0 roles)
+DEVELOPMENT_CAREER_PATH_LOAD_FAMILY_ERR=Unable to find the Families & Roles data. Please try again.
+DEVELOPMENT_CAREER_PATH_NO_FAMILY=No families found.
+#how many roles lead from
+DEVELOPMENT_CAREER_PATH_LEAD_FROM_ARG=Leads from {0}
+#how many roles lead to
+DEVELOPMENT_CAREER_PATH_LEAD_TO_ARG=leads to {0}
+DEVELOPMENT_CAREER_PATH_LEAD_FROM=Leads From
+DEVELOPMENT_CAREER_PATH_LEAD_TO=Leads To
+DEVELOPMENT_CAREER_PATH_PREVIEW=Preview $(DEVELOPMENT_CAREER_PATH)
+DEVELOPMENT_CAREER_PATH_ADD_ROLE=Add $(FUNCBLOCK_FAMILY_ROLES_ROLE)
+DEVELOPMENT_CAREER_PATH_NO_ROLE=<b>No $(DEVELOPMENT_career_path) for this $(role).</b><br>Need to build one? <br><br>Start by adding a $(FUNCBLOCK_FAMILY_ROLES_ROLE). 
+DEVELOPMENT_CAREER_PATH_ADMIN_CURRENT=$(FUNCBLOCK_FAMILY_ROLES_ROLE) being edited
+DEVELOPMENT_CAREER_PATH_ADMIN_IMPORT=Import/Export $(DEVELOPMENT_CAREER_PATH)
+DEVELOPMENT_CAREER_PATH_ADMIN_NO_ROLES=No roles found.
+DEVELOPMENT_CAREER_PATH_ADD_ROLE_TITLE=Add roles to $(DEVELOPMENT_career_path)
+DEVELOPMENT_CAREER_PATH_ADMIN_SELECTED=Selected Roles
+DEVELOPMENT_CAREER_PATH_ADMIN_CIRCULAR_VIEW=This $(role) is on a circular $(DEVELOPMENT_career_path)
+DEVELOPMENT_CAREER_PATH_ADMIN_CIRCULAR_ADD=Adding this $(role) here will create a circular $(DEVELOPMENT_career_path)
+#how many roles selected
+DEVELOPMENT_CAREER_PATH_ADMIN_SELECTED_ARGS={0} role(s) selected
+DEVELOPMENT_CAREER_PATH_ADMIN_REMOVE_ROLE_DIAGRAM_TITLE=Remove selected $(DEVELOPMENT_career_path)
+#Remove the link between roles for career path from 0 to 1
+DEVELOPMENT_CAREER_PATH_ADMIN_REMOVE_ROLE_DIAGRAM_CONTENT=Remove the link from {0} to {1}?
+
+#Start: DEVELOPMENT_ prefixed keys moved from messages.properties.utf8 to sfmessages.properties.utf8 on Tue Jun  2 16:24:00 IST 2009 - using movef.sh script
+DEVELOPMENT_PLAN_WIZARD=Create Development Plan
+#End: DEVELOPMENT_ prefixed keys moved from messages.properties.utf8 to sfmessages.properties.utf8 on Tue Jun  2 16:24:00 IST 2009 - using movef.sh script
+
+#career work sheet message
+DEVELOPMENT_CAREER_WORKSHEET_ROLE_DETAIL = $(ROLE) Details
+DEVELOPMENT_CAREER_WORKSHEET_PEOPLE_IN_THIS_ROLE=People who are in this $(role)
+# {0} is the number of employees
+DEVELOPMENT_CAREER_WORKSHEET_SHOW_ALL_EMPLOYEES=Show All {0} $(COMMON_Employees)
+DEVELOPMENT_CAREER_WORKSHEET_EMPLOYEES_TITLE=Click to show $(employees) in this $(role)
+#Competencies for a role(Eg. Competencies for VP,Sales)
+DEVELOPMENT_CAREER_WORKSHEET_COMPETENCIES = $(Competencies) for {0}
+DEVELOPMENT_CAREER_WORKSHEET_SELECTED_ROLE = You have selected
+#Roles count and roles list which shared the competency(Eg. 2 Target roles share this competency: VP Sales, Engineer Manager )
+DEVELOPMENT_CAREER_WORKSHEET_SHARED_ROLES_SHARED_ROLES_LINK = {0} target roles share this $(competency)
+DEVELOPMENT_CAREER_WORKSHEET_SHARED_ROLES_HIDE_LINK = Hide roles
+DEVELOPMENT_CAREER_WORKSHEET_NO_CWS_TEMPLATES = No $(CareerWorksheet) currently exists for your account. Please contact your Administrator for more information.
+DEVELOPMENT_CAREER_WORKSHEET_FILL_COMPETENCY = You have met {0} $(competencies)
+DEVELOPMENT_CAREER_WORKSHEET_NO_FILL_COMPETENCY = You need to work on {0} $(competencies)
+DEVELOPMENT_CAREER_WORKSHEET_ROLE_READINESS = Role Readiness: 
+DEVELOPMENT_CAREER_WORKSHEET_ROLE_NO = No Role Selected.
+DEVELOPMENT_CAREER_WORKSHEET_COMPETENCY_DETAIL = $(Competency) Details
+DEVELOPMENT_CAREER_WORKSHEET_INTRODUCTION=Use this worksheet to view job roles and their associated competencies. Consider prioritizing development goals for competencies that need work and will be critical to your future success.
+#{0} is the last form rate date, {1} is the last form name
+DEVELOPMENT_CAREER_WORKSHEET_LAST_RATED_DATE = As of {0} from {1}
+DEVELOPMENT_CAREER_WORKSHEET_MENTORS = Mentors
+DEVELOPMENT_CAREER_WORKSHEET_OPENINGS = Openings
+#{0} either a label or text link, for example, Make public in Live Profile or <a href="###">Live Profile</a>
+DEVELOPMENT_CAREER_WORKSHEET_MAKE_PUBLIC = Make public in {0}
+DEVELOPMENT_CAREER_PATH_VIEW=View $(DEVELOPMENT_CAREER_PATH)
+#This is the label for a time(Eg. You have held this role for 3 years.(3 years will appear in a new line))
+DEVELOPMENT_CAREER_WORKSHEET_ROLE_HOLD=You have held this role for
+DEVELOPMENT_CAREER_WORKSHEET_NO_TARGET_ROLE_HINT=You have not added any $(role)
+DEVELOPMENT_CAREER_WORKSHEET_MY_CURRENT_ROLES=My Current Roles
+DEVELOPMENT_CATALOG_WARNING_DUPLICATED_ENTRY_NAME=WARNING: Your file contains duplicate records (identifier: ENTRY_NAME), which could prevent users from being able to add courses to their $(development) plans. Please correct the issue and re-upload the file.
+DEVELOPMENT_CAREER_WORKSHEET_EXPAND_ALL_ROLES= Expand all roles under this family
+#show description for {role name}, for example, show description for CEO.
+DEVELOPMENT_CAREER_WORKSHEET_SHOW_ROLE_DESC= Show description for {0}
+DEVELOPMENT_CAREER_WORKSHEET_TARGET_ROLE_LIST_INTRO = You are viewing the target role list. Please use the tab or shift+tab keys to navigate through these roles, or press the ctrl+shift+2 key to add more roles, or press the ctrl+shift+3 key to remove selected roles.
+DEVELOPMENT_CAREER_WORKSHEET_TARGET_ROLE_SHOW_DETAIL_KEY = Please press CTRL+SHIFT+1 keys to open the role description dialog.

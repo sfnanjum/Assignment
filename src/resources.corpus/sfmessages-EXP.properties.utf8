@@ -1,0 +1,631 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-EXP.properties.utf8 384322 2013-11-06 00:13:05Z geoffsmith $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+#Express Common
+EXP_RESET_PASSWORD=Reset Password
+EXP_COM_CLOSE_WINDOW=Close Window
+EXP_COM_HOME=Home
+EXP_ADMIN=Admin
+EXP_EMPLOYEE_DIRECTORY=$(COMMON_Employee) Directory
+EXP_LOGOFF=Logoff
+EXP_COMMON_Updated=$(COMMON_Updated)
+EXP_SEND_EMAIL=Send email
+EXP_OKAY=OK
+EXP_GENERAL_SYSTEM_ERROR=An error has occurred in the system.  Please try again later.
+EXP_CONGRATS=Congratulations
+EXP_PERCENT=%
+EXP_COLON=:
+EXP_WELCOME=Welcome, {0}
+EXP_PENDING_MSG=<strong>Changes pending.</strong> You must click "Save" in order to keep your changes.
+EXP_CHANGES_SAVED_MSG=<strong>Changes saved.</strong> Your changes were successfully saved.
+EXP_VAL_NOTEMPTY_MSG=This field cannot be empty.
+EXP_VAL_MAXLENGTH_MSG=Field cannot be longer than {0} characters.
+EXP_SRCH_RESULT_WCRIT_LBL=Showing {0} result(s) with search criteria "{1}"
+EXP_SRCH_RESULT_LBL=Showing {0} result(s)
+EXP_MORE=more...
+EXP_LESS=less...
+EXP_EXIT=Leaving this page will take you out of your Express account. Do you really want to leave Express now?
+EXP_POWERED_BY=Powered by:
+#Express Homepage
+EXP_HOME_MSG_ME_NO_ACTION_REQUIRED=There are no open reviews right now. Go to {0} to see your archived reviews.
+EXP_HOME_MSG_ME_PM_M1=You can now start your self-review.
+EXP_HOME_MSG_ME_PM_M2={0} is working on your review.
+EXP_HOME_MSG_ME_PM_S1=Review is ready for you to sign.
+EXP_HOME_MSG_ME_PM_S2={0} is signing your review.
+EXP_HOME_MSG_ME_PM_COMPLETED=Congratulations! Your review is complete. You can find it in {0}.
+EXP_HOME_MSG_DR_PM_M2={0} reviews are ready for you to complete.
+EXP_HOME_MSG_DR_PM_M1=No reviews are ready for you yet.
+EXP_HOME_MSG_DR_PM_S1=No reviews are ready for you yet.
+EXP_HOME_MSG_DR_PM_S2={0} reviews are ready for you to sign.
+EXP_HOME_MSG_DR_PM_COMPLETED=Congratulations! All reviews are complete. You can see them in {0}.
+EXP_HOME_MSG_DR_NO_ACTION_REQUIRED=There are no open reviews right now. Go to {0} to see archived reviews.
+EXP_HOME_MSG_MY_GOAL_PLAN=Add the goals you want to accomplish this year to this worksheet.
+EXP_HOME_MSG_DR_GOAL_PLAN=See and manage the goals your $(direct_reports) are working on this year.
+EXP_HOME_MSG_MY_FILES=Holds your archived reviews and contact information.
+EXP_HOME_MSG_DR_FILES=Find archived reviews or contact information about your $(direct_reports).
+EXP_HOME_MSG_SELF_REVIEW_DUE=Your self review is due {0}
+EXP_HOME_MSG_REVIEWS_NEED_TO_BE_COMPLETED={0} reviews need to be completed by your $(direct_reports)
+EXP_HOME_MSG_REVIEWS_READY_TO_COMPLETE={0} reviews are ready for you to complete
+EXP_HOME_MSG_REVIEWS_NEED_COMPLETED_BY_DR={0} reviews need to be completed by your $(direct_reports)
+EXP_HOME_MSG_REVIEWS_READY_TO_SIGN={0} reviews are ready for you to sign
+EXP_HOMEPAGE_ERROR_LOADING_FORM_DATA=An error occurred while loading form data.
+EXP_HOMEPAGE_ERROR_LOADING_DIRECT_REPORT_PM_SUMMARY=An error has occurred while loading direct report form summary information.
+EXP_HOMEPAGE_ERROR_LOADING_USER_PM_SUMMARY=An error has occurred while loading user form data summary on the homepage.
+EXP_HOMEPAGE_UNABLE_TO_OBTAIN_DIRECT_REPORT_INFO=Unable to obtain direct report information.
+EXP_HOMEPAGE_ME=Me
+EXP_HOMEPAGE_MY_GOALS_REVIEWS=My Goals and Reviews
+EXP_HOMEPAGE_MY_GOAL_PLAN=My Goal Plan
+EXP_HOMEPAGE_MY_PERFORMANCE_REVIEW=My Performance Review
+EXP_HOMEPAGE_MY_FILES=My Files
+EXP_HOMEPAGE_MY_DIRECT_REPORTS=My $(Direct_Reports)
+EXP_HOMEPAGE_GOALS=Goals
+EXP_HOMEPAGE_PERFORMANCE_REVIEWS=Performance Reviews
+EXP_HOMEPAGE_EMPLOYEE_FILES=Employee Files
+EXP_HOMEPAGE_MY_NOTEBOOK=My Notebook
+EXP_HOMEPAGE_NOTEBOOK=Notebook
+EXP_HOMEPAGE_NOTEBOOK_DETAIL=Write down notes about your work and about your $(direct_reports). Use the Notebook during review time to remind you of important events and achievements.
+EXP_HOMEPAGE_ADMIN_REPORTS=Reports
+EXP_HOMEPAGE_ADMIN_REPORTS_DETAIL=Quickly look at information about personnel within your company.
+EXP_HOMEPAGE_EMPLOYEE_DIRECTORY_DETAIL=Quickly look at information about personnel within your company.
+EXP_HOMEPAGE_BOTTOM_LINK_REFER_FRIEND=Refer-A-Friend
+EXP_HOMEPAGE_BOTTOM_LINK_FEEDBACK=Feedback
+EXP_HOMEPAGE_BOTTOM_LINK_SUCCESSFACTORS=SuccessFactors
+#Express UserInfo
+EXP_UNABLE_TO_OBTAIN_USER_DATA=Unable to discover current logged in user.
+EXP_ERROR_LOADING_USER_HIERARCHY=An error occurred while loading user hierarchy data.
+EXP_ERROR_OBTAINING_USER_DATA=An error occurred while obtaining user data.
+#Express Error
+EXP_ERROR_UI_PROMPT=An error has occurred...
+EXP_EMAIL_TYPE_NOT_SUPPORTED=Email type is not supported: {0}
+EXP_EMAIL_TYPE_REQUIRED=Email type is required.
+EXP_ERR_ACCESS_DATA_USING_USERSERVICE=Could not access data using UserService:
+EXP_ERR_OBTAIN_DATA_USING_USERSERVICE=Error obtaining data using UserService:
+EXP_ERR_GET_CURRENT_USER=Unable to discover current logged in user.
+EXP_EMAIL_FROM_FIRST_NAME_REQUIRED=Sender's first name is required.
+EXP_EMAIL_FROM_LAST_NAME_REQUIRED=Sender's last name is required.
+EXP_EMAIL_FROM_EMAIL_REQUIRED=Sender's email address is required.
+EXP_EMAIL_TO_FIRST_NAME_REQUIRED=Recipient's first name is required.
+EXP_EMAIL_TO_LAST_NAME_REQUIRED=Recipient's last name is required.
+EXP_EMAIL_TO_EMAIL_REQUIRED=Recipient's email address is required.
+EXP_EMAIL_TO_COMPANY_REQUIRED=Recipient's company is required.
+EXP_EMAIL_SUBJECT_REQUIRED=Email subject is required.
+EXP_EMAIL_MESSAGE_REQUIRED=Email message is required.
+EXP_EMAIL_COMMENT_REQUIRED=Comment is required.
+#Express Email
+EXP_EMAIL_ENTER_YOUR_FIST_NAME=Please enter your first name.
+EXP_EMAIL_ENTER_YOUR_LAST_NAME=Please enter your last name.
+EXP_EMAIL_ENTER_YOUR_EMAIL=Please enter your email.
+EXP_EMAIL_ENTER_YOUR_COL_FIST_NAME=Please enter your colleague's first name.
+EXP_EMAIL_ENTER_YOUR_COL_LAST_NAME=Please enter your colleague's last name.
+EXP_EMAIL_ENTER_YOUR_COL_EMAIL=Please enter your colleague's email.
+EXP_EMAIL_ENTER_YOUR_COL_CO=Please enter your colleague's company.
+EXP_EMAIL_ENTER_EMAIL_SUBJECT=Please enter a subject.
+EXP_EMAIL_ENTER_EMAIL_MSG=Please enter a message.
+EXP_EMAIL_ENTER_EMAIL_COMMENT=Please enter a comment.
+EXP_EMAIL_INVALID_FORMAT=Please enter a valid email address.
+EXP_EMAIL_FAILED_TO_PARSE_EMAIL_DATA=Failed to parse email data.
+# Express Goals
+EXP_GOALS_GOAL_ID_NOT_A_NUMBER=Incoming goal ID is not valid.
+EXP_GOALS_GOAL_ID_INVALID_NUMBER=Incoming goal ID is an invalid number.
+EXP_GOALS_GOAL_CANNOT_BE_UPDATED=Goal with ID [{0}] cannot be updated because it is neither in 'New' nor in 'Approved status'. Its current status is [{1}].
+EXP_GOALS_UNABLE_TO_PARSE_JSON=Unable to parse the incoming request for goal ID [{0}].
+EXP_GOALS_UPDATE_ERR=Unable to update the goal for goal ID [{0}].
+EXP_GOALS_UNABLE_TO_FIND_GOAL=Unable to find a goal for goal ID [{0}].
+EXP_GOALS_NULL_GOAL=Obtained a null goal for goal ID [{0}].
+EXP_GOALS_DELETE_ERR=Unable to delete the goal for goal ID [{0}].
+EXP_GOALS_NO_RULES_ENGINE=Unable to obtain the rules engine.
+EXP_GOALS_NO_DELETE_PERMISSION=Unable to retrieve delete permissions for user ID [{0}].
+EXP_GOALS_YOU_DONT_HAVE_DELETE_PERMISSION=You do not have permission to delete this goal.
+EXP_GOALS_USER_NOT_FOUND=user Id not found.
+EXP_GOALS_EMPTY_PAYLOAD=Incoming data is empty.
+EXP_GOALS_NO_GOAL_TEMPLATE=Could not obtain the template.
+EXP_GOALS_NO_UPDATE_PERMISSION=You cannot update this goal. This goal is read only.
+EXP_GOALS_COULD_NOT_PARSE=Unable to parse incoming data.
+EXP_GOALS_COULD_NOT_CONVERT_JSON=Unable to convert incoming data to goal.
+EXP_GOALS_COULD_NOT_CREATE_GOAL=Unable to create goal.
+EXP_GOALS_NO_CREATE_PERMISSION=You do not have permission to create a goal for this user.
+EXP_UNABLE_RETREIVE_CREATE_PERMISSION=Unable to retrieve create permissions for user [{0}].
+EXP_GOALS_UNABLE_RETREIVE_PERMISSIONS_FOR=Unable to retrieve permissions for user [{0}].
+EXP_GOALS_UNABLE_DEFINE_TEMPLATE_FOR=Unable to define template for user [{0}].
+EXP_GOALS_UNABLE_TO_RESET_TEMPLATE_PERSPECTIVE=Unable to redefine template from this user perspective [{0}].
+EXP_GOALS_GOALS=Goals
+EXP_MY_GOAL_PLAN_Title=My Goal Plan
+EXP_GOALS_NAME_AND_DESCRIPTION={0} and {1}
+EXP_GOALS_DELETE_GOAL_MSG=Are you sure that you want to delete this goal?\nChanges cannot be undone.
+EXP_GOALS_NO_GOALS_MSG=There are no goals.
+EXP_GOALS_NEW_GOAL=New Goal
+EXP_GOALS_EDIT_GOAL=Edit Goal
+EXP_GOALS_ERROR_GOAL_NAME_REQUIRED=Goal Name is required.
+EXP_GOALS_ERROR_GOAL_NAME_LENGTH=Goal Name cannot be more than 256 characters.
+EXP_GOALS_ERROR_GOAL_DATES_NOT_EMPTY=Start and Due Date cannot be empty.
+EXP_GOALS_ERROR_DATE_NOT_VALID= is invalid (expected {0}).
+EXP_GOALS_ERROR_DATES_NOT_VALID=Start Date cannot be after Due Date.
+EXP_GOALS_ADD_AND_ANOTHER=Save & Add Another
+EXP_MY_DIRECT_REPORTS_MODULE_TITLE=My $(Direct_Reports)
+EXP_COMMON_DELETE_MSG=Are you sure you want to delete this {0}?\nChanges cannot be undone.
+EXP_GOALS_BY=by
+EXP_Goals_Start=Start Date
+EXP_Goals_Due=Due Date
+EXP_Goals_Description=Goal and Goal Description
+EXP_Goals_Status=Status
+EXP_DELETE_GOAL=Delete Goal
+EXP_CALENDAR_CHOOSEDATE=Choose Date
+EXP_GOALS_ERROR_GOAL_DESCRIPTION_LENGTH=Goal Description cannot be more than 4000 characters.
+#Express Route Map
+EXP_ROUTEMAP_DATE_PARSE_ERR=Unable to parse the date for form effective date [{0}].
+EXP_ROUTEMAP_FORM_BEAN_ERR=Unable to obtain or obtained null form bean list for user ID [{0}].
+EXP_ROUTEMAP_FORM_TEMPLATE_ERR=Unable to obtain form template or obtained null or empty for form type [{0}].
+EXP_ROUTEMAP_FORM_ID_ERR=Unable to obtain form data ID for form meta bean.
+EXP_ROUTEMAP_ERROR_OBTAINING_ROUTE_MAP=Unable to obtain route map.
+EXP_ROUTEMAP_CUR_STEP_USER_ERR=Unable to obtain user for current step.
+EXP_ROUTEMAP_EMPTY_ROUTE_STEP=Obtained empty route step.
+EXP_ROUTEMAP_INVALID_REQ_FORM_ID=Incoming form data ID [{0}] is invalid.
+EXP_ROUTEMAP_EMPTY_INCOMING_PAYLOAD=Incoming request payload is empty.
+EXP_ROUTEMAP_FOLDER_MAP_ERR=Unable to obtain or obtained invalid folder map ID for user ID [{0}] and form data ID [{1}].
+EXP_ROUTEMAP_FORM_SIGN_ERR=An error has occurred while signing the form.
+EXP_ROUTEMAP_FORM_TEMPLATE_LIST_ERR=Unable to obtain or obtained null form template list for form type [{0}].
+EXP_ROUTEMAP_INVALID_INCOMING_ID=Obtained invalid incoming ID [{0}].
+#Express Rating Scale
+EXP_RATINGSCALE_INVALID_FORM_DATA_ID=Cannot obtain rating scale using given ID.
+EXP_RATINGSCALE_ERROR_OBTAINING_RATING_SCALE=An error has occurred while obtaining rating scale data.
+EXP_RATINGSCALE_FORM_ERR=Unable to obtain or obtained null form bean for form data ID [{0}].
+EXP_RATINGSCALE_DEFAULT_UNRATED=Unrated
+# Express PM Review
+EXP_PM_MENU_IMDONE=I'm Done
+EXP_PM_MENU_WELCOME=Welcome
+EXP_PM_MENU_SKILLS=Skills
+EXP_PM_MENU_OVERALL_COMMENTS=Overall Comments
+EXP_PM_MENU_SUMMARY=Summary
+EXP_PM_MENU_CONTENT=Content
+EXP_PM_MENU_OVERALL=Overall:
+EXP_PM_MENU_DONT_SAVE=Don't Save
+EXP_PM_REVIEW_SAVE_BEFORE_LEAVE_CONFIRMATION=Do you want to save changes to the review?
+EXP_PM_REVIEW_OPTIONS=Performance Review Options
+EXP_PM_REVIEW_INVALID_FORM_DATA_ID=Invalid form data ID.
+EXP_PM_REVIEW_EMPTY_PAYLOAD=PM Review payload cannot be empty.
+EXP_PM_REVIEW_ERROR_PROCESSING_DATA=An error has occurred while processing form data.
+EXP_PM_REVIEW_UNABLE_TO_RETRIEVE_FORM=Unable to retrieve form [{0}].
+EXP_PM_REVIEW_FORM_RETRIEVAL_FAILURE=Unable to obtain form using the form data ID {0}.
+EXP_PM_REVIEW_NULL_FORM_BEAN=Could not obtain form.
+EXP_PM_REVIEW_INVALID_FORM_DATA_ID_WITH_ARG=Invalid form data ID [{0}].
+EXP_PM_REVIEW_ERROR_SAVING_FORM=An error has occurred while saving form data.
+EXP_PM_REVIEW_FORM_SIGN_ERR=An error occurred while attempting to sign the form.
+EXP_PM_REVIEW_FORM_REJECT_ERR=An error occurred while attempting to reject the form.
+EXP_PM_REVIEW_FORM_NEXT_STEP_ERR=An error occurred while attempting to send form to the next step.
+EXP_PM_REVIEW_FORM_ERR_COMMENT_TEXT_TOO_LONG=Your comment is too long. Maximum number of characters is {0}.
+EXP_PM_REVIEW_DONE_EMPLOYEE_CONFIRMATION_MESSAGE=Congratulations! You've completed your self-review. You're now ready to send the review to your Manager.
+EXP_PM_REVIEW_DONE_MANAGER_CONFIRMATION_MESSAGE=Congratulations! You've completed the review. You can now send the review back to your $(Direct_Report) to sign.
+EXP_PM_REVIEW_SEND_MANAGER=Send to Manager
+EXP_PM_REVIEW_SEND_EMPLOYEE=Send to $(Direct_Report)
+EXP_PM_REVIEW_DONE_EMPLOYEE_CONFIRMATION_SAVE_ONLY=Oops, some Skills or Goals ratings are missing. You must rate all sections before you can send the review to your manager.
+EXP_PM_REVIEW_DONE_MANAGER_CONFIRMATION_SAVE_ONLY=Oops, some Skills or Goals ratings are missing. You must rate all sections before you can send the review back to your $(Direct_Report).
+EXP_PM_REVIEW_SAVE_AND_CLOSE=Save and Close
+EXP_PM_REVIEW_PREVIOUS=Back
+EXP_PM_REVIEW_NEXT=Continue
+EXP_PM_SUMMARY_OPTION_Enable_Inline_Spell_Checking=Enable Inline Spell Checking
+EXP_PM_SUMMARY_OPTION_Enable_Legal_Scan=Enable $(LEGALSCAN)
+EXP_PM_SUMMARY_OPTION_Enable_Auto_Insert_Comments=Auto Insert Comments
+EXP_PM_REVIEW_INVALID_FORM_ID=Invalid form data ID {0}.
+EXP_PM_SUMMARY_REVIEW_OF={0}'s
+EXP_PM_SUMMARY_AWAITING_SIGNATURE=This review is waiting for {0}'s signature. You're seeing a Read-Only copy here.
+EXP_PM_SIGN_REJECT_COMMENT_MAX_LENGTH=Please enter a comment that has at most 2048 characters.
+EXP_PM_SPLASH_WELCOME=Welcome to
+EXP_PM_SPLASH_WELCOME_YOUR=Welcome to your
+EXP_PM_SPLASH_WELCOME_BACK=Welcome back to
+EXP_PM_SPLASH_WELCOME_BACK_YOUR=Welcome back to your
+EXP_PM_SPLASH_TEXT_1=This review has 3 sections for you to complete.
+EXP_PM_SPLASH_TEXT_2=- Skills review<br />- Goals review<br />- Overall Comments
+EXP_PM_SPLASH_TEXT_YOURS_START=Rate yourself in each section and include some clarifying comments. When you're done, send the review to your manager.
+EXP_PM_SPLASH_TEXT_3=Rate {0} in each section and include some clarifying comments. When you're done, send the review to {1} to read and sign.
+EXP_PM_SPLASH_TEXT_4=To get started, click <b>Skills</b> in the menu on the right.
+EXP_PM_SPLASH_TEXT_5=You're making great progress! You've completed <b>{0}%</b> of the review.
+EXP_PM_SPLASH_TEXT_7=You left off at:
+EXP_PM_SPLASH_TEXT_8=Please look over the review and click "I'm Done" when you're ready to proceed.
+EXP_PM_SPLASH_HIMSELF=himself
+EXP_PM_SPLASH_HERSELF=herself
+EXP_PM_SPLASH_HIS=his
+EXP_PM_SPLASH_HER=her
+EXP_PM_CONTINUE_WHERE_LEFT_OFF=Continue where I left off
+EXP_PM_MY_RATING=My rating
+EXP_PM_MY_RATING_FOR=My rating for {0}:
+EXP_PM_SELF_RATING={0}'s self-rating:
+EXP_PM_COLON=:
+EXP_PM_SENT_DR=Send to $(Direct_Report)
+EXP_PM_SENT_DR_MSG=Send successful! Your review was just sent to {0} to sign.
+EXP_PM_REJECTED_DR_MSG=Reject successful! Your review was just sent to {0}!
+EXP_PM_SENT_MGR=Send to Manager
+EXP_PM_SENT_MGR_MSG=Send successful! Your review was just sent to {0}!
+EXP_PM_COMPLETED=Sign
+EXP_PM_COMPLETED_MSG=You've successfully signed the review. This review is now finished! It will be archived in your Employee Files.
+EXP_PM_SAVED=Saved
+EXP_PM_SAVED_MSG=Save successful! Your review is now saved.
+EXP_PM_BACK_TO_REVIEW=Go Back to Review
+EXP_PM_SIGNATURES=Signatures
+EXP_PM_OP_SEND_TO_NEXT_STEP=Unable to send to the next step. Please try again.
+EXP_PM_OP_SIGN=Unable to sign. Please try again.
+EXP_PM_OP_REJECT=Unable to reject. Please try again.
+EXP_PM_OP_SAVE=Unable to save. Please try again.
+EXP_PM_OP_READ_RATING_SCALE=Unable to read rating scale. Please try again.
+EXP_PM_OP_READ_PM_DATA=Unable to read PM Data. Please try again.
+EXP_PM_OP_READ_ROUTEMAP=Unable to read the route map data. Please try again.
+EXP_PM_OP_READ_ROUTEMAP_TEMPLATE=Unable to read the route map template data. Please try again.
+# Express Notebook
+EXP_NOTE_ICON_VIEW=Icon View
+EXP_NOTE_LIST_VIEW=List View
+EXP_NOTE_EMPTY=There are no notes.
+EXP_NOTE_SUBJECT_REQUIRED=Please enter a subject.
+EXP_NOTE_SUBJECT_LENGTH=Please enter a subject that has at most 200 characters.
+EXP_NOTE_MSG_LENGTH=Please enter a note that has at most 4000 characters.
+EXP_NOTE_OTHER_REQUIRED=Please enter a name when "Other" is picked.
+EXP_NOTE_MY_NOTES=My Notes
+EXP_NOTE_PERSONAL_NOTES=Personal Notes
+EXP_NOTE_OTHER=Other
+EXP_NOTE_MY_REPORTS=My Reports
+EXP_NOTE_NOTEBOOK=Notebook
+EXP_NOTE_NOTEBOOK_W_COLON=Notebook:
+EXP_NOTE_INSERTED=(Inserted)
+EXP_NOTE_VIEW_ALL=View all notes
+EXP_NOTE_NEW_NOTE=New Note
+EXP_NOTE_DELETE_MSG=Are you sure you want to delete this note?
+EXP_NOTEBOOK_TITLE=My Notebook
+EXP_NOTEBOOK_NEW_TITLE=New Note
+EXP_NOTEBOOK_EDIT_TITLE=Edit Note
+EXP_NOTEBOOK_SELF=Self
+EXP_NOTEBOOK_OTHER=Other...
+EXP_NOTEBOOK_COLON=:
+EXP_NOTEBOOK_ABOUT=About
+EXP_NOTEBOOK_MORE=more...
+EXP_NOTEBOOK_DATE=Date
+EXP_NOTEBOOK_SUBJECT=Subject
+EXP_NOTEBOOK_MESSAGE=Message
+EXP_NOTEBOOK_LEFT_PAREN=(
+EXP_NOTEBOOK_RIGHT_PAREN=)
+EXP_NOTEBOOK_INSERT=Insert
+EXP_NOTEBOOK_NOTE_INSERTED=(Inserted)
+EXP_NOTEBOOK_OP_READ_FAILED=Failed to read Notebook data!
+EXP_NOTEBOOK_OP_CREATE_FAILED=Failed to create a note!
+EXP_NOTEBOOK_OP_UPDATE_FAILED=Failed to update a note!
+EXP_NOTEBOOK_OP_DELETE_FAILED=Failed to delete a note!
+# Express PM Summary page
+EXP_PMSP_HEADING_MY_DIRECT_REPORTS=My $(Direct_Reports):
+EXP_PMSP_HEADING_SUMMARY=Summary
+EXP_PMSP_BUTTON_SIGN_SEND_TO_MANAGER=Sign and send to Manager
+EXP_PMSP_BUTTON_REJECT=Reject
+EXP_PMSP_BUTTON_SIGN_COMPLETE=Sign and Complete
+EXP_PMSP_EST_EMPLOYEE_NAME=Employee's Name:
+EXP_PMSP_EST_EMPLOYEE_NAME_FIRST=First
+EXP_PMSP_EST_EMPLOYEE_NAME_LAST=Last
+EXP_PMSP_EST_EMPLOYEE_TITLE=Title:
+EXP_PMSP_EST_EMPLOYEE_DEPT=Department:
+EXP_PMSP_EST_EMPLOYEE_MANAGER=Manager:
+EXP_PMSP_EST_EMPLOYEE_REVPER=Review Period:
+EXP_PMSP_EST_EMPLOYEE_DUE=Due:
+EXP_PMSP_OVERALL_SCORE=Overall Score:
+EXP_PMSP_OVERALL_SCORE_MANAGER=Manager's Overall Score:
+EXP_PMSP_SIGNATURES_NOTICE=Employee signature does not imply agreement, only the acknowledgement that the discussion occurred.
+EXP_PMSP_SIGNATURES_EMPLOYEE=Employee
+EXP_PMSP_SIGNATURES_MANAGER=Manager
+EXP_PMSP_SIGNATURES_DATE=Date
+EXP_PMSP_SEND_NOW_W_COLON=Send Now:
+EXP_PMSP_SEND_NOW=Send Now
+EXP_PMSP_CONFIRMATION=Confirmation
+EXP_PMSP_SIGN=Sign
+EXP_PMSP_SIGN_DESC=You've decided to sign the review. Now send the review back to {0} to sign.
+EXP_PMSP_MRG_SIGN_DESC=You've decided to sign the review.
+EXP_PMSP_REJECT=Decline
+EXP_PMSP_REJECT_DESC=You've decided not to sign the review. Go ahead and return the review to your manager, {0}.
+EXP_PMSP_COMMENT=Comments for {0}:
+EXP_PMSP_COMMENT_ONLY=Comment here:
+EXP_PMSP_NOTE=Note: Your comments are shown only in the email notifications; they're not recorded as part of your review.
+# Express Ratings that do not come from model:
+EXP_RATINGS_NOT_RATED=Not Rated
+EXP_RATINGS_PLEASE_RATE=Please Rate
+# Express Refer A Friend
+EXP_REFER_A_FRIEND=Refer-A-Friend
+EXP_REFER_EARN_REWARD=Tell your friends about Express and earn instant rewards!
+EXP_REFER_TOP_MSG_1_BEG=It's easy! Turn your friends and colleagues onto
+EXP_REFER_TOP_MSG_1_MID=Express
+EXP_REFER_TOP_MSG_1_END=and get a $25 MasterCard.
+EXP_REFER_TOP_MSG_2=We'll even give your friends a 10% discount for trying Express.
+EXP_REFER_TOP_MSG_3=It's so easy and there's no limit to the number of rewards you can get.
+EXP_REFER_TERMS=Terms Apply
+EXP_REFER_INFO=Your Info
+EXP_REFER_INVITE=Invite A Colleague
+EXP_REFER_CUSTOMIZE=Customize Your Invitation
+EXP_REFER_EMAIL_SUBJECT=Email Subject:
+EXP_REFER_EMAIL_SUBJECT_TXT=Check out SuccessFactors Business Execution Suite
+EXP_REFER_EMAIL_MSG=Hi, \n\nI thought you'd be interested in this company called SuccessFactors.  I was just using their tool and I thought you and your company could also benefit from the solution!   Their on-demand Express product is designed to help managers and $(COMMON_employees) easily create goals and professional reviews.  Plus, SuccessFactors provides a discount to anyone referred through a friend or co-worker.\n\nCall 1-800-809-9920 for more information and access to a free trial.\n\nRegards,\n\n
+EXP_REFER_FN=Your First Name
+EXP_REFER_LN=Your Last Name
+EXP_REFER_EMAIL=Your Email
+EXP_REFER_COLLEAGUE_FN=First Name
+EXP_REFER_COLLEAGUE_LN=Last Name
+EXP_REFER_COLLEAGUE_EMAIL=Email
+EXP_REFER_COLLEAGUE_COMPANY=Company Name
+EXP_REFER_SEND=Send Email
+# Express Feedback
+EXP_FEEDBACK_TITLE=Feedback
+EXP_FEEDBACK_INTRO=Tell us what you think of Express and how we can make it even better for you. Just send us this form with your comments.
+EXP_FEEDBACK_DESC=If you found a bug or you need customer support, and give us a call at 1-800-845-0395.
+EXP_FEEDBACK_SUBJECT=Subject
+EXP_FEEDBACK_COMMENTS=Comments
+EXP_FEEDBACK_SEND=Send Feedback
+# Express Help
+EXP_HELP_MENU=Help
+EXP_HELP_MENU_LABEL_1=Welcome to Express
+EXP_HELP_MENU_LABEL_2=Reports FAQs
+EXP_HELP_MENU_LABEL_3=Intro for Employees
+EXP_HELP_MENU_LABEL_4=Express Q & A
+EXP_HELP_MENU_LABEL_5=Setting Goals as managers
+EXP_HELP_MENU_LABEL_6=Setting Goals as Employees
+EXP_HELP_MENU_LABEL_7=More Videos
+EXP_HELP_MENU_LABEL_8=Goals FAQs
+EXP_HELP_MENU_LABEL_9=Employees and Files
+EXP_HELP_MENU_LABEL_10=My Files and Employees
+EXP_HELP_MENU_LABEL_11=More Videos
+EXP_HELP_MENU_LABEL_12=Files FAQs
+EXP_HELP_MENU_LABEL_13=Doing Reviews as Managers
+EXP_HELP_MENU_LABEL_14=Doing Reviews as Employees
+EXP_HELP_MENU_LABEL_15=More Videos
+EXP_HELP_MENU_LABEL_16=Review FAQs
+EXP_HELP_MENU_LABEL_17=Welcome to Notebook
+EXP_HELP_MENU_LABEL_18=More Videos
+EXP_HELP_MENU_LABEL_19=Notebook FAQs
+EXP_HELP_MENU_LABEL_20=Welcome to Directory
+EXP_HELP_MENU_LABEL_21=More Videos
+EXP_HELP_MENU_LABEL_22=Directory FAQs
+# Express About SuccessFactors
+EXP_ABOUT_TITLE_1=Products & Services
+EXP_ABOUT_PG_1=SuccessFactors is the <b>leader in on-demand Business Execution Software</b> and helps companies optimize their workforce performance. Passionately focused on <b>revolutionizing the future of work</b>, SuccessFactors is uniquely positioned to help companies of all sizes in certain and uncertain times by providing integrated solutions that enable organizations to bridge strategy and execution gaps, cultivate top talent and optimize workforces, to drive business productivity and results.
+EXP_ABOUT_TITLE_2=Mission Statement
+EXP_ABOUT_PG_2=We strive to change the world by making every company we work with a more meritocratic place to work, where promotion and pay is based on performance and not politics. In this way, we are working to increase productivity inside of every company we work with by 50%.
+EXP_ABOUT_LINK=Visit the SuccessFactors website to find out more...
+#Express Employee Directory
+EXP_ED_TITLE=$(COMMON_Employee) Directory
+EXP_ED_MY_FILES_TITLE=My Files
+EXP_ED_EMPLOYEE_FILES_TITLE=Employee Files
+EXP_ED_EMP_FILES_TITLE=My $(Direct_Reports): $(COMMON_Employee) Files
+EXP_ED_PERS_INF=Personal Information
+EXP_ED_MY_DR=My $(Direct_Reports)
+EXP_ED_UNABLE_TO_FIND_STDELEM=Unable to look up standard element for: [{0}]
+EXP_ED_GOTO_MGR_PROF=Go to manager's profile
+EXP_ED_UNABLE_TO_FIND_NOUSER=EmployeeProfileReadHandler: No user ID present.
+EXP_ED_UNABLE_TO_FIND_DBBEAN=EmployeeProfileReadHandler: Unable to obtain dashboard bean.
+EXP_ED_UNABLE_TO_FIND_DATAMDL=EmployeeProfileReadHandler: Unable to obtain data model.
+EXP_ED_UNABLE_TO_FIND_DRLIST=EmployeeProfileReadHandler: Unable to obtain directreport list.
+EXP_ED_REMOTE_EXCEPTION=EmployeeProfileReadHandler: RemoteException.
+EXP_ED_PERM_UNABLE_TO_FIND_NOUSER=EmployeeProfilePermissionHandler: No user ID present.
+EXP_ED_PERM_UNABLE_TO_FIND_DBBEAN=EmployeeProfilePermissionHandler: Unable to obtain dashboard bean.
+EXP_ED_PERM_UNABLE_TO_FIND_DATAMDL=EmployeeProfilePermissionHandler: Unable to obtain data model.
+EXP_ED_PERM_REMOTE_EXCEPTION=EmployeeProfilePermissionHandler: RemoteException.
+EXP_ED_DS_UNABLE_TO_FIND_NOUSER=DirectorySearchReadHandler: No user ID present.
+EXP_ED_DS_UNABLE_TO_FIND_DATAMDL=DirectorySearchReadHandler: Unable to obtain data model.
+EXP_ED_DS_UNABLE_TO_FIND_USERLIST=DirectorySearchReadHandler: Unable to obtain user list.
+EXP_ED_DS_REMOTE_EXCEPTION=DirectorySearchReadHandler: RemoteException.
+EXP_ED_DS_AU_UNABLE_TO_FIND_USERLIST=DirectorySearchAllUsersReadHandler: Unable to obtain user list.
+EXP_ED_DS_AU_REMOTE_EXCEPTION=DirectorySearchAllUsersReadHandler: RemoteException.
+#Express Direct Reports Performance Review
+EXP_DR_DIRECT_REPORTS=My $(Direct_Reports):
+EXP_DR_PERF_REVIEWS=Performance Reviews
+EXP_DR_MENU_ALL_ACTION=All action items
+EXP_DR_MENU_ACTION_I_NEED=Actions I need to take
+EXP_DR_MENU_ACTION_DR_NEED=Actions $(direct_reports) need to take
+EXP_DR_MENU_REVIEWS_COMPLETED=Reviews completed
+EXP_DR_VIEW=View:
+EXP_DR_STEP=Step
+EXP_DR_DUE=Due:
+EXP_DR_SIGN_NOW=Sign Now
+EXP_DR_SIGNED=(Signed)
+EXP_DR_READ_ONLY=(Read-Only)
+EXP_DR_CONGRATS_MSG=Performance reviews for all your $(direct_reports) are now completed! To view completed review forms go to the Directory, select your direct report and look for the review under the History section.
+#Express PM Intro
+EXP_PM_SEC_1=Section 1
+EXP_PM_SEC_2=Section 2
+EXP_PM_RATE_SKILLS=Rate Skills
+EXP_PM_RATE_GOALS=Rate Goals
+EXP_PM_SEC_WEIGHT=This section is
+EXP_PM_WEIGHTED=Weighted
+EXP_PM_SKILLS_INTRO=This is the first section in the review. It includes competencies and behaviors that your company feels every employee should possess.<br/><br/>To navigate: in the right panel click on a selection title or item.
+EXP_PM_GOALS_INTRO=This is the second section in the review. It includes specific work activities that you were expected to complete within a given timeframe.<br/><br/>To navigate: in the right panel click on a selection title or item.
+#Express Rating Scale
+EXP_RS_TITLE=Rating Scale:
+EXP_RS_MORE_INFO=More Information
+EXP_RS_SCORE=Score
+EXP_RS_DESC=Description
+EXP_RS_DETAILED_DESC=Detailed Information
+EXP_RS_NA=N/A
+EXP_RS_NOT_RATED=Not Rated
+#Express PM Overall
+EXP_PM_SEC_3=Section 3
+EXP_PM_OVERALL_COMMENTS=Overall Comments
+#Express Reports
+EXP_DB_REPORTS=Reports
+EXP_DB_LAST_UPDATED=Last updated
+EXP_DB_UPDATE_NOW=Update Now
+#Express PM Review Status Portlet
+EXP_PMREVIEW_TITLE=Performance Review Status
+EXP_PMREVIEW_SUMMARY={0} Review(s) / {1} Employee(s)
+EXP_PMREVIEW_NAME=Name
+EXP_PMREVIEW_MGR=Manager
+EXP_PMREVIEW_CUR_STEP=Current Step
+EXP_PMREVIEW_DUE_DATE=Due Date
+EXP_PMREVIEW_ALL_EMPLOYEE_W_FORMS=All Employees with Forms
+EXP_PMREVIEW_EMP_EVALUATION=Employee Evaluation
+EXP_PMREVIEW_MGR_EVALUATION=Manager Evaluation
+EXP_PMREVIEW_DR_SIGNATURE=$(Direct_Report) Signature
+EXP_PMREVIEW_MGR_SIGNATURE=Manager Signature
+EXP_PMREVIEW_PM_FORM_COMPLETED=Completed
+EXP_REPORTS_MISSING_PARAMETER=Missing required parameter.
+EXP_REPORTS_UNABLE_TO_GENERATE_DATA=An error occurred while trying to generate report data.
+EXP_REPORTS_FAILED_TO_OBTAIN_DASHBOARD_DATA=Failed to obtain report data.
+EXP_REPORTS_FAILED_TO_UPDATE_DASHBOARD_DATA=An error occurred while trying to update reports.
+EXP_REPORTS_UPDATING=Updating...
+EXP_REPORTS_REVIEW_LAUNCHED_FROM=Review period ending between
+EXP_REPORTS_REVIEW_LAUNCHED_To=and
+EXP_REPORTS_ERROR_PM_REVIEW_DATES_NOT_EMPTY="From" and "To" dates cannot be empty.
+EXP_REPORTS_ERROR_DATE_NOT_VALID=The date format is invalid (expected {0}).
+EXP_REPORTS_ERROR_DATE_RANGE_NOT_VALID="From" date cannot be after "To" Date.
+EXP_REPORT_DETAILS_FAILED_TO_OBTAIN_DETAIL_DATA=An error occurred while trying to retrieve report detail data.
+EXP_REPORT_DETAILS_COMPLETED_TITLE=Completed
+EXP_REPORT_DETAILS_ALL=All Steps
+#Express Objectives By Completion Portlet
+EXP_OBJCOMPLETION_TITLE=Goals by Completion
+EXP_OVERALL_RATING_DISTRIBUTION=Overall Rating Distribution
+EXP_GOAL_DISTRIBUTION=Goal Distribution
+EXP_AVERAGE_OVERALL_RATING=Average Overall Rating
+EXP_CURRENT_PERIOD_RATING=Current Period Rating
+EXP_PREVIOUS_PERIOD_RATING=Previous Period Rating
+EXP_GOAL_LABEL={0} Goals
+EXP_AVERAGE_GOALS_ALL_PERSON=Average {0} goals per person
+EXP_AVERAGE_GOALS_PER_PERSON=Average {0} goals per person for people with goals
+EXP_PEOPLE_WITH_GOALS={0} people have goals
+EXP_PEOPLE_WITHOUT_GOALS={0} people have no goals
+EXP_GOAL_DISTR_X_AXIS_LABEL=Number of Goals
+EXP_HEADER_GOAL_NAME=Goal Name
+EXP_HEADER_OWNER=Owner
+EXP_HEADER_STATUS=Status
+EXP_HEADER_DUE=Due Date
+EXP_GBC_COMPLETED=Completed
+EXP_GBC_NOTYETDUE=Not Yet Due
+EXP_GBC_PASTDUE=Past Due
+EXP_RATING_MULTI_FORMS={0} employee(s) have more than 1 rated form
+EXP_RATING_MULTI_FORMS_DESC=(ratings are averaged for these employees)
+#Express Overall Rating Portlet
+EXP_RATING_EMPLOYEE_NAME=Name
+EXP_RATING_EMPLOYEE_MANAGER=Manager
+EXP_RATING_FORM_TITLE=Form Title
+EXP_RATING_NORMALIZED_RATING=Normalized Rating (Rounded)
+#Express Goal Distribution Portlet
+EXP_GOAL_DISTRIBUTION_NAME=Name
+EXP_GOAL_DISTRIBUTION_JOB_TITLE=Job Title
+EXP_GOAL_DISTRIBUTION_MANAGER=Manager
+EXP_GOAL_DISTRIBUTION_COUNT=Goal Count
+EXP_GOAL_DISTRIBUTION_Y_PLURAL_X_PLURAL=YYY $(Employees) with XXX $(Objectives)
+EXP_GOAL_DISTRIBUTION_Y_SINGLE_X_SINGLE=YYY $(Employee) with XXX $(Objective)
+EXP_GOAL_DISTRIBUTION_Y_SINGLE_X_PLURAL=YYY $(Employee) with XXX $(Objectives)
+EXP_GOAL_DISTRIBUTION_Y_PLURAL_X_SINGLE=YYY $(Employees) with XXX $(Objective)
+
+#Express SelfService
+EXP_EXIT_ADMIN=Exit Admin
+#example: this is read permission setting for background element with ID of insideworkingExperience
+EXP_TALENT_TRACKER_THIS_IS_READ_PERM=This is read permission setting for background element with ID of
+EXP_TALENT_TRACKER_THIS_IS_WRITE_PERM=This is write permission setting for background element with ID of
+#Express Email Templates
+EXP_EMAIL_TEMPLATE_DISABLEDUSER_SUBJ=[[EMP_NAME]] has been deactivated in Express
+EXP_EMAIL_TEMPLATE_DISABLEDUSER_BODY=Hello! [[EMP_NAME]] has been deactivated and no longer has a user account in Express. The following forms are still in progress and waiting to be completed or forwarded.\n\
+ \n\
+ [[DOC_LIST]]\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_DOCUMENTCREATION_SUBJ=Your Express review form is now ready for you!
+EXP_EMAIL_TEMPLATE_DOCUMENTCREATION_BODY=Hello! [[SENDER]] has just created your [[DOC_TITLE]] form.\n\
+ \n\
+ You can view the form now by clicking this URL:\n\
+ [[DOC_ACCESS_URL]]\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_DOCUMENTROUTE_SUBJ=[[DOC_TITLE]] has been forwarded to you
+EXP_EMAIL_TEMPLATE_DOCUMENTROUTE_BODY=Hello! [[DOC_TITLE]] is now waiting for your [[DOC_ACTION]] in your Express account.  The form [[IS_WAS_DUE_ON]].\n\
+ \n\
+ The form was forwarded to you by  [[SENDER]].  [[SENDER]] has included this message:\n\
+ [[DOC_COMMENT]]\n\
+ \n\
+ You can go to the form now by clicking this URL:\n\
+ [[DOC_ACCESS_URL]] \n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_DOCUMENTREJECT_SUBJ=[[DOC_TITLE]] has been declined and returned to you.
+EXP_EMAIL_TEMPLATE_DOCUMENTREJECT_BODY=Hello![[SENDER]] has declined to sign your [[DOC_TITLE]] form. The form has been returned to you so you can make some modifications.\n\
+ \n\
+ [[SENDER]] included this message:\n\
+ [[DOC_COMMENT]]\n\
+ \n\
+ You can go to the form now by clicking this URL:\n\
+ [[DOC_ACCESS_URL]]\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_DOCUMENTCOMPLETED_SUBJ=[[DOC_TITLE]] has been completed
+EXP_EMAIL_TEMPLATE_DOCUMENTCOMPLETED_BODY=Hello! The [[DOC_TITLE]] for [[EMP_NAME]] has been completed in Express. You can see the final version of the review anytime from your My Files or Employee Files page.\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_DOCUMENTSENDCOPY_SUBJ=[[DOC_TITLE]] has been forwarded to you.
+EXP_EMAIL_TEMPLATE_DOCUMENTSENDCOPY_BODY=Hello! [[SENDER]] thought you might want to see a copy of the [[DOC_TITLE]] completed on [[DOC_COMPLETION_DATE]]. The form is waiting for you in your My Files or Employee Files page. This is a read-only copy.\n\
+ \n\
+ [[SENDER]] included this message:\n\
+ [[DOC_COMMENT]]\n\
+ \n\
+ You can view the form now by clicking this URL:\n\
+ [[DOC_ACCESS_URL]] \n\
+ \n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_DOCUMENTLATE_SUBJ=Reminder! [[DOC_TITLE]] is Late for [[NO_OF_DAYS]] days
+EXP_EMAIL_TEMPLATE_DOCUMENTLATE_BODY=Hello! This email is to remind you that your [[DOC_TITLE]] form [[IS_WAS_DUE_ON]].\n\
+ \n\
+ Why not finish it now? You can find the form by clicking this URL:\n\
+ [[DOC_ACCESS_URL]]\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_OBJCREATE_SUBJ=Email update of changes to goals in Express
+EXP_EMAIL_TEMPLATE_OBJCREATE_BODY=Hello! Changes were made to the following goals on [[GOAL_OWNER]]'s \"[[OBJ-PLAN-NAME]]\"by other Express users since your last email update sent [[LAST_EMAIL_DATE]].\n\
+ \n\
+ [[OBJ_LIST]]\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_OBJDELETE_SUBJ=A goal has been deleted for you in Express
+EXP_EMAIL_TEMPLATE_OBJDELETE_BODY=Hello! [[OBJ_SENDER]] deleted this goal from your Goal Plan in Express: [[OBJ_NAME]]\n\
+ \n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_OBJCHANGED_SUBJ=Email update of changes to goals in Express
+EXP_EMAIL_TEMPLATE_OBJCHANGED_BODY=Hello! Changes were made to the following goals on [[GOAL_OWNER]]'s \"[[OBJ-PLAN-NAME]]\" by other Express users since your last email update sent [[LAST_EMAIL_DATE]].\n\
+ \n\
+ [[OBJ_LIST]]\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_WELCOMEMESSAGE_SUBJ=Welcome to SuccessFactors Express!
+EXP_EMAIL_TEMPLATE_WELCOMEMESSAGE_BODY=SuccessFactors Express is your new performance review system. You'll need the username and password listed below to log into your secure user account.\n\
+ \n\
+ Username: [[EMP_USERNAME]]\n\
+ \n\
+ Password: [[EMP_PASSWORD]]\n\
+ \n\
+ You can start using Express now by clicking this URL: \n\
+ [[LOGIN_URL]]\n\
+ \n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_PASSWORDCHANGE_SUBJ=Your Express login password has changed
+EXP_EMAIL_TEMPLATE_PASSWORDCHANGE_BODY=Hello! Your Express login password has been successfully changed. Your new password is shown below.\n\
+ \n\
+ New password: [[EMP_PASSWORD]]\n\
+ \n\
+ Tip: Your username is still: [[EMP_USERNAME]]\n\
+ \n\
+ [[SIGNATURE]]
+EXP_EMAIL_TEMPLATE_FORGETPASSWORD_SUBJ=Your new Express password is ready!
+EXP_EMAIL_TEMPLATE_FORGETPASSWORD_BODY=Hello! This is your new password:  [[EMP_PASSWORD]]\n\
+ \n\
+ You can log into Express now by clicking this URL: \n\
+ [[LOGIN_URL]]\n\
+ \n\
+ Note: You received this email because you requested a new password from the Forgot Your Password page. If you didn't request a new password, contact your Administrator immediately as a security precaution.\n\
+ \n\
+ [[SIGNATURE]]
+# Express Provisioning Setup
+EXP_PROV_ENABLE_COBRANDING_FOR=Enable cobranding for Express partner:
+
+EXP_IMPLEMENTATION_NOT_SUPPORTED=Implementation not supported.

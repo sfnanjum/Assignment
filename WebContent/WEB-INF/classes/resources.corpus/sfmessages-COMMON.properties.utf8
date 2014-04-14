@@ -1,0 +1,2278 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-COMMON.properties.utf8 490997 2014-02-04 10:56:16Z hkaur $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+###############################################################
+#         Text replacement keys do not localize!!!            #
+###############################################################
+
+##############################################################
+# dateFormatSymbols used in JSMessages                        #
+# Do not change the sequence of Months, Days and AM/PM        #
+# Month should always start with "Jan"/"January"              #
+# Day should always start with "Sun"/"Sunday"                 #
+# AmPm should always start with "AM"                          #
+###############################################################
+COMMON_shortMonths=Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+COMMON_months=January,February,March,April,May,June,July,August,September,October,November,December
+COMMON_shortWeekdays=Sun,Mon,Tue,Wed,Thu,Fri,Sat
+# Single Character Abbreviation of the Weekdays' Names
+COMMON_singleCharWeekdays=S,M,T,W,T,F,S
+COMMON_weekdays=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday
+COMMON_ampm=AM,PM
+COMMON_am=AM
+COMMON_pm=PM
+###############################################################
+#                     Top Navigation Tabs                     #
+###############################################################
+# UI LeftNav Layout
+COMMON_Display_Options=Display Options
+COMMON_Outline=Outline
+COMMON_Delete=Delete
+COMMON_Duplicate=Duplicate
+COMMON_Delete_Form_Alt_Text=Delete {0}
+COMMON_Undelete=Undelete
+COMMON_Move=Move
+COMMON_CHANGE=Change
+COMMON_Move_Up=Move Up
+COMMON_Move_Down=Move Down
+COMMON_LABEL=Label
+COMMON_Make_Active=Make Active
+COMMON_Make_Inactive=Make Inactive
+COMMON_PROXY_ON_BEHALF_OF_USER={0} on behalf of {1}
+COMMON_TOTAL=Total
+COMMON_Welcome=Welcome, {0}
+COMMON_Options=Options
+COMMON_Set_Prefs=Set Preferences
+COMMON_Go_To_Home_Page=Go to Home Page
+COMMON_SF_Home_Page=SuccessFactors Home Page
+COMMON_Admin=Admin Tools
+COMMON_ACTIONS=Actions
+COMMON_LAST_SAVED_ON=Last Saved On
+COMMON_LAST_SAVED_By=Last Saved By
+COMMON_SF_GoTo_Admin=Go to SuccessFactors administration
+COMMON_SF_Exit_Title=Exit SuccessFactors
+COMMON_LOGIN=Log in
+COMMON_LOGIN_MSG=Please log in to begin using SuccessFactors.
+COMMON_LOGIN_MSG_CASE_SENSITIVE_USERNAME=Please log in to begin using SuccessFactors. Username is case sensitive.
+COMMON_LOGIN_MSG_CASE_SENSITIVE_USERNAME_AND_PASS=Please log in to begin using SuccessFactors. Both your username and password are case sensitive.
+COMMON_LOGINPAGE_SSO_REDIRECTS_DESCRIPTION=SSO USER? Click here to trigger SSO login process
+COMMON_Logout=Logout
+COMMON_KEEP_WORKING=Keep Working
+COMMON_SWITCH_TO_USER_ACCT=Switch to {0}
+COMMON_Decrease_font=Decrease font size
+COMMON_Increase_font=Increase font size
+COMMON_Hide_nav=Hide top navigation
+COMMON_Show_nav=Show top navigation
+COMMON_Recall=Recall
+COMMON_Help=Help
+COMMON_Restore=Restore
+COMMON_SAVE_CHANGES=Save Changes
+COMMON_SORT_BY_ASC=Sort by Ascending
+COMMON_SORT_BY_DES=Sort by Descending
+COMMON_Error=Error occurred
+COMMON_Errors_occurred={0} error(s) occurred.
+# {0} number of characters
+COMMON_TEXTLIMITER_UNDERLIMIT=About {0} characters left
+COMMON_TEXTLIMITER_LIMIT=0 characters left
+COMMON_TEXTLIMITER_HIGHLIGHT_OVERFLOW_WARNING={0} characters over the limit
+COMMON_DATE_FIELD=Date field
+COMMON_ERR_DATA_FORMAT={0} is invalid {1}
+COMMON_ERR_DATA_REQUIRED={0} is required
+COMMON_ERR_DATA_EXPECTED=(expected {0})
+COMMON_ERR_DATA_TOO_LONG={0} is too long ({1} characters exceeds the maximum of {2})
+COMMON_ERR_DATA_TOO_BIG_INT={0} exceeds the maximum limit of Integer value.
+COMMON_ERR_DATA_OUT_OF_RANGE={0} out of range ({1} - {2})
+COMMON_ERR_INVALID_DATE={0} contains an invalid date
+COMMON_ERR_INVALID_NUMBER={0} contains an invalid number
+COMMON_ERR_INVALID_ATTACHMENT={0} contains an invalid attachment
+COMMON_ERR_DUPLICATE_USERNAME=Username already exists, please choose another
+COMMON_ERR_INVALID_USERID=Invalid user ID.
+COMMON_ERR_INVALID_USERNAME=Invalid Username.
+COMMON_ERR_INVALID_MGR=Invalid manager ID.  Please try again
+COMMON_ERR_INVALID_MATRIX_MGR=Invalid matrix manager ID.  Please try again
+COMMON_ERR_INVALID_CUSTOMER_MGR=Invalid custom Manager ID.  Please try again
+COMMON_ERR_INVALID_SECOND_MGR=Invalid second Manager ID.  Please try again
+COMMON_ERR_SAVE_MGR_CYCLE=Manager cycle detected.  Please try again
+COMMON_ERR_SAVE_SECOND_MGR_CYCLE=Second manager cycle detected.  Please try again
+COMMON_ERR_USER_IS_PURSED=Cannot update pursed users. Please try again
+COMMON_ERR_SAVE_USERNAME=Invalid Username. Please try again
+COMMON_ERR_INVALID_HRID=Invalid HR ID.  Please try again
+COMMON_ERR_GROUP_UPDATE=Error updating user dynamic group membership.  Please contact support.
+COMMON_ERR_UPDATE_FAILED=Update failed with an unexpected result code.  Please contact support.
+COMMON_ERR_RANGE_FAILED=Unable to format rating field.  Make sure field is within ranges.
+COMMON_ERR_INVALID_RATING=Invalid Rating.  Please select one of the available rating options.
+COMMON_ERR_TREND_DATES=At least one <i>{0}</i> or <i>{1}</i> must be provided.
+COMMON_ERR_TREND_AFTERBEFORESTARTDATE=<i>{0}</i> must be before <i>{1}</i>
+COMMON_ERR_TREND_ENDAFTERSTARTDATE=<i>{0}</i> must be after <i>{1}</i>
+COMMON_ERR_ENTER_REQUIRED_VALUE=<i>{0}</i> is required, please enter a value
+COMMON_ERR_SELECT_REQUIRED_VALUE=<i>{0}</i> is required, please select a value
+COMMON_ERR_INVALID_DECIMAL_NUMBER=Invalid <i>{0}</i>, expected a decimal number between <i>{1}</i> and <i>{2}</i>
+COMMON_ERR_INVALID_VALUE=Invalid <i>{0}</i>, expected {1}
+COMMON_ERR_EXPECTED_DECIMAL_NUMBER=Invalid <i>{0}</i>, expected a decimal number
+COMMON_ERR_EXPECTED_INTEGER_NUMBER=Invalid <i>{0}</i>, expected an integer
+COMMON_ERR_EXCEED_CHAR_LIMIT=Invalid <i>{0}</i>, exceeds the character limit of {1}
+COMMON_ERR_AT_LEAST_ONE_PROVIDED=At least one <i>{0}</i> or <i>{1}</i> must be provided
+COMMON_ERR_MISSING_OR_INVALID=<i>{0}</i> is either missing or contains an invalid value
+COMMON_ERR_EXPECTED_A_NUMBER=Invalid <i>{0}</i>, expected a number
+COMMON_ERR_EXCEED_CHAR_LIMIT_2=Invalid <i>{0}</i>, exceeds the character limit of {1,number,integer}
+COMMON_ERR_PASSWORD_EXPIRED=Your password has expired, or is not valid anymore.  Please try again after resetting your password.
+COMMON_ERR_UPDATE_EXISTING_FAMILY=Unable to update family name to an existing one!
+COMMON_ERR_CANT_COMPLETE_BEFORE_ENDDATE=You cannot set <i>{0}</i> to {1} before <i>{2}</i>
+COMMON_ERR_PURGED_USERNAME=User is purged in database, please choose another username.
+COMMON_TAKE_ACTION=Take Action
+COMMON_DEFAULT=Default
+COMMON_Internal_Label=Internal Label
+COMMON_SAML_GLOBAL_LOGOUT_FAILURE=Global log out failed, please check with administrator
+COMMON_Enter_valid_value=Please enter a valid value
+COMMON_Enter_percent_value=Please enter a value between 0 and 100
+COMMON_Company_Resources = Company Resources
+COMMON_Company_Res_Empty = Your Resources page has not been configured. Click to add content to display to all users.
+COMMON_Session_timed_out=Your session has timed out
+COMMON_SESSION_SECONDS=seconds
+COMMON_SESSION_MINUTES=minutes
+COMMON_SESSION_MINUTE=minute
+#{0} is a number and {1} will be either minute, or minutes, or seconds (from COMMON_SESSION_ keys) 
+COMMON_SESSION_WARNING=Your session will expire in {0} {1}.
+COMMON_Required=Required
+COMMON_Send_Welcome_Msg=Send Welcome Message
+COMMON_Updated=Updated
+COMMON_MULTI_SELECT= Multiple Selection
+COMMON_MULTISELECTSTEP_SEARCH_TITLE={0} Search
+#{0} will be the type of custom role, such as 'EH', 'EHM', 'EMM' etc.
+COMMON_ROLE_CUSTOM_ROLE=Custom Role {0}
+#{0} is the form title, {1} is a user full name
+COMMON_JOBREQ_FORM_TITLE={0} for {1}
+COMMON_COMPONENT_LABEL=Component
+COMMON_RESULT_LABEL=Result
+COMMON_HIDDEN_FRAME_TITLE=Hidden frame used to aid in UI rendering
+COMMON_HIDDEN_FOCUS_MARKER_TITLE=Hidden button used to aid in keyboard navigation
+# calendar properties
+COMMON_CAL_TODAY=Use today's date
+# Supplemental title value or description for the input field
+COMMON_INPUT_TITLE={0} Press CTRL+SHIFT+1 to focus in the calendar, and press TAB to navigate within it. Press ENTER to select a date. Press the ESC to close the calendar.
+COMMON_DATE_RANGE_MIN_TITLE=Enter a beginning date. $(COMMON_INPUT_TITLE)
+COMMON_DATE_RANGE_MAX_TITLE=Enter an end date. $(COMMON_INPUT_TITLE)
+COMMON_CALENDAR_FRAME_TITLE=Frame for choosing a date from a calendar
+# Example Text - Calendar for February 2013. 0 and 1 to display the month and year values
+COMMON_CALENDAR=Calendar for {0} {1}
+# Information about the week number. e.g., Week 1.
+COMMON_CALENDAR_WEEK_NUM=Week {0}
+# Primary Navigation Accessibility
+# {0} is the menu name for a menu's "alt" attribute
+COMMON_MENU_ALT={0} Menu
+# {0} is the data points COMMON_CHART_ALT_DATA_POINT for the chart
+COMMON_CHART_ALT=Chart: {0}
+COMMON_OVERALL_STATUS_CHART_ALT=Overall Status: {0}
+# {0} is the label and {1} is the value for the chart "alt" string COMMON_CHART_ALT
+COMMON_CHART_ALT_DATA_POINT={0} {1}
+# {0} is the current user's name or user's name and proxied user name
+COMMON_MENU_ACCOUNT_NAVIGATION=Account Navigation for {0}
+COMMON_MENU_MAIN_NAVIGATION=Main Navigation
+# {0} is the currently selected module
+COMMON_MENU_CURRENT_MODULE_MAIN_NAVIGATION=$(COMMON_MENU_MAIN_NAVIGATION) - {0} Module
+COMMON_MENU_SEARCH={0} Search
+COMMON_GLOBAL_SEARCH=Global Search
+# {0} is the company name for a company logo's "alt" attribute
+COMMON_LOGO_ALT={0} Logo
+# Primary Navigation Tabs
+COMMON_HOME_TAB=Home
+# Talent review navigation tab
+COMMON_TALENT_REVIEW_TAB=Presentations
+# Talent review presentation subtab
+COMMON_TALENT_REVIEW_PRES_TAB=Presentation
+COMMON_HOME_SUBTAB=Home
+COMMON_COLLAB_HOME_TAB=My Network
+COMMON_GOALS_TAB=$(GOALS_Goals)
+COMMON_PERFORMANCE_TAB=Performance
+COMMON_PERFORMANCE_TAB_2=Assessments
+COMMON_SUCCESSION_TAB=Succession
+COMMON_SUCCESSION_TAB_2=Talent
+COMMON_RECRUITING_TAB=Recruiting
+COMMON_CAREERS_TAB=Careers
+COMMON_COMPENSATION_TAB=Compensation
+COMMON_CALIBRATION_TAB=$(CALIBRATION_Calibration)
+COMMON_COLLAB_GROUPS_TAB=Groups
+COMMON_COLLAB_GLOBE_TAB=Org Pulse
+COMMON_COMPANY_INFO_TAB=Company Info
+COMMON_EMPLOYEE_FILES_TAB=$(COMMON_Employee) Files
+COMMON_EMPLOYEE_PROFILE=$(COMMON_Employee) Profile
+COMMON_REPORTS_TAB=Reports
+COMMON_PLANNING_TAB=Planning
+COMMON_EMP_EMPLOYEE_FILES_TAB=My $(COMMON_Employee) File
+COMMON_EMP_OPTION_OBSOLETED = (Obsoleted)
+COMMON_WORKFORCE_TAB=Time and Attendance
+COMMON_ONBOARDING_TAB=Onboarding
+# Tabs common to all application modules
+COMMON_OVERVIEW_TAB=Overview
+COMMON_HELP_TRAINING_TAB=Help & Tutorials
+# Goal Sub-Tabs
+COMMON_GOALS_PLAN_TAB=$(GOALS_Goal) Plan
+COMMON_GOALS_ROLLUP_TAB=Goal Rollup
+COMMON_GOALS_COMPANY_GOALS_TAB=Company Goals
+# CDP Tabs and Sub-tabs
+COMMON_CDP_DEVELOPMENT_TAB=Development
+COMMON_CDP_DEVELOPMENT_PLAN_TAB=Development Plan
+COMMON_CDP_CAREER_WORKSHEET_TAB=Career Worksheet
+COMMON_CDP_TRANSCRIPT_TAB=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE)
+COMMON_CDP_TRANSCRIPT_MASS_ADD_TAB=$(DEVELOPMENT_TRANSCRIPT_TRANSCRIPTS_TITLE) for Groups
+COMMON_CDP_LMS_HOME_TAB=$(NAV_LABELLMS)
+#Learning Tabs and Sub-tabs
+COMMON_LEARNING_TAB=$(LEARNING_LEARNING)
+COMMON_LEARNING_ITEM_TAB=My $(LEARNING_LEARNING)
+
+# Custom External Module Tab and Sub-tabs
+COMMON_CUSTOM_EXTERNAL_MODULE_TAB=Custom External Module
+COMMON_CUSTOM_EXTERNAL_MODULE_HOME_TAB=Home
+
+# Performance Sub-Tabs
+# If you change the key COMMON_PM_REVIEW_TAB, you will also need to update message.properties.ut8 TEXT_REPLACEMENT_KEYS
+COMMON_PM_REVIEW_TAB=Reviews
+COMMON_PM_360_TAB=$(LABEL_360)s
+COMMON_PM_DISTRIBUTION_TAB=Distribution
+COMMON_PM_COMPARISON_TAB=Comparison
+COMMON_PM_CALIBRATION_TAB=Calibration
+COMMON_PM_GAP_ANALYSIS_TAB=Gap Analysis
+COMMON_PM_EMP_REVIEW_TAB=My Review
+COMMON_PM_Participant[s]=$(Participant[s])
+COMMON_PM_participant[s]=$(COMMON_PM_Participant[s])
+COMMON_PM_participants_dative=$(COMMON_PM_participants)
+COMMON_PM_Participants=$(Participants)
+COMMON_PM_Participant=$(Participant)
+COMMON_PM_participants=$(participants)
+COMMON_PM_participant=$(participant)
+COMMON_PM_participant's=$(participant's)
+COMMON_PM_MIN_COMP_ERROR_MSG_SINGULAR=You need to add at least one competency in the {0} section before sending the form.
+COMMON_PM_MIN_COMP_ERROR_MSG_PLURAL=You need to add at least {0} competencies in the {1} section before sending the form.
+COMMON_PM_MAX_COMP_ERROR_MSG=You can only add up to {0} competencies in the {1} section before sending the form.
+COMMON_PM_MAX_COMP_ERROR_MSG_SINGULAR=You can only add up to one competency in the {0} section before sending the form.
+COMMON_PM_MAX_GOALS_ERROR_MSG_SINGULAR=You can only add up to one $(objective) in the {0} section before sending the form.
+COMMON_INFO_ICON_TITLE=Information on {0} (Document ID={1})
+COMMON_INFO_ICON_ALT=Display Form Info
+#Add Modifiers
+COMMON_PM_SELECTEDUSERS=Selected Users
+# template upload error messages
+COMMON_TEMPLATE_UPDATE_BY_UPLOAD_VALIDATION_ERROR=A validation error was encountered while trying to update the form template
+COMMON_DASHBOARD_TWO_THIRDS_LAYOUT=Two-thirds layout
+
+# Succession Sub-Tabs
+COMMON_SUCCESSION_NOMINATION_TAB=Nomination
+COMMON_SUCCESSION_EMP_ASSESS_TAB=$(COMMON_Employee) Assessment
+COMMON_SUCCESSION_REPORT_TAB=Matrix Grid Report
+COMMON_SUCCESSION_CALIBRATION_TAB=Calibration
+COMMON_SUCCESSION_FIND_MY_SUCCESSORS_TAB=Find My Successors
+COMMON_SUCCESSION_LAUNCH_REVIEW_TAB=Nominate a Candidate
+COMMON_SUCCESSION_ORG_CHART_TAB=Succession Org Chart
+COMMON_SUCCESSION_LINEAGE_REPORT_TAB=Lineage Chart
+COMMON_SUCCESSION_TALENT_POOL_TAB=Talent Pools
+COMMON_SUCCESSION_TALENT_SEARCH_TAB=Talent Search
+COMMON_SUCCESSION_MALE=Male
+COMMON_SUCCESSION_FEMALE=Female
+COMMON_SUCCESSION_UNKNOWN=Unknown
+COMMON_SUCCESSION_UNDECLARED=Undeclared
+COMMON_SUCCESSION_POSITION_GRID=Position Tile
+COMMON_SUCCESSION_POSITION_MANAGEMENT=Position Management
+
+COMMON_SUCCESSION_YES=Yes
+COMMON_SUCCESSION_NO=No
+# Date format string which needs to be localized
+COMMON_MONTH_YEAR_DATE_FORMAT=MM/yyyy
+COMMON_MONTH_YEAR_DATE_FORMAT_UI=(mm/yyyy)
+# Recruiting Sub-Tabs
+COMMON_RECRUITING_JOB_LISTINGS_TAB=Job Listings
+COMMON_RECRUITING_MY_JOBS_TAB=Manage My Jobs
+COMMON_RECRUITING_JOB_REQS_TAB=$(JOB_REQS)
+COMMON_RECRUITING_LANDING_TAB= $(COMMON_RECRUITING_JOB_REQS_TAB)
+COMMON_RECRUITING_MY_LIBRARY_TAB=Preferences
+COMMON_RECRUITING_INTERVIEW_CENTRAL_TAB=Interview Central
+COMMON_RECRUITING_REPORT_TAB=Reports
+COMMON_RECRUITING_SOURCES_TAB=Sources
+COMMON_RECRUITING_CANDIDATE_SEARCH_TAB=Candidate Search
+COMMON_RECRUITING_JOB_EVENTS_TAB=Job Events
+COMMON_FIND_USER_WIZ_INACTIVE=Inactive Users Only
+COMMON_CAPTCHA_HELP=Please enter the words you see in the box, in order and separated by a space. Doing so helps prevent automated programs from abusing this service.<br/>If you are not sure what the words are, either enter your best guess or click the reload button next to the distorted words.<br/>Visually impaired users can click the audio button to hear a set of words that can be entered instead of the visual challenge.
+COMMON_CAPTCHA_RELOAD=Refresh verification code
+COMMON_CAPTCHA_AUDIO=Hear verification code
+COMMON_CAPTCHA_TEXT=Show verification code
+COMMON_CAPTCHA_TOOLTIP=Captcha description and instructions
+
+# In Product Support
+COMMON_IN_PRODUCT_SUPPORT=Support
+COMMON_IN_PRODUCT_SUPPORT_CONTACT_ADMINISTRATOR=Your In-Product Support account isn't setup correctly. Please contact your administrator.
+COMMON_IN_PRODUCT_SUPPORT_SERVER_TIMEOUT=In-Product Support server request timed out. Please retry again.
+COMMON_IPS_CUSTOMER_SUPPORT_PORTAL=Customer Support Portal
+COMMON_IPS_SERVICE_STATUS=Service Status
+COMMON_IPS_HOME=Home
+COMMON_IPS_MY_CASES=My Cases
+COMMON_IPS_NEW_CASE=New Case
+COMMON_IPS_CALL=Call
+COMMON_IPS_CHAT=Chat
+
+COMMON_IPS_CONTACT_TITLE_BUSINESS_EXECUTION_SUITE=SuccessFactors Business Execution Suite
+COMMON_IPS_CONTACT_TITLE_PREMIUM_SUPPORT=Enterprise Premium Support & Professional Edition Premium Support:
+COMMON_IPS_CONTACT_PREMIUM_SUPPORT_US_PHONE=1-800-845-6503
+COMMON_IPS_CONTACT_PREMIUM_SUPPORT_INTERNATIONAL_PHONE=1-650-645-2078
+COMMON_IPS_CONTACT_TITLE_SF_PREMIUM_SUPPORT=Enterprise Premium Support & Professional Edition Premium Support:
+COMMON_IPS_CONTACT_TITLE_SF_PLATINUM_SUPPORT=Enterprise Platinum Support:
+COMMON_IPS_CONTACT_PLATINUM_SUPPORT_US_PHONE=1-800-374-8458
+COMMON_IPS_CONTACT_PLATINUM_SUPPORT_INTERNATIONAL_PHONE=1-650-645-2578
+COMMON_IPS_CONTACT_TITLE_LEGAL_SUPPORT=Legacy Support Numbers
+COMMON_IPS_CONTACT_TITLE_LEGAL_INFORM=Legacy Inform:
+COMMON_IPS_CONTACT_LEGAL_INFORM_US_PHONE=1-800-857-0894
+COMMON_IPS_CONTACT_LEGAL_INFORM_INTERNATIONAL_PHONE=+61 7 3320-3290
+COMMON_IPS_CONTACT_TITLE_LEGACY_PLATEAU_PREMIUM=Legacy Plateau Premium:
+COMMON_IPS_CONTACT_LEGACY_PLATEAU_PREMIUM_US_PHONE=1-888-834-6979
+COMMON_IPS_CONTACT_TITLE_LEGACY_PLATEAU_STANDARD=Legacy Plateau Standard:
+COMMON_IPS_CONTACT_LEGACY_PLATEAU_STANDARD_US_PHONE=1-888-898-8207
+COMMON_IPS_CONTACT_TITLE_LEGACY_JOB2WEB=Legacy Jobs2Web:
+COMMON_IPS_CONTACT_LEGACY_JOB2WEB_US_PHONE=1-888-898-8207
+COMMON_IPS_CONTACT_TITLE_GENERAL_FEEDBACK=General Feedback on Customer Support
+COMMON_IPS_CONTACT_GENERAL_FEEDBACK_DETAILS=We welcome your feedback and support ideas. Email us at <a href="mailto:supportfeedback@successfactors.com">supportfeedback@successfactors.com</a>. Use this channel only for general feedback and ideas. For comments on specific product issues or open cases, please submit all comments within a support case.
+
+# Email Validation
+COMMON_EMAIL_CONF=Retype Email Address:
+COMMON_MSG_EMAIL_NOT_MATCH=Your email address doesn't match the repeated one. Please try again.
+
+#PAE-56
+COMMON_FORM_TEMPLATE_WARNING=Please choose a form template.
+
+# {0} is the navigation state of form
+COMMON_FORM_BACK=Back to: {0}
+
+# Career subtabs
+COMMON_CAREERS_JOB_SEARCH_TAB=Job Search
+COMMON_CAREERS_JOB_APPLICATIONS_TAB=Job Applications
+COMMON_CAREERS_JOB_ALERTS=Saved Searches/Alerts
+COMMON_CAREERS_SAVED_JOBS=Saved Jobs
+COMMON_CAREERS_MY_CANDIDATE_PROFILE=My Candidate Profile
+COMMON_CAREERS_MY_CANDIDATE_PROFILE_OLD=My Candidate Profile Old
+COMMON_CAREERS_SAVED_APPLICATIONS=Saved Applications
+COMMON_CAREERS_EMPLOYEE_REFERRALS=Referral Tracking
+COMMON_CAREERS_EMPLOYEE_REFERRALS_RMK=Employee Referral
+# Recruiting Candidate Profile
+COMMON_RECRUITING_MORE_INFO_TITLE=More Information
+COMMON_RECRUITING_PERCENT_SIGN=%
+COMMON_RECRUITING_INVALID_EMAIL=Email not valid - The email must be in the format yourname@yourdomain.com
+COMMON_RECRUITING_MISSING_TRANSLATION_JOB_TITLE=Missing Translation [Job Title]
+COMMON_RECRUITING_INTERVIEW_GUIDE=Interview Guide
+# Compensation Sub-Tabs
+COMMON_COMP_PERSONAL_STATEMENT_TAB=Personal Compensation Statement
+COMMON_COMP_FORMS_TAB=Forms
+COMMON_COMP_EXEC_REVIEW_TAB=Executive Review
+COMMON_COMP_BUDGET_ASSIGN_TAB=Budget Assignments
+COMMON_COMP_PLANNING_PERMISSIONS_TAB=Planning Permissions
+COMMON_COMP_HIERARCHY_BASED_APPROVALS_TAB=Approval
+COMMON_COMP_VAR_PAY_STATEMENT_TAB=Variable Pay Statement
+COMMON_COMP_VAR_PAY_INDIV_VIEW_TAB=Variable Pay Details
+# Calibration Sub-Tabs
+COMMON_CALIBRATION_SESSIONS_TAB=Sessions
+COMMON_CALIBRATION_EXECUTIVE_REVIEW_TAB=Executive Review
+# Execution tab
+COMMON_GOAL_EXECUTION=$(Objective) Execution
+COMMON_EXECUTIONMAP=Execution Map
+COMMON_STATUSREPORT=Status Report
+COMMON_MEETINGAGENDA=Meeting Agenda
+COMMON_EXECUTIONMAP_TAB=$(COMMON_EXECUTIONMAP)
+COMMON_STATUSREPORT_TAB=$(COMMON_STATUSREPORT)
+COMMON_MEETINGAGENDA_TAB=$(COMMON_MEETINGAGENDA)
+# Company Info Sub-Tabs
+COMMON_COMPANY_RESOURCE_TAB=Resources
+COMMON_COMPANY_DIR_TAB=Directory
+COMMON_COMPANY_ORG_CHART_TAB=Org Chart
+COMMON_COMPANY_BAROMETER_TAB=Company Barometer
+COMMON_COMPANY_GOAL_TAB=Company Goals
+COMMON_COMPANY_GROUP_TAB=Groups
+COMMON_COMPANY_PROCESS_TAB=Process Guide
+COMMON_COMPANY_SURVEY_TAB=Surveys
+# Employee Files Sub-Tabs
+COMMON_EMP_PROFILE_TAB=Profile
+COMMON_EMP_SCORECARD_TAB=$(COMMON_Scorecard)
+COMMON_EMP_GAP_TAB=Gap Analysis
+COMMON_EMP_PERFORMANCE_TAB=$(Performance_Profile)
+COMMON_EMP_COMP_TAB=Compensation Statement
+COMMON_EMP_NOTE_TAB=Notes
+COMMON_EMP_HISTORY_TAB=History
+COMMON_EMP_VAR_PAY_TAB=Variable Pay Statement
+COMMON_EMP_COMBINED_TAB=Combined Statement
+COMMON_EMP_VAR_PAY_INDIV_VIEW_TAB=Variable Pay Individual View
+COMMON_EMP_WORKFLOW_PENDING_APPROVALS=Pending Approvals
+COMMON_EMP_MY_WORKFLOW_REQUESTS=My Requests
+COMMON_EMP_PAYROLL_TAB=Payroll
+COMMON_EMP_PAYSLIP_TAB=Pay Statement
+COMMON_EMP_WORKFLOW_NEXT_STEP_OWNER_PLACEHOLDER=To be filled in later
+COMMON_EMPLOYEE_FILE_TAB=$(COMMON_EMPLOYEE_FILES_TAB)
+COMMON_EMP_LC_PROFILE_LINK=Lotus Connections
+COMMON_EMP_LC_LINK_NAME=lotusAppLinks
+COMMON_EMP_LC_EMAIL_ID_NOT_AVAILABLE=Email ID is mandatory to view $(COMMON_EMP_LC_PROFILE_LINK) profile
+COMMON_EMP_LC_SERVER_DOWN=$(COMMON_EMP_LC_PROFILE_LINK) server is down. Please contact your System Administrator
+# Reports Sub-Tabs
+COMMON_REPORT_DASHBOARD_TAB=Dashboards
+COMMON_REPORT_ANALYTICS_TAB=Reporting
+COMMON_YOUCALC_DASHBOARD_TAB=YouCalc
+COMMON_YOUCALC_DASHBOARD_TITLE_WITH_DASHBOARD_FEATURE=Dashboards 2.0
+COMMON_YOUCALC_DASHBOARD_TITLE_WITHOUT_DASHBOARD_FEATURE=Dashboards
+
+COMMON_ANALYTICS_TAB=Analytics
+COMMON_REPORT_INFORM_TAB=Analytics
+COMMON_REPORT_QUICKFACTS_TAB=QuickFacts
+COMMON_REPORT_LIST_TAB=List Views
+COMMON_REPORT_SPOTLIGHT_TAB=Spotlight Views
+COMMON_REPORT_SPREADSHEET_TAB=Spreadsheet Reports
+COMMON_REPORT_CLASSIC_TAB=Classic Reporting
+COMMON_BIP_BATCH_PUBLISHING_TAB=Publishing
+COMMON_REPORT_LIST_VIEW_BUILDER=List View Builder
+#Planning Sub-Tabs
+COMMON_WORKFORCE_PLANNING_TAB=Workforce Planning
+#Onboarding Sub-Tabs
+#'Us' refers to the organization, i.e. the company.
+COMMON_ONBOARDING_INFO_PAGE_TAB=About Us
+COMMON_ONBOARDING_EMPLOYEE_PAGE_TAB=Activities
+COMMON_ONBOARDING_PAPERWORK_PAGE_TAB=Paperwork
+COMMON_ONBOARDING_DASHBOARD_PAGE_TAB=Onboarding Dashboard
+COMMON_ONBOARDING_COMMUNITY_TAB=New Hire Community
+#Data validation summary message
+COMMON_VALIDATION_SUMMARY=Validation Error
+#Attachment
+COMMON_MISSING_ATTACH_IMAGES=This candidate's resume is not available to view inline at this time. You can try again later or <a href="javascript:void(0);" onclick="{0}">download the resume</a> now.
+COMMON_MISSING_ATTACH_IMAGES_FOR_COVER_LETTER=This candidate's cover letter is not available to view inline at this time. You can try again later or <a href="javascript:void(0);" onclick="{0}">download the cover letter</a> now.
+COMMON_INVALID_ATTACHMENT_TYPE=Invalid attachment type.
+COMMON_Attachment_Id_Colon=Attachment ID:
+COMMON_View_More_Details=View More Details...
+COMMON_Hide_More_Details=Hide More Details
+COMMON_ATTACHMENT_INTERNAL_ERROR=Internal attachment processing error.
+COMMON_ATTACHMENT_NOT_UPLOAD=No attachment file was uploaded.
+COMMON_ATTACHMENT_NOT_AVAIL=The attachment file is not available at this time.  Please try again later.
+COMMON_ATTACHMENT_PURGE=Purge
+COMMON_ATTACHMENT_ACTION_ITEM=Item :
+#exactly word matching
+COMMON_First=First
+COMMON_Last=Last
+COMMON_Next=Next
+COMMON_Previous=Previous
+COMMON_Send=Send
+COMMON_Employee=$(Employee)
+COMMON_employee=$(employee)
+COMMON_Employees=$(Employees)
+COMMON_employees=$(employees)
+COMMON_scorecard=$(scorecard)
+COMMON_Scorecard=$(Scorecard)
+COMMON_scorecards=$(scorecards)
+COMMON_Scorecards=$(Scorecards)
+COMMON_JobRequisitions=$(JOB_REQS)
+COMMON_JobRequisition=Job Requisition
+COMMON_Recruiting_Event=Recruiting Event
+COMMON_Staffing=Staffing
+
+COMMON_Groups=Groups
+COMMON_Ready_to_retire=Ready to retire
+COMMON_Others=Others
+COMMON_People=People
+COMMON_Too_New_to_Rate=Too New To Rate
+COMMON_Unrated=Unrated
+COMMON_Show_count=Show count
+COMMON_Show_names=Show names
+COMMON_Show_Percentages=Show percentages
+COMMON_This_Tab_Is_Enabled=This page is currently enabled for all users.
+COMMON_This_Tab_Is_Disabled=This page is currently disabled for all users.
+COMMON_Display_Explanation=You are seeing this because you are an administrator.
+COMMON_Enable=Enable it now
+COMMON_Disable=Disable it now
+COMMON_Print_Preview=Print Preview
+COMMON_Print_Application_Detail=Print Application Detail
+COMMON_Create_PDF=Create PDF
+COMMON_Print_Instruction=Show print instructions
+COMMON_Fit_To_One_Page=Shrink to fit on one page?
+COMMON_Create_Meeting=Create Meeting
+COMMON_Warning=Warning
+COMMON_PDF=PDF
+COMMON_SAVE_AS_PDF=Save as $(COMMON_PDF)
+COMMON_Word=Word
+COMMON_Excel=Excel
+COMMON_Powerpoint=Power Point
+COMMON_Create=Create
+COMMON_create=$(COMMON_Create)
+COMMON_Description=Description
+#Starting User : User who launches the Setup wizard for a particular company.
+COMMON_Starting_User=Starting User
+COMMON_User=User
+COMMON_Date=Date
+COMMON_Start_Date=Start Date
+COMMON_End_Date=End Date
+COMMON_Obsolete=Delete
+COMMON_Completion_Date=Completion Date
+COMMON_Create_Date=Create Date
+COMMON_Modified_Date=Modified Date
+COMMON_Invalid_Date_Range=Invalid Date Range. $(COMMON_End_Date) is greater than $(COMMON_Start_Date).
+COMMON_Duration=Duration
+COMMON_NOT_TRANSLATED=[Not translated in selected language]
+COMMON_No_Information_Available=No Information Available
+# Combo Box
+COMMON_No_Results=There were no results
+#{0} is a field name for the following:
+COMMON_Required_Field_Err={0} is a required field.
+COMMON_Required_Fields_Err={0} are required fields.
+COMMON_ERR_DATA_REQUIRED_WITH_MARK=Fields marked with <span class="redText">*</span> are required.
+COMMON_Invalid_Date={0} is an invalid date (expected $(COMMON_DateFormat)) or year is out of range of 1901-2099.
+# Picklists
+COMMON_REGIONS=AL,AK,AS,AZ,AR,CA,CO,CT,DE,DC,FM,FL,GA,GU,HI,ID,IL,IN,IA,KS,KY,LA,ME,MS,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,MP,OH,OK,OR,PW,PA,PR,RI,SC,SD,TN,TX,UT,VT,VI,VA,WA,WV,WI,WY
+#Expression combobox calendar, $ is a keyword and should not be translated
+COMMON_CALENDAR_EXPRESSION_COMBOBOX=Press $ to see available expressions.
+# Session Timeout Warning
+COMMON_Session_Timeout=Session Timeout Warning
+COMMON_Session_Timeout_Warning=Your session is about to expire as a security precaution. Do you need more time?
+COMMON_More_Time=More Time
+COMMON_SESSION_TIMED_OUT=Session Timed Out
+COMMON_SESSION_ABOUT_TO_TIME_OUT=Your session is about to time out.
+COMMON_SESSION_INFORMATION=Session Information
+# Auto Complete Help
+COMMON_AutoComplete_No_Mgr= No Manager
+COMMON_AutoComplete_No_Hr_Mgr=No HR Manager
+COMMON_AutoComplete_Clear=Clear search
+#{0} Number of characters user must enter for auto complete to activate. Provides descriptive instruction for accessibility.
+COMMON_AutoComplete_Label=Auto-complete search results will be available after entering {0} characters. Press the down arrow to navigate list.
+#{0} Additional instructional text.
+COMMON_AutoComplete_UserDirectorySearch_Label={0}. Or use the CTRL+SHIFT+2 keys to search the User Directory.
+#{0} Number of characters user must enter for auto complete to activate. Provides descriptive instruction for accessibility.
+COMMON_PeopleSearch_AutoComplete_Label=Auto-complete search results will be available after entering {0} characters. Use the up and down arrow keys to navigate the list, CTRL+SHIFT+1 keys to move focus to a user's QuickCard when a list item is in focus, or CTRL+SHIFT+2 keys to search the User Directory.
+COMMON_TWOFACTOR_AUTH_FEATURE=Enable Two-factor Authentication Feature
+COMMON_ATTACHMENT_LIMIT_CONFIG=Attachment Limit Notification Monitor Period
+COMMON_SKIP_TO_MAIN_CONTENT=Skip to Main Content
+COMMON_SKIP_TO_MAIN_CONTENT_TOOLTIP=Use ALT+1, ALT+SHIFT+1, or CMD+SHIFT+1 to go to the main content.
+COMMON_FIND_USER_TIP=If you want to exactly match a user's name, using * as token. The format looks like Firstname*Middlename*Lastname.
+COMMON_COMPLETED_DOCUMENT_PERMISSION=Note: You do not have access to route completed documents.  Completed documents will not appear in the search results.
+COMMON_COMPLETED_DOCUMENT_PERMISSION_BY_DOCID=You do not have access to route this form. This form is either in a completed state or subject of this form is not in your target population.  Please contact your system administrator to gain permission to this feature.
+###############################################################
+#                   END Top Navigation Tabs                   #
+###############################################################
+COMMON_CURRENT_YEAR=2014
+COMMON_POLICY=Privacy Policy
+COMMON_SITEMAP=Sitemap
+COMMON_JOBS=Jobs
+COMMON_CONTACT=Contact Us
+COMMON_COPYRIGHT_YEAR_SUCCESSFACTORS_INC=$(COMMON_CURRENT_YEAR) SuccessFactors, Inc.
+COMMON_SUCCESS_FACTORS_COPY_RIGHT_LINK=$(COMMON_COPYRIGHT_YEAR_SUCCESSFACTORS_INC)
+# Do not translate letters. Do reorder letters and use appropriate seperators, spaces, etc.
+# See other sfmessages_xx_YY.properties.utf8 for examples.
+COMMON_NULL_VALUE=(NULL)
+# {0} is the day of the week {1} is a date. (e.g. Wednesday, 12/25/2013) Describes a date in a calendar or an additional helper text for any date usage where it is important to know the day of the week.
+COMMON_DAY_OF_WEEK_AND_DATE={0}, {1}
+COMMON_DateFormat=MM/dd/yyyy
+COMMON_DateFormatExample=MM/DD/YYYY
+# time format, for example : 05:55:30 AM for US locale, for French and German locale, please remove a, please check time format of other locales
+COMMON_TimeFormat=hh:mm:ss a
+COMMON_ShortDateFormat=MM/yy
+COMMON_MEDIUM_DateFormat=MMM d, yyyy
+COMMON_MEDIUM_DateFormat_No_Year=MMMM d
+COMMON_LONG_DateFormat=MMMM d, yyyy
+COMMON_DateTimeFormat=MMM dd, yyyy h:mma
+COMMON_SHORT_DateFormat=M/d/yy
+# The following two values COMMON_DecimalPoint and COMMON_NumericGroupingSeperator
+# should not be translated but they should be localized.
+# They are used by javascript components.
+COMMON_DecimalPoint=.
+COMMON_NumericGroupingSeperator=,
+COMMON_CHANGE_LANGUAGE=Change Language
+COMMON_FAX=Fax
+COMMON_Name=Name
+COMMON_Channel=Channel
+COMMON_Username=Username
+COMMON_Password=Password
+COMMON_Jobtitle=Job Title
+COMMON_Email=$(email)
+COMMON_Title=Title
+COMMON_Manager=$(Manager)
+#{0} is the manager's name
+COMMON_Manager_COLON=$(COMMON_Manager): {0}
+COMMON_Managers_Manager=Manager's Manager
+COMMON_manager=$(manager)
+COMMON_Direct_Manager=Direct Manager
+COMMON_DEPARTMENT=$(Department)
+COMMON_DEPARTMENT_COLON=$(COMMON_DEPARTMENT):
+COMMON_Office=Office
+COMMON_Type=Type
+COMMON_RealTime_Threshold = Real-Time Threshold
+COMMON_Percent_Complete=% Complete
+COMMON_No_items_in_this_section=There are no items in this section.
+COMMON_SPELLCHECK=Spell Check
+COMMON_LEGALSCAN=$(LEGALSCAN)
+COMMON_WRITINGASSISTANT=Writing Assistant
+COMMON_Edit=Edit
+#{0} Is the item to be edited
+COMMON_EDIT_ITEM=Edit {0}
+COMMON_Never=Never
+COMMON_Share=Share
+COMMON_Add=Add
+COMMON_Add_Another=Add Another
+COMMON_Save=Save
+COMMON_Clear=Clear
+COMMON_Bulk_Print=Bulk Print
+COMMON_Export=Export
+COMMON_Import=Import
+COMMON_Validate=Validate
+COMMON_Download=Download
+COMMON_Download_doc=Download Doc
+COMMON_Download_pdf=Download Pdf
+COMMON_Save_Changes=$(COMMON_Save) Changes
+COMMON_Cancel=Cancel
+COMMON_Submit=Submit
+COMMON_Next=Next
+COMMON_Done=Done
+COMMON_Character_Limit_Message=The number of characters should be less than {0}
+COMMON_Interview_Character_Limit=The length of your comment (currently {0}) has exceeded the maximum number of characters allowed ({1}). Please shorten your comment and resubmit.
+COMMON_Close=Close
+COMMON_SaveAs=Save As...
+COMMON_SaveAs_With_No_Dots=Save As
+COMMON_Ok=OK
+COMMON_Unknown=Unknown
+COMMON_RESET=Reset
+COMMON_Preview=Preview
+COMMON_VerbalOffer=Verbal Offer
+COMMON_ID=ID
+COMMON_Active=Active
+COMMON_InActive=Inactive
+COMMON_Default=Default
+COMMON_Any=Any
+COMMON_All=All
+COMMON_Stop=Stop
+COMMON_INTENDED_MAIL_RECIPIENT_GRP=Please Select The Intended Mail Recipient Group
+COMMON_ALL_INTERVIEWERS=All Interviewers
+COMMON_ADDED_OR_UPDATED_INTERVIEWERS=Added/Updated Interviewers
+COMMON_Send_Print=Send to Printer
+COMMON_Add_Role=Add Role
+COMMON_Copy_Role=Copy Role
+COMMON_Copy=Copy: {0}
+COMMON_Copy_only=Copy
+COMMON_Delete_Role=Delete Role
+COMMON_Click_to_edit=Click to Edit
+COMMON_Click_to_add=Click to add
+COMMON_Click_to_edit_field=[Click to Edit]
+COMMON_Click_to_URL_add_field=[Click on Edit to add]
+COMMON_Click_to_enter=[Click to Enter]
+COMMON_Click_below_to_edit=Click below to edit
+COMMON_Click_to_save_changes_to=Click to save changes to
+COMMON_Click_to_save_changes_to_targets=$(COMMON_Click_to_save_changes_to) targets
+COMMON_Click_to_save_changes_to_comments=$(COMMON_Click_to_save_changes_to) $(COMMON_comments)
+COMMON_Click_to_add_a_new=Click to add a new
+COMMON_Click_to_add_a_new_feminine=$(COMMON_Click_to_add_a_new)
+COMMON_Click_to_add_a_new_target=$(COMMON_Click_to_add_a_new) target
+COMMON_Click_to_add_a_new_milestone=$(COMMON_Click_to_add_a_new) milestone
+COMMON_Click_to_add_a_new_task=$(COMMON_Click_to_add_a_new) task
+COMMON_Click_to_add_a_new_comment=$(COMMON_Click_to_add_a_new) $(COMMON_comment)
+COMMON_Sensitive_Info=This field contains sensitive information.
+COMMON_Sensitive_Info_warning_msg=This field contains sensitive information. Do you want to continue?
+COMMON_Remove=Remove
+COMMON_Undo=Undo
+COMMON_Goal=Goal
+COMMON_goal=goal
+COMMON_Comments=$(COMMON_Comment)s
+COMMON_Comment=Comment
+COMMON_comment=comment
+COMMON_comments=$(COMMON_comment)s
+COMMON_Tasks=Tasks
+COMMON_Ratings=Ratings
+COMMON_Rating=Rating
+COMMON_Abbreviated_Not_Applicable=n/a
+COMMON_Due_Date=Due Date
+COMMON_Action=Action
+COMMON_bracket_Add=[Add {0}]
+COMMON_Apply=Apply
+# Full Name Bean formatting
+COMMON_No_Name=*No name*
+COMMON_First_Name={0}
+COMMON_Middle_Initial={1}
+COMMON_Last_Name={2}
+COMMON_User_Display_Name=$(COMMON_First_Name) $(COMMON_Middle_Initial) $(COMMON_Last_Name)
+COMMON_User_Display_Short_Name=$(COMMON_First_Name) $(COMMON_Last_Name)
+COMMON_my_manager=My $(Manager):
+COMMON_Me_Prefix=Me:
+COMMON_my_reports=My Reports:
+COMMON_other_people=Other People:
+COMMON_Select_one=Select one
+COMMON_Collapse=Collapse
+COMMON_Expand=Expand
+COMMON_Go=Go
+COMMON_Total_team=Total team
+COMMON_AUTOCOMP_MORE_RESULTS_LINK=Click this link to go to the $(COMMON_COMPANY_DIR_TAB) page to see additional results.
+COMMON_AUTOCOMP_MORE_RESULTS_NO_LINK=There are additional results found, so continue typing to narrow the results.
+COMMON_AUTOCOMP_FINDUSER_ERR=Cannot determine username from input, please use autocompletion to select user.
+COMMON_Add_a_note=Add a note
+COMMON_Delete_Note=Delete note
+COMMON_Delete_Note_Confirmation=Are you sure you want to delete this note?   Press OK to continue, or Cancel to keep this note.
+COMMON_Go_To=Go To
+COMMON_Not_Available=Not Available
+COMMON_Your_session_has_timed_out=Your session has timed out
+COMMON_ROUTE_WARN_CLOSE_QUICK_CARD=Your form changes have not yet been saved. Click OK to save your changes and navigate away from this page. Click Cancel to stay on the form.
+COMMON_Details=Details
+COMMON_Close_Details=Close Details
+COMMON_displaying_x_items=Displaying {0} - {1} of {2}
+COMMON_no_items=No items to display
+COMMON_page=Page
+COMMON_page_of=of {0}
+COMMON_loading=Loading...
+COMMON_validating=Validating...
+COMMON_sorting=Sorting...
+COMMON_Roles=Roles
+COMMON_Add_Colon=Add:
+COMMON_Company_Colon=Company:
+COMMON_Process_Status_Colon=Process Status:
+COMMON_Total_Records_Colon=Total Records:
+COMMON_Failed_Records_Colon=Number of failed records:
+COMMON_Errored_Records_Colon=Number of records with error(s):
+COMMON_Fix_Errors_Msg=The Import has reported error(s).  The following error(s) should be fixed and and re-imported as necessary.
+COMMON_Import_Success_Msg=The Import was successfully completed.
+COMMON_Export_Success_Msg=The Export of object:{0} was successfully completed;
+COMMON_Import_Error_Msg=Error occurred while importing data. The data has not been saved. Please contact technical support or try again later.
+COMMON_Sanity_Import_Error = Following error(s) occurred while performing sanity check :
+COMMON_RealTime_Record_Count_Notification = If the file has records greater than {0} it will be submitted as background job after sanity check.
+COMMON_NAN_Error = Real-time Threshold cannot be empty or non-numeric values.
+COMMON_RANGE_Error = Real-time Threshold should range from {0} to {1}.
+#{0} is the link to Monitor Jobs on Admin Tools page and {1} is 'Admin Tools -> Monitor Jobs' 
+COMMON_ACCESS_JOB_MONITOR=You can check the complete response at {0} or through "{1}"
+COMMON_SF_POWERED_BY=Powered By SuccessFactors
+COMMON_SF_ABOUT_BOX_TITLE=About SuccessFactors
+COMMON_SF_HELP_MOVIE_TITLE=Getting Started Movie
+COMMON_SF_TITLE=SuccessFactors
+COMMON_SF_ABOUT=All rights reserved. These online services are SuccessFactors confidential and proprietary and for use by authorized SuccessFactors customers only.
+COMMON_SF_ABOUT_BEGIN=Copyright \u00a9 $(COMMON_COPYRIGHT_YEAR_SUCCESSFACTORS_INC) $(COMMON_SF_ABOUT)
+COMMON_SF_MANAGEMENT_SYSTEM_NAME=SuccessFactors Business Execution Suite
+COMMON_SF_ABOUT_RELEASE_INFO=Release:
+COMMON_SF_ABOUT_SERVER_INFO=Server:
+COMMON_SF_ABOUT_TIMESTAMP_INFO=Timestamp:
+COMMON_SF_ABOUT_COMPANY_ID=Company ID:
+COMMON_SF_ABOUT_UI_VERSION=UI version:
+COMMON_SF_ABOUT_EDITION=Edition:
+COMMON_SF_ABOUT_ADMIN_VERSION=Admin version:
+COMMON_SF_ABOUT_V9=v9
+COMMON_SF_ABOUT_V10=v10
+COMMON_SF_ABOUT_V11=v11 (Ultra)
+COMMON_SF_ABOUT_V12=v12 (Revolution)
+COMMON_SF_ABOUT_PE=Professional Edition
+COMMON_SF_ABOUT_SPRAC=SuccessPractices
+COMMON_SF_ABOUT_EXPRESS=Express
+COMMON_SF_ABOUT_ENTERPRISE=Enterprise
+COMMON_SF_ABOUT_ONEADMIN=OneAdmin
+COMMON_SF_ABOUT_ONEADMIN_SS=$(COMMON_SF_ABOUT_ONEADMIN), with self-service
+COMMON_SF_ABOUT_SS=PE Self-service
+
+#COMMON_SF_OPTIONS_BOX_TITLE=Options
+COMMON_SF_OPTIONS_PASSWORD_TITLE=Password Change
+COMMON_SF_OPTIONS_PASSWORD_DESCRIPTION=To change your SuccessFactors password, enter your current password and type in a new password.
+COMMON_SF_OPTIONS_PASSWORD_CHARACTER_SIZE_RANGE=Passwords must be from {0} to {1} characters long.
+COMMON_SF_OPTIONS_PASSWORD_MAY_SKIP_NON_ALPHA_CHARACTERS=Passwords do not have to contain non-alpha characters such as numbers or symbols.
+COMMON_SF_OPTIONS_PASSWORD_MUST_HAVE_NON_ALPHA_CHARACTERS=Passwords must contain alpha and at least one non-alpha character such as a number or symbol.
+COMMON_SF_OPTIONS_PASSWORD_DEFAULT_RULE=Passwords may contain any combination of letters and digits.
+COMMON_SF_OPTIONS_PASSWORD_CASE_SENSITIVE=Passwords are case sensitive.
+COMMON_SF_OPTIONS_PASSWORD_NOT_CASE_SENSITIVE=Passwords are not case sensitive.
+COMMON_SF_OPTIONS_PASSWORD_NOT_MIX_CASE=They are not required to be mixed case.
+COMMON_SF_OPTIONS_PASSWORD_MIX_CASE=They are required to be mixed case.
+COMMON_SF_OPTIONS_PASSWORD_PROBLEM_OCCURRED=Problem occurred:
+COMMON_SF_OPTIONS_PASSWORD_CHK=Please update your password.
+COMMON_SF_OPTIONS_PASSWORD_REQUIREMENTS=    * Passwords must be from 2 to 18 characters long.\n\
+    * Passwords are case sensitive. They are not required to be mixed case.\n\
+    * Passwords do not have to contain non-alpha characters such as numbers or symbols.\n\
+    * Passwords may contain any combination of letters and digits.
+COMMON_SF_OPTIONS_PASSWORD_CURRENT=Current Password:
+COMMON_SF_OPTIONS_PASSWORD_NEW=New Password:
+COMMON_SF_OPTIONS_PASSWORD_REPEAT=Repeat New Password:
+COMMON_SF_OPTIONS_PASSWORD_SET=Set Password
+COMMON_SF_OPTIONS_PASSWORD_NOTMATCH=Your new password doesn't match the repeated one.  Please try again.
+COMMON_SF_OPTIONS_PASSWORD_INVALID_LOGIN=Your current password is incorrect, or your account is disabled.  Please try again, or contact your administrator.
+COMMON_SF_OPTIONS_PASSWORD_NOTNEW=New password cannot be the same as your old password.
+COMMON_SF_OPTIONS_PASSWORD_INVALID_PASSWORD=Your new password does not conform to the password policy.  Please try again.
+COMMON_SF_OPTIONS_PASSWORD_ERROR=Error occurred while saving your password.  Your password has not been saved.  Please contact technical support or try again later.
+COMMON_SF_OPTIONS_PASSWORD_SUCCESS=Your password has been updated successfully.
+COMMON_PASSWORD_MINIMUM_LENGTH=Password must be at least {0} characters long.
+COMMON_PASSWORD_MAXIMUM_LENGTH=Password must not be longer than {0} characters.
+COMMON_PASSWORD_MIXED_CASE=Password must contain at least one upper case and one lower case letter.
+COMMON_PASSWORD_NON_ALPHA_REQUIRED=Password must contain at least one number or punctuation character.
+COMMON_PASSWORD_INVALID_CHARACTER=Password must not contain space or unicode characters.
+COMMON_FBDYNAMIC_GROUP_TIMEOUT_ERR=The search operation exceeded the time limit. Please save your progress and reload the page.
+COMMON_CHANGES_PENDING=Changes pending.
+COMMON_CHANGES_PENDING_MSG=You must click \u0022Save\u0022 in order to keep your changes.
+COMMON_CHANGES_SAVED=Changes saved.
+COMMON_CHANGES_FAILED=Changes failed.
+COMMON_CHANGES_SAVED_MSG=Your changes were successfully saved.
+COMMON_SAVING=Saving...
+COMMON_SENDING=Sending...
+COMMON_SIGNING=Signing...
+COMMON_REJECTING=Rejecting...
+COMMON_SEARCHING=Searching...
+COMMON_LAST_SAVED=Last Saved: {0}
+COMMON_Unsaved_Changes=You have unsaved changes. Click OK to continue without saving (recent changes will be lost), or click Cancel to stay on this page.
+COMMON_Unsaved_Changes_Short=You have unsaved changes.  If you leave the page all changes will be lost.
+COMMON_Open_Application_For_JobReq=You are about to open an application for another job requisition. Do you wish to proceed?
+COMMON_Coach=Coach
+COMMON_Coaching_Advisor=Coaching Advisor
+COMMON_Coach_Welcome=Welcome to The Coach
+COMMON_Back=Back
+COMMON_Direct_Reports=$(Direct_Reports)
+COMMON_My_Direct_Reports=My $(Direct_Reports)
+COMMON_users=users
+COMMON_newWindow=Open link in new window
+COMMON_Num_year={0} year
+COMMON_Num_years={0} years
+COMMON_Num_month={0} month
+COMMON_Num_months={0} months
+COMMON_Num_week={0} week
+COMMON_Num_weeks={0} weeks
+COMMON_Num_day={0} day
+COMMON_Num_days={0} days
+COMMON_Year_Month_Separator={0}, {1}
+COMMON_NA=N/A
+COMMON_LabelColonLabel={0}: <em>{1}</em>
+COMMON_View_Details=View Details
+COMMON_Team=Team
+COMMON_NO_SELECTION=No Selection
+COMMON_Always=Always
+COMMON_male=Male
+COMMON_female=Female
+COMMON_Daily=Daily
+COMMON_OPENED=Opened
+COMMON_Weekly=Weekly
+COMMON_Bi_Weekly=Every Two Weeks
+COMMON_Monthly=Monthly
+COMMON_Yearly=Yearly
+COMMON_Delete_Position_Confirmation=Are you sure you want to delete this position?
+COMMON_No_position_error=No position found for the selected user.
+COMMON_No_position_message=Please contact your system administrator for assistance.
+COMMON_No_position_error_basic_orgchart=Sorry, no position found.
+COMMON_No_position_message_basic_orgchart=Please select a position or a person assigned to a position.
+COMMON_Hidden_position_warning=The position for the selected user has been hidden.
+COMMON_Hidden_position_message=Please click "Show All" in Display Options to show the position.
+COMMON_NO_OC_XML_warning=The Org Chart config.xml is missing.
+COMMON_NO_OC_XML_message=Please configure the xml in provisioning for displaying the org chart correctly. Refer to confluence guide on Succession Org Chart configuration.
+COMMON_Hidden_node_warning=The selected user has been hidden.
+COMMON_Hidden_node_message=Please click "Show All" in Display Options to show the user.
+COMMON_Sync_Position_Changes=Save And Synchronize
+COMMON_Sync_Position_Changes_Error=An error occurred while synchronizing the changes. The position as well as the incumbents have not been updated.
+# {0} a more detailed error text set in coding
+COMMON_Sync_Position_Changes_Error_With_Details=An error occurred while synchronizing the changes. The position as well as the incumbents have not been updated. {0}
+# {0} a more detailed error text set in coding
+COMMON_Sync_Position_Changes_Error_No_Save=An error occurred while synchronizing the position data. The incumbents have not been updated. </br></br>Details: {0}.
+COMMON_Position_Validator_Error=An error occurred while validate the position. </br></br> {0}
+COMMON_THEMES=Themes
+COMMON_BLUE=Blue
+COMMON_GRAY=Gray
+COMMON_GREEN=Green
+COMMON_ORANGE=Orange
+COMMON_PURPLE=Purple
+COMMON_RED=Red
+COMMON_IMAGES=Images
+COMMON_CUSTOM_IMAGE=Custom image
+COMMON_NO_IMAGE=No image
+COMMON_Information=Information
+COMMON_Print=Print
+COMMON_Revoke=Revoke
+COMMON_Yes=Yes
+COMMON_No=No
+COMMON_Confirm=Confirm
+COMMON_CONFIRM_CANCEL=Are you sure you want to cancel?  All of your selections will not be saved.
+COMMON_SELECT_LABEL=- Select -
+COMMON_SUCCESS=Success
+COMMON_Completed=Completed
+COMMON_Failed=Failed
+COMMON_Err=Error
+COMMON_Detailed_Error_Message=Detailed Error Message
+COMMON_Nominate=Nominate
+COMMON_Nomination=Nomination
+COMMON_Search=Search
+COMMON_Browse=Browse
+COMMON_Use_Selected=Use Selected
+COMMON_Incumbent=Incumbent
+COMMON_Nominee=Nominee
+COMMON_Nominator=Nominator
+COMMON_Incumbent_Manager=Incumbent Manager
+COMMON_Nominee_Manager=Nominee Manager
+COMMON_Job_Description=Job Description
+COMMON_Competency_Description=$(COMMON_COMPETENCY) Description
+COMMON_Competencies=Competencies
+COMMON_competencies=$(COMMON_Competencies)
+COMMON_AllCompetencies=All $(COMMON_Competencies)
+COMMON_Position=Position
+COMMON_Readiness=Readiness
+COMMON_Nominee_Comments=Comments
+COMMON_Notes=Notes
+COMMON_Note=Note
+COMMON_Ranking=Ranking
+COMMON_Status=Status
+COMMON_Division=Division
+COMMON_for_Ellipse=for...
+COMMON_For=for
+COMMON_More=More
+COMMON_Less=Less
+COMMON_Succession_History=Succession History
+COMMON_Changed_by=Changed by
+COMMON_Change_Type=Change Type
+COMMON_Send_To_Printer=Send To Printer...
+COMMON_Close_Preview=Close Preview
+COMMON_name=name
+COMMON_username=username
+COMMON_No_Access_Permission=You do not have permission to access the page.
+COMMON_No_Action_Permission=You do not have permission for this action.
+COMMON_Unexpected_failure=Unexpected failure.
+COMMON_Tab_Access_Error=Accessed a tab that does not exist.
+COMMON_Role=Role
+COMMON_Incumbents=Incumbent(s)
+COMMON_Last_Modified=Last Modified
+COMMON_Employee_File=$(COMMON_Employee) File
+COMMON_Objective=$(GOALS_Goal)
+COMMON_Date_Modified=Date Modified
+COMMON_Date_Expires=Date Expires
+COMMON_Alert_Schedule=Alert Schedule
+COMMON_ALERT=Alert
+COMMON_ALERT_WITH_PERIOD=Alert.
+COMMON_LBL_Division=$(Division)
+COMMON_LBL_Department=$(Department)
+COMMON_LBL_Location=$(Location)
+COMMON_Position_code=Position Code
+COMMON_Position_Details=Position Details
+COMMON_To_Be_Hired=To Be Hired
+COMMON_Filled_by=Filled by
+COMMON_Help_Note_Pos_Org_Chart=NOTE: Any changes made to an incumbent's data will be reflected in their $(COMMON_employee) records.
+COMMON_Add_Position=Add Position
+COMMON_key_position=Key Position
+COMMON_Update_Position=Update Position
+COMMON_Add_Direct_Report_to=Add $(Direct_Report)
+COMMON_Add_Peer_to=Add Peer
+COMMON_Advanced_talent_search=Advanced talent search
+COMMON_Keywords=Keywords
+COMMON_Start=Start
+COMMON_End=End
+COMMON_Current=Current
+COMMON_New=New
+COMMON_Update=Update
+COMMON_Minimum = Minimum
+COMMON_Maximum = Maximum
+COMMON_Country_of_Residence=Country of Residence
+COMMON_Category=Category
+COMMON_Numerformat=a number
+COMMON_APPROVE=Approve
+COMMON_None=None
+COMMON_Items_per_page=Items per page
+COMMON_Page_x_of_y=Page {0} of {1}
+COMMON_SEARCH_USERS_BTN=Search Users
+COMMON_Managers=managers
+COMMON_Individuals=Individuals
+COMMON_only_Individuals=only $(COMMON_Individuals)
+COMMON_reports_hierarchical =reports
+COMMON_only_reports_hierarchical =only $(COMMON_reports_hierarchical)
+COMMON_no_reports_hierarchical =no $(COMMON_reports_hierarchical)
+COMMON_USERDIR_PARTIAL=Partial
+COMMON_USERDIR_EXACT=Exact
+COMMON_FINDUSERS_USER_TYPE_ALL_USERS=All $(COMMON_Employees) And External Users
+COMMON_Find=Find
+COMMON_Summary=Summary
+COMMON_Select=Select
+COMMON_Select_One_With_Dots=$(Select_One_With_Dots)
+COMMON_EMAIL_From=From
+COMMON_EMAIL_To=To
+COMMON_EMAIL_Date=Date
+COMMON_EMAIL_Subject=Subject
+COMMON_EMAIL_Print_Title=Print Email
+COMMON_EMAIL_INVALID_PAGE=Please enter a valid page number.
+COMMON_SELECT_LANG=Select a language
+COMMON_SELECT_LANGs=Select language(s)
+COMMON_SELECT_TEMPLATE=Select a template
+COMMON_EAMIL_TEMPLATE_INTRO=Email templates provide specific subject and message content, but are editable.
+COMMON_Iamdone=I'm Done
+COMMON_Previous_Page=Previous Page
+COMMON_Next_Page=Next Page
+COMMON_Previous_page=Previous page
+COMMON_Next_page=Next page
+COMMON_Save_to_desktop=Save to desktop
+COMMON_Save_to_file=Save to File
+COMMON_NO_TEMPLATE_FOR_LANG=No template is available in this language
+COMMON_Select_label=- Select -
+COMMON_me=me
+COMMON_my_team=my team
+COMMON_Select_All=Select All
+# use COMMON_Next COMMON_BTN_Next=Next
+COMMON_Go_Back=Go Back
+COMMON_of=of
+COMMON_Address=Address
+COMMON_City=City
+COMMON_State=State
+COMMON_Zip=ZIP
+COMMON_Country=Country
+COMMON_Home=Home
+COMMON_Cell=Cell
+COMMON_Contact_Number=Contact Number
+COMMON_Primary_Email=Primary Email
+COMMON_Contact_Email=Contact Email
+COMMON_View_Profile=View Profile
+COMMON_CloseWindow=$(COMMON_Close) Window
+COMMON_Close_Dialog=$(COMMON_Close) Dialog
+COMMON_COMPETENCY=$(Competency)
+COMMON_Your_Competencies=Your $(Competencies)
+COMMON_cap_review=Review
+# Role names for My Team's Form Status
+COMMON_ROLE_E=$(Employee)
+COMMON_ROLE_EH=$(HR_REPRESENTATIVE)
+COMMON_ROLE_EHH=$(HR_REPRESENTATIVE)'s $(HR_REPRESENTATIVE)
+COMMON_ROLE_EM=$(Manager)
+COMMON_ROLE_EMM=$(2ND_LEVEL_MANAGER)
+COMMON_ROLE_EMMM=$(3RD_LEVEL_MANAGER)
+COMMON_ROLE_U=Other
+COMMON_ROLE_O=$(Originator)
+COMMON_ROLE_EHM=$(HR_REPRESENTATIVE)'s $(Manager)
+COMMON_ROLE_OM=$(Originator)'s $(Manager)
+COMMON_ROLE_EX=$(Matrix_Manager)
+COMMON_ROLE_EP=$(Matrix_Manager)
+COMMON_ROLE_EA=$(SECOND_MANAGER)
+COMMON_ERR_DATA_NOT_VALID=Unable to parse improperly formatted data.
+COMMON_ERR_DATA_NOT_VALID_WITH_LABEL=Unable to parse improperly formatted data for {0}.
+COMMON_ERR_DATA_FIELD_REQUIRED=Data field [{0}] is required.
+COMMON_ERR_DATA_FIELD_EMPTY=Data field [{0}] is empty.
+COMMON_FORM_STAGE_Current=Current
+COMMON_FORM_STAGE_Future=Future
+#Server messages for Criteria Search
+COMMON_Save_Failed=Save Failed.
+COMMON_Internal_Server_Error=Internal Server Error.
+COMMON_Search_Criteria_Result=Search criteria found too many matching users.
+COMMON_Add_More_Profile_Filters=Please add more profile filters and/or required criteria.
+#for rteWrapper.js
+COMMON_RTE_WRAPPER_RICH_TEXT=RICH TEXT
+COMMON_RTE_WRAPPER_PLAIN_TEXT=PLAIN TEXT
+#for rteditor.js
+COMMON_RTE_TOOLBAR_BOLD=Bold
+COMMON_RTE_TOOLBAR_ITALIC=Italic
+COMMON_RTE_TOOLBAR_UNDERLINE=Underline
+COMMON_RTE_TOOLBAR_NUMBERING=Numbering
+COMMON_RTE_TOOLBAR_BULLETS=Bullets
+COMMON_RTE_TOOLBAR_INDENT=Indent
+COMMON_RTE_TOOLBAR_OUTDENT=Outdent
+COMMON_RTE_TOOLBAR_HYPERLINK=Hyperlink
+COMMON_RTE_TOOLBAR_TEXT_COLOR=Text Color
+COMMON_RTE_TOOLBAR_TEXT_COLOR_RED=Red
+COMMON_RTE_TOOLBAR_TEXT_COLOR_ORANGE=Orange
+COMMON_RTE_TOOLBAR_TEXT_COLOR_YELLOW=Yellow
+COMMON_RTE_TOOLBAR_TEXT_COLOR_GREEN=Green
+COMMON_RTE_TOOLBAR_TEXT_COLOR_BLUE=Blue
+COMMON_RTE_TOOLBAR_TEXT_COLOR_VIOLET=Violet
+COMMON_RTE_TOOLBAR_TEXT_COLOR_BLACK=Black
+COMMON_RTE_TOOLBAR_SPELL_CHECK=Spell Check
+COMMON_RTE_TOOLBAR_LEGAL_SCAN=$(LEGALSCAN)
+COMMON_RTE_TOOLBAR_SHOW_DEFAULT_LANGUAGE=Show Default Language
+COMMON_RTE_TOOLBAR_WRITING_ASSISTANT=Writing Assistant
+COMMON_RTE_TOOLBAR_NOTEBOOK=Notebook
+COMMON_RTE_TOOLBAR_FONT_SIZE=Font Size
+COMMON_RTE_TOOLBAR_TEXT_SIZE=Size
+COMMON_RTE_TOOLBAR_TEXT_SIZE_EXTRA_SMALL=XS
+COMMON_RTE_TOOLBAR_TEXT_SIZE_SMALL=S
+COMMON_RTE_TOOLBAR_TEXT_SIZE_LARGE=L
+COMMON_RTE_TOOLBAR_TEXT_SIZE_EXTRA_LARGE=XL
+COMMON_RTE_TOOLBAR_TEXT_SIZE_DOUBLE_EXTRA_LARGE=XXL
+COMMON_RTE_TOOLBAR_TEXT_SIZE_TRIPLE_EXTRA_LARGE=XXXL
+COMMON_RTE_SPELL_CHECK_DOCUMENT=Spell Checking Document...
+COMMON_RTE_SCANNING_DOCUMENT=Scanning Document...
+COMMON_RTE_INIT_WACA_DOCUMENT=Initializing Writing Assistant...
+COMMON_RTE_HYPERLINK_URL=Hyperlink URL:
+COMMON_RTE_HYPERLINK_HTTP=http://
+COMMON_RTE_NOT_SUPPORTED=Comments are disabled because rich text is not supported on this device
+#0 label associated with the rich text editor
+COMMON_RTE_LABEL= {0} rich text editor
+COMMON_RTE_DESCRIPTION=Rich text editor
+COMMON_RTE_MAXIMUM_CHAR_LIMIT_MESSAGE=You have reached the maximum character limit of {0}.  Please remove some characters before editing further.
+COMMON_RTE_MAXIMUM_PASTE_LIMIT_MESSAGE=Your pasted text is longer than the allowed character limit of {0}.  Please edit then retry.
+COMMON_MAXIMUM_CHAR_LIMIT_EXCEEDED_MESSAGE=You have reached the maximum character limit of {0}. Text will be truncated.
+COMMON_RTE_COUNTER_CHARACTER_MESSAGE=Text formatting and double-byte characters will reduce number of visible characters.
+COMMON_RTE_COUNTER_LABEL=Chars left:
+COMMON_RTE_PASTE_FROM_WORD_DEFAULT=You're about to paste in text with Microsoft formatting. Not all browsers can display Microsoft formatting correctly. We can help you paste in plain text with the Microsoft formatting removed. You can use the editing tools here to reformat the text.\n \
+ \nClick OK to use plain text (recommended). \
+ \nClick Cancel to keep the original Microsoft formatting.
+#for common component paginator
+COMMON_PAGINATOR_Items_Per_Page=Items per page
+COMMON_PAGINATOR_Page_X_of_Y=Page {0} of {1}
+COMMON_PAGINATOR_First_Page=First Page
+COMMON_PAGINATOR_Next_Page=Next Page
+COMMON_PAGINATOR_Previous_Page=Previous Page
+COMMON_PAGINATOR_Last_Page=Last Page
+COMMON_PAGINATOR_DISABLED=Page {0} is disabled
+#for Dynamic Group V2
+COMMON_DG_TEAM_HELPTEXT_TEAM=TEAM
+COMMON_DG_TEAM_HELPTEXT_MATRIXREPORTSTEAM=MATRIXREPORTSTEAM
+COMMON_DG_TEAM_HELPTEXT_CUSTOMREPORTSTEAM=CUSTOMREPORTSTEAM
+COMMON_DG_TEAM_HELPTEXT_HRREPORTSTEAM=HRREPORTSTEAM
+COMMON_DG_TEAM_LEVEL_LABEL_TEAM_FIRST=One level ($(Direct_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_SECOND=Two levels ($(Direct_Reports) and Second Level Reports)
+COMMON_DG_TEAM_LEVEL_LABEL_ALL=All levels (Full Team)
+COMMON_DG_TEAM_LEVEL_LABEL_MATRIX_FIRST=One level ($(Matrix_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_MATRIX_SECOND=Two levels ($(Matrix_Reports) and $(Direct_Reports) of the $(Matrix_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_MATRIX_ALL=All levels ($(Matrix_Reports) and the Full Manager Hierarchy of the $(Matrix_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_HR_FIRST=One level ($(HR_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_HR_SECOND=Two levels ($(HR_Reports) and $(Direct_Reports) of the $(HR_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_HR_ALL=All levels ($(HR_Reports) and the Full Manager Hierarchy of the $(HR_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_CUSTOM_FIRST=One level ($(Custom_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_CUSTOM_SECOND=Two levels ($(Custom_Reports) and $(Direct_Reports) of the $(Custom_Reports))
+COMMON_DG_TEAM_LEVEL_LABEL_CUSTOM_ALL=All levels ($(Custom_Reports) and the Full Manager Hierarchy of the $(Custom_Reports))
+COMMON_DG_FILTER_Field_Removed_Message=(This field is no longer valid. Please remove it.)
+COMMON_DG_FILTER_Add_another=Add another
+COMMON_DG_FILTER_Field_Is={0} is
+COMMON_DG_FILTER_Delete_Expression=Delete expression
+COMMON_DG_FILTER_Expression_Value_Required=Each field must contain a value
+COMMON_DG_FILTER_Operator_Equal_To== (equal to)
+COMMON_DG_FILTER_Operator_Less_Than=&lt; (less than)
+COMMON_DG_FILTER_Operator_Less_Than_Or_Equal=&le; (less than or equal to)
+COMMON_DG_FILTER_Operator_Greater_Than=&gt; (greater than)
+COMMON_DG_FILTER_Operator_Greater_Than_Or_Equal=&ge; (greater than or equal to)
+COMMON_DG_FILTER_Operator_Not_Equal_To=&ne; (not equal to)
+COMMON_DG_FILTER_Operator_Range=[ ] (range)
+COMMON_DG_FILTER_Conditions_Invalid=Each condition must have at least one value
+COMMON_DG_TO=To
+COMMON_DG_From=From
+COMMON_DG_FILTER_From_Date_Before_To=The 'from' date must be before the 'to' date
+COMMON_DG_FILTER_From_Less_Than_To=The 'from' value must be less than the 'to' value
+COMMON_DG_FILTER_Provide_Valid_Number=Enter a valid number
+COMMON_DG_FILTER_Delete_Invalid_Conditions=Please delete invalid conditions
+COMMON_DG_FILTER_Match_Any=Match any of these conditions:
+COMMON_DG_FILTER_None_Selected=No selection has been made.
+COMMON_DG_FILTER_Click_Edit_Team=Click to Edit Team Definition for {0}
+COMMON_DG_FILTER_Click_View_Team=Click to View Team Definition for {0}
+COMMON_DG_Group_Definition=Group Definition
+COMMON_DG_Group_Membership=Group Membership
+COMMON_DG_Active_Group_Membership=Active Group Membership
+COMMON_DG_Updating=Updating...
+COMMON_DG_Group_Dialog_Instruction=Type a name for your group. Then choose who you want to include in the group.
+COMMON_DG_Group_Name=Group Name:
+COMMON_DG_Group_Name_Title=Group Name
+COMMON_DG_Group_Locked=This group is currently locked
+COMMON_DG_Cannot_Edit=You cannot edit the criteria for the group.
+COMMON_DG_Group_UIState_Invalid=The filter specification of this group cannot be restored. This can be caused by a new data model or internal changes.
+COMMON_DG_Group_UISTate_Invalid_Suggestion=Please delete this group and re-create it.
+COMMON_DG_Add_People_Pool=Add another People Pool
+COMMON_DG_Add_Category=Add another category
+COMMON_DG_People_Pool=People Pool
+COMMON_DG_Pick_Category=Pick a category...
+COMMON_DG_Choose_Group_Members=Choose Group Members:
+COMMON_DG_People_Pool_Tip=Tip: You can include multiple People Pools in the same group.
+COMMON_DG_See_Examples=See examples
+COMMON_DG_Exclude_People=Exclude these people from the group:
+COMMON_DG_Lock_Group=Lock the group to prevent further changes to criteria and membership.
+COMMON_DG_Prevent_Change=Tip: This is to prevent further changes to criteria and membership.
+COMMON_DG_Lock_Description=The group is locked to prevent further changes to criteria and membership.
+COMMON_DG_Lock=Lock
+COMMON_DG_Unlock=Unlock...
+COMMON_DG_Make_Copy=Make a copy
+COMMON_DG_Unlock_Anyway=Unlock it anyway
+COMMON_DG_Unlock_Warning=WARNING! You might lose the group membership once you unlock the group.
+COMMON_DG_Unlock_Warning_Detail=If you wish to keep this membership, we recommend you to make a copy of this group and modify the copy instead.
+COMMON_DG_CLONE_Save_Copy=Save a copy
+COMMON_DG_CLONE_View_Group=View the group now
+COMMON_DG_CLONE_Saving=Saving...
+COMMON_DG_CLONE_Group_Created=The group "{0}" has been created.
+COMMON_DG_CLONE_Copy_Of=Copy of {0}
+COMMON_DG_CLONE_Error_Provide_Name=Please provide a name.
+COMMON_DG_CLONE_Instruction=You are saving a copy of {0}.
+COMMON_DG_CLONE_Save_As=Save group as:
+COMMON_DG_CLONE_Confirm_Msg=Successfully saved!
+COMMON_DG_CLONE_Confirm_Msg_Details=The group has been created.
+COMMON_DG_GROUPLIST_Show_Hide=Show or Hide
+COMMON_DG_GROUPLIST_Membership=Membership
+COMMON_DG_GROUPLIST_Active_Membership=Active Membership
+COMMON_DG_GROUPLIST_Show=Show/Hide
+COMMON_DG_GROUPLIST_Last_Modified=Last Modified
+COMMON_DG_GROUPLIST_Actions=Actions
+COMMON_DG_GROUPLIST_Create_New=Create New Group
+COMMON_DG_GROUPLIST_Clone_Group=Clone group
+COMMON_DG_GROUPLIST_Delete_Group=Delete group
+COMMON_DG_GROUPLIST_Delete_Group_CONFIRM_MSG=Are you sure you want to delete group "{0}"?
+COMMON_DG_GROUPLIST_Lockat=Lock at {0}
+COMMON_DG_MEMBERS_Membership=Membership
+COMMON_DG_MEMBERS_Shown_Below=Member names are shown below.
+COMMON_DG_MEMBERS_Members=members
+COMMON_DG_MEMBERS_First_Name=First Name
+COMMON_DG_MEMBERS_Middle_Name=Middle Name
+COMMON_DG_MEMBERS_Last_Name=Last Name
+COMMON_DG_MEMBERS_Take_Action=Take Action
+COMMON_DG_MEMBERS_Display_Option=Display Option
+COMMON_DG_MEMBERS_Display_Option_Instruction=Use the options below to show or hide columns in the table.
+COMMON_DG_MEMBERS_Group_Locked=This group is locked at {0} members.
+COMMON_DG_MEMBERS_Cannot_Edit=No changes can be made to a locked group. Use the {0} page to unlock the group or change the group membership.
+COMMON_DG_MEMBERS_Locked_Date=Date Locked:
+COMMON_DG_MEMBERS_Edit_Group=Edit Group
+COMMON_DG_TEAM_Start_From=Start from the user:
+COMMON_DG_TEAM_Include_Current=Include the current user
+COMMON_DG_TEAM_None_Selected=None selected
+COMMON_DG_TEAM_None=None
+COMMON_DG_TEAM_Add_Another=Add another
+COMMON_DG_ERR_COPY_GROUP=Failed to copy group
+COMMON_DG_ERR_GROUP_EXIST=Group name already exists
+COMMON_DG_ERR_GROUP_EXIST_ANOTHER_USER={0} has already created a group with this group name. Please select another group name.
+COMMON_DG_ERR_GET_MEMBERLIST=Failed to get member list
+COMMON_DG_ERR_UPDATE_GROUPFLAG=Failed to update group flag
+COMMON_DG_ERR_DELETE_GROUP=Failed to delete group
+COMMON_DG_ERR_FREEZE_GROUP=Failed to freeze group
+COMMON_DG_ERR_UNFREEZE_GROUP=Failed to unfreeze group
+COMMON_DG_ERR_GET_GROUP=Failed to retrieve group
+COMMON_DG_ERR_GET_MEMBERCOUNT=Failed to get member count
+COMMON_DG_ERR_ADD_GROUP=Failed to add group
+COMMON_DG_ERR_UPDATE_GROUP=Failed to update group
+COMMON_DG_ERR_NOT_ALLOWED=Not allowed to perform group operation
+COMMON_DG_ERR_GET_FIELDS=Failed to get dynamic group filter fields
+COMMON_DG_GROUP_Create_Tip=<h3>Forming groups of People Pools</h3><p>Each group can include multiple People Pools. \
+  People Pools are used to identify employees who fit your search criteria.</p> \
+  <p>Example:<br/>Let's say you have 2 different offices: Office A and Office B. Each office has a Sales team and a Finance team.</p> \
+  <h4>Use one Pool when:</h4>Everyone fits in your search criteria, such as: You want to include Sales employees and \
+  Finance employees from both offices.<h4>Use multiple Pools when:</h4>Only some people fit in each search criteria, \
+  such as: You only want to include Sales employees from Office A and Finance employees from Office B.  You'll need to \
+  create two separate pools.
+COMMON_DG_GROUP_CHOOSE_A_GROUP=Choose a Group
+COMMON_DG_ERR_Category_Already_Selected=Category of this type already exists in this people pool.  Please select another category.
+COMMON_FORM_TEMPLATE=Template
+COMMON_DG_ERR_Provide_Missing=Please provide missing data.
+COMMON_AJAX_DEFAULT_ERROR=An application error occurred. Please try again later, or notify support if the issue keeps occurring.
+COMMON_AJAX_EXCEPTION_CONVERTER_ERROR=An application error occurred. Please try again later, or copy the below error information and send it to \
+  your support group if the issue keeps occurring. \n\n(Once you have read this message, you can dismiss it using either the "OK" or \
+  "Cancel" button.)
+COMMON_INTERSTITIAL_MESSAGE=You are about to leave 4Success and will be routed to: \
+ {0}.
+COMMON_INCLUDE_INACTIVE=Include Inactive Employees
+COMMON_SEARCH_RESULTS=Your search returned {0} user(s).
+COMMON_FROM_DATE_AFTER_TO_DATE_WARNING_MESG=From Date should be earlier than To Date!
+
+####################
+## HRIS FIELDS
+####################
+COMMON_COUNTRY_ABW =Aruba
+COMMON_COUNTRY_AFG =Afghanistan
+COMMON_COUNTRY_AGO =Angola
+COMMON_COUNTRY_AIA =Anguilla
+COMMON_COUNTRY_ALA =\u00c5land Islands
+COMMON_COUNTRY_ALB =Albania
+COMMON_COUNTRY_AND =Andorra
+COMMON_COUNTRY_ANT =Netherlands Antilles
+COMMON_COUNTRY_ARE =United Arab Emirates
+COMMON_COUNTRY_ARG =Argentina
+COMMON_COUNTRY_ARM =Armenia
+COMMON_COUNTRY_ASM =American Samoa
+COMMON_COUNTRY_ATA =Antarctica
+COMMON_COUNTRY_ATF =French Southern Territories
+COMMON_COUNTRY_ATG =Antigua and Barbuda
+COMMON_COUNTRY_AUS =Australia
+COMMON_COUNTRY_AUT =Austria
+COMMON_COUNTRY_AZE =Azerbaijan
+COMMON_COUNTRY_BDI =Burundi
+COMMON_COUNTRY_BEL =Belgium
+COMMON_COUNTRY_BEN =Benin
+COMMON_COUNTRY_BFA =Burkina Faso
+COMMON_COUNTRY_BGD =Bangladesh
+COMMON_COUNTRY_BGR =Bulgaria
+COMMON_COUNTRY_BHR =Bahrain
+COMMON_COUNTRY_BHS =Bahamas
+COMMON_COUNTRY_BIH =Bosnia and Herzegovina
+COMMON_COUNTRY_BLM =Saint Barth\u00e9lemy
+COMMON_COUNTRY_BLR =Belarus
+COMMON_COUNTRY_BLZ =Belize
+COMMON_COUNTRY_BMU =Bermuda
+COMMON_COUNTRY_BOL =Bolivia, Plurinational State of
+COMMON_COUNTRY_BRA =Brazil
+COMMON_COUNTRY_BRB =Barbados
+COMMON_COUNTRY_BRN =Brunei Darussalam
+COMMON_COUNTRY_BTN =Bhutan
+COMMON_COUNTRY_BVT =Bouvet Island
+COMMON_COUNTRY_BWA =Botswana
+COMMON_COUNTRY_CAF =Central African Republic
+COMMON_COUNTRY_CAN =Canada
+COMMON_COUNTRY_CCK =Cocos (Keeling) Islands
+COMMON_COUNTRY_CHE =Switzerland
+COMMON_COUNTRY_CHL =Chile
+COMMON_COUNTRY_CHN =China
+COMMON_COUNTRY_CIV =C\u00f4te d\u2019Ivoire
+COMMON_COUNTRY_CMR =Cameroon
+COMMON_COUNTRY_COD =Congo, the Democratic Republic of the
+COMMON_COUNTRY_COG =Congo
+COMMON_COUNTRY_COK =Cook Islands
+COMMON_COUNTRY_COL =Colombia
+COMMON_COUNTRY_COM =Comoros
+COMMON_COUNTRY_CPV =Cape Verde
+COMMON_COUNTRY_CRI =Costa Rica
+COMMON_COUNTRY_CUB =Cuba
+COMMON_COUNTRY_CXR =Christmas Island
+COMMON_COUNTRY_CYM =Cayman Islands
+COMMON_COUNTRY_CYP =Cyprus
+COMMON_COUNTRY_CZE =Czech Republic
+COMMON_COUNTRY_DEU =Germany
+COMMON_COUNTRY_DJI =Djibouti
+COMMON_COUNTRY_DMA =Dominica
+COMMON_COUNTRY_DNK =Denmark
+COMMON_COUNTRY_DOM =Dominican Republic
+COMMON_COUNTRY_DZA =Algeria
+COMMON_COUNTRY_ECU =Ecuador
+COMMON_COUNTRY_EGY =Egypt
+COMMON_COUNTRY_ERI =Eritrea
+COMMON_COUNTRY_ESH =Western Sahara
+COMMON_COUNTRY_ESP =Spain
+COMMON_COUNTRY_EST =Estonia
+COMMON_COUNTRY_ETH =Ethiopia
+COMMON_COUNTRY_FIN =Finland
+COMMON_COUNTRY_FJI =Fiji
+COMMON_COUNTRY_FLK =Falkland Islands (Malvinas)
+COMMON_COUNTRY_FRA =France
+COMMON_COUNTRY_FRO =Faroe Islands
+COMMON_COUNTRY_FSM =Micronesia, Federated States of
+COMMON_COUNTRY_GAB =Gabon
+COMMON_COUNTRY_GBR =United Kingdom
+COMMON_COUNTRY_GEO =Georgia
+COMMON_COUNTRY_GGY =Guernsey
+COMMON_COUNTRY_GHA =Ghana
+COMMON_COUNTRY_GIB =Gibraltar
+COMMON_COUNTRY_GIN =Guinea
+COMMON_COUNTRY_GLP =Guadeloupe
+COMMON_COUNTRY_GMB =Gambia
+COMMON_COUNTRY_GNB =Guinea-Bissau
+COMMON_COUNTRY_GNQ =Equatorial Guinea
+COMMON_COUNTRY_GRC =Greece
+COMMON_COUNTRY_GRD =Grenada
+COMMON_COUNTRY_GRL =Greenland
+COMMON_COUNTRY_GTM =Guatemala
+COMMON_COUNTRY_GUF =French Guiana
+COMMON_COUNTRY_GUM =Guam
+COMMON_COUNTRY_GUY =Guyana
+COMMON_COUNTRY_HKG =Hong Kong
+COMMON_COUNTRY_HMD =Heard Island and McDonald Islands
+COMMON_COUNTRY_HND =Honduras
+COMMON_COUNTRY_HRV =Croatia
+COMMON_COUNTRY_HTI =Haiti
+COMMON_COUNTRY_HUN =Hungary
+COMMON_COUNTRY_IDN =Indonesia
+COMMON_COUNTRY_IMN =Isle of Man
+COMMON_COUNTRY_IND =India
+COMMON_COUNTRY_IOT =British Indian Ocean Territory
+COMMON_COUNTRY_IRL =Ireland
+COMMON_COUNTRY_IRN =Iran, Islamic Republic of
+COMMON_COUNTRY_IRQ =Iraq
+COMMON_COUNTRY_ISL =Iceland
+COMMON_COUNTRY_ISR =Israel
+COMMON_COUNTRY_ITA =Italy
+COMMON_COUNTRY_JAM =Jamaica
+COMMON_COUNTRY_JEY =Jersey
+COMMON_COUNTRY_JOR =Jordan
+COMMON_COUNTRY_JPN =Japan
+COMMON_COUNTRY_KAZ =Kazakhstan
+COMMON_COUNTRY_KEN =Kenya
+COMMON_COUNTRY_KGZ =Kyrgyzstan
+COMMON_COUNTRY_KHM =Cambodia
+COMMON_COUNTRY_KIR =Kiribati
+COMMON_COUNTRY_KNA =Saint Kitts and Nevis
+COMMON_COUNTRY_KOR =Korea, Republic of
+COMMON_COUNTRY_KWT =Kuwait
+COMMON_COUNTRY_LAO =Lao People's Democratic Republic
+COMMON_COUNTRY_LBN =Lebanon
+COMMON_COUNTRY_LBR =Liberia
+COMMON_COUNTRY_LBY =Libyan Arab Jamahiriya
+COMMON_COUNTRY_LCA =Saint Lucia
+COMMON_COUNTRY_LIE =Liechtenstein
+COMMON_COUNTRY_LKA =Sri Lanka
+COMMON_COUNTRY_LSO =Lesotho
+COMMON_COUNTRY_LTU =Lithuania
+COMMON_COUNTRY_LUX =Luxembourg
+COMMON_COUNTRY_LVA =Latvia
+COMMON_COUNTRY_MAC =Macao
+COMMON_COUNTRY_MAF =Saint Martin (French part)
+COMMON_COUNTRY_MAR =Morocco
+COMMON_COUNTRY_MCO =Monaco
+COMMON_COUNTRY_MDA =Moldova, Republic of
+COMMON_COUNTRY_MDG =Madagascar
+COMMON_COUNTRY_MDV =Maldives
+COMMON_COUNTRY_MEX =Mexico
+COMMON_COUNTRY_MHL =Marshall Islands
+COMMON_COUNTRY_MKD =Macedonia, the former Yugoslav Republic of
+COMMON_COUNTRY_MLI =Mali
+COMMON_COUNTRY_MLT =Malta
+COMMON_COUNTRY_MMR =Myanmar
+COMMON_COUNTRY_MNE =Montenegro
+COMMON_COUNTRY_MNG =Mongolia
+COMMON_COUNTRY_MNP =Northern Mariana Islands
+COMMON_COUNTRY_MOZ =Mozambique
+COMMON_COUNTRY_MRT =Mauritania
+COMMON_COUNTRY_MSR =Montserrat
+COMMON_COUNTRY_MTQ =Martinique
+COMMON_COUNTRY_MUS =Mauritius
+COMMON_COUNTRY_MWI =Malawi
+COMMON_COUNTRY_MYS =Malaysia
+COMMON_COUNTRY_MYT =Mayotte
+COMMON_COUNTRY_NAM =Namibia
+COMMON_COUNTRY_NCL =New Caledonia
+COMMON_COUNTRY_NER =Niger
+COMMON_COUNTRY_NFK =Norfolk Island
+COMMON_COUNTRY_NGA =Nigeria
+COMMON_COUNTRY_NIC =Nicaragua
+COMMON_COUNTRY_NIU =Niue
+COMMON_COUNTRY_NLD =Netherlands
+COMMON_COUNTRY_NOR =Norway
+COMMON_COUNTRY_NPL =Nepal
+COMMON_COUNTRY_NRU =Nauru
+COMMON_COUNTRY_NZL =New Zealand
+COMMON_COUNTRY_OMN =Oman
+COMMON_COUNTRY_PAK =Pakistan
+COMMON_COUNTRY_PAN =Panama
+COMMON_COUNTRY_PCN =Pitcairn
+COMMON_COUNTRY_PER =Peru
+COMMON_COUNTRY_PHL =Philippines
+COMMON_COUNTRY_PLW =Palau
+COMMON_COUNTRY_PNG =Papua New Guinea
+COMMON_COUNTRY_POL =Poland
+COMMON_COUNTRY_PRI =Puerto Rico
+COMMON_COUNTRY_PRK =Korea, Democratic People's Republic of
+COMMON_COUNTRY_PRT =Portugal
+COMMON_COUNTRY_PRY =Paraguay
+COMMON_COUNTRY_PSE =Palestinian Territory, Occupied
+COMMON_COUNTRY_PYF =French Polynesia
+COMMON_COUNTRY_QAT =Qatar
+COMMON_COUNTRY_REU =R\u00e9union
+COMMON_COUNTRY_ROU =Romania
+COMMON_COUNTRY_RUS =Russian Federation
+COMMON_COUNTRY_RWA =Rwanda
+COMMON_COUNTRY_SAU =Saudi Arabia
+COMMON_COUNTRY_SDN =Sudan
+COMMON_COUNTRY_SEN =Senegal
+COMMON_COUNTRY_SGP =Singapore
+COMMON_COUNTRY_SGS =South Georgia and the South Sandwich Islands
+COMMON_COUNTRY_SHN =Saint Helena, Ascension and Tristan da Cunha
+COMMON_COUNTRY_SJM =Svalbard and Jan Mayen
+COMMON_COUNTRY_SLB =Solomon Islands
+COMMON_COUNTRY_SLE =Sierra Leone
+COMMON_COUNTRY_SLV =El Salvador
+COMMON_COUNTRY_SMR =San Marino
+COMMON_COUNTRY_SOM =Somalia
+COMMON_COUNTRY_SPM =Saint Pierre and Miquelon
+COMMON_COUNTRY_SRB =Serbia
+COMMON_COUNTRY_STP =Sao Tome and Principe
+COMMON_COUNTRY_SUR =Suriname
+COMMON_COUNTRY_SVK =Slovakia
+COMMON_COUNTRY_SVN =Slovenia
+COMMON_COUNTRY_SWE =Sweden
+COMMON_COUNTRY_SWZ =Swaziland
+COMMON_COUNTRY_SYC =Seychelles
+COMMON_COUNTRY_SYR =Syrian Arab Republic
+COMMON_COUNTRY_TCA =Turks and Caicos Islands
+COMMON_COUNTRY_TCD =Chad
+COMMON_COUNTRY_TGO =Togo
+COMMON_COUNTRY_THA =Thailand
+COMMON_COUNTRY_TJK =Tajikistan
+COMMON_COUNTRY_TKL =Tokelau
+COMMON_COUNTRY_TKM =Turkmenistan
+COMMON_COUNTRY_TLS =Timor-Leste
+COMMON_COUNTRY_TON =Tonga
+COMMON_COUNTRY_TTO =Trinidad and Tobago
+COMMON_COUNTRY_TUN =Tunisia
+COMMON_COUNTRY_TUR =Turkey
+COMMON_COUNTRY_TUV =Tuvalu
+COMMON_COUNTRY_TWN =Taiwan
+COMMON_COUNTRY_TZA =Tanzania, United Republic of
+COMMON_COUNTRY_UGA =Uganda
+COMMON_COUNTRY_UKR =Ukraine
+COMMON_COUNTRY_UMI =United States Minor Outlying Islands
+COMMON_COUNTRY_URY =Uruguay
+COMMON_COUNTRY_USA =United States
+COMMON_COUNTRY_UZB =Uzbekistan
+COMMON_COUNTRY_VAT =Holy See (Vatican City State)
+COMMON_COUNTRY_VCT =Saint Vincent and the Grenadines
+COMMON_COUNTRY_VEN =Venezuela, Bolivarian Republic of
+COMMON_COUNTRY_VGB =Virgin Islands, British
+COMMON_COUNTRY_VIR =Virgin Islands, U.S.
+COMMON_COUNTRY_VNM =Viet Nam
+COMMON_COUNTRY_VUT =Vanuatu
+COMMON_COUNTRY_WLF =Wallis and Futuna
+COMMON_COUNTRY_WSM =Samoa
+COMMON_COUNTRY_YEM =Yemen
+COMMON_COUNTRY_ZAF =South Africa
+COMMON_COUNTRY_ZMB =Zambia
+COMMON_COUNTRY_ZWE =Zimbabwe
+
+COMMON_ATTACHMENT_INVALID_USER=Invalid user ID.
+COMMON_NO_PARTNER_URL_AVAILABLE=No URL was available to open.
+COMMON_CONFIGURE_RMK_DATACENTER_URL=Please configure RMK datacenter URL in Provisioning.
+COMMON_ONE=1
+COMMON_TWO=2
+COMMON_THREE=3
+
+COMMON_TRIAL_DEMO_DIALOG_TITLE=SuccessFactors Professional Edition Demo
+COMMON_TRIAL_ANCHOR_BAR_TUTORIAL_LAUNCH_BTN=Launch Tutorial
+COMMON_TRIAL_ANCHOR_BAR_DEMO_VIDEO_LAUNCH_BTN=Demo Video
+COMMON_TRIAL_ANCHOR_BAR_TELL_A_FRIEND=<a href="#" onclick="openTellafriend();">Tell a friend</a> about the benefits of SuccessFactors and earn rewards.
+COMMON_TRIAL_ANCHOR_BAR_EXPIRATION_DAYS_LEFT=<strong>{0} Day(s)</strong> remaining in the trial.
+COMMON_TRIAL_SPLASH_TITLE=Getting Started
+COMMON_TRIAL_SPLASH_DNSA=Do not show again
+COMMON_TRIAL_SPLASH_CONTENT=Thank you for your interest in SuccessFactors Professional Edition - the market-leading small business performance and talent management solution. \
+ <p></p><p>This trial includes many of the popular features of Professional Edition including Self Service Administration. Simply click on &#34;Launch Tutorial&#34; to access detailed information on any feature or module.</p> \
+ <p>You may access the application at any time by closing this video.</p> \
+ <p>Please <a href="#" onclick="window.open('http://www.successfactors.com/company/contact/');">contact us online</a> at any time during this FREE trial for more information on SuccessFactors Professional Edition.</p>
+
+# Lineage Report
+COMMON_BACK_TO_ORG_CHART=Back to Org Chart
+COMMON_EXPAND_LINEAGE_REPORT=$(COMMON_Expand)
+COMMON_COLLAPSE_LINEAGE_REPORT=$(COMMON_Collapse)
+COMMON_PRINT_LINEAGE_REPORT=$(COMMON_Print)
+
+# Succession Talent Pool
+COMMON_Talent_Pool=Talent Pool
+COMMON_talent_pool=talent pool
+COMMON_Confirm_Talent_Pool_Close_Title=Confirm Discard Changes
+COMMON_Confirm_Talent_Pool_Close=Are you sure you want to discard these changes?
+COMMON_Confirm_Print_Message_Title=Print $(COMMON_Talent_Pool)
+COMMON_Confirm_Print_Message=To print you must save your changes. Save changes now?
+COMMON_Add_Edit_Talent_Pool=Add, edit, or delete $(COMMON_talent_pool) members below:
+COMMON_Loading_Talent_Pool_Data=Loading $(COMMON_Talent_Pool) Data
+COMMON_Last_Modified_By_Format={0} on {1}
+COMMON_Last_Modified_By_Format_With_Proxy={0} on behalf of {2} on {1}
+COMMON_Last_Modified_By=Last Modified By
+COMMON_Deleted_By=Deleted By
+COMMON_Talent_Pool_Table_Header={0} $(COMMON_talent_pool): {1} $(COMMON_Employee)
+COMMON_Talent_Pool_Table_Header_Plural={0} $(COMMON_talent_pool): {1} $(COMMON_Employees)
+COMMON_Talent_Pool_Readiness_Default=Select One
+COMMON_Talent_Pool_Readiness_Err=Readiness is required
+COMMON_Talent_Pool_Name_Err=Name is required
+# encodings
+COMMON_ISO_8859_1=$(ISO_8859_1)
+COMMON_UTF_8=$(UTF_8)
+COMMON_EUC_KR=$(EUC_KR)
+COMMON_GB2312=$(GB2312)
+COMMON_HZ=$(HZ)
+COMMON_Big5=$(Big5)
+COMMON_EUC_TW=$(EUC_TW)
+COMMON_EUC_JP=$(EUC_JP)
+COMMON_Shift_JIS=$(Shift_JIS)
+#file upload
+COMMON_Choose_File=Choose File
+COMMON_File_Encoding=File Encoding
+COMMON_Upload=Upload
+COMMON_Choose_File_Error=Please choose a file from your computer
+COMMON_Virus_Error=Virus was found in the file and was not uploaded
+COMMON_Uploading_Text=Uploading...
+COMMON_Processing_Text=Processing...
+#[[IS_WAS_DUE_ON]] in OracleFormDAO.java
+COMMON_EMAIL_TEMPLATE_IS_DUE_ON=is due on {0}
+COMMON_EMAIL_TEMPLATE_WAS_DUE_ON=was due on {0}
+#feedback
+COMMON_FEEDBACK_title=Suggestions
+COMMON_FEEDBACK_Evaluate_page=Evaluate this page
+COMMON_FEEDBACK_Strongly_agree=Strongly agree
+COMMON_FEEDBACK_Strongly_disagree=Strongly disagree
+COMMON_FEEDBACK_process_makes_sense=The process makes sense (approvals, rules, etc.)
+COMMON_FEEDBACK_terminology_easy_understand=The terminology is easy to understand
+COMMON_FEEDBACK_design_attractive=The design is attractive
+COMMON_FEEDBACK_page_loads_quickly=The page loads quickly
+COMMON_FEEDBACK_page_easy_use=The page is easy to use
+COMMON_FEEDBACK_recommend_product_friend_colleague=Would you recommend this product to a friend or colleague?
+COMMON_FEEDBACK_Very_Likely=Very Likely
+COMMON_FEEDBACK_Not_very_likely=Not very likely
+COMMON_FEEDBACK_Comments=Comments
+COMMON_FEEDBACK_Pick_category_comments=Pick a category for your comments
+COMMON_FEEDBACK_Submit=Submit
+COMMON_FEEDBACK_Cancel=Cancel
+COMMON_FEEDBACK_Thank_you=Thank you!
+COMMON_FEEDBACK_value_your_feedback=We value your feedback and we look forward to hearing more from you. We review these ratings and comments and use them to learn about our customers and how our products are used.
+COMMON_FEEDBACK_Close_window=Close this window
+#feedback questions
+COMMON_SF_CUSTOMERVOICE_SURVEY_Q1=The process makes sense (approvals, rules, etc.)
+COMMON_SF_CUSTOMERVOICE_SURVEY_Q2=The terminology is easy to understand
+COMMON_SF_CUSTOMERVOICE_SURVEY_Q3=I know what to do next
+COMMON_SF_CUSTOMERVOICE_SURVEY_Q4=The design is attractive
+COMMON_SF_CUSTOMERVOICE_SURVEY_Q5=The page loads quickly
+COMMON_SF_CUSTOMERVOICE_SURVEY_Q6=The page is easy to use
+COMMON_SF_CUSTOMERVOICE_RECOMM_Q1=Would you recommend this product to a friend or colleague?
+COMMON_SF_CUSTOMERVOICE_CATEGORY_Q1=Process
+COMMON_SF_CUSTOMERVOICE_CATEGORY_Q2= Terminology
+COMMON_SF_CUSTOMERVOICE_CATEGORY_Q3= What to do next
+COMMON_SF_CUSTOMERVOICE_CATEGORY_Q4= Design
+COMMON_SF_CUSTOMERVOICE_CATEGORY_Q5=  Page load time
+COMMON_SF_CUSTOMERVOICE_CATEGORY_Q6=Ease of use
+COMMON_SF_CUSTOMERVOICE_CATEGORY_OTHER=Other
+#for Bpp
+COMMON_PROCESS_TAB = Processes
+COMMON_PROCESS_FORM_TAB = Forms
+# Voice of Customer
+COMMON_VOICE_OF_CUSTOMER=Hide Suggestions Link for Voice of Customer
+#For 508 login_branded.jsp
+COMMON_Navigational_Links_Frame=Navigational Links Frame
+
+COMMON_COLLAB_NAMES_TAB=Names
+COMMON_COLLAB_EXPERTS_TAB=Experts
+
+COMMON_WORKFLOW_INVALID_TRANSITION_ERROR=This is an invalid transition.
+COMMON_WORKFLOW_UNAUTHORIZED_TRANSITION_ERROR=This is an unauthorized transition.
+COMMON_WORKFLOW_UNDEFINED_STEP_OWNER_ERROR=The owner for the step is not specified.
+COMMON_WORKFLOW_UNDEFINED_INITIAL_STEP_OWNER_WARNING=A workflow for your request has been created. However, one of the approvers is not available. Please contact your administrator to route the workflow to the next step.
+COMMON_WORKFLOW_UNDEFINED_STEP_OWNER_WARNING=The next approver is not available for this workflow. Please contact your administrator to route the workflow to the next step.
+
+#
+COMMON_Criteria_colon=Criteria:
+COMMON_Thumb=Thumb
+COMMON_FindUser_Find=Find
+COMMON_FindUser_Filtered_By=Filtered by
+COMMON_FindUser_With=With
+COMMON_FindUser_All_Values=All {0}
+COMMON_UserId=User ID
+COMMON_FindUser_First_Name=First Name
+COMMON_FindUser_Last_Name=Last Name
+COMMON_FindUser_Username=Username
+COMMON_FindUser_Job_Code=Job Code
+COMMON_FindUser_Using=Using
+COMMON_FindUser_Starts_With=Starts With
+COMMON_FindUser_Exact_Match=Exact Match
+COMMON_FindUser_Languages=Languages
+COMMON_FindUser_All_Employees=All $(COMMON_Employees)
+COMMON_FindUser_All_Employees_With_External=All $(COMMON_Employees) And External Users
+COMMON_FindUser_With_Direct_Reports_Only=With $(Direct_Reports) Only
+COMMON_FindUser_Without_Direct_Reports_Only=Without $(Direct_Reports) Only
+COMMON_FindUser_and=and
+
+COMMON_FindUser_Searching=Searching
+COMMON_FindUser_Error_Retrieving_Results=Error Retrieving Results
+COMMON_FindUser_Generic_Error=There was an error processing your request. Please contact support.
+COMMON_FindUser_Find_User_Title=Find User
+COMMON_FindUser_Select_User=Select User
+COMMON_FindUser_No_Match=No user matches your search criteria.
+COMMON_FindUser_Search_Results=Search Results
+COMMON_FindUser_Your_Search_Returns=Your search found {0} users.
+COMMON_FindUser_No_Search_Results=Your search did not find any matching users.
+COMMON_FindUser_No_Search_Results_Detail=Please change your search criteria and try again.
+COMMON_FindUser_Number_Selected={0} selected
+COMMON_FindUser_Seach_To_View_List=Click <strong>Search</strong> to see the list of users.
+COMMON_FindUser_Too_Many_Users_Message=Your search found too many users to display on this page.
+COMMON_FindUser_Too_Many_Users_Message_Detail=The first {0} users are displayed. You can <a href="javascript: void(0);" onclick="{1}">view the complete list of users</a> or try again by narrowing your search. <br><em>Note</em>: It can take a few minutes to process and display the complete list of users.
+COMMON_FindUser_Too_Many_Users_Message_Detail_Over_Max=We can only display {0} users at a time. Please narrow your search and try again.
+
+
+COMMON_ColorPicker_Please_Choose_Color=Please choose a color:
+COMMON_ColorPicker_Enter_Red=Enter red [0-255]
+COMMON_ColorPicker_Enter_Green=Enter green [0-255]
+COMMON_ColorPicker_Enter_Blue=Enter blue [0-255]
+COMMON_ColorPicker_Enter_Hue=Enter color hue [0-359]
+COMMON_ColorPicker_Enter_Saturation=Enter color saturation [0-100]
+COMMON_ColorPicker_Enter_Value=Enter color value [0-100]
+COMMON_ColorPicker_Enter_Hex=Enter a hex color value
+COMMON_ColorPicker_Current_Selected_Color=Currently selected color: #{0}
+COMMON_ColorPicker_Closest_Websafe_Color=Closest websafe color: #{0}. Click to select.
+COMMON_ColorPicker_Click_To_Select_A_Color=Click to select a color
+COMMON_ColorPicker_Click_To_Select_A_Hue=Click to change swatch color
+COMMON_ColorPicker_tangerine=Tangerine
+COMMON_ColorPicker_purpleInk=Purple Ink
+COMMON_ColorPicker_moneyGreen=Money Green
+COMMON_ColorPicker_coolWave=Cool Wave
+COMMON_ColorPicker_springBlossom=Spring Blossom
+COMMON_ColorPicker_tomorrowsBlue=Tomorrows Blue
+COMMON_ColorPicker_lightGreen=Light Green
+COMMON_ColorPicker_lightBeige=Light Beige
+COMMON_ColorPicker_lightRust=Light Rust
+COMMON_ColorPicker_mediumGreen=Medium Green
+COMMON_ColorPicker_lightBlue=Light Blue
+COMMON_ColorPicker_darkBeige=Dark Beige
+
+COMMON_MultiSelect_All=All
+COMMON_MultiSelect_Any=Any
+COMMON_MultiSelect_Select_All=Select all
+COMMON_MultiSelect_Clear_All=Clear all
+COMMON_MultiSelect_Select_Options=Select one or more options
+COMMON_MultiSelect_Edit_View_Options=Edit or view selected options
+COMMON_MultiSelect_Multiple_selections=Multiple
+COMMON_MultiSelect_Hierarchical_Primary_Label=Primary
+#{0} - Total number of available options
+COMMON_MultiSelect_Hierarchical_Selected_Label=Selected ({0})
+COMMON_MultiSelect_Hierarchical_Available_Label=Available ({0})
+
+#Role based permission
+COMMON_RBP_INPUT_ERROR_PATTERN=please provide a valid entry for: {0}
+COMMON_RBP_SELECT_ERROR_PATTERN=please select a valid entry for: {0}
+# the above two ${0} are all types(In programming language/database) of a data field. Like: String, Boolean, Number, Decimal and etc. 
+COMMON_RBP_BTN_PRINT=Print
+COMMON_RBP_SEARCH_GRP_HINT=Type group name...
+COMMON_RBP_SEARCH_ROLE_HINT=Type role name...
+COMMON_RBP_BTN_CLOSE=Close
+COMMON_RBP_BTN_NEW_PERMISSION_ROLE=Create New
+COMMON_RBP_LBL_PERMISSION_COL_HEADER=Permission
+COMMON_RBP_LBL_PERMISSION_ROLE=Permission Role
+COMMON_RBP_LBL_TAKE_ACTION=Take action
+COMMON_RBP_LBL_VIEW_SUM=View summary
+COMMON_RBP_LBL_VIEW_HISTORY=View change history
+COMMON_RBP_LBL_GRANT_ROLE_TO=Grant this role to...
+COMMON_RBP_MSG_DEF_WHOM=Define whom you want to grant this role permission to.
+COMMON_RBP_MSG_SPECIFY_TGT_POP=Specify the target population whom the above granted users have permission to access.
+COMMON_RBP_MSG_SPECIFY_MDF_TGT_POP=Specify the target population for the other objects.
+COMMON_RBP_MSG_RESTRICT_TARGET_POPULATION_TO=Restrict target population to:
+COMMON_RBP_MSG_SELECT_PERMISSION=Select permissions on the left
+COMMON_RBP_LBL_PERM_OR=or
+COMMON_RBP_LBL_PERM_GLOBAL=global assignments
+COMMON_RBP_LBL_PERM_GRP=Permission Group...
+COMMON_RBP_LBL_MANAGER=Managers
+COMMON_RBP_LBL_MATRIX_MANAGER=Matrix Managers
+COMMON_RBP_LBL_HR_MANAGER=HR Managers
+COMMON_RBP_LBL_CUSTOM_MANAGER=Custom Managers
+COMMON_RBP_LBL_SECOND_MANAGER=Second Managers
+COMMON_RBP_LBL_HOME_MANAGER=Home Managers
+COMMON_RBP_LBL_HOME_HR_MANAGER=Home HR Managers
+COMMON_RBP_LBL_HOST_MANAGER=Host Managers
+COMMON_RBP_LBL_HOST_HR_MANAGER=Host HR Managers
+COMMON_RBP_LBL_EVERYONE=Everyone (All users)
+COMMON_RBP_MSG_ACCESSOR_GRANT_ROLE=Grant role to:
+COMMON_RBP_MSG_ACCESSOR_ALL_MGR=All {0}
+#{0} can be Manager, HR Manager, Matrix Manager, Custom Manager, Second Manager
+COMMON_RBP_MSG_ACCESSOR_ONLY_MGR=Only the {0} in these groups below:
+COMMON_RBP_MSG_ACCESSOR_ALLOW_ACCESS=Allow their manager to have the same permission access.
+COMMON_RBP_MSG_ACCESSOR_N_LEVELS=level(s) up (for example: Direct manager is 1 level up)
+COMMON_RBP_MSG_ACCESSOR_ALLOW_ACCESS_SECOND=Allow their second manager to have the same permission access.
+COMMON_RBP_MSG_ACCESSOR_N_LEVELS_SECOND=level(s) up (for example: Second manager is 1 level up)
+COMMON_RBP_MSG_TARGET_POPULATION=Target population:
+COMMON_RBP_MSG_TARGET_GRANTED_RPT=Granted User's {0} Reports
+COMMON_RBP_MSG_TARGET_ONLY_RPT=Only the {0} Reports in these groups below:
+COMMON_RBP_LBL_RP_DIRECT=Direct
+COMMON_RBP_LBL_RP_MATRIX=Matrix
+COMMON_RBP_LBL_RP_SECOND=Second
+COMMON_RBP_LBL_RP_HR=HR
+COMMON_RBP_LBL_RP_CUSTOM=Custom
+COMMON_RBP_LBL_RP_HOME=Host
+COMMON_RBP_LBL_RP_HOME_HR=Host HR
+COMMON_RBP_LBL_RP_HOST=Home
+COMMON_RBP_LBL_RP_HOST_HR=Home HR
+COMMON_RBP_MSG_TARGET_INC_RPT=Include access to the Reports of the Granted User's {0} Reports:
+COMMON_RBP_MSG_TARGET_INC_RPT_SECOND= Include access to the Direct Reports of the Granted User's Second Reports:
+COMMON_RBP_MSG_TARGET_N_LEVELS=level(s) down
+COMMON_RBP_MSG_TARGET_EXCLUDE_GRANTED_USER=Exclude Granted User from having the permission access to him/herself.
+COMMON_RBP_MSG_TARGET_INCLUDE_SELF=Include access to Granted User (Self).
+COMMON_RBP_LBL_DEPT=Granted User's Department
+COMMON_RBP_LBL_DIV=Granted User's Division
+COMMON_RBP_LBL_LOC=Granted User's Location
+COMMON_RBP_LBL_FLD=Granted User's Custom Field
+COMMON_RBP_LBL_NONE_SELECT=None Selected
+COMMON_RBP_LBL_NAME_DESC=Name and description
+COMMON_RBP_LBL_PERM_SETTING=Permission settings
+COMMON_RBP_LBL_ROLE_NAME=Role Name:
+COMMON_RBP_LBL_DESC=Description:
+COMMON_RBP_LBL_PERMISSION=Permission...
+COMMON_RBP_LBL_ADD=Add...
+COMMON_RBP_LBL_DEF_TARGET=Target needs to be defined.
+COMMON_RBP_MSG_SELECT_GRP=Select a group whom you want to grant this role to. You may want a group of users to manage employee records for a certain group of employees. For example, maybe a department manager should edit records within her own department.
+COMMON_RBP_LBL_PERM_REQ_TGT=Permission requiring target
+COMMON_RBP_LBL_PERM_NOT_REQ_TGT=Permission not requiring target
+COMMON_RBP_LBL_PERM_REQ_MDF_OBJECT_TGT=Permission requiring MDF object target
+COMMON_RBP_LBL_PERM_GRP_OR_USER=Permission Groups or Users
+COMMON_RBP_LBL_TGT_POP=Target population
+COMMON_RBP_LBL_MK_ACTIVE=Make active
+COMMON_RBP_LBL_SELECT_ALL=Select All
+COMMON_RBP_LBL_CLEAR_ALL=Clear All
+COMMON_RBP_LBL_SELECT_NONE=Select None
+COMMON_RBP_LBL_MK_INACTIVE=Make inactive
+COMMON_RBP_MSG_SPECIFY_WHAT_PERM=Specify what permissions users in this role should have.
+COMMON_RBP_LBL_LC_VIEW=View
+COMMON_RBP_LBL_LC_GRP=group
+COMMON_RBP_LBL_LC_N_UP=(and their managers {0} level(s) up)
+COMMON_RBP_LBL_LC_N_DOWN=(and their reports {0} level(s) down)
+COMMON_RBP_LBL_LC_N_UP_SECOND=(and their second managers {0} level(s) up)
+COMMON_RBP_LBL_LC_N_DOWN_SECOND=(and their second reports {0} level(s) down)
+COMMON_RBP_LBL_LC_PLEASE=Please
+COMMON_RBP_LBL_LC_SPECIFY=specify
+COMMON_RBP_LBL_LC_TGT=the target
+COMMON_RBP_MSG_PRT_PERMISSION=This role has the following permissions:
+COMMON_RBP_LBL_PRT_LAST_MOD=last modified by
+COMMON_RBP_MSG_PRT_GRP_USERS=Groups/Users granted with role permission access and their target:
+COMMON_RBP_LBL_PRT_GRP_USERS=Group/User granted with role permission
+COMMON_RBP_LBL_PRT_PRV_TIPS=open link in new window
+COMMON_RBP_MSG_VALIDATION_NAME=please specify a name for permission role.
+COMMON_RBP_MSG_VALIDATION_DESC=please specify a description for permission role.
+COMMON_RBP_MSG_VALIDATION_PERMISSION=At least one permission needs to be selected for this role.
+COMMON_RBP_MSG_VALIDATION_GROUPS=At least one group or user needs to be granted with this role.
+COMMON_RBP_MSG_VALIDATION_ALL_OTHER=You must select at least one
+COMMON_RBP_LBL_CTRL_SELECT=Ctrl-Click to select multiple
+COMMON_RBP_MSG_TOOLTIP_SPECIFY_PERM=For example, if you want users in this role to be able to Reset User Password, go to 'Manager Users' and select the Reset User Password checkbox.
+COMMON_RBP_MSG_TOOLTIP_TARGET_PERM=<p>Target population is group of users whom this permission is apply to. </p><p>For example: Your organization has 5 departments but you only want Administrator Joe to Change User Information for Department A only. In this case, the target population is 'Department A' </p><p><strong>Note:</strong> You will specify the target population after you are done selecting permissions.</p>
+COMMON_RBP_MSG_TOOLTIP_DEF_WHOM=<p>Users granted with this role will be able to exercise all the permissions selected for this role.</p><p>For example: if you wish to grant the role to a permission group, choose 'Permission Group' select the group you want by clicking 'Select' button.</p><p>If you wish to grant the role to a group of managers, choose 'Managers'.</p>
+COMMON_RBP_MSG_TOOLTIP_ACCESS_LEVEL=<p>For example, Manager Jane is able to do Succession Planning and Approval for her team. Her Direct Managers should also have the same permission on Jane's team.</p><p>In this case, select the checkbox and choose the level of management that should share Jane's permissions.</p><p><strong>1 level up.</strong> Direct Manager.</p><p><strong>2 level up.</strong> Managers of Direct Manager.</p><p><strong>All level up.</strong> All levels of managers.</p>
+COMMON_RBP_MSG_TOOLTIP_EXCLUDE_LOGIN=<p>Select this checkbox if you do not want the granted user to have permission rights on him/herself.</p><p>For example: You want Administrator Joe to be able to Delete Documents for everyone in the organization, but he cannot delete his own documents.  In that case, you want to select this checkbox.</p>
+COMMON_RBP_MSG_TOOLTIP_WHY=<p>Some permissions can only be exercised with the presence of a people group (target population), which the permissions can act upon. <a href="#">View those permissions.</a><span class="openWinIcon"></span></p> <p>A target population is a group of users whom the granted users above can have access to.  </p> <p>For example: Your organization has 5 departments, but you only want Administrator Joe to Change User Information for Department A only.  In this case, the target is 'Department A'.</p>
+COMMON_RBP_MSG_COPY_PERMISSION_ROLE=Only the permissions of this role will be copied over. After copying, you would need to grant user access to this new role.
+COMMON_RBP_LBL_COPY_OF=Copy of
+COMMON_RBP_LBL_MAKE_COPY=Make a Copy
+COMMON_RBP_LBL_COPY_ROLE=Copy Role
+COMMON_RBP_LBL_CHANGE_HISTORY=Change History: {0}
+COMMON_RBP_LBL_DEL_ROLE_WARN=Are you sure you want to delete
+COMMON_RBP_MSG_DEL_ROLE_WARN=The following permission groups have been granted with this role's permissions. Deleting the role will remove their permission rights.
+COMMON_RBP_MANAGE_PERM_USER_INVALID=Invalid User ID {0}.
+COMMON_RBP_MANAGE_PERM_USER_ERROR=Unable to grant permission to user {0}.
+COMMON_RBP_COPY_ROLE_ERROR=Unable to copy role {0}
+COMMON_RBP_ROLE_NAME_EXISTS_ERROR=Role name already exists.
+COMMON_RBP_ROLE_NAME_LENGTH_ERROR=The length of role name should be less than 256.
+COMMON_RBP_SCHEDULE_REFRESH_RULE_ERROR=Unable to complete your update. Please save your permission role again and we'll try again.
+COMMON_RBP_PERMISSION_ROLE_TITLE=Permission Role List
+COMMON_RBP_PERMISSION_ROLE_DETAIL_TITLE=Permission Role Detail
+COMMON_RBP_GROUP_PICKER_SELECT_GROUPS=Select Groups
+COMMON_RBP_GROUP_PICKER_SELECTED_GROUPS=Selected Groups
+COMMON_RBP_GROUP_PICKER_GRPS=Groups
+COMMON_RBP_GROUP_PICKER_TITLE=Select the permission group you wish to grant this role to.
+COMMON_RBP_LBL_READ=View
+COMMON_RBP_LBL_WRITE=Edit
+COMMON_RBP_LBL_LINK_COLUMN_OF=Of
+COMMON_RBP_LBL_LINK_COLUMN_REPORTS=Reports
+COMMON_RBP_LBL_FILTER_TIP = everyone in {0}
+COMMON_RBP_TITLE_CHANGED_DATE = Changed Date
+COMMON_RBP_TITLE_CHANGED_BY = Changed By
+COMMON_RBP_TITLE_VIEW_SUM = View Summary
+COMMON_RBP_LBL_VIEW = View
+COMMON_RBP_ERR_NO_ACCESSGROUP = Please specify at least one group to grant
+COMMON_RBP_ERR_NO_TARGETRULE = Please select at least one target rule
+COMMON_RBP_ERR_NO_TARGETGROUP = Please specify at least one group as the target
+COMMON_RBP_ERR_NO_TARGETPOP = Some rules are not specified target population
+COMMON_RBP_ROLE_NAME = Role name: {0}
+COMMON_RBP_LASTMODIFY = (last modified by {0}, {1})
+COMMON_RBP_SUM_INTRO = This role has the following permissions:
+COMMON_RBP_GRANT_TO = Groups / Users granted with role permission access and their targets:
+COMMON_RBP_SUM_NEED_TARGET = Permission requiring target
+COMMON_RBP_SUM_NO_TARGET = Permission not requiring target
+COMMON_RBP_TITLE_ACCESS = Group/User granted with role permission
+COMMON_RBP_TITLE_TARGET = Target population
+COMMON_RBP_ROLEPAGE_DESC = Different users should have different access to the information in the application. A <i>role</i> controls the access rights a user (or a group) has to the application or employee data. Each role has its own set of access permissions that you define. You can also limit exactly what a group can access.
+COMMON_RBP_LBL_ALL_MANAGER=All Managers
+COMMON_RBP_LBL_ALL_MATRIX_MANAGER=All Matrix Managers
+COMMON_RBP_LBL_ALL_HR_MANAGER=All HR Managers
+COMMON_RBP_LBL_ALL_CUSTOM_MANAGER=All Custom Managers
+COMMON_RBP_LBL_ALL_SECOND_MANAGER=All Second Managers
+COMMON_RBP_LBL_ALL_GA_HOME_MANAGER=All Home Managers
+COMMON_RBP_LBL_ALL_GA_HOME_HR_MANAGER=All Home HR Managers
+COMMON_RBP_LBL_ALL_GA_HOST_MANAGER=All Host Managers
+COMMON_RBP_LBL_ALL_GA_HOST_HR_MANAGER=All Host HR Managers
+COMMON_RBP_LBL_ALL_DIRECT_REPORT=All $(Direct_Reports)
+COMMON_RBP_LBL_ALL_MATRIX_REPORT=All Matrix Reports
+COMMON_RBP_LBL_ALL_HR_REPORT=All HR Reports
+COMMON_RBP_LBL_ALL_CUSTOM_REPORT=All Custom Reports
+COMMON_RBP_LBL_ALL_SECOND_REPORT=All Second Reports
+COMMON_RBP_LBL_ALL_GA_HOME_REPORT=All Host Reports
+COMMON_RBP_LBL_ALL_GA_HOME_HR_REPORT=All Host HR Reports
+COMMON_RBP_LBL_ALL_GA_HOST_REPORT=All Home Reports
+COMMON_RBP_LBL_ALL_GA_HOST_HR_REPORT=All Home HR Reports
+COMMON_RBP_MSG_SUM_EMPTY={0}
+COMMON_RBP_MSG_SUM_MANAGER=Managers in {0}
+COMMON_RBP_MSG_SUM_MATRIX_MANAGER=Matrix Managers in {0}
+COMMON_RBP_MSG_SUM_HR_MANAGER=HR Managers in {0}
+COMMON_RBP_MSG_SUM_CUSTOM_MANAGER=Custom Managers in {0}
+COMMON_RBP_MSG_SUM_SECOND_MANAGER=Second Managers in {0}
+COMMON_RBP_MSG_SUM_GA_HOME_MANAGER=Home Managers in {0}
+COMMON_RBP_MSG_SUM_GA_HOME_HR_MANAGER=Home HR Manager in {0}
+COMMON_RBP_MSG_SUM_GA_HOST_MANAGER=Host Managers in {0}
+COMMON_RBP_MSG_SUM_GA_HOST_HR_MANAGER=Host HR Manager in {0}
+COMMON_RBP_MSG_SUM_DIRECT_REPORT=$(Direct_Reports) in {0}
+COMMON_RBP_MSG_SUM_MATRIX_REPORT=Matrix Reports in {0}
+COMMON_RBP_MSG_SUM_HR_REPORT=HR Reports in {0}
+COMMON_RBP_MSG_SUM_CUSTOM_REPORT=Custom Reports in {0}
+COMMON_RBP_MSG_SUM_SECOND_REPORT=Second Reports in {0}
+COMMON_RBP_MSG_SUM_GA_HOME_REPORT=Host Reports in {0}
+COMMON_RBP_MSG_SUM_GA_HOME_HR_REPORT=Host HR Reports in {0}
+COMMON_RBP_MSG_SUM_GA_HOST_REPORT=Home Reports in {0}
+COMMON_RBP_MSG_SUM_GA_HOST_HR_REPORT=Home HR Reports in {0}
+COMMON_RBP_TOOLTIP_WHY=<p>Some permissions can only be exercised with the presence of a people group (target population), which the permissions can act upon.</p><p>A target population is a group of users whom the granted users above can have access to.</p><p>For example: Your organization has 5 departments, but you only want Administrator Joe to Change User Information for Department A only.  In this case, the target is 'Department A'.</p>
+COMMON_RBP_TOOLTIP_LBL_WHY=Why
+COMMON_RBP_LBL_FIRST_NAME=First Name
+COMMON_RBP_LBL_LAST_NAME=Last Name
+COMMON_RBP_LBL_USER_NAME=Username
+COMMON_RBP_BTN_ADD_USER=Add User
+COMMON_RBP_BTN_REVOKE_PERMISSION=Revoke Permission
+COMMON_RBP_BTN_DONE=I'm Done
+COMMON_RBP_MSG_REMOVE_USER_PERMISSION=Remove permission from this user
+COMMON_RBP_TITLE_ADD_USER=Add User
+COMMON_RBP_MSG_ADD_USER_PERMISSION=Select the name of the user who will have access to Role-Based Permission:
+COMMON_RBP_TITLE_REVOKE_USER=Revoke Permission
+COMMON_RBP_MSG_REVOKE_USER_PERMISSION=Are you sure you want to revoke permission for this user(s)?
+COMMON_RBP_MSG_REVOKE_SUCCESS=Permission has been removed for {0} user(s).
+COMMON_RBP_MSG_ADD_SUCCESS=Permission successfully granted.
+COMMON_RBP_BTN_GRANT_PERMISSION=Grant Permission
+COMMON_RBP_LBL_FIND_USER=Find user...
+COMMON_RBP_MSG_FILTER_INVALID={0} is no longer a valid filter. Please update the selection and save your change.
+COMMON_RBP_MSG_VALIDATION_ON_USER=Please specify a user.
+COMMON_RBP_MSG_USER_PERMISSIONS=User Permissions
+COMMON_RBP_MSG_ADMIN_PERMISSIONS=Administrator Permissions
+COMMON_RBP_MSG_VISIBILITY=Visibility:
+COMMON_RBP_MSG_VIEW_CURRENT=View Current
+COMMON_RBP_MSG_VIEW_HISTORY=View History
+COMMON_RBP_MSG_CORRECT=Correct
+COMMON_RBP_MSG_INSERT=Insert
+COMMON_RBP_MSG_ADJUST_ORDER=Adjust Order
+COMMON_RBP_EDIT_GRANTING=Edit Granting
+# RBP Group management
+COMMON_RBP_GROUP_TAB_Definition=Definition
+COMMON_RBP_GROUP_TAB_GrantedRoles=Granted Permission Roles
+COMMON_RBP_GROUP_TITLE=Permission Group
+COMMON_RBP_GROUP_ROLELIST=Permission Role
+COMMON_RBP_GROUP_ROLELIST_TIPS={0} has the following Permission Roles
+COMMON_RBP_GROUP_BUTTON_Add=Create New
+COMMON_RBP_GROUP_ACTION_Copy=Copy
+COMMON_RBP_GROUP_ACTION_Del=Delete
+COMMON_RBP_GROUP_ACTION_Edit=Edit
+COMMON_RBP_GROUP_ACTION_TakeAction=Take Action
+# RBP Hierarchy Criteria
+# {0} is the name of GO Object
+COMMON_RBP_BASIC_CRITERIA=Include access to {0} with the following criteria
+# {0} is the name of GO Object
+COMMON_RBP_HIERARCHY_CRITERIA=Include access to {0} in the hierarchy below the Granted User's {0}
+# {0} is the name of GO Object
+COMMON_RBP_EXCLUDE_ACCESS_CRITERIA=Exclude access to Granted User's {0}
+# KBA messages and label definition
+COMMON_RBP_EXCLUDE_SELF=exclude Granted User from having the permission access to him/herself
+COMMON_RBP_INCLUDE_SELF=include access to Granted User (Self)
+COMMON_KBA_LBL_ENABLED=Enabled
+COMMON_KBA_LBL_CREATED=Created On
+COMMON_KBA_LBL_DEF_QUESTION=System Security Questions
+COMMON_KBA_LBL_CUSTOM_QUESTION=Personalized Security Questions
+COMMON_KBA_LBL_CUSTOM_QUESTION_DESC=Create your own security questions and make them available to users.
+COMMON_KBA_LBL_ADD_NEW_QUESTION=Add New Question
+COMMON_KBA_LBL_EDIT_QUESTION=Edit Question
+COMMON_KBA_LBL_SELECT_LAN=Select questions for this language:
+COMMON_KBA_LBL_QUESTION=Question
+COMMON_KBA_LBL_YOUR_SECURITY_QUESTION=Your Security Questions
+COMMON_KBA_LBL_ANSWER=Your Answers
+COMMON_KBA_MSG_DUPLICATED=Questions are duplicated.
+COMMON_KBA_MSG_FILL_ALL=Please fill in all answers to proceed
+COMMON_KBA_MSG_SETUP_QUESTION_ANSWER=Select the security questions that you will use to reset your password. Select questions that you can easily answer correctly. Enter your answer in the blank text box next to the question.
+COMMON_KBA_MSG_QUESTION_ANSWER_TITLE=Select Your Security Questions
+COMMON_KBA_LBL_RESET_PASSWD=Reset Your Password
+COMMON_KBA_RESET_SUCCESSFUL=Reset Successful!
+COMMON_KBA_MSG_RESET_PASSWD=To reset your password, please answer security questions below:
+COMMON_KBA_MSG_DESC_SYSTEM_QUESTION=Select the security questions you want to make available to users to reset their password. Choose from the list or create your own.
+COMMON_KBA_LBL_TITLE_ADD_NEW=Manage Security Questions
+COMMON_KBA_MSG_DEL_TIP=This is company default locale question. Switch to default locale to delete it.
+COMMON_KBA_MSG_SELECT_NUM=Employee must answer {0} security questions before they can reset their password.
+COMMON_KBA_MSG_CONFIRM_DEL=Are you sure to delete it?
+COMMON_KBA_LBL_CUR_LOCALE=Current language
+COMMON_KBA_MSG_PROMPT_INPUT=Question content cannot be empty
+COMMON_KBA_MSG_ALLOW_FORGET_PWD=Enable Forget Password feature
+COMMON_KBA_MSG_WAYS_TO_GET_PWD=Specify the forget password feature you would like to use. You can only select one.
+COMMON_KBA_MSG_RETRIEVE_BY_EMAIL=Allow users to retrieve password through email
+COMMON_KBA_MSG_RETRIEVE_BY_EMAIL_DESC=This option lets users enter their email to reset their password.
+COMMON_KBA_MSG_RETRIEVE_BY_URL_ACCESS_THRU_EMAIL=Reset Password using a URL accessed through an email link
+COMMON_KBA_MSG_ALLOW_GENERATE_TMP_PASSWD=Allow the system to generate a new temporary password for the user
+COMMON_KBA_MSG_GET_BY_PROVIDE_EMAIL=Allow users to retrieve passwords by providing an email address
+COMMON_KBA_MSG_RESET_THROUGH_EMAIL=Allow users to reset passwords by providing an email address
+COMMON_KBA_MSG_ALLOW_GENERATE_TMP_PASSWD_DESC=Specify whether the system will generate a new temporary password and email it to the user.\nNote: This option only applies if you're using the Forgot Your Password feature.
+COMMON_KBA_MSG_GET_PWD_WITH_EMAIL=Reset passwords using security questions accessed through email link
+COMMON_KBA_MSG_GET_PWD_WITHOUT_EMAIL=Reset passwords using security questions accessed through the system
+COMMON_KBA_LBL_OPEN_DLG=Manage security questions...
+COMMON_KBA_MSG_OPEN_TIP=Provide security question and answer combination that help the system verify user identities.
+COMMON_KBA_MSG_DESC_WITH_EM=This option lets users receive an email with a link to reset their password after answering the security questions correctly.
+COMMON_KBA_MSG_DESC_WITHOUT_EM=This option redirects users to the security question page to reset their password after answering the security questions correctly.
+COMMON_KBA_MSG_ANSWERS_SAVED_SUCCESSFULLY=Your answers have been saved successfully
+COMMON_KBA_LBL_INPUT_PWD=Type your new password
+COMMON_KBA_LBL_INPUT_PWD_AGAIN=Type your new password again
+COMMON_KBA_MSG_PASSWD_NOT_MATCH=The new passwords you entered did not  match.Please try again.
+COMMON_KBA_MSG_PASSWD_RESET_SUCCESSFULLY=Your password has been successfully reset.  Please make a note of it and return to log in.
+COMMON_KBA_MSG_WARN_ANSWER_FAIL=Your answer doesn't match the answer on records. Please try again.
+COMMON_KBA_MSG_WARN_LOCKED=The answer(s) to the security question(s) that you entered do not match our records.  You will be unable to reset your password for five minutes.  Please try again later, or contact your company's administrator.
+COMMON_KBA_MSG_WARN_TRY_TIMES=Note that you only have {0} time(s) left to provide the correct answer or contact your admin to reset your password.
+COMMON_KBA_MSG_WARN_NO_ANSWERS_SETUP=You have not defined your security questions. To reset your password, please contact your system administrator.
+COMMON_KBA_MSG_QUESTION_ANSWERS_SAVED_SUCCESSFULLY=We have successfully stored your answers, which can also be updated in Options->Security Questions
+COMMON_KBA_WITH_EMAIL_LOGIN_PASSWORDSENT=Please check your email. You should receive an email containing a link to reset your password. 
+COMMON_KBA_WITH_EMAIL_LOGIN_PASSWORDSENT_TIPS=If you don't receive it in the next few minutes, you can try to <a href="{0}">resend it</a> or read our <a href="{1}" target="_blank">support FAQ</a> for advice, or contact your company's administrator.
+COMMON_KBA_LOGIN_PASSWORDSENT_PLAIN_TEXT=If the username is valid, you should receive an email with your password.
+COMMON_KBA_LOGIN_PASSWORDSENT_RESET_WITH_EMAIL=If the username is valid, you should receive an email with a link to reset your password.
+COMMON_KBA_BACK_TO_LOGIN=Back to {0} page
+COMMON_KBA_LBL_LOGIN=Login
+COMMON_KBA_LBL_SELECT_QUESTION=Select a question
+COMMON_KBA_MSG_THREE_TIMES_TRY=Note that you only have three times to input correct answers.
+COMMON_KBA_MSG_NO_ENOUGH_QUESTION=The number of enabled questions is too small.
+COMMON_KBA_MSG_PASSWD_EMPTY=Please input the password below.
+COMMON_KBA_DEFINE_QUESTIONS_MSG=You can define your questions in different language below
+COMMON_KBA_NOT_DEFINE_QUESTION_FOR_LOCALE=Not defined for "{0}"
+COMMON_KBA_NEW_USER_ALREADY_SET_PASSWORD=You have already set your password via welcome email. The link is no longer valid. Please contact system adminstrator to reset your password.
+# DPCS2 messages
+#in below two messages, {0} will be replaced by a timestamp e.g. 10/14/2011 13:59:00 PM CST
+COMMON_DPCS2_SAVE_NOTIFICATION=Draft saved at {0}
+COMMON_DPCS2_PUBLISH_NOTIFICATION=Published at {0}
+COMMON_DPCS2_ACCEPT=Accept
+COMMON_DPCS2_ACCEPTED=Accepted
+COMMON_DPCS2_Privacy_STMT=Accepted Privacy Statements
+COMMON_DPCS2_ACK_STMT=Set DPCS Statement Status
+COMMON_DPCS2_Add_Lang=Add Language
+COMMON_DPCS2_All_Countries=All Countries
+COMMON_DPCS2_Assigned_Country=Assigned Countries
+COMMON_DPCS2_assigned_to=assigned to {0}
+COMMON_DPCS2_Audit_Log=Audit Log
+COMMON_DPCS2_Created_By=Created By
+COMMON_DPCS2_New_STMT=Create New Statement
+COMMON_DPCS2_Decline=Decline
+COMMON_DPCS2_Declined=Declined
+COMMON_DPCS2_Decline_STMT=Decline Statement
+COMMON_DPCS2_Default_STMT=Default Statement
+COMMON_DPCS2_Delete_STMT=Delete Statement
+COMMON_DPCS2_Download_report=Download detailed report
+COMMON_DPCS2_Draft=Draft
+COMMON_DPCS2_external_users=External users
+COMMON_DPCS2_intranet_users=Intranet users
+COMMON_DPCS2_Find_employee=Find a user
+COMMON_DPCS2_General_setting=General Settings
+COMMON_DPCS2_Go_Back=Go Back
+COMMON_DPCS2_Initiated_by=Initiated By
+COMMON_DPCS2_internal_user=Internal users
+COMMON_DPCS2_Lang=Language
+COMMON_DPCS2_Last_Modify=Last Modified
+COMMON_DPCS2_MSG_DATA_Privacy=Manage Data Privacy Consent Statements
+COMMON_DPCS2_MSG_NOTE_Default_STMT=Note that employees will see the default statement if the version of their default language is not created yet. You can create default statement message in any supported language. You can also add statements in other languages.
+COMMON_DPCS2_NOTE_DPCS_NAME=(Note that you will not be able to change the name once the statement is created)
+COMMON_DPCS2_Print_preview=Print Preview...
+COMMON_DPCS2_Publish=Published
+COMMON_DPCS2_Publish_By=Published By
+COMMON_DPCS2_Publish_Date=Publish Date
+COMMON_DPCS2_Redirect_URL=Redirect URL for Decline
+COMMON_DPCS2_Revoked=Revoked
+COMMON_DPCS2_Save_draft=Save As Draft
+COMMON_DPCS2_Saved=Saved
+COMMON_DPCS2_Save_Publish=Save & Publish
+COMMON_DPCS2_Save_Publish_STMT=Save & Publish Statement
+COMMON_DPCS2_Set_As_Default=Set this as system default statement
+COMMON_DPCS2_MSG_SHOW_STMT=Show this statement to those employees who have not been associated with any countries, and also to those whose countries have not been assigned with any statement.
+COMMON_DPCS2_LBL_STMT=Statement
+COMMON_DPCS2_STMT_Message=Statement Message
+COMMON_DPCS2_DESC_Version=This page shows all versions of the data privacy statement.
+COMMON_DPCS2_MSG_Country_assigned=This statement is assigned to the countries below. Please note that this list reflects the latest published version.
+COMMON_DPCS2_User=User
+COMMON_DPCS2_Candidate=Username/Candidate
+COMMON_DPCS2_Action_decline_accept=Use this page to accept or decline a statement on behalf of a user.
+COMMON_DPCS2_MSG_DATA_STMT=Use this page to manage data privacy statements.
+COMMON_DPCS2_Version=Version
+COMMON_DPCS2_MSG_Version=You are viewing version {0} of "{1}"
+COMMON_DPCS2_View_STMT=View those whose treatment of this statement is {0}
+COMMON_DPCS2_acceptance=acceptance
+COMMON_DPCS2_declination=declination
+COMMON_DPCS2_NOT_PRESENTED=Not Presented
+COMMON_DPCS2_View_Log=View Audit Log
+COMMON_DPCS2_View_History=View History
+COMMON_DPCS2_View_History_for=View History for {0}
+COMMON_DPCS2_LBL_View_Log=View Log
+COMMON_DPCS2_LBL_View_Stmt=View Statement
+COMMON_DPCS2_DEL_Confirm= You are about to delete the {0} translation for this statement.  All {1} translation data will be lost.<br/>Are you sure you want to continue?
+COMMON_DPCS2_Publish_Confirm=You are about to publish this statement. Employees will see this new statement and must accept it again the next time they log into the system.<br/>Are you sure you want to continue?
+COMMON_DPCS2_Choose_to_accept=You are choosing not to accept the statement terms and will be automatically blocked from using the system until you accept the statement terms.<br/>Are you sure you want to continue?
+COMMON_DPCS2_TIP_view_stmt=You are viewing a read only version of this statement
+COMMON_DPCS2_search_employee=You can search for an individual user or multiple users to see who have accepted or declined this statement and when.
+COMMON_DPCS2_GO_BACK_CONFIRM_TITLE=Leave The Page
+COMMON_DPCS2_GO_BACK_CONFIRM_MSG=You're about to leave this page.<br/>Click Yes to leave the page and all unsaved changes will be discarded.<br/>Click No to remain on the page.
+COMMON_DPCS2_DESCRIPTION_FOR_VIEW_LOG=Audit log for version {0} of "{1}"
+COMMON_DPCS2_STATEMENT_DECLINE_CONFIRM=Are you sure you want to decline this statement?\nWhen you decline this statement, you will not have access to the system.
+COMMON_DPCS2_SELF=Self
+COMMON_DPCS2_PROXY_LOGIN_DPCS_NOT_ACCEPTED=The Data Privacy Consent Statement is not accepted yet. Please accept statement first!
+COMMON_DPCS2_ACTIVE_STATEMENTS=DPCS Statements
+COMMON_DPCS2_DELETED_STATEMENTS=Deleted DPCS Statements
+COMMON_DPCS2_WARN_MSG_INPUT_NAME=Please input an employee name
+COMMON_DPCS2_JOB_GEN_RPT_DONE=Generating report finished. Click the Download button to download the report
+COMMON_DPCS2_JOB_GEN_RPT=Generating report is in-progress... please wait.<br>You will get an email notification once the report is available for downloading
+COMMON_DPCS2_JOB_FAILED=Job failed
+COMMON_DPCS2_PROXY_BY={0} on behalf of {1}
+COMMON_DPCS2_Proxied_by=Proxied By
+COMMON_DPCS2_Deleted=Deleted
+COMMON_DPCS2_WARN_MSG_DECLINE_STATEMENT=Warning: Declining the statement will permanently delete this user's job candidate profile. Do you want to continue?
+
+#Cubetree integration
+COMMON_JAM=Jam
+COMMON_JAM_TAB=$(COMMON_JAM)
+COMMON_JAM_HOME_TAB=Home
+COMMON_JAM_NOTIFICATION_COUNT_KNOWN=You have {0} notification items in your $(COMMON_JAM) feed.  Click this link to read them now in $(COMMON_JAM).
+COMMON_JAM_NOTIFICATION_COUNT_UNKNOWN=The total count of notification items in your $(COMMON_JAM) feed could not be retrieved.  Click this link to re-establish your $(COMMON_JAM) session.
+COMMON_JAM_NOTIFICATION_COUNT_ZERO=You have {0} notification items in your $(COMMON_JAM) feed.  Click this link to go to $(COMMON_JAM).
+COMMON_Goto_Cubetree=$(COMMON_JAM) Home
+COMMON_redirecting_to_cubetree=You are being redirected to $(COMMON_JAM)...
+
+#Common CAPTCHA messages
+COMMON_CAPTCHA_PROMPT=Please enter the verification code you here:
+COMMON_CAPTCHA_PROMPT_AUDIO=Please enter the verification code you hear:
+COMMON_GET_NEW_CAPTCHA=Get another CAPTCHA
+COMMON_GET_AUDIO_CAPTCHA=Get an audio CAPTCHA
+COMMON_GET_IMAGE_CAPTCHA=Get an image CAPTCHA
+COMMON_INCORRECT_CAPTCHA=The verification code you entered is incorrect. Please try again.
+
+COMMON_BTN_Continue=Continue
+COMMON_DOWNTIME_NOTIFY_TITLE=SuccessFactors Scheduled Maintenance Notification
+COMMON_DOWNTIME_TIME_WINDOW= {0}<br> to<br> {1}<br>
+COMMON_DOWNTIME_NOTIFY_TEXT1=Please be advised that SuccessFactors will be conducting scheduled maintenance on the SuccessFactors Business Execution Suite during the above time period.
+COMMON_DOWNTIME_NOTIFY_TEXT2=Access to the system may be intermittently available or slow during this time period. We recommend you save your work often. Thank you for your patience.
+COMMON_OPT_DPCS=Privacy Statements
+
+#Additional Common Roles useful for Route MapTemplate Defination Screen
+COMMON_ROLE_R=Recruiter in Recruiting
+COMMON_ROLE_W=Second Recruiter in Recruiting
+COMMON_ROLE_Q=VP of Staffing in Recruiting
+COMMON_ROLE_T=Primary Coordinator in Recruiting
+COMMON_ROLE_G=Hiring Manager in Recruiting
+COMMON_ROLE_GM=Hiring Manager's $(Manager) in Recruiting
+COMMON_ROLE_S=Sourcer in Recruiting
+
+COMMON_PM2_TEAMOVERVIEW_TAB=Team Overview
+COMMON_PM2_TEAMRATER_TAB=Team Rater
+COMMON_PM2_INDIVIDUALRATING_TAB=Individual Rating
+
+COMMON_PERFORMANCE_ABOUT=about
+COMMON_OPT_KBA_ANSWER=Security Questions
+
+#migration of list view reports to ad-hoc report builder
+COMMON_Matrix_Manager=Matrix Manager
+COMMON_Hr_Manager=Hr Manager
+COMMON_Second_Manager=Second Manager
+COMMON_Custom_Manager=Custom Manager
+
+
+COMMON_XML2CSV_CONVERSION=Convert XML to CSV (SIEMENS ONLY)
+COMMON_FAMILY_ROLE_FTP_PATH=Family and Role Quartz Import FTP/SFTP Path:
+COMMON_JOBCODE_FTP_PATH=Job Code Quartz Import FTP/SFTP Path:
+COMMON_JOB_TAG_FTP_PATH=Job Role Tag Quartz Import FTP/SFTP Path:
+COMMON_JOB_ENTITY_FTP_PATH=Job Entity Quartz Import FTP/SFTP Path:
+COMMON_XML2CSV_JOB_SUCCEED=Convert xml to csv files succeeded without error.\n
+COMMON_XML2CSV_JOB_FAILED=Convert xml to csv files failed with the following error(s):\n
+
+# Calculator
+COMMON_Calculator_Change_Amount=Change amount
+COMMON_Calculator_Change_Percent=Change percent
+COMMON_Calculator_Invalid_Number=Enter a valid decimal number
+COMMON_Calculator_Modify_Title=Modify the entered value using a calculator
+
+# Dialog or Popup
+COMMON_PRESS_ESC_KEY=Press the ESC key to close the dialog.
+
+# COMMON_FOOTER is used to build page footer which includes copyright and debug information. {0} means a link of company name "{year} SuccessFactors, Inc." which comes from COMMON_COPYRIGHT_YEAR_SUCCESSFACTORS_INC.
+# {1} is a clickable link "Show version information." to show a popup of "About SuccessFactors"
+COMMON_FOOTER=Copyright \u00a9 {0} $(COMMON_SF_ABOUT) {1}
+COMMON_FOOTER_SHOW_VERSION_INFO=Show version information.
+
+COMMON_PHOTO_CACHING=Browser Photo Caching
+
+COMMON_SHOW_ME=Show Me
+COMMON_SHOW_ME_AUTHOR=$(COMMON_SHOW_ME) Author
+COMMON_SHOW_ME_AUTHOR_PERM=$(COMMON_SHOW_ME_AUTHOR) Permission
+
+COMMON_SHOW_ME_LINK=$(COMMON_SHOW_ME)
+COMMON_SHOW_ME_CO_PLAY_TITLE=Watch "$(COMMON_SHOW_ME)" Video
+COMMON_SHOW_ME_CO_AUTHOR_TITLE=Record "$(COMMON_SHOW_ME)" Video
+COMMON_SHOW_ME_DEFAULT_VIDEO_TITLE=$(COMMON_SHOW_ME)
+COMMON_SHOW_ME_AUTHOR_LINK=Record a Video ...
+COMMON_SHOW_ME_HOW_TO_TITLE=How to create '$(COMMON_SHOW_ME)' video
+COMMON_SHOW_ME_AUTHOR_WELCOME=Hi $(COMMON_SHOW_ME) Author. Start here to record a Show Me video for this page.
+COMMON_SHOW_ME_MOBILE_AUTHOR=Hi $(COMMON_SHOW_ME) Author. $(COMMON_SHOW_ME) recording is currently available only on laptops and desktops. Once recorded and posted both you and your users can watch on tablets and mobile devices.
+
+COMMON_SHOW_ME_LEARN_MORE=<a href="javascript:void(0);" class="link" onclick="{0}return false;">Watch this video</a> to learn more.
+COMMON_SHOW_ME_MANAGE_VIDEO=Hi Author! <a href="javascript:void(0);" class="link" onclick="{0}return false;">Click here</a> to manage this video.
+COMMON_SHOW_ME_MOBILE_MANAGE_VIDEO=Managing $(COMMON_SHOW_ME) video is not supported on mobile device.<br/>Please go to the PC version to manage this video.
+COMMON_SHOW_ME_WATCH_VIDEO=Watch the $(COMMON_SHOW_ME) video and get more knowledge on how to use this page.
+COMMON_SHOW_ME_NOT_PUBLISHED=Hi Author. This video has not been published yet.<br/><a href="javascript:void(0);" class="link" onclick="{0}return false;">Click here</a> to manage this video.
+COMMON_SHOW_ME_MANAGE_DEFAULT_VIDEO=Hi Author. This is the default Show Me video.<br/><a href="javascript:void(0);" class="link" onclick="{0}return false;">Click here</a> to create a custom Show Me video.
+COMMON_DONT_SHOW_AGAIN=Don't show this again
+
+
+COMMON_TALENT_REVIEW=Presentations
+
+# New home page link for V11 and V12
+COMMON_MSG_HOMEPAGE_LINK3= Click <a href="/sf/home">here</a> to return to your homepage.
+
+#SFTruncatedList
+#{0} is a number representing how many other items there are to view when clicking here:
+COMMON_OTHER_ITEMS={0} others
+
+COMMON_SESSION_EXPIRED_MESSAGE=Your session has expired.
+
+COMMON_LEFT=Left
+COMMON_RIGHT=Right
+
+COMMON_Collapse_Group=Collapse {0}
+COMMON_Expand_Group=Expand {0}
+
+#For Advances Management
+COMMON_Days=Days
+COMMON_Months=Months
+COMMON_Years=Years
+COMMON_Pending=Pending
+COMMON_Cancelled=Cancelled
+COMMON_Approved=Approved
+COMMON_Rejected=Rejected
+
+#Quick card related text
+COMMON_QUICKCARD_ADD_NOTE=Add Note
+COMMON_QUICK_CARD_ALT=View more information about this person.
+#{0} The user's display name
+COMMON_QUICK_CARD_ALT_WITH_NAME=View more information about {0}.
+#{0} The user's display name
+COMMON_QUICK_CARD_WITH_NAME=Quick card for {0}.
+COMMON_QUICKCARD_GIVE_BADGE=Give a badge
+COMMON_QUICKCARD_PEOPLE_DIRECT_REPORT=Direct Report
+COMMON_QUICKCARD_PEOPLE_DIRECT_REPORTS=Direct Reports
+COMMON_QUICKCARD_PEOPLE_TEAM_SIZE=Team Size
+COMMON_QUICKCARD_PEOPLE_ORG_CHART=Org Chart
+COMMON_QUICKCARD_VIEW_RESUME=View Resume
+COMMON_QUICKCARD_VIEW_PRINT_TALENT_CARD=Create Talent Card
+COMMON_QUICKCARD_CREATE_TALENT_CARD_SELECT_TEMPLATE=Select template
+COMMON_QUICKCARD_CREATE_TALENT_CARD_LOADING=Loading the talent card.
+COMMON_QUICKCARD_CREATE_TALENT_CARD_ERROR=An error occurred when generating the report.
+COMMON_QUICKCARD_PRINT_PDF=Print/PDF
+#{0} The number of items. This parameter is available, but is not currently used for show all results.
+COMMON_QUICKCARD_SHOW_ALL=Show All Results
+
+#Accessibility Setting (A11Y) Preferences related text
+COMMON_ACCESSIBILITY_PREFS=Accessibility Settings
+COMMON_A11Y_PREFS_TITLE=Personal Accessibility Settings
+COMMON_A11Y_PREFS_TITLE_DESC=Select the features you need to support particular disabilities.
+COMMON_A11Y_PREFS_TITLE_HELPER=Accessibility refers to the ability for all users to access and interact with the web application, including those who use assistive technologies like screen readers.  This page contains accessibility settings that you can personalize for yourself.  If these settings are relevant to you, then they will allow you to have a more tailored experience with the application when you personalize them.
+COMMON_A11Y_PREFS_BETA=Beta
+COMMON_A11Y_PREFS_BETA_DESC=Note: these enhancements are in development and may change over time.
+COMMON_A11Y_PREFS_BETA_HELPER=To support our approach of constant improvement and creating the best user experience for all, the effects of these accessibility settings are being phased-in to the application over a period of many releases.  The intent is that as time goes on, these settings will affect more areas of the application.
+
+COMMON_A11Y_PREFS_BLINDNESS_SUPPORT=Blindness support
+COMMON_A11Y_PREFS_BLINDNESS_SUPPORT_HELPER=Make data visualizations screen reader ready.
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT=Color Vision Impairment
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_ARIA_DESCRIPTION=Please check the checkbox to enable this walk through. Then Select two squares that are nearly the same color to find the applicable color vision impairment for you.
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_RESET=$(COMMON_RESET) $(COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT)
+COMMON_A11Y_PREFS_LOW_VISION=Low Vision
+COMMON_A11Y_PREFS_LOW_VISION_DARK=High Contrast White Text on Black Background
+COMMON_A11Y_PREFS_LOW_VISION_LIGHT=High Contrast Black Text on White Background
+COMMON_A11Y_PREFS_KEYBOARD_ONLY_NAVIGATION=Keyboard Only Navigation
+COMMON_A11Y_PREFS_KEYBOARD_ONLY_NAVIGATION_HELPER=Provide on screen instructions for non-standard actions.
+
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_DEUTERANOPIA=red
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_PROTANOPIA=green
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_TRITANOPIA=blue
+# {0} is one of the above 3 words for the color vision types: red weakness/green weakness/blue weakness
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_RESULT=We will use this color scheme for charts and color coding.
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_PLEASE_SELECT=Which of these color schemes makes it easiest for you to see FOUR distinct pie chart segments?
+COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT_NOT_SUPPORT=We currently do not support this type of color vision impairment.
+COMMON_A11Y_PREFS_RESET=$(COMMON_RESET) $(COMMON_A11Y_PREFS_COLOR_VISION_IMPAIRMENT)
+COMMON_A11Y_PREFS_COLOR_RED=Red weakness boxes
+COMMON_A11Y_PREFS_COLOR_GREEN=Green weakness boxes
+COMMON_A11Y_PREFS_COLOR_BLUE=Blue weakness boxes
+
+COMMON_A11Y_ARIA_JAWS_TREE_NAVIGATION_INSTRUCTION=To navigate the tree using JAWS screen reader, switch to JAWS cursor mode by pressing minus on the numeric keypad. In JAWS cursor mode, the cursor will act like a mouse pointer. To return to PC cursor mode, press plus on the numeric keypad.
+
+#Outlook
+COMMON_OUTLOOK_REGISTRATION=Outlook
+
+# Toggle View behavior in Grid With Details Layout component
+COMMON_INFORM_CLICK_TO_EXPAND=Click or Press Enter to expand the details area
+COMMON_INFORM_CLICK_TO_COLLAPSE=Click or Press Enter to collapse the details area
+# Used to format the currency fields in offer letter
+# This should not be translated but should be localized 
+COMMON_DefaultCurrencyFormatPattern=#,##0.00
+
+COMMON_BROWSER_REQUIREMENTS=<b>Note:</b> Standard industry browsers are supported for use with the SuccessFactors application. Please check the <a href="https://community.successfactors.com" target="_blank">Customer Community</a> or <a href="http://www.successfactors.com/en_us/support.html" target="_blank">Customer Success</a> web sites for an up to date list of these.
+
+COMMON_LOGIN_COMPANY_ID=Company ID
+COMMON_LOGIN_USERNAME=Username
+COMMON_LOGIN_PASSWORD=Password
+
+COMMON_Hide_Panel=Hide Panel
+
+#Action type
+COMMON_ACTION_CREATE=create
+COMMON_ACTION_UPDATE=update
+COMMON_ACTION_DELETE=delete
+COMMON_ACTION_INSERT=insert
+
+# People Select Component
+COMMON_PEOPLE_SELECT_PEERS=Peers
+COMMON_PEOPLE_SELECT_DIRECT_REPORTS =$(Direct_Reports)
+COMMON_PEOPLE_SELECT_NO_ACCESS=You do not have permissions to view selected user's pages
+COMMON_PEOPLE_SELECT_NO_ACCESS_TITLE=Access Denied
+COMMON_PEOPLE_SELECT_INACTIVE_EMPLOYEE_SEARCH=Include inactive users in search
+
+# Used on Login Series Pages
+COMMON_SUCCESS_MOBILES_PROMO_TITTLE=SuccessFactors For Mobile

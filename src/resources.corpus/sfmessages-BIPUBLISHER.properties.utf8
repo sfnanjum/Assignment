@@ -1,0 +1,33 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-BIPUBLISHER.properties.utf8 334044 2013-08-12 15:10:46Z ssheriff $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+# BI Publisher
+BIPUBLISHER_Publisher_Title=Publisher
+BIPUBLISHER_Publisher_Template=Publisher Template:
+BIPUBLISHER_Output_Format=Output Format:
+BIPUBLISHER_Publish=Publish
+BIPUBLISHER_Publish_XML=BI Publisher Export XML
+BIPUBLISHER_Server_Not_Available=Publisher server is not available.
+BIPUBLISHER_Template_Not_Found=No report template found.
+BIPUBLISHER_Data_Extraction_Error=Error occurred while extracting data.
+BIPUBLISHER_Report_Generation_Error=Error occurred during report generation.
+BIPUBLISHER_Report_Being_Created_Note=Please wait while your report is being created...
+BIPUBLISHER_Template_Name_Invalid=Error. Template Name contains special characters. It should contain only alphanumeric and/or underscore characters.
+
+# BTS = Business Transformation Services; do not translate the abbreviation
+BIPUBLISHER_EXPORT_SCORECARD_XML=BI Publisher Export Scorecard XML (BTS only)
+BIPUBLISHER_EXPORT_SCORECARD_XML_WITH_ADDITIONAL_INFO=Export Scorecard XML With Additional Information
+

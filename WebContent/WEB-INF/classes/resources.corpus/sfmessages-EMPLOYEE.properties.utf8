@@ -1,0 +1,1256 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-EMPLOYEE.properties.utf8 490454 2014-01-31 21:05:01Z dlett $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+EMPLOYEE_HRIS_GENDER_F=$(COMMON_SUCCESSION_FEMALE)
+EMPLOYEE_HRIS_GENDER_M=$(COMMON_SUCCESSION_MALE)
+EMPLOYEE_HRIS_GENDER_NA=$(EMPFILE_HRIS_NO_SELECTION)
+EMPLOYEE_HRIS_GENDER_U=$(COMMON_SUCCESSION_UNKNOWN)
+EMPLOYEE_HRIS_GENDER_D=$(COMMON_SUCCESSION_UNDECLARED)
+
+
+
+EMPLOYEE_HRIS_MARITALSTATUS_t=Married
+EMPLOYEE_HRIS_MARITALSTATUS_f=Single
+EMPLOYEE_HRIS_MARITALSTATUS_di=Divorced
+EMPLOYEE_HRIS_MARITALSTATUS_wi=Widowed
+EMPLOYEE_HRIS_MARITALSTATUS_na=$(EMPFILE_HRIS_NO_SELECTION)
+
+EMPLOYEE_HRIS_FT_CONTEXT_SOURCE=Source
+EMPLOYEE_HRIS_FT_CONTEXT_DESTINATION=Destination
+EMPLOYEE_HRIS_FT_CONTEXT_TARGET=Target
+
+EMPLOYEE_HRIS_FT_APPROVERTYPEENUM_DYNAMIC_ROLE=Dynamic Role
+EMPLOYEE_HRIS_FT_APPROVERTYPEENUM_ROLE=Role
+EMPLOYEE_HRIS_FT_APPROVERTYPEENUM_DYNAMIC_GROUP=Dynamic Group
+EMPLOYEE_HRIS_FT_APPROVERROLEENUM_EMPLOYEE=$(Employee)
+EMPLOYEE_HRIS_FT_APPROVERROLEENUM_EMPLOYEE_MANAGER=$(Employee) $(Manager)
+EMPLOYEE_HRIS_FT_APPROVERROLEENUM_EMPLOYEE_MANAGER_MANAGER=$(Employee) $(Manager) $(Manager)
+EMPLOYEE_HRIS_FT_APPROVERROLEENUM_EMPLOYEE_HR=$(Employee) HR
+
+#Foundation Object messages
+EMPLOYEE_HRIS_PAYGRADE_LEVEL=Pay Grade Level
+EMPLOYEE_HRIS_COSTCENER_MANAGER=Cost Center Manager
+EMPLOYEE_HRIS_DEPARTMENT_COSTCENTER=Cost Center
+EMPLOYEE_HRIS_COMPANY_ADDRESS_MAPPING=Company Address Mapping
+EMPLOYEE_HRIS_BU_ADDRESS_MAPPING = Business Unit Address Mapping
+EMPLOYEE_HRIS_DEPARTMENT_ADDRESS_MAPPING = Department Address Mapping
+EMPLOYEE_HRIS_COMPANY_LOCATION_MAPPING=Company Location Mapping
+EMPLOYEE_HRIS_BU_LOCATION_MAPPING=Business Unit Location Mapping
+EMPLOYEE_HRIS_DEPARTMENT_LOCATION_MAPPING=Department Location Mapping
+EMPLOYEE_HRIS_COMPANY_BU_MAPPING=Company and Business Unit Mapping
+EMPLOYEE_HRIS_COMPANY_DEPARTMENT_MAPPING=Company and Department Mapping
+EMPLOYEE_HRIS_COMPANY_COSTCENTER_MAPPING=Company and Cost Center Mapping
+EMPLOYEE_HRIS_BU_DEPARTMENT_MAPPING=Business Unit and Department Mapping
+EMPLOYEE_HRIS_BU_COSTCENTER_MAPPING=Business Unit and Cost Center Mapping
+EMPLOYEE_HRIS_DEPARTMENT_COSTCENTER_MAPPING=Department and Cost Center Mapping
+
+EMPLOYEE_HRIS_FT_YES=Yes
+EMPLOYEE_HRIS_FT_NO=No
+EMPLOYEE_HRIS_FT_RELATION_ADDED={0} Added
+EMPLOYEE_HRIS_FT_RELATION_Deleted={0} Deleted
+EMPLOYEE_HRIS_FT_CSV_ADDED=CSVs Added
+EMPLOYEE_HRIS_FT_CSV_Deleted=CSVs Deleted
+EMPLOYEE_HRIS_FO_SEARCH_AS_OF=Search As Of:
+EMPLOYEE_HRIS_FO_INCLUDING_INACTIVES=Including Inactives:
+EMPLOYEE_HRIS_FO_NULL_VALUES_NOT_ALLOWED=Can't be Null
+
+#Employee Files
+EMPLOYEE_FILES_Transfer_Dlg_Title=Transfer $(COMMON_Employee)
+EMPLOYEE_FILES_Transfer_Dlg_Desc_Top=Enter the name of the new $(COMMON_manager) below.
+EMPLOYEE_FILES_Transfer_Dlg_Desc_Bottom=(Note: This change request will require approval.)
+EMPLOYEE_FILES_Transfer_Dlg_Button_Send=Send to Next Step
+EMPLOYEE_FILES_Table_Column_Manager=$(COMMON_Manager)
+EMPLOYEE_FILES_Table_Column_Current=Current
+EMPLOYEE_FILES_Table_Column_New=New
+EMPLOYEE_FILES_ApprovalsHistory_Dlg_Title=Approval History
+EMPLOYEE_FILES_Confirmation_Dlg_Title=Confirmation
+EMPLOYEE_FILES_Confirmation_Message_Title=Change Request Successfully Sent:
+EMPLOYEE_FILES_Confirmation_Message_Detail=The request was sent to {0} for approval.
+EMPLOYEE_FILES_Warning_Dlg_Title=Alert!
+EMPLOYEE_FILES_Warning_Dlg_Button_Continue=Continue
+EMPLOYEE_FILES_Warning_Message_Detail=An approval request currently exists with {0} as the proposed $(COMMON_manager). Saving your changes will cancel this existing request.
+EMPLOYEE_FILES_Approval_Dlg_Title=Pending Approval
+EMPLOYEE_FILES_Approval_Dlg_Action_Approve=Approve
+EMPLOYEE_FILES_Approval_Dlg_Action_Decline=Decline
+EMPLOYEE_FILES_Approval_Dlg_View_Desc=The following change request is pending approval.
+EMPLOYEE_FILES_Approval_Dlg_Submit_Desc=The following change request requires your approval.
+EMPLOYEE_FILES_Approval_Dlg_Button_CloseWindow=Close Window
+EMPLOYEE_FILES_Icon_Tooltip_Pending_View=Changes Pending Approval
+EMPLOYEE_FILES_Icon_Tooltip_Pending_Act=Changes Awaiting Your Approval
+EMPLOYEE_FILES_Icon_Tooltip_Edit_Request_Approval=Edit (requires approval)
+EMPLOYEE_FILES_Employee_File=$(COMMON_Employee) File
+EMPLOYEE_FILES_PENDING_WF_TAB_FIELD_EMPLOYEE=$(COMMON_Employee)
+EMPLOYEE_FILES_PENDING_WF_TAB_FIELD_TYPE_OF_ACTION=Type of Action
+EMPLOYEE_FILES_PENDING_WF_TAB_FIELD_REQUESTED_ON=Requested On
+EMPLOYEE_FILES_PENDING_WF_TAB_FIELD_REQUESTED_BY=Requested By
+#My Workflow Requests tab
+EMPLOYEE_FILE_HRIS_MY_REQUESTS_HEADER=My Requests Awaiting Approval
+EMPLOYEE_FILE_HRIS_MY_REQUESTS_INSTRUCTION=Your following requests are pending approval
+EMPLOYEE_FILE_HRIS_WF_SUBJECT_EMPLOYEE=$(COMMON_Employee)
+EMPLOYEE_FILE_HRIS_WF_STATUS=Status
+EMPLOYEE_FILE_HRIS_WF_REQUESTED_ON=Requested On
+EMPLOYEE_FILE_HRIS_WF_CURRENT_OWNER=Currently With
+EMPLOYEE_FILE_HRIS_ACTION = Type of Action
+#Workflow status
+EMPLOYEE_FILE_HRIS_WF_STATUS_INITIALIZED=Initialized
+EMPLOYEE_FILE_HRIS_WF_STATUS_PENDING=Pending
+EMPLOYEE_FILE_HRIS_WF_STATUS_CANCELLED=Cancelled
+EMPLOYEE_FILE_HRIS_WF_STATUS_COMPLETED=Completed
+EMPLOYEE_FILE_HRIS_WF_STATUS_REJECTED=Declined
+EMPLOYEE_FILE_HRIS_WF_STATUS_SYNCHRONIZED=Synchronized
+EMPLOYEE_FILE_ACTIVATE_EMAIL_VALIDATION=Activate Email Validation in scorecard
+
+#HRIS sync
+
+EMPLOYEE_PROVISIONING_HRIS_SYNC_MODIFIED_DATE_SINCE_TYPE=Modified date since
+EMPLOYEE_PROVISIONING_HRIS_SYNC_SPECIFIED_MODIFIED_DATE_SINCE=specified modified date since
+EMPLOYEE_PROVISIONING_HRIS_SYNC_COMP_FLAGS=Compensation specific options for HRIS sync job
+EMPLOYEE_PROVISIONING_HRIS_SYNC_SPECIFIED_DATE_ERROR=Specified modified date cannot be greater than the last successful Hris sync job run date.
+EMPLOYEE_PROVISIONING_HRIS_SYNC_LAST_SUCCESSFUL_JOB_RUN_DATE=Last successful HRIS sync job run date
+EMPLOYEE_PROVISIONING_HRIS_SYNC_SPECIFIED_MODIFIED_DATE_LABEL=Specify a date: (We strongly suggest the option be selected only for running job once!)
+EMPLOYEE_PROVISIONING_HRIS_SYNC_DATE_TYPE_ERROR=Last successful HRIS sync job run date is null, you cannot choose "Specify a date" option!
+EMPLOYEE_PROVISIONING_HRIS_SYNC_INVALID_DATE_FORMAT=Date format for specified modified date is invalid.
+EMPLOYEE_PROVISIONING_HRIS_SYNC_TRACK_SYNC_EXECUTION_STATUS=Track sync execution status
+
+EMPLOYEE_PROVISIONING_DONOT_SYNC_FOLLOWING_ENTITIES=Select the entities required for sync.
+EMPLOYEE_PROVISIONING_DONOT_SYNC_PHONEANDEMAIL=Contact Information (Phone/Email)
+EMPLOYEE_PROVISIONING_DONOT_SYNC_BUSINESSADDRESS=Business Address
+EMPLOYEE_PROVISIONING_DONOT_SYNC_SALARY=Salary
+EMPLOYEE_PROVISIONING_DONOT_SYNC_PERSONAL=Personal Information
+EMPLOYEE_PROVISIONING_DONOT_SYNC_BIOGRAPHICAL=Biographical (Person Info)
+EMPLOYEE_PROVISIONING_DONOT_SYNC_GENERICENTITIES=Generic Entities
+EMPLOYEE_PROVISIONING_DONOT_SYNC_EMPLOYMENT=Employment Information
+EMPLOYEE_PROVISIONING_DONOT_SYNC_STATUS=Job Status
+EMPLOYEE_PROVISIONING_DONOT_SYNC_MANAGER=Manager Changes
+EMPLOYEE_PROVISIONING_DONOT_SYNC_JOBINFO=Job Information (Including Termination Information)
+
+
+#EC alert and Notification
+
+EMPLOYEE_PROVISIONING_EC_ALERT_MODIFIED_DATE_SINCE_TYPE=Modified date since
+EMPLOYEE_PROVISIONING_EC_ALERT_SPECIFIED_MODIFIED_DATE_SINCE=specified modified date since
+EMPLOYEE_PROVISIONING_EC_ALERT_SPECIFIED_DATE_ERROR=Specified modified date cannot be greater than the last successful EC Alert job run date.
+EMPLOYEE_PROVISIONING_EC_ALERT_SPECIFIED_DATE_NO_RECURRING_ERROR=Specified modified date cannot be used in a recurring job.
+EMPLOYEE_PROVISIONING_EC_ALERT_LAST_SUCCESSFUL_JOB_RUN_DATE=Last successful EC Alert job run date
+EMPLOYEE_PROVISIONING_EC_ALERT_SPECIFIED_MODIFIED_DATE_LABEL=Specify a date: (We strongly suggest the option be selected only for running job once!)
+EMPLOYEE_PROVISIONING_EC_ALERT_DATE_TYPE_ERROR=Last successful EC Alert job run date is null, you cannot choose "Specify a date" option!
+EMPLOYEE_PROVISIONING_EC_ALERT_INVALID_DATE_FORMAT=Date format for specified modified date is invalid.
+EMPLOYEE_PROVISIONING_EC_ALERT_TRACK_SYNC_EXECUTION_STATUS=Track sync execution status
+
+#Foundation Structure
+EMPLOYEE_HRIS_COMPANY=Company
+EMPLOYEE_HRIS_BUSINESS_UNIT=Business Unit
+EMPLOYEE_HRIS_DEPARTMENT=Department
+EMPLOYEE_HRIS_LOCATION=Location
+EMPLOYEE_HRIS_PAYGROUP=Pay Group
+EMPLOYEE_HRIS_PAYCALENDAR=Pay Calendar
+EMPLOYEE_HRIS_PAYCOMPONENT=Pay Component
+EMPLOYEE_HRIS_PAYCOMPONENT_GROUP=Pay Component Group
+EMPLOYEE_HRIS_FREQUENCY=Frequency
+EMPLOYEE_HRIS_DYNAMIC_ROLE=Dynamic Role
+EMPLOYEE_HRIS_DYNAMIC_ROLE_ASSIGNMENT=Dynamic Role Assignment
+EMPLOYEE_HRIS_CONTACT=Contact
+EMPLOYEE_HRIS_COST_CENTER=Cost Center
+EMPLOYEE_HRIS_ORGANIZATIONS=Organizations
+EMPLOYEE_HRIS_ORGANIZATION=Organization
+EMPLOYEE_HRIS_COUNTRY_CODE=Country
+EMPLOYEE_HRIS_LOCATION_CODE=Location
+EMPLOYEE_HRIS_CURRENCY=Currency
+EMPLOYEE_HRIS_NAME_FORMAT_ID=Name Format Id
+EMPLOYEE_HRIS_GEOZONE=Geozone
+EMPLOYEE_HRIS_LOCATION_GROUP=Location Group
+EMPLOYEE_HRIS_EVENTREASON=Event Reason
+EMPLOYEE_HRIS_JOB_CLASS_LOCAL=Local Job Classification
+EMPLOYEE_HRIS_LEGAL_ENTITY_LOCAL=Local Legal Entity
+EMPLOYEE_HRIS_DIVISION=Division
+EMPLOYEE_HRIS_COSTCENTER_GL_STATEMENT_CODE=GL Statement Code
+
+EMPLOYEE_HRIS_FT_JOB_CLASS_STANDARD_OCCU_CODE=Standard Occupation Code
+EMPLOYEE_HRIS_FT_JOB_CLASS_ACTIVITY_TYPE=Activity Type
+EMPLOYEE_HRIS_FT_JOB_CLASS_JOB_CATEGORY_CODE=Job Category Code
+EMPLOYEE_HRIS_FT_JOB_CLASS_MEDICAL_TEST_REQRD=Medical Test Required
+
+#PurgeTypes
+EMPLOYEE_HRIS_PURGETYPE=Purge Type
+EMPLOYEE_HRIS_PURGETYPE_FULL=Full Purge
+EMPLOYEE_HRIS_PURGETYPE_INCREMENTAL=Incremental Load
+#Foundation EO
+EMPLOYEE_HRIS_FOUNDATION_CODE=Code
+EMPLOYEE_HRIS_FOUNDATION_NAME=Name
+EMPLOYEE_HRIS_FOUNDATION_DESCRIPTION=Description
+EMPLOYEE_HRIS_FT_STATUSENUM_A=Active
+EMPLOYEE_HRIS_FT_STATUSENUM_I=InActive
+EMPLOYEE_HRIS_FT_PAYCOMPONENTTYPEENUM_AMOUNT=Amount
+EMPLOYEE_HRIS_FT_PAYCOMPONENTTYPEENUM_PERCENTAGE=Percentage
+EMPLOYEE_HRIS_FT_COMPPLANNINGTYPEENUM_COMP=Comp
+EMPLOYEE_HRIS_FT_COMPPLANNINGTYPEENUM_NONE=None
+EMPLOYEE_HRIS_FT_COMPPLANNINGTYPEENUM_VARPAY=Varpay
+EMPLOYEE_HRIS_FT_COMPPLANNINGTYPEENUM_BOTH=Both
+EMPLOYEE_HRIS_FT_EARNINGDEDUCTIONENUM_EARNING=Earning
+EMPLOYEE_HRIS_FT_EARNINGDEDUCTIONENUM_DEDUCTION=Deduction
+#payComponent
+EMPLOYEE_HRIS_FREQUENCYICODE=Pay Component Frequency
+EMPLOYEE_HRIS_BASEPAYCOMPONENTGROUP=Base Pay Component Group
+EMPLOYEE_HRIS_CANOVERRIDE=Can Override
+EMPLOYEE_HRIS_SELFSERVICEDES=Self Service Description
+EMPLOYEE_HRIS_DISPLAYONSELFSERVICE=Display on Self Service
+EMPLOYEE_HRIS_USEDFORCOMPPLANNING=Used for Comp Planning
+EMPLOYEE_HRIS_RECURRING_PAY_COMPONENT=Recurring Pay Component
+EMPLOYEE_HRIS_ISRELEVANTADVANCEPAYMENT=Is Relevant for Advance Payment
+EMPLOYEE_HRIS_MAXFRACTIONDIGITS=Maximum Decimal Places
+#payComponent Group
+EMPLOYEE_HRIS_SHOWONUI=Show on Compensation UI
+EMPLOYEE_HRIS_USE_FOR_COMPARATIO_CALC=Use for Compa-Ratio Calculation
+EMPLOYEE_HRIS_USE_FOR_RANGE_PENETRATION=Use for Range Penetration
+EMPLOYEE_HRIS_SYSTEM_DEFINED=System Defined
+#frequency
+EMPLOYEE_HRIS_FREQUENCY_ANNUALIZATION_FACTOR=Annualization Factor
+#OrganizationUnit EO
+EMPLOYEE_HRIS_OU_PARENT=Parent
+EMPLOYEE_HRIS_OU_HEAD=Head
+EMPLOYEE_HRIS_OFFICIAL_LANGUAGE=Official Language
+#Geozone
+EMPLOYEE_HRIS_GEOZONE_ADJUSTMENT_PERCENTAGE=Adjustment Percentage
+#Job Family
+EMPLOYEE_HRIS_JOB_FAMILY=Job Family
+EMPLOYEE_HRIS_PARENT_JOB_FAMILY=Parent
+
+#Job Code
+EMPLOYEE_HRIS_JOB_CODE=Job Code
+EMPLOYEE_HRIS_JOB_TITLE=Job Title
+EMPLOYEE_HRIS_JOB_FAMILY_CODE=Job Family
+EMPLOYEE_HRIS_JOB_FUNCTIONS=Job Functions
+EMPLOYEE_HRIS_PARENT_JOB_CODE=Parent Job Code
+EMPLOYEE_HRIS_STANDARD_WORK_PERIOD=Standard Work Period
+EMPLOYEE_HRIS_WORKER_COMP_CODE=Worker's Compensation Code
+EMPLOYEE_HRIS_COMPENSATION_FREQUENCY=Compensation Frequency
+EMPLOYEE_HRIS_JOB_LEVEL=Job Level
+EMPLOYEE_HRIS_IS_REGULAR=Regular/ Temporary
+EMPLOYEE_HRIS_PAY_RANGES=Pay Ranges
+EMPLOYEE_HRIS_EEO1_JOB_CATEGORY=EEO-1 Job Category
+EMPLOYEE_HRIS_EEO4_JOB_CATEGORY=EEO-4 Job Category
+EMPLOYEE_HRIS_EEO5_JOB_CATEGORY=EEO-5 Job Category
+EMPLOYEE_HRIS_EEO6_JOB_CATEGORY=EEO-6 Job Category
+EMPLOYEE_HRIS_FLSA_STATUS=FLSA Status
+EMPLOYEE_HRIS_EEO_JOB_GROUP=EEO Job Group
+EMPLOYEE_HRIS_INSEE_CODE=INSEE Code
+EMPLOYEE_HRIS_EMPLOYEE_CATEGORY=Employee Category
+EMPLOYEE_HRIS_JOB_CATEGORY_CODE=Job Category Code
+EMPLOYEE_HRIS_ACTIVITY_TYPE=Activity Type
+EMPLOYEE_HRIS_EMPLOYEE_CLASS=Employee Class
+EMPLOYEE_HRIS_IS_FULL_TIME=Is Full Time Employee
+EMPLOYEE_HRIS_GRADE=Grade
+#Job Function
+EMPLOYEE_HRIS_JOB_FUNCTION=Job Function
+EMPLOYEE_HRIS_FUNCTION_TYPE=Function Type
+EMPLOYEE_HRIS_PARENT_FUNCTION_CODE=Parent Job Function
+#Pay Range
+EMPLOYEE_HRIS_PAY_RANGE=Pay Range
+EMPLOYEE_HRIS_PR_MINIMUM_PAY=Minimum Pay
+EMPLOYEE_HRIS_PR_MAXIMUM_PAY=Maximum Pay
+EMPLOYEE_HRIS_PR_MID_POINT=Mid Point
+EMPLOYEE_HRIS_PR_BONUS_PERCENTAGE=Bonus Percentage
+
+EMPLOYEE_HRIS_OFF_CYCLE=Off Cycle
+EMPLOYEE_HRIS_PROCESSING_RUN_ID=Processing Run ID
+EMPLOYEE_HRIS_RUN_TYPE=Run Type
+EMPLOYEE_HRIS_PAY_GROUP=Pay Group
+EMPLOYEE_HRIS_PAYROLL_VENDOR_ID=Payroll Vendor Id
+EMPLOYEE_HRIS_PAY_PERIOD_BEGIN_DATE=Begin Date
+EMPLOYEE_HRIS_PAY_PERIOD_END_DATE=End Date
+EMPLOYEE_HRIS_PAY_CHECK_ISSUE_DATE=Issue Date
+EMPLOYEE_HRIS_WEEKS_IN_PAY_PERIOD=Weeks in PayPeriod
+EMPLOYEE_HRIS_PAY_PERIODS_PER_YEAR=Pay Periods per Year
+EMPLOYEE_HRIS_PRIMARY_CONTACT_ID=Primary Contact Id
+EMPLOYEE_HRIS_PRIMARY_CONTACT_EMAIL=Primary Email
+EMPLOYEE_HRIS_PRIMARY_CONTACT_NAME=Primary Contact Name
+EMPLOYEE_HRIS_SECONDARY_CONTACT_ID=Secondary Contact Id
+EMPLOYEE_HRIS_SECONDARY_CONTACT_EMAIL=Secondary Email
+EMPLOYEE_HRIS_SECONDARY_CONTACT_NAME=Secondary Contact Name
+EMPLOYEE_HRIS_PAY_GROUP_LAG=Lag
+EMPLOYEE_HRIS_DATA_DELIMITER=Data Delimiter
+EMPLOYEE_HRIS_DECIMAL_POINT=Decimal Point
+#Pay Grade
+EMPLOYEE_HRIS_PAY_GRADE=Pay Grade
+EMPLOYEE_HRIS_JOBCODE_PAYGRADE_MAPPING=Job Code PayGrade Mapping
+EMPLOYEE_HRIS_PAYRANGE_PAYGRADE_MAPPING=PayRange PayGrade Mapping
+#Pay Group
+EMPLOYEE_HRIS_PAYGROUP_CURRENCY=Currency
+EMPLOYEE_HRIS_PAYGROUP_COUNTRY=Country
+EMPLOYEE_HRIS_PAYGROUP_DEFAULT_EMPLOYEE_TYPE=Default Employee Type
+EMPLOYEE_HRIS_PAYGROUP_PAY_FREQUENCY=Pay Frequency
+EMPLOYEE_HRIS_PAYGROUP_PAY_MONTHS=Pay Months
+EMPLOYEE_HRIS_PAYGROUP_PAYROLL_VENDOR_ID=Payroll Vendor Id
+#Company
+EMPLOYEE_HRIS_DEFAULT_LOCATION=Default Location
+EMPLOYEE_HRIS_COMPANY_TYPE=Company Type
+EMPLOYEE_HRIS_DEFAULT_PAYGROUP=Default Paygroup
+EMPLOYEE_HRIS_EEO_COMPANY_CODE=EEO Company Code
+EMPLOYEE_HRIS_STANDARD_HOURS=Standard Hours
+EMPLOYEE_HRIS_UPDATE_MY_RECORDS=Update Personal Info
+EMPLOYEE_HRIS_UPDATE_EMPLOYEE_RECORDS=Update $(COMMON_Employee) Records
+EMPLOYEE_HRIS_SUPERVISOR_LEVEL=Supervisor Level
+EMPLOYEE_HRIS_ADD_NEW_HIRE_TO_TEAM = Add New Hire to Team
+#Hire People List
+EMPLOYEE_HRIS_PENDING_HIRES=Pending Hires
+EMPLOYEE_HRIS_GENERIC_ERROR=There was an error processing your request. Please contact support.
+EMPLOYEE_HRIS_NO_PEOPLE_TO_HIRE=There are no pending hires.
+EMPLOYEE_HRIS_INVALID_KEY_FORMAT=Invalid Key format found in the transformation template : {0}. Please contact your administrator.
+EMPLOYEE_HRIS_INVALID_ELEMENT=Invalid HRIS element specified in the transformation mapping : {0}. Only use hris-elements/fields from a pre-defined set. Please contact your administrator.
+EMPLOYEE_HRIS_HIRE_BUTTON=Hire
+EMPLOYEE_HRIS_RECRUITING_PENDING_HIRES=Recruiting
+EMPLOYEE_HRIS_ONBOARDING_PENDING_HIRES=Onboarding
+
+#StatusEnum
+EMPLOYEE_HRIS_GO_STATUSENUM_A=Active
+EMPLOYEE_HRIS_GO_STATUSENUM_I=InActive
+#RegularTemporaryEnum
+EMPLOYEE_HRIS_GO_REGULARTEMPORARYENUM_N=No Selection
+EMPLOYEE_HRIS_GO_REGULARTEMPORARYENUM_R=Regular
+EMPLOYEE_HRIS_GO_REGULARTEMPORARYENUM_T=Temporary
+#Effective Dated Data source keys
+EMPLOYEE_HRIS_GO_EFFECTIVEDATING_NONE=None
+EMPLOYEE_HRIS_GO_EFFECTIVEDATING_BASIC=Basic
+EMPLOYEE_HRIS_GO_EFFECTIVEDATING_MULTIPLE_CHANGES_PER_DAY=Multiple Changes Per Day
+#Data Type Data source keys
+EMPLOYEE_HRIS_GO_DATATYPE_USER=User
+EMPLOYEE_HRIS_GO_DATATYPE_STRING=String
+EMPLOYEE_HRIS_GO_DATATYPE_NUMBER=Number
+EMPLOYEE_HRIS_GO_DATATYPE_AUTO_NUMBER=Auto Number
+EMPLOYEE_HRIS_GO_DATATYPE_DECIMAL=Decimal
+EMPLOYEE_HRIS_GO_DATATYPE_ENUM=Enum
+EMPLOYEE_HRIS_GO_DATATYPE_PICK_LIST=Picklist
+EMPLOYEE_HRIS_GO_DATATYPE_BOOLEAN=Boolean
+EMPLOYEE_HRIS_GO_DATATYPE_FO=Foundation Object
+EMPLOYEE_HRIS_GO_DATATYPE_GO=Generic Object
+EMPLOYEE_HRIS_GO_DATATYPE_DATE=Date
+EMPLOYEE_HRIS_GO_DATATYPE_LOCALIZED=Translatable
+EMPLOYEE_HRIS_GO_DATATYPE_DATA_SOURCE=Data Source
+EMPLOYEE_HRIS_GO_DATATYPE_ATTACHMENT=Attachment
+EMPLOYEE_HRIS_GO_DATATYPE_CLOB=CLOB
+EMPLOYEE_HRIS_GO_DATATYPE_AUTO_COMPLETE=Auto Complete
+#HighLight Type Enum for Onboarding Tour
+EMPLOYEE_HRIS_GO_HIGHLIGHTTYPEENUM_CALLOUT=Callout
+EMPLOYEE_HRIS_GO_HIGHLIGHTTYPEENUM_HIGHLIGHT=Highlight
+EMPLOYEE_HRIS_GO_HIGHLIGHTTYPEENUM_BOTH=Both
+EMPLOYEE_HRIS_GO_HIGHLIGHTTYPEENUM_NONE=None
+#Prebaked Slide Type Enum for Onboarding Tour
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_WELCOMESLIDE=Welcome Slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_SIMPLESLIDE=Simple Slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_PAPERWORKSLIDE=Paperwork Slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_SIMPLEIMAGESLIDE=Simple Image Slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_JAMSLIDE=Jam Slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_LINKSSLIDE=Links Slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_PEOPLESLIDE=Meet the People Slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_PROFILESLIDE=Profile slide
+EMPLOYEE_HRIS_GO_PREBAKEDSLIDETYPEENUM_LMSSLIDE=Todo Slide
+#Datasource Type Enum for Onboarding Tour
+EMPLOYEE_HRIS_GO_TOURDATASOURCEENUM_KMS=Onboarding
+EMPLOYEE_HRIS_GO_TOURDATASOURCEENUM_DEFAULT=Default
+#Tour Postion Type Enum for Onboarding Tour
+EMPLOYEE_HRIS_GO_TOURPOSITIONTYPEENUM_TOP=Top
+EMPLOYEE_HRIS_GO_TOURPOSITIONTYPEENUM_BOTTOM=Bottom
+#Tour Page type Enum for Onb tour
+EMPLOYEE_HRIS_GO_TOURPAGEENUM_HOMEPAGE=Home Page
+#Tour Element Referance type enum
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_PAPERWORKTILE=PaperWork Tile
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_PAPERWORKTILEHEADER=PaperWork Tile Header
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_LINKSTILE=Links Tile
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_LINKSTILEHEADER=Links Tile Header
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_BUDDYTILE=Buddy Tile
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_BUDDYTILEHEADER=Buddy Tile Header
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_LMSTILE=Todo Tile
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_LMSTILEHEADER=Todo Tile Header
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_PEOPLETILE=Recommended People Tile
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_PEOPLETILEHEADER=Recommended People Tile Header
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_JAMTILE=Jam Tile
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_JAMTILEHEADER=Jam Tile Header
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_PROFILETILE=My Profile Tile
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_PROFILETILEHEADER=My Profile Tile Header
+EMPLOYEE_HRIS_GO_TOURREFELEMENTSENUM_PROFILETILEBTN=My Profile Finish Button
+#Visibility Data source keys
+EMPLOYEE_HRIS_GO_VISIBILITY_EDITABLE=Editable
+EMPLOYEE_HRIS_GO_VISIBILITY_NOT_VISIBLE=Not Visible
+EMPLOYEE_HRIS_GO_VISIBILITY_READ_ONLY=Read Only
+#Associations Data Source keys
+EMPLOYEE_HRIS_GO_TYPE_COMPOSITE=Composite
+EMPLOYEE_HRIS_GO_TYPE_VALID_WHEN=Valid When
+EMPLOYEE_HRIS_GO_TYPE_JOIN_BY_COLUMN=Join By Column
+#Multiplicity Data source keys
+EMPLOYEE_HRIS_GO_MULTIPLICITY_ONE_TO_ONE=One To One
+EMPLOYEE_HRIS_GO_MULTIPLICITY_ONE_TO_MANY=One To Many
+#Todo Category Data source keys
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_PM=$(TODO_Category_Name_PM)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_GOAL=$(TODO_Category_Name_Goals)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_PM_360=$(TODO_Category_Name_360)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_COMPENSATION=$(TODO_Category_Name_Comp)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_SM=$(TODO_Category_Name_SM)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_RECRUITING=$(TODO_Category_Name_Recruiting)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_RECRUITING_EVENTS=$(TODO_Category_Name_Recruiting_Events)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_SM_ORGCHART=$(TODO_Category_Name_SM_Org_Chart)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_PM_MYTEAMRATER=$(TODO_Category_Name_MTR_Team_Rater)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_PR=$(TODO_Category_Name_BPP)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_HRIS_ACTIONS=$(TODO_Category_Name_HRIS_ACTIONS)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_RECRUITING_OFFER_DETAIL=$(TODO_Category_Name_OFFER_APPROVAL)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_RCM_INTERVIEW_ASSESS=$(TODO_Category_Name_RCM_INTERVIEW_ASSESS)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_CALIBRATION_SESSIONS=$(TODO_Category_Name_Calibration_sessions)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_HRIS_EMP_CHANGE_REQUESTS=$(TODO_Category_Name_HRIS_CHANGE_REQUESTS)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_ASSIGNED_TRAINING_REQUESTS=$(TODO_Category_Name_Assigned_Training_Request)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_LEARNING_SURVEY_REQUESTS=$(TODO_Category_Name_Learning_Survey_Request)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_GENERIC_OBJECT_CHANGE_REQUESTS=$(TODO_Category_Name_Generic_Object_Request)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_ABSENCE_MANAGEMENT_REQUESTS=$(TODO_Category_Name_Absence_Management_Request)
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_JOB_PROFILE_CHANGE_REQUESTS=$(TODO_Category_Name_Job_Profile_Request)
+#GORBPConfig.RBPConfigType
+EMPLOYEE_HRIS_GO_RBPCONFIGTYPE_NO=No
+EMPLOYEE_HRIS_GO_RBPCONFIGTYPE_YES=Yes
+EMPLOYEE_HRIS_GO_RBPCONFIGTYPE_CUSTOM=Custom
+#Manage Generic Object page
+EMPLOYEE_HRIS_GO_NO_PERMISSION=No Permission
+#RBPFieldOverride Permission Options
+EMPLOYEE_HRIS_GO_RBP_OVERRIDE_OBJECT_FIELD_PERMISSIONS=Field Level Overrides
+EMPLOYEE_HRIS_GO_FIELDPERMISSIONENUM_NO_ACCESS=No Access
+EMPLOYEE_HRIS_GO_FIELDPERMISSIONENUM_READ_ONLY=Read Only
+EMPLOYEE_HRIS_GO_FIELD=Field
+EMPLOYEE_HRIS_GO_PERMISSION=Permission
+EMPLOYEE_HRIS_GO_PERMISSION_ERROR_DUPLICATE_FIELD_OVERRIDES=Object "{0}" has duplicate fields defined for "{1}" in field override section
+EMPLOYEE_HRIS_GO_PERMISSION_ERROR_INCOMPLETE_OVERRIDE=Object "{0}" has incomplete field overrides
+#MDF RBP Validation Messages
+EMPLOYEE_HRIS_GO_RBP_FIELD_DELETED=RBP target criteria refers to a deleted field! Please contact admin to correct it.
+
+#Validation Messages
+EMPLOYEE_HRIS_GO_INVALID_UNIQUE_FIELD=field {0} is a required field in object {1}.
+EMPLOYEE_HRIS_GO_INVALID_LOCALES=Invalid locales: {0}
+EMPLOYEE_HRIS_GO_INVALID_FIELD_OR_ASSOCIATION={0} is neither the field nor association name in {1}.
+EMPLOYEE_HRIS_GO_INVALID_FIELD_CRITERIA=Cannot create the field criteria {0} for field {1} in object definition {2}.
+EMPLOYEE_HRIS_GO_INVALID_ASSO_MAPPING={0} should be mapped to {1} not {2}.
+EMPLOYEE_HRIS_GO_INVALID_FIELD_MAPPING=Field mapping has been changed: {0} should be mapped to {1} not {2}.
+EMPLOYEE_HRIS_GO_INVALID_DATATYPE=DataType of {0} field should be {1}
+#{0}: field name, {1}: Object which has this field, {2}: Object which the field refers to. 
+EMPLOYEE_HRIS_GO_FIELD_REFERENCE_ERROR={1}.{0} field refers to {2}, please delete the reference.
+EMPLOYEE_HRIS_GO_DATASOURCE_IS_NULL={0}.{1} should not be blank.
+EMPLOYEE_HRIS_GO_ASSOCIATION_REFERENCE_ERROR={1}.{0} association refers to {2}, please delete the reference.
+#One or more associations may reference to an object, these associations should be deleted first
+#{0}: is a list of objects definitions with properties in dot notation (e.g. "object1.fieldName1, object2.fildName2"), it can have one or more values, {1}: an referenced object name (e.g. "ChildDefinition")
+EMPLOYEE_HRIS_GO_ASSOCIATION_REFERENCES_ERROR={0} association(s) refers to {1}, please delete the reference(s).
+EMPLOYEE_HRIS_GO_FIELD_CHANGE_MSG=Field Changed {0} due to primary field change {1}
+EMPLOYEE_HRIS_GO_FIELD_RULES_FIRE_MSG=Field {1} triggered the Rules. Do you want to refresh ?
+EMPLOYEE_HRIS_MISSING_EFF_START_DATE_FIELD=Effective Start Date field must be configured for Effective Dated Objects(Basic/Multiple Changes per Day)
+EMPLOYEE_HRIS_MISSING_EXTERNAL_CODE_FIELD=External Code field must be configured for any Object Definition
+EMPLOYEE_HRIS_RECORD_EXISTS_ON_SAME_DATE=Record is already available on this date. Choose another date.
+EMPLOYEE_HRIS_GO_EXTERNAL_CODE_PREFIX_NO_CHANGE=External code of Object Definition cannot be updated.
+EMPLOYEE_HRIS_GO_EXTERNAL_CODE_PREFIX_REQUIRED=External code of Object Definition {0} should start with {1} namespace prefix. Please change it''s code to {2}.
+#{0} is an identifier of a field (e.g. "myField"), {1} is an expected prefix for that identifier (e.g. "cust_"), {2} is the suggested correct Field Definition code (e.g. "cust_myField")
+EMPLOYEE_HRIS_GO_FIELD_EXTERNAL_CODE_PREFIX_REQUIRED=External code of Field Definition {0} should start with {1} namespace prefix. Please change its code to {2}.
+EMPLOYEE_HRIS_GO_FIELD_CONFIGUI_INVALID_FIELD=Invalid Field with Field Id {0} and resolver {1}. Please remove it from the screen definition.
+EMPLOYEE_HRIS_GO_REQUIRED_FIELD_ASSOC={0} is a required field/association in Object {1}.
+EMPLOYEE_HRIS_GO_FIELD_MAX_LENGTH={0} field in object {1} exceeds its max length of {2} characters.
+EMPLOYEE_HRIS_GO_INVALID_REFERENCE={0} is an invalid value for object: {1}.
+EMPLOYEE_HRIS_GO_OTHER_RECORD_FAILED_IN_HIERARCHY_MSG=Import of this record failed due to an error in one of the related records i.e. a failed record with the same external Code or error in either a parent or any composite child record.
+EMPLOYEE_HRIS_GO_FIELD_INVALID_FORMAT={0} field in object {1} has type {3}, attempt to assign incorrect value {2}.
+EMPLOYEE_HRIS_GO_FIELD_INVALID_PRECISION=Attempting to assign too precise value {2} to field {0} in object {1}, maximum precision is {3}.
+EMPLOYEE_HRIS_GO_FIELD_INVALID_USER_REFERENCE=Attempting to assign value {2} to field {0} in object {1}, not a valid user id.
+EMPLOYEE_HRIS_GO_INVALID_VALID_WHEN={0} is an invalid value for valid-when relationship: {1}.
+EMPLOYEE_HRIS_GO_INVALID_JOIN_BY_COLUMN_VALUE={0} is an invalid value for field: {1}. It should be same as field {2} in object {3}
+#{0} will be replaced with a name/identifier (string type)
+EMPLOYEE_HRIS_GO_INVALID_FIELD_IN_IMPORT={0} field is not allowed in Import Template for object type : {1}.
+EMPLOYEE_HRIS_GO_CANNOT_MAKE_EDITABLE={0} is a system populated field you can't make it editable in object type : {1}.
+EMPLOYEE_HRIS_GO_FIELD_GENERIC_VALIDATION_ERROR=Invalid value "{0}" for field {1}
+EMPLOYEE_HRIS_GO_FIELD_NUMBER_VALIDATION_ERROR=Invalid number format {0} for field {1}
+EMPLOYEE_HRIS_GO_FIELD_DECIMAL_VALIDATION_ERROR=Invalid decimal format {0} for field {1}
+EMPLOYEE_HRIS_GO_FIELD_DATE_VALIDATION_ERROR=Invalid date format {0} for field {1}
+EMPLOYEE_HRIS_GO_FIELD_INCOMPATIBLE_TYPE_VALIDATION_ERROR=Internal error occurred while assigning value {0} for field {1}
+EMPLOYEE_HRIS_GO_ENUM_FIELD_FOR_CUSTOM_OBJECTS_VALIDATION=Enum fields are available only for the pre-defined fields, please change the {0} field type to Picklist
+EMPLOYEE_HRIS_GO_ENUM_FIELD_INVALID_DATASOURCE=Invalid data source for Enum field {0}
+EMPLOYEE_HRIS_GO_IMPORT_PROPERTIES_NOT_COMPLETE_OR_MISSING = The import.properties file is missing or incomplete
+EMPLOYEE_HRIS_GO_IMPORT_SEQUENCE_NOT_COMPLETE_OR_MISSING = The import_sequence.csv file is missing or incomplete
+EMPLOYEE_HRIS_GO_IMPORT_ENTITY_FILE_NOT_COMPLETE = The entity csv files are not complete according to import_sequence.csv
+EMPLOYEE_HRIS_GO_IMPORT_PROPERTY_MISSING_OR_INVALID = Import property {0} is missing or invalid.
+#{0} here stands for the file name that is missing
+EMPLOYEE_HRIS_GO_FILE_MISSING = Missing file {0}.
+EMPLOYEE_HRIS_GO_INVALID_OBJECT_TYPE = Invalid object type {0}.
+EMPLOYEE_HRIS_GO_SAVE_JOB_IN_PROGRESS=Saving of objectDefinitions to DB job:"{0}" is running, please try saving after some time.  
+#{0} will be replaced with a data type, {1} will be replaced with field name
+EMPLOYEE_HRIS_GO_INVALID_DATA_TYPE_FOR_BUSINESS_KEY = Invalid data type: {0} for business key field: {1}.
+EMPLOYEE_HRIS_GO_INVALID_FIELD_FOR_BUSINESS_KEY = Invalid business key field: {0}.
+EMPLOYEE_HRIS_GO_BUSINESS_KEY_MUST_BE_EDITABLE_AND_REQUIRED = Business key field: {0} must be required and editable.
+
+#Conditional Associations Validation Messages
+EMPLOYEE_HRIS_GO_CONDITION_CHANGE_NOT_ALLOWED=System provided condition: {0} for association/field: {1} in object definition: {2} is not allowed to be changed to: {3} 
+EMPLOYEE_HRIS_GO_CONDITION_WITH_EMPTY_FIELD_ID_NOT_ALLOWED=Condition with blank field Id is not allowed to be created in association/field: {0} of object definition: {1} 
+EMPLOYEE_HRIS_GO_CONDITION_WITH_BLANK_VALUES_NOT_ALLOWED=Condition with blank Values is not allowed to be created in association/field: {0} of object definition: {1} 
+EMPLOYEE_HRIS_GO_CONDITION_ON_FIELD_NOT_ALLOWED=Field: {0} of data Type: {1} is not allowed to be used as condition field in association/field: {2} of object definition: {3} 
+EMPLOYEE_HRIS_GO_CONDITION_INVALID_FIELD_ID=Only field names can be given as field Id in condition. Giving associationName: {0} in condition: {1} added in association/field: {2} of object definition: {3}
+EMPLOYEE_HRIS_GO_CONDITION_INVALID_PICKLIST_FIELD_ID=You should mention only picklist id as condition field Id. Trying to give condition field Id as : {0} for association/field: {1} in object definition: {2} 
+EMPLOYEE_HRIS_GO_CONDITION_INVALID_GO_FIELD_ID=You must specify complete field name(e.g. yourGO.externalCode) not just the FO/GO name, when you add a condition with field Id of type FO/GO. You tried to give incomplete condition field Id as: {0} in association/field: {1} of object definition: {2}
+EMPLOYEE_HRIS_GO_CONDITION_INCORRECT_FIELD_ID=Incorrect field Id given in condition. Trying to give condition field Id as : {0} for association/field: {1} in object definition: {2}
+EMPLOYEE_HRIS_GO_IC_TO_EC_CONVERSION_FAILED=Unable to find external code for object definition: {0} field: {1}  internal ID: {2}
+EMPLOYEE_HRIS_GO_IC_TO_EC_NON_UNIQUE_RESULT=Found multiple external codes for object definition: {0} field: {1} internal ID: {2}
+#End Conditional Associations Validation Messages
+
+#Error Messages
+EMPLOYEE_HRIS_GO_INVALID_DATA_TYPE=Data Type is empty or null!
+EMPLOYEE_HRIS_GO_EDITTING_ID_NOT_ALLOWED=Id of the object definition can't been changed!! Please {1} change it back to {0}.
+EMPLOYEE_HRIS_GO_MULTIPLE_INSTANCEFACTORY_ANNOTATION=A class can have only one method annotated with InstanceFactory
+EMPLOYEE_HRIS_GO_FIELDS_EXHAUSTED=You can't add any new fields as you have used all the fields in mapping!
+EMPLOYEE_HRIS_GO_INVALID_DELETE=This object definition is not yet saved to DB! In case you wish to delete, save Object Definition to DB first!
+EMPLOYEE_HRIS_GO_IMPORT_GENERAL_EXCEPTION=Import failed due to unexpected system error. Please contact administrator!
+EMPLOYEE_HRIS_GO_LOAD_INTERID_ERROR=System error. Please contact administrator!
+EMPLOYEE_HRIS_GO_FORMATTED_MESSAGE_WRAPPER={0}
+#Warning Messages
+EMPLOYEE_HRIS_GO_CONFIRM_EFFECTIVE_DATING_ON_CHANGE=As you have changed the Effective Dating to {0} it results in addition/deletion of system provided mandatory fields.
+EMPLOYEE_HRIS_GO_MASSCHANGESTATUSENUM_DRAFT =Draft
+EMPLOYEE_HRIS_GO_MASSCHANGESTATUSENUM_INITIATED =Initiated
+EMPLOYEE_HRIS_GO_MASSCHANGESTATUSENUM_STARTED =Started
+EMPLOYEE_HRIS_GO_MASSCHANGESTATUSENUM_SYSTEM_FAILURE =System Failure
+EMPLOYEE_HRIS_GO_MASSCHANGESTATUSENUM_COMPLETED_SUCCESSFULLY =Completed Successfully
+EMPLOYEE_HRIS_GO_MASSCHANGESTATUSENUM_COMPLETED_WITH_ERRORS =Completed with Errors
+EMPLOYEE_HRIS_GO_MASSCHANGESTATUSENUM_FAILED_SYSTEM_ERROR =Failed due to System Error
+EMPLOYEE_HRIS_MassChange_Create=Create Mass Change
+EMPLOYEE_HRIS_MassChange_Edit=Edit Mass Change
+EMPLOYEE_HRIS_MassChange_Display=Display Mass Change
+EMPLOYEE_HRIS_MassChange_Delete=Delete
+EMPLOYEE_HRIS_MassChange_Delimited=Delimited
+EMPLOYEE_HRIS_OBJECT_DEFINITION_EXCEED_LEVEL1=The number of custom MDF objects \u0028{0}\u0029 exceeds the allowed limit \u0028{1}\u0029. Please purchase the Hana Cloud Platform Standard or Enterprise Edition in order to define more custom MDF objects
+EMPLOYEE_HRIS_OBJECT_DEFINITION_EXCEED_LEVEL2=The number of custom MDF objects \u0028{0}\u0029 exceeds the allowed limit \u0028{1}\u0029. Please purchase the Hana Cloud Platform Enterprise Edition in order to define more custom MDF objects
+EMPLOYEE_HRIS_OBJECT_DEFINITION_EXCEED_LEVEL3=The number of custom MDF objects \u0028{0}\u0029 exceeds the allowed limit \u0028{1}\u0029. Please contact your system administrator
+EMPLOYEE_HRIS_OBJECT_DEFINITION_NEARING_LEVEL1=The number of custom MDF objects \u0028{0}\u0029 is nearing the allowed limit \u0028{1}\u0029. Please purchase the Hana Cloud Platform Standard or Enterprise Edition in order to define more custom MDF objects. Click Yes to create, No to cancel
+EMPLOYEE_HRIS_OBJECT_DEFINITION_NEARING_LEVEL2=The number of custom MDF objects \u0028{0}\u0029 is nearing the allowed limit \u0028{1}\u0029. Please purchase the Hana Cloud Platform Enterprise Edition in order to define more custom MDF objects. Click Yes to create, No to cancel
+EMPLOYEE_HRIS_OBJECT_DEFINITION_NEARING_LEVEL3=The number of custom MDF objects \u0028{0}\u0029 is nearing the allowed limit \u0028{1}\u0029. Please contact your system administrator. Click Yes to create, No to cancel
+EMPLOYEE_HRIS_OBJECT_DEFINITION_NAMING_CONVENTION=Name {0} violates the naming convention : The names must begin with a letter or underscore and may contain alphanumeric characters and underscore at other places
+EMPLOYEE_HRIS_OBJECT_DEFINITION_ILLEGAL_DEST_TYPE=Association {0} : Destination type of composite cannot be GOObjectDefinition or PickList
+EMPLOYEE_HRIS_OBJECT_DEFINITION_INVALID_FIELD=Invalid $(EMPLOYEE_HRIS_GO_TYPE_JOIN_BY_COLUMN) configuration: Fields $(EMPLOYEE_HRIS_GO_GOAssociationDefinition_srcObjectFieldId) and $(EMPLOYEE_HRIS_GO_GOAssociationDefinition_destObjectFieldId) must be configured.
+EMPLOYEE_HRIS_OBJECT_DEFINITION_ILLEGAL_JOINBYCOLUMN_ASSOC=Invalid $(EMPLOYEE_HRIS_GO_TYPE_JOIN_BY_COLUMN) configuration: Configure {0} as $(EMPLOYEE_HRIS_GO_GOAssociationDefinition_srcObjectFieldId) and {1} as $(EMPLOYEE_HRIS_GO_GOAssociationDefinition_destObjectFieldId) for $(EMPLOYEE_HRIS_GO_MULTIPLICITY_ONE_TO_ONE) association.
+EMPLOYEE_HRIS_GO_BUSINESS_KEY_CHANGE=Different business key values exist in the history for object: {0}({1}), object type is: {2}. All related records in the history will be updated accordingly.
+EMPLOYEE_HRIS_GO_MULTIPLE_EXTERNAL_CODE_FOR_SAME_BUSINESS_KEY=There are existing records that have duplicate business key values but different external codes. Please correct them: {0}
+EMPLOYEE_HRIS_GO_MULTIPLE_BUSINESS_KEY_FOR_SAME_EXTERNAL_CODE=There are existing records that have different business key values in the history. Please correct them: {0}
+EMPLOYEE_HRIS_GO_BUSINESS_KEY_VALUE_IS_NULL=There are existing records that doesn''t have value on business key field. Please correct them: {0}
+EMPLOYEE_HRIS_GO_BUSINESS_KEY_ALREADY_EXIST=Business key values already exist!
+EMPLOYEE_HRIS_GO_DUPLICATE_BUSINESS_KEY_FOR_CHILD=Business key values already exist for another child! Object type: {0}, externalCode {1}.
+EMPLOYEE_HRIS_GO_DUPLICATE_BUSINESS_KEY_FOR_CHILD_IN_HISTORY=Business key values already exist for another child in the history! Object type: {0}, externalCode {1}.
+EMPLOYEE_HRIS_GO_SAME_EXT_CODE_TO_DIFFERENT_BIZ_KEY=Same external code maps to different business keys.
+EMPLOYEE_HRIS_GO_SAME_BIZ_KEY_TO_DIFFERENT_EXT_CODE=Same business key maps to different external codes.
+#Atachment messages
+EMPLOYEE_HRIS_GO_ATTACHMENTS_ATTACHMENT_MULTIPLE_FILES_NOT_ALLOWED=Multiple files attachments are not allowed
+EMPLOYEE_HRIS_GO_ATTACHMENTS_ATTACHMENT_TYPE_BLANK=Attachment type is blank
+EMPLOYEE_HRIS_GO_ATTACHMENTS_ATTACHMENT_TYPE_INVALID=Invalid attachment type
+
+#Fields on mass change entity
+EMPLOYEE_HRIS_MassChange_area=Area
+EMPLOYEE_HRIS_MassChange_fieldName=Field Name
+EMPLOYEE_HRIS_MassChange_fieldNewValue=New Value
+EMPLOYEE_HRIS_MassChange_externalCode=Mass Change Name
+EMPLOYEE_HRIS_MassChange_effectiveDateOfChange=$(EMPFILE_HRIS_EFFECTIVE_DATE)
+EMPLOYEE_HRIS_MassChange_eventReason=$(EMPLOYEE_HRIS_EVENTREASON)
+EMPLOYEE_HRIS_MassChange_dynamicGroupId=Employee Group
+EMPLOYEE_HRIS_MassChange_processingStatus=Status
+EMPLOYEE_HRIS_MassChange_executedBy=Executed By
+EMPLOYEE_HRIS_MassChange_executedDate=Completion Date
+EMPLOYEE_HRIS_MassChange_createdBy=Created By
+EMPLOYEE_HRIS_MassChange_createdDate=Creation Date
+EMPLOYEE_HRIS_MassChange_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_MassChange_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_MassChange_delimit=Delimit
+#Sections displayed on mass change UI
+EMPLOYEE_HRIS_MassChange_CompletionDetails=Completion Details
+EMPLOYEE_HRIS_MassChange_Log=Log
+EMPLOYEE_HRIS_MassChange_Details=Details
+EMPLOYEE_HRIS_MassChange_Details_EffectiveDate=When should the changes take effect?
+#This sections is for selecting the group of employees for whom changes need to be made
+EMPLOYEE_HRIS_MassChange_WhoIsAffected=Who is affected?
+#This section is for selecting the changes you want to make on employees data
+EMPLOYEE_HRIS_MassChange_Changes=What do you want to change?
+EMPLOYEE_HRIS_MassChange_Response_SUBJECT =Mass Change
+EMPLOYEE_HRIS_MassChange_Response_SUBJECT_COMPLETED =Completed
+EMPLOYEE_HRIS_MassChange_Response_ERRORS =Errors
+EMPLOYEE_HRIS_MassChange_Response_TOTAL_RECORDS =Total Records
+EMPLOYEE_HRIS_MassChange_Response_FAILED_RECORDS =Number of employees where data errors reported : {0}
+EMPLOYEE_HRIS_MassChange_Response_EXECUTED_AT =Executed on
+EMPLOYEE_HRIS_MassChange_Response_BY =by
+EMPLOYEE_HRIS_MassChange_Response_System_Failure_Users =Number of employees where system failures occurred : {0}
+EMPLOYEE_HRIS_MassChange_Response_No_Record_Users =Number of employees where no record exists : {0}
+EMPLOYEE_HRIS_MassChange_Response_Successfully_Processed=Number of records successfully processed : {0}
+EMPLOYEE_HRIS_MassChange_Response_No_Permission =Number of employees skipped due to missing authorization : {0}
+EMPLOYEE_HRIS_MassChange_Contact_Admin=Please contact your System Administrator for assistance.
+EMPLOYEE_HRIS_MassChange_LogFailedResponse=Execution was done, but log file could not be written for mass change.
+EMPLOYEE_HRIS_MassChange_ErrorResponse=An error occurred while executing mass change. $(EMPLOYEE_HRIS_MassChange_Contact_Admin)
+EMPLOYEE_HRIS_MassChange_ErrorResponseId=Mass change internal id
+#Validation Messages for MassChangeDefinition
+EMPLOYEE_HRIS_MassChange_Validation_DuplicateField=Only one change per "$(EMPLOYEE_HRIS_MassChange_fieldName)" should be configured for an "$(EMPLOYEE_HRIS_MassChange_area)"
+EMPLOYEE_HRIS_MassChange_Validation_Name_MaxLength=$(EMPLOYEE_HRIS_MassChange_externalCode) exceeds max length of 128 chars.
+EMPLOYEE_HRIS_MassChange_Validation_IncompleteConfiguration=Mass Change feature configuration issue. $(EMPLOYEE_HRIS_MassChange_Contact_Admin)
+EMPLOYEE_HRIS_MassChange_Validation_DateInPast=Effective Date of Change should be a date in future
+EMPLOYEE_HRIS_MassChange_Validation_EC_ALREADY_EXIST=A change with this name already exists, please enter a different name.
+EMPLOYEE_HRIS_MassChange_Validation_EventReasonNotFilled=Event Reason is not filled
+#Mass Change for Job requires another change also configured along with event reason
+EMPLOYEE_HRIS_MassChange_Validation_OnlyEventReasonFilled=Please configure another change along with event reason
+#Mass change success messages
+EMPLOYEE_HRIS_MassChange_Success_RowDelete=Mass change definition was deleted
+#Mass change error messages displayed on UI
+EMPLOYEE_HRIS_MassChange_No_Change_Configured=No change is configured
+EMPLOYEE_HRIS_MassChange_Save_Failure=An error occurred while saving mass change. $(EMPLOYEE_HRIS_MassChange_Contact_Admin)
+EMPLOYEE_HRIS_MassChange_Copy_Failure=An error occurred while copying mass change. $(EMPLOYEE_HRIS_MassChange_Contact_Admin)
+EMPLOYEE_HRIS_MassChange_Initiate_Failure=An error occurred while initiating mass change. $(EMPLOYEE_HRIS_MassChange_Contact_Admin)
+#{0} is number of employees
+EMPLOYEE_HRIS_MassChange_WARN_INSUFFICIENT_PERMISSION_OTHER_USERS=and {0} other employees.
+#{0} is element user is changing like Job Information, {1} is names of comma separated 3 or less users along with message from
+# this property - EMPLOYEE_HRIS_MassChange_WARN_INSUFFICIENT_PERMISSION_OTHER_USERS if number of users and more than 3
+EMPLOYEE_HRIS_MassChange_WARN_INSUFFICIENT_PERMISSION=You do not have permission to change the {0} for {1}
+#{0} is number of employees
+EMPLOYEE_HRIS_MassChange_LOG_NO_AUTHORIZATION=List of employees skipped due to missing authorization : 
+EMPLOYEE_HRIS_MassChange_LOG_SUCCESSFUL_CHANGES=Successful Changes :  
+EMPLOYEE_HRIS_MassChange_Error_Details=$(COMMON_Err) Details
+EMPLOYEE_HRIS_MassChange_Employee=$(EXP_PMSP_SIGNATURES_EMPLOYEE) 
+
+EMPLOYEE_POSITION_INFO_LABEL=Position Information
+EMPLOYEE_DEACTIVATE_POSITION=Deactivate Position
+EMPLOYEE_POSITION_HAS_CHILDPOSITIONS_ERROR=Cannot Terminate $(COMMON_Employee), as Position assigned to this $(COMMON_Employee) has child positions.
+EMPLOYEE_POSITION_EVENT_REASON_CONFIG_ERROR=Position reclassification/transfer event reason is not configured in Admin Tools
+EMPLOYEE_POSITION_JOBINFO_SYNC_RULE_CONFIG_ERROR=Job Information to Position synchronization rule not configured in Admin Tools
+EMPLOYEE_POSITION_JOBINFO_SYNC_ERROR=Data can't be saved because an error occurred while updating the assigned position. Please contact your system administrator.
+EMPLOYEE_POSITION_RECLASSIFICATION_DUPLICATE_RECORD=Position reclassification cannot proceed, there is already another position record with same start date.
+EMPLOYEE_INVALID_POSITION_RECLASSIFICATION_EVENT_REASON=Position cannot be changed for Position Reclassification event reason
+
+EMPLOYEE_PROFILE_SUBTAB=Profile
+EMPLOYEE_SCORECARD_SUBTAB=$(COMMON_Scorecard)
+EMPLOYEE_COMPSTATEMENT_SUBTAB=Compensation Statement
+EMPLOYEE_KEY=$(COMMON_Employee)Reports
+EMPLOYEE_ADMIN_SCORECARD_CONFIGURE=Configure $(COMMON_Employee) Files
+EMPLOYEE_Search=Search
+EMPLOYEE_FEATURE_EMPLOYEE_DIRECTORY=$(COMMON_Employee) Directory
+EMPLOYEE_Statistics=Statistics
+EMPLOYEE_Tag=Tag
+EMPLOYEE_Tag_Cloud=$(EMPLOYEE_Tag) Cloud
+EMPLOYEE_Tag_Colon=$(EMPLOYEE_Tag):
+EMPLOYEE_Start_Date_Colon=Start Date:
+#{0} is a number
+EMPLOYEE_results={0} results
+#{0} is a number, {1} is the searched term
+EMPLOYEE_results_for={0} results for \u0022{1}\u0022
+#{0} is a number, {1} is the tag label
+EMPLOYEE_results_for_tag= {0} results for $(EMPLOYEE_Tag) \u0022{1}\u0022
+EMPLOYEE_Map=Map
+EMPLOYEE_Tags=Tags
+EMPLOYEE_Faces=Faces
+EMPLOYEE_Directory_Search=Directory Search
+EMPLOYEE_Skill_Search=Skill Search
+EMPLOYEE_more=more...
+EMPLOYEE_More=More...
+EMPLOYEE_Photo=Photo
+EMPLOYEE_Select_One=Select One
+EMPLOYEE_List=List
+EMPLOYEE_View=View
+EMPLOYEE_Photo_View=Photo View
+EMPLOYEE_List_View=List View
+EMPLOYEE_Seating_Chart=Seating Chart
+EMPLOYEE_Display_Options=Display Options
+EMPLOYEE_Sort_Options=Sort Options
+EMPLOYEE_Print_Preview=Print Preview
+EMPLOYEE_Email_All=Email All
+EMPLOYEE_Email_All_Too_Many_users=Email list is too long for your browser (2048 chars). Please refine your selection.
+EMPLOYEE_Seating=Seating
+EMPLOYEE_Locations=Locations
+EMPLOYEE_Not_Mapped=Not Mapped
+EMPLOYEE_Seating_View=Seating View
+EMPLOYEE_show_employees_found=Showing {0} of {1} $(COMMON_employees) found.
+EMPLOYEE_employees_found={0} $(COMMON_employees) found.
+EMPLOYEE_See_All=See All
+EMPLOYEE_ALL=All
+EMPLOYEE_DATE_FLITER=Filter/Date Options
+EMPLOYEE_No_contacts_to_display=No contacts to display
+EMPLOYEE_Current_Period_Colon=Current Period:
+EMPLOYEE_Previous_Period_Colon=Previous Period:
+EMPLOYEE_Start_Colon=Start:
+EMPLOYEE_End_Colon=End:
+EMPLOYEE_Process_Colon=Process:
+EMPLOYEE_All_Forms=All Forms
+EMPLOYEE_All_Sources=All data sources
+EMPLOYEE_Form_status_Colon=Form Status:
+EMPLOYEE_Use_Only_Completed_forms=Use only Completed Forms
+EMPLOYEE_In_Progress_and_Completed=Include both In-Progress and Completed Forms
+EMPLOYEE_Update=Update
+EMPLOYEE_Items_per_page=Items per page:
+EMPLOYEE_Page=Page
+EMPLOYEE_Page_of= of {0}
+EMPLOYEE_Go_first_page=Go to first page
+EMPLOYEE_Go_previous_page=Go to previous page
+EMPLOYEE_Go_next_page=Go to next page
+EMPLOYEE_Go_last_page=Go to last page
+EMPLOYEE_Advanced_Search=Advanced search...
+EMPLOYEE_Search_for_User=Search for a user
+EMPLOYEE_Advanced_Search_Label={0}: $(Search)
+EMPLOYEE_SUCCESSORS=Successors
+
+##
+#  Begin Default Labels for Live Profile\$(COMMON_Scorecard) Fields
+#  must be the userinfo key proceded by EMPLOYEE_
+#  or if element has no userinfo key, the standard element id.
+##
+EMPLOYEE_USERNAME=User Name
+EMPLOYEE_FIRSTNAME=First Name
+EMPLOYEE_LASTNAME=Last Name
+EMPLOYEE_MI=Middle Initial
+EMPLOYEE_NICKNAME=Nickname
+EMPLOYEE_SUFFIX=Suffix
+EMPLOYEE_SALUTATION=Salutation
+EMPLOYEE_GENDER=Gender
+EMPLOYEE_EMAIL=Email
+EMPLOYEE_EMAIL_AS_TEXT=Email as text
+EMPLOYEE_EMAIL_AS_PDF=Email as PDF attachment
+EMPLOYEE_MATRIX_MANAGER=Matrix $(COMMON_Manager)
+EMPLOYEE_SECOND_MANAGER=Second $(COMMON_Manager)
+EMPLOYEE_TIMEZONE=Time Zone
+EMPLOYEE_DEFAULT_LOCALE=Default Locale
+EMPLOYEE_PASSWORD=Password
+EMPLOYEE_BIZ_PHONE=Business Phone
+EMPLOYEE_FAX =Business Fax
+EMPLOYEE_ADDR1=Address1
+EMPLOYEE_ADDR2=Address2
+EMPLOYEE_ADDR3=Address3
+EMPLOYEE_CITY=City
+EMPLOYEE_STATE=State
+EMPLOYEE_ZIP=Zip
+EMPLOYEE_COUNTRY=Country
+EMPLOYEE_DEPARTMENT=Department
+EMPLOYEE_DIVISION=Division
+EMPLOYEE_LOCATION=Location
+EMPLOYEE_TITLE=Title
+EMPLOYEE_EMPID=$(COMMON_Employee) Id
+EMPLOYEE_HIREDATE=Hire Date
+EMPLOYEE_MANAGER=Manager
+EMPLOYEE_REVIEW_FREQ=Review Frequency
+EMPLOYEE_LAST_REVIEW_DATE=Last Review Date
+EMPLOYEE_CUSTOM01=Customizable Field 1
+EMPLOYEE_CUSTOM02=Customizable Field 2
+EMPLOYEE_CUSTOM03=Customizable Field 3
+EMPLOYEE_CUSTOM04=Customizable Field 4
+EMPLOYEE_CUSTOM05=Customizable Field 5
+EMPLOYEE_CUSTOM06=Customizable Field 6
+EMPLOYEE_CUSTOM07=Customizable Field 7
+EMPLOYEE_CUSTOM08=Customizable Field 8
+EMPLOYEE_CUSTOM09=Customizable Field 9
+EMPLOYEE_CUSTOM10=Customizable Field 10
+EMPLOYEE_CUSTOM11=Customizable Field 11
+EMPLOYEE_CUSTOM12=Customizable Field 12
+EMPLOYEE_CUSTOM13=Customizable Field 13
+EMPLOYEE_CUSTOM14=Customizable Field 14
+EMPLOYEE_CUSTOM15=Customizable Field 15
+EMPLOYEE_CUSTOM_MANAGER=Custom Manager
+EMPLOYEE_HR_MANAGER=HR Rep
+EMPLOYEE_SALARY=Salary/Wages
+EMPLOYEE_SALARY_LOCAL=Local $(EMPLOYEE_SALARY)
+EMPLOYEE_LOCAL_CURRENCY_CODE=Local Currency Code
+EMPLOYEE_JOBTITLE=Job $(COMMON_Title)
+EMPLOYEE_JOBLEVEL=Job Level
+EMPLOYEE_JOBFAMILY=Job Family
+EMPLOYEE_JOBROLE=Job Role
+EMPLOYEE_JOBCODE=Job Code
+EMPLOYEE_JOBPROFILE=Job Profile
+EMPLOYEE_RADFORD_JOBCODE=Radford Job Code
+EMPLOYEE_FINAL_JOBFAMILY=Final Job Family
+EMPLOYEE_FINAL_JOBROLE=Final Job Role
+EMPLOYEE_FINAL_JOBCODE=Final Job Code
+EMPLOYEE_PAYGRADE=Pay Grade
+EMPLOYEE_PAY_TYPE=Pay Type
+EMPLOYEE_DATE_OF_CURRENT_POSITION=Date of Current Position
+EMPLOYEE_BONUS=Actual Bonus
+EMPLOYEE_MERIT_INCREASE=Merit Increase
+EMPLOYEE_OPTOIN=Options
+EMPLOYEE_ADJUSTMENT_REASON=Adjustment Reason
+EMPLOYEE_ADJUSTMENT_DATE=Adjustment Date
+EMPLOYEE_BONUSTARGET=Bonus Target
+EMPLOYEE_SALARY_PRORATING=Salary Pro-Rating
+EMPLOYEE_PROMOTION_AMOUNT=Promotion Amount
+EMPLOYEE_LUMPSUM_TARGET=Lump Sum Target
+EMPLOYEE_COMPENSATION_NOT_ELIGIBLE=n/a
+EMPLOYEE_Compensation_Component=Compensation Component
+EMPLOYEE_COMPENSATION_READONLY=Compensation (Read only)
+EMPLOYEE_MERIT_EFFECTIVE_DATE=Merit Effective Date
+EMPLOYEE_COMPENSATION_ELIGIBLE=Compensation Eligible
+EMPLOYEE_COMPENSATION_SAL_RATE_TYPE=Compensation $(EMPLOYEE_SALARY) Rate Type
+EMPLOYEE_COMPENSATION_SAL_RATE_UNITS=Compensation $(EMPLOYEE_SALARY) Rate Units
+EMPLOYEE_SCORECARD_ID=Scorecard Id:
+EMPLOYEE_PORTLET_ID=Portlet Id:
+EMPLOYEE_LINK_TO_FORM=To link to this portlet from a form, enter this in form template:
+EMPLOYEE_LINK_TO_TITLE_EXAMPLE=Some Link Label
+EMPLOYEE_CURRENT_TITLE=Current Title
+EMPLOYEE_NUMBER_OF_OTHER_NOMINATIONS=# of other nominations
+#Added for Self-Reg
+EMPLOYEE_PENDING_MANAGER=Pending $(COMMON_Manager)
+EMPLOYEE_AUTO_REGISTERED=Auto Registered
+#Added for ListView display options
+EMPLOYEE_USERID=User Id
+EMPLOYEE_ssn=Social Security Number
+EMPLOYEE_name=Name
+EMPLOYEE_description=Description
+EMPLOYEE_dateOfBirth=Date of Birth
+EMPLOYEE_citizenship=Citizenship
+EMPLOYEE_nationality=Nationality
+EMPLOYEE_married=Married
+EMPLOYEE_minority=Minority
+EMPLOYEE_diversity=Diversity
+EMPLOYEE_ethnicity=Ethnicity
+EMPLOYEE_businessSegment=Business Segment
+EMPLOYEE_serviceDate=Service Date
+EMPLOYEE_level=Band
+EMPLOYEE_photo=Photo
+EMPLOYEE_function=Function
+EMPLOYEE_performance=Performance
+EMPLOYEE_potential=Potential
+EMPLOYEE_objective=Objective
+EMPLOYEE_competency=$(COMMON_COMPETENCY)
+EMPLOYEE_talentPool=Talent Pool
+EMPLOYEE_riskOfLoss=Risk of Loss
+EMPLOYEE_impactOfLoss=Impact of Loss
+EMPLOYEE_benchStrength=Bench Strength
+EMPLOYEE_reasonForLeaving=Reason for Leaving
+EMPLOYEE_newToPosition=New to Position
+EMPLOYEE_dateOfPosition=Date of Position
+EMPLOYEE_keyPosition=Key Position
+EMPLOYEE_futureLeader=Future Leader
+EMPLOYEE_matrixManaged=Matrix Managed
+EMPLOYEE_matrix1Label=9-box placement 1
+EMPLOYEE_matrix2Label=9-box placement 2
+EMPLOYEE_analytics=Analytics
+EMPLOYEE_userTags=Tags
+EMPLOYEE_facebook=Find Me on Facebook!
+EMPLOYEE_time=Current Time
+EMPLOYEE_fullName=Full Name
+EMPLOYEE_manager=Manager
+EMPLOYEE_hr=HR Admin
+EMPLOYEE_address=Address
+EMPLOYEE_module=module
+EMPLOYEE_source=source
+EMPLOYEE_rating=rating
+EMPLOYEE_start-date=start date
+EMPLOYEE_end-date=end date
+EMPLOYEE_veteranDisabled=Disabled Vet
+EMPLOYEE_veteranSeparated=Recently Separated Vet
+EMPLOYEE_veteranProtected=Other Protected Vet
+EMPLOYEE_veteranMedal=Armed Forces Service Medal Vet
+EMPLOYEE_totalTeamSize=Total Team Size
+EMPLOYEE_teamMembersSize=Number of Team Members
+EMPLOYEE_timeInCurrentPosition=Time in Current Position
+EMPLOYEE_timeAtCompany=Time at Company
+EMPLOYEE_previousPosition=Previous Position in Company
+EMPLOYEE_previousEmployer=Previous Employer
+EMPLOYEE_AND=$(and)
+## End Default Labels for Live Profile\Scorecard Fields
+
+#Start: EMPLOYEE_ prefixed keys moved from messages.properties.utf8 to sfmessages.properties.utf8 on Tue Jun  2 16:24:00 IST 2009 - using movef.sh script
+EMPLOYEE_PROFILES_TABLE_SUMMARY=List of My Team's $(Employee) Profiles
+#End: EMPLOYEE_ prefixed keys moved from messages.properties.utf8 to sfmessages.properties.utf8 on Tue Jun  2 16:24:01 IST 2009 - using movef.sh script
+
+#ECT Position Management Update Emp Job Info service messages
+EMPLOYEE_UPDATE_EMP_JOBINFO_SUCCESS=Update employee Job Info done for the given position
+EMPLOYEE_UPDATE_EMP_JOBINFO_FAILED=Failed to update employee job info for the given position
+EMPLOYEE_POSITION_MNGMT_SYSTEM_ERROR=System Error. Please contact administrator.
+#ECT Position Management Save Position service messages
+EMPLOYEE_SAVE_POSITION_SUCCESS=Save Position Successful
+EMPLOYEE_SAVE_POSITION_FAILED=Save Position Failed
+
+#Manage Invalid FO Page
+EMPLOYEE_HRIS_Manage_Invalid_FO=Employees Associated With Invalid HR Data
+EMPLOYEE_HRIS_Back_To_Manage_Invalid_FO=\u003C Back To $(EMPLOYEE_HRIS_Manage_Invalid_FO)
+EMPLOYEE_HRIS_Invalid_FO_New_Value=New Value
+EMPLOYEE_HRIS_Invalid_FO_Invalid_Value=(Invalid Value)
+EMPLOYEE_HRIS_Invalid_FO_Mass_Apply=Mass Apply ({0})
+EMPLOYEE_HRIS_Invalid_FO_No_Results_To_Display=There are no results to display.
+EMPLOYEE_HRIS_Invalid_FO_Mass_Apply_Changes=Mass Apply Changes
+EMPLOYEE_HRIS_Invalid_FO_Records_Selected=There are {0} records selected.
+EMPLOYEE_HRIS_Invalid_FO_Record_Selected=There is 1 record selected.
+EMPLOYEE_HRIS_Invalid_FO_New_Column_Value=New {0} Value
+EMPLOYEE_HRIS_Invalid_FO_Wait=Wait - Processing {0} Object Changes
+EMPLOYEE_HRIS_Invalid_FO_Changes_In_Progress=Changes applied are currently in progress. Please come back.
+EMPLOYEE_HRIS_Job_Info_Invalid_FO_title=The selected record has the following invalid values.
+#{0} - date range ;{1} - foundation object name
+EMPLOYEE_HRIS_Job_Info_Invalid_FO_=Job information ({0}) has invalid {1} reference.
+#{0} - foundation object name
+EMPLOYEE_HRIS_Invalid_FO_Deleted={0} is deleted.
+#{0} - FO name; {1} -foValue;{2}-FOStartDate; {3}-FOEndDate
+EMPLOYEE_HRIS_Invalid_FO_Inactive={0}: {1}({2} - {3}) is inactive.
+#{0} - FO name; {1} -foValue;{2}-FOStartDate; {3}-FOEndDate; {4}-dependOnFO value
+EMPLOYEE_HRIS_Invalid_FO_Association={0}: {1}({2} - {3}) has invalid association with {4}.
+EMPLOYEE_HRIS_ACCESS_DENIED=Access Denied! You are not authorized to view this page.
+
+#INVALID FOUNDATION OBJECT MANAGEMENT
+EMPLOYEE_JOB_ID=ID
+EMPLOYEE_USER_SYS_ID=USER ID
+EMPLOYEE_CODE=Person ID
+EMPLOYEE_NAME=Employee Name
+EMPLOYEE_EFFECTIVE_DATE=Effective Date
+EMPLOYEE_CURRENT_VALUE=Current Invalid Data Value
+EMPLOYEE_IS_CURRENT_RECORD=Current Job Info Record
+EMPLOYEE_INVALID_EFFECTIVE_DATE=Invalid Effective Date
+EMPLOYEE_NEW_VALUE=New Value
+EMPLOYEE_DEPEND_ON_FIELD=Depend On
+EMPLOYEE_HRIS_No_Results_To_Display=No results to display
+
+#Learning Competencies Portlet
+EMPLOYEE_LEARNING_COMPETENCIES_PORTLET_FIND_LEARNING_HEADER=Find $(LEARNING_LEARNING)
+EMPLOYEE_LEARNING_COMPETENCIES_PORTLET_FIND_LEARNING=Find $(LEARNING_LEARNING) items related to this $(competency)
+#show how many the rating sources are. Eg. Last 3 Rating Sources
+EMPLOYEE_LEARNING_COMPETENCIES_PORTLET_LAST_RATING_SOURCES=Last {0} Rating Sources
+
+#MDF Predefined object labels.
+EMPLOYEE_HRIS_GO_GOLocalizedData_rowID=Row Id
+EMPLOYEE_HRIS_GO_GOLocalizedData_internalId=Internal Code
+EMPLOYEE_HRIS_GO_GOLocalizedData_referencingField=Referencing Field
+EMPLOYEE_HRIS_GO_GOLocalizedData_en_US=US English
+EMPLOYEE_HRIS_GO_GOLocalizedData_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_GOLocalizedData_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_GOLocalizedData_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_GOLocalizedData_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_GOLocalizedData_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_IfCondition_externalCode=External Code
+EMPLOYEE_HRIS_GO_IfCondition_andOr=And / Or
+EMPLOYEE_HRIS_GO_IfCondition_leftBrackets=(
+EMPLOYEE_HRIS_GO_IfCondition_leftExpression=Expression
+EMPLOYEE_HRIS_GO_IfCondition_operator=Operator
+EMPLOYEE_HRIS_GO_IfCondition_rightExpression=Expression
+EMPLOYEE_HRIS_GO_IfCondition_literalOnly=Literal
+EMPLOYEE_HRIS_GO_IfCondition_rightBrackets=)
+EMPLOYEE_HRIS_GO_IfCondition_rowId=Row Id
+EMPLOYEE_HRIS_GO_IfCondition_internalCode=Internal Code
+EMPLOYEE_HRIS_GO_IfCondition_externalName=Name
+EMPLOYEE_HRIS_GO_IfCondition_status=status
+EMPLOYEE_HRIS_GO_IfCondition_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_IfCondition_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_IfCondition_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_IfCondition_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_ThenCondition_externalCode=External Code
+EMPLOYEE_HRIS_GO_ThenCondition_ruleAction=Rule Action
+EMPLOYEE_HRIS_GO_ThenCondition_propertyExpression=Property Expression
+EMPLOYEE_HRIS_GO_ThenCondition_literalOnly=Literal
+EMPLOYEE_HRIS_GO_ThenCondition_valueExpression=Value
+EMPLOYEE_HRIS_GO_ThenCondition_rowId=Row Id
+EMPLOYEE_HRIS_GO_ThenCondition_internalCode=Internal Code
+EMPLOYEE_HRIS_GO_ThenCondition_externalName=External Name
+EMPLOYEE_HRIS_GO_ThenCondition_status=Status
+EMPLOYEE_HRIS_GO_ThenCondition_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_ThenCondition_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_ThenCondition_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_ThenCondition_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_Rule_code=External Code
+EMPLOYEE_HRIS_GO_Rule_name=Name
+EMPLOYEE_HRIS_GO_Rule_baseObject=Base Object
+EMPLOYEE_HRIS_GO_FieldCriteria_destinationFieldValue=Destination Field Value
+EMPLOYEE_HRIS_GO_FieldCriteria_icOfCorrespondingGO=Internal Code
+EMPLOYEE_HRIS_GO_FieldCriteria_rowIDOfCorrespondingGO=Row Id
+EMPLOYEE_HRIS_GO_FieldCriteria_sourceFieldName=Source Field
+EMPLOYEE_HRIS_GO_FieldCriteria_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_FieldCriteria_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_FieldCriteria_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_FieldCriteria_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_FieldCriteria_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_name=Name
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_type=Type
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_multiplicity=Multiplicity
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_srcObjectFieldId=Source Object Column
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_destObjectId=Destination Object
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_destObjectFieldId=Destination Object Column
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_icOfCorrespondingGO=Code
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_rowIDOfCorrespondingGO=Row Id
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_required=Required
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_visibility=Visibility
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_label=Label
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_destObjectDef=Destination Object
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_GOAssociationDefinition_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_GOFieldDefinition_name=Name
+EMPLOYEE_HRIS_GO_GOFieldDefinition_genericObjectEOFieldName=Database Field Name
+EMPLOYEE_HRIS_GO_GOFieldDefinition_dataType=Data Type
+EMPLOYEE_HRIS_GO_GOFieldDefinition_maxLength=Maximum Length
+EMPLOYEE_HRIS_GO_GOFieldDefinition_dataSourceValue=Valid Values Source
+EMPLOYEE_HRIS_GO_GOFieldDefinition_showNoOldValue=Hide Old Value
+EMPLOYEE_HRIS_GO_GOFieldDefinition_isSystem=System Field
+EMPLOYEE_HRIS_GO_GOFieldDefinition_decimalPrecision=Decimal Precision
+EMPLOYEE_HRIS_GO_GOFieldDefinition_icOfCorrespondingGO=Internal Code
+EMPLOYEE_HRIS_GO_GOFieldDefinition_rowIDOfCorrespondingGO=Row Id
+EMPLOYEE_HRIS_GO_GOFieldDefinition_required=Required
+EMPLOYEE_HRIS_GO_GOFieldDefinition_visibility=Visibility
+EMPLOYEE_HRIS_GO_GOFieldDefinition_label=Label
+EMPLOYEE_HRIS_GO_GOFieldDefinition_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_GOFieldDefinition_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_GOFieldDefinition_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_GOFieldDefinition_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_GOFieldDefinition_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_GOObjectDefinition_id=Code
+EMPLOYEE_HRIS_GO_GOObjectDefinition_icOfCorrespondingGO=Internal Code
+EMPLOYEE_HRIS_GO_GOObjectDefinition_rowIDOfCorrespondingGO=Internal Code
+EMPLOYEE_HRIS_GO_GOObjectDefinition_effectiveDating=Effective Dating
+EMPLOYEE_HRIS_GO_GOObjectDefinition_wfConfig=Workflow Routing
+EMPLOYEE_HRIS_GO_GOObjectDefinition_pendingData=Pending Data
+EMPLOYEE_HRIS_GO_GOObjectDefinition_todoCategory=Todo Category
+EMPLOYEE_HRIS_GO_GOObjectDefinition_label=Label
+EMPLOYEE_HRIS_GO_GOObjectDefinition_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_GOObjectDefinition_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_GOObjectDefinition_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_GOObjectDefinition_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_GOObjectDefinition_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_GORBPConfig_securedByRBP=Secured
+EMPLOYEE_HRIS_GO_GORBPConfig_permissionCategory=Permission Category
+EMPLOYEE_HRIS_GO_GORBPConfig_rowId=Row Id
+EMPLOYEE_HRIS_GO_GORBPConfig_internalId=Internal Code
+EMPLOYEE_HRIS_GO_GORBPConfig_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_GORBPConfig_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_GORBPConfig_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_GORBPConfig_mdfSystemCreatedDate=createdDate
+EMPLOYEE_HRIS_GO_GORBPConfig_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_rowId=Row Id
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_internalId=Internal Code
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_externalCode=externalCode
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_createdBy=Created By
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_createdDate=Creation Date
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_objectType=Object Type
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_restrictAccess=Restrict Access
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_rowId=Row Id
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_internalId=Internal Code
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_externalCode=External Code
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_createdBy=Created By
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_createdDate=Creation Date
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_field=Field
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_operator=Operator
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_value=Value
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_rowId=Row Id
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_internalId=Internal Id
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_ruleId=Rule Id
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_createdBy=Created By
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_createdDate=Created Date
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_MassChangeDefinition_rowId=Row Id
+EMPLOYEE_HRIS_GO_MassChangeDefinition_internalCode=Internal Code
+EMPLOYEE_HRIS_GO_MassChangeDefinition_externalCode=External Code
+EMPLOYEE_HRIS_GO_MassChangeDefinition_effectiveStatus=Effective Status
+EMPLOYEE_HRIS_GO_MassChangeDefinition_effectiveDateOfChange=Effective Date of Change
+EMPLOYEE_HRIS_GO_MassChangeDefinition_dynamicGroupId=Dynamic Group
+EMPLOYEE_HRIS_GO_MassChangeDefinition_processingStatus=Processing Status
+EMPLOYEE_HRIS_GO_MassChangeDefinition_executedBy=Executed By
+EMPLOYEE_HRIS_GO_MassChangeDefinition_executedDate=Executed Date
+EMPLOYEE_HRIS_GO_MassChangeDefinition_scheduleJobId=Job Id
+EMPLOYEE_HRIS_GO_MassChangeDefinition_createdBy=Created By
+EMPLOYEE_HRIS_GO_MassChangeDefinition_createdDate=createdDate
+EMPLOYEE_HRIS_GO_MassChangeDefinition_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_GO_MassChangeDefinition_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_GO_MassChangeDefinition_delimitRule=Delimit
+EMPLOYEE_HRIS_GO_MassChangeDefinition_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_MassChangeDefinition_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_PickList_id=Code
+EMPLOYEE_HRIS_GO_PickList_icOfCorrespondingGO=Internal Code
+EMPLOYEE_HRIS_GO_PickList_rowIDOfCorrespondingGO=Row Id
+EMPLOYEE_HRIS_GO_PickList_name=Name
+EMPLOYEE_HRIS_GO_PickList_status=Status
+EMPLOYEE_HRIS_GO_PickList_displayOrder=Display Order
+EMPLOYEE_HRIS_GO_PickList_effectiveStartDate=Effective Start Date
+EMPLOYEE_HRIS_GO_PickList_effectiveEndDate=Effective End Date
+EMPLOYEE_HRIS_GO_PickList_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_PickList_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_PickList_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_PickList_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_PickListValue_externalCode=External Code
+EMPLOYEE_HRIS_GO_PickListValue_label=Label
+EMPLOYEE_HRIS_GO_PickListValue_status=Status
+EMPLOYEE_HRIS_GO_PickListValue_internalId=Internal Code
+EMPLOYEE_HRIS_GO_PickListValue_rowIDOfCorrespondingGO=Row Id
+EMPLOYEE_HRIS_GO_PickListValue_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_PickListValue_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_PickListValue_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_PickListValue_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_PICKLISTORDERENUM_PROCESSING_ORDER=None
+EMPLOYEE_HRIS_GO_PICKLISTORDERENUM_ALPHA=Alphabetical
+EMPLOYEE_HRIS_GO_PICKLISTORDERENUM_NUMERIC=Numeric
+EMPLOYEE_HRIS_GO_Position_rowId=Row Id
+EMPLOYEE_HRIS_GO_Position_internalId=Internal Code
+EMPLOYEE_HRIS_GO_Position_code=Code
+EMPLOYEE_HRIS_GO_Position_externalName=Name
+EMPLOYEE_HRIS_GO_Position_effectiveStatus=Effective Status
+EMPLOYEE_HRIS_GO_Position_effectiveStartDate=Effective Start Date
+EMPLOYEE_HRIS_GO_Position_effectiveEndDate=Effective End Date
+EMPLOYEE_HRIS_GO_Position_positionTitle=Position Title
+EMPLOYEE_HRIS_GO_Position_criticality=Criticality
+EMPLOYEE_HRIS_GO_Position_comment=Comment
+EMPLOYEE_HRIS_GO_Position_incumbent=Incumbent
+EMPLOYEE_HRIS_GO_Position_changeReason=Event Reason
+EMPLOYEE_HRIS_GO_Position_description=Description
+EMPLOYEE_HRIS_GO_Position_jobTitle=JobTitle
+EMPLOYEE_HRIS_GO_Position_jobCode=Job Classification
+EMPLOYEE_HRIS_GO_Position_jobLevel=Job Level
+EMPLOYEE_HRIS_GO_Position_employeeClass=Employee Class
+EMPLOYEE_HRIS_GO_Position_regularTemporary=Regular Temporary
+EMPLOYEE_HRIS_GO_Position_payGrade=Pay Grade
+EMPLOYEE_HRIS_GO_Position_targetFTE=Target FTE
+EMPLOYEE_HRIS_GO_Position_vacant=Vacant
+EMPLOYEE_HRIS_GO_Position_company=Company
+EMPLOYEE_HRIS_GO_Position_businessUnit=Business Unit
+EMPLOYEE_HRIS_GO_Position_division=Division
+EMPLOYEE_HRIS_GO_Position_department=department
+EMPLOYEE_HRIS_GO_Position_location=Location
+EMPLOYEE_HRIS_GO_Position_costCenter=Cost Center
+EMPLOYEE_HRIS_GO_Position_createdBy=Created By
+EMPLOYEE_HRIS_GO_Position_createdDate=Creation Date
+EMPLOYEE_HRIS_GO_Position_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_GO_Position_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_GO_Position_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_Position_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_RBPObjectPermission_objectType=Object Type
+EMPLOYEE_HRIS_GO_RBPObjectPermission_view=View
+EMPLOYEE_HRIS_GO_RBPObjectPermission_edit=Edit
+EMPLOYEE_HRIS_GO_RBPObjectPermission_viewCurrent=View Current
+EMPLOYEE_HRIS_GO_RBPObjectPermission_viewHistory=View History
+EMPLOYEE_HRIS_GO_RBPObjectPermission_create=Create
+EMPLOYEE_HRIS_GO_RBPObjectPermission_insert=Insert
+EMPLOYEE_HRIS_GO_RBPObjectPermission_correct=Correct
+EMPLOYEE_HRIS_GO_RBPObjectPermission_delete=Delete
+EMPLOYEE_HRIS_GO_RBPObjectPermission_internalId=Internal Code
+EMPLOYEE_HRIS_GO_RBPObjectPermission_rowId=Row Id
+EMPLOYEE_HRIS_GO_RBPObjectPermission_createdBy=Created By
+EMPLOYEE_HRIS_GO_RBPObjectPermission_createdDate=createdDate
+EMPLOYEE_HRIS_GO_RBPObjectPermission_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_GO_RBPObjectPermission_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_GO_RBPObjectPermission_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_RBPObjectPermission_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_RBPObjectPermission_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_roleId=Role
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_internalId=Internal Code
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_rowId=Row Id
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_createdBy=Created By
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_createdDate=Creation Date
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_lastModifiedBy=Last Modified By
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_lastModifiedDate=Last Modified Date
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_RuleReference_code=External Code
+EMPLOYEE_HRIS_GO_RuleReference_internalCode=Internal Code
+EMPLOYEE_HRIS_GO_RuleReference_rowID=Row Id
+EMPLOYEE_HRIS_GO_RuleReference_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_RuleReference_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_RuleReference_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_RuleReference_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_RuleReference_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_SearchableField_fieldName=Field
+EMPLOYEE_HRIS_GO_SearchableField_icOfCorrespondingGO=Internal Code
+EMPLOYEE_HRIS_GO_SearchableField_rowIDOfCorrespondingGO=Row Id
+EMPLOYEE_HRIS_GO_SearchableField_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_SearchableField_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_SearchableField_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_SearchableField_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_SearchableField_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_BusinessKeyField_fieldName=Field
+EMPLOYEE_HRIS_GO_BusinessKeyField_icOfCorrespondingGO=Internal Code
+EMPLOYEE_HRIS_GO_BusinessKeyField_rowIDOfCorrespondingGO=Row Id
+EMPLOYEE_HRIS_GO_BusinessKeyField_mdfSystemStatus=Status
+EMPLOYEE_HRIS_GO_BusinessKeyField_mdfSystemObjectType=Object Type
+EMPLOYEE_HRIS_GO_BusinessKeyField_mdfSystemCreatedBy=Created By
+EMPLOYEE_HRIS_GO_BusinessKeyField_mdfSystemCreatedDate=Creation Date
+EMPLOYEE_HRIS_GO_BusinessKeyField_mdfSystemRecordStatus=Record Status
+EMPLOYEE_HRIS_GO_GOObjectDefinition_moduleName=Module
+EMPLOYEE_HRIS_GO_GOFieldCriteria_destinationFieldValue=Destination Field Value
+EMPLOYEE_HRIS_GO_GOFieldCriteria_sourceFieldName=Source Field Name
+
+#MDF Predefined object labels.
+EMPLOYEE_HRIS_GO_GOLocalizedData=Translations
+EMPLOYEE_HRIS_GO_IfConditionRule=Rule If Condition
+EMPLOYEE_HRIS_GO_ThenConditionRule=Rule Then Condition
+EMPLOYEE_HRIS_GO_Rule=Rule
+EMPLOYEE_HRIS_GO_FieldCriteria=Field Criteria
+EMPLOYEE_HRIS_GO_GOAssociationDefinition=Association
+EMPLOYEE_HRIS_GO_GOFieldDefinition=Field
+EMPLOYEE_HRIS_GO_GOObjectDefinition=Object Definition
+EMPLOYEE_HRIS_GO_GORBPConfig=Security
+EMPLOYEE_HRIS_GO_MDFTargetCriteria=Target Criteria
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaDetail=Target Criteria Detail
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap=Target Criteria Map
+EMPLOYEE_HRIS_GO_MassChangeDefinition=Mass Change
+EMPLOYEE_HRIS_GO_PickList=Picklist
+EMPLOYEE_HRIS_GO_PickListValue=Picklist Value
+EMPLOYEE_HRIS_GO_Position=Position
+EMPLOYEE_HRIS_GO_RBPObjectPermission=Object Permission
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap=Object Permission Map
+EMPLOYEE_HRIS_GO_RuleReference=Rule Reference
+EMPLOYEE_HRIS_GO_SearchableField=Searchable Field
+EMPLOYEE_HRIS_GO_GORuleConfig=Object Rules
+
+#MDF Predefined associations labels
+EMPLOYEE_HRIS_GO_Rule_ifConditions=If
+EMPLOYEE_HRIS_GO_Rule_thenConditions=Then
+EMPLOYEE_HRIS_GO_GOFieldDefinition_fieldCriterias=Field Criteria
+EMPLOYEE_HRIS_GO_GOFieldDefinition_ruleReferences=Rules
+EMPLOYEE_HRIS_GO_GOObjectDefinition_fields=Fields
+EMPLOYEE_HRIS_GO_GOObjectDefinition_associations=Associations
+EMPLOYEE_HRIS_GO_GOObjectDefinition_searchableFields=Searchable Fields
+EMPLOYEE_HRIS_GO_GOObjectDefinition_businessKeyFields=Business Key Fields
+EMPLOYEE_HRIS_GO_GOObjectDefinition_rbpConfig=Security
+EMPLOYEE_HRIS_GO_GOObjectDefinition_ruleConfig=Rules
+EMPLOYEE_HRIS_GO_MDFTargetCriteria_criteriaDetails=Criteria Details
+EMPLOYEE_HRIS_GO_MDFTargetCriteriaMap_criterias=Criteria
+EMPLOYEE_HRIS_GO_MassChangeDefinition_rules=Rules
+EMPLOYEE_HRIS_GO_PickList_values=Values
+EMPLOYEE_HRIS_GO_Position_parentPosition=Parent Position
+EMPLOYEE_HRIS_GO_RBPRoleObjectPermissionMap_objectPermissions=Object Permissions
+EMPLOYEE_HRIS_GO_GOObjectDefinition_initializeRules=Initialization Rules
+EMPLOYEE_HRIS_GO_GOObjectDefinition_validateRules=Validation Rules
+EMPLOYEE_HRIS_GO_GOObjectDefinition_saveRules=Save Rules
+EMPLOYEE_HRIS_GO_GOObjectDefinition_deleteRules=On Delete Rules
+
+#MDF import validation errors
+EMPLOYEE_HRIS_GO_DUPLICATE_ROW=Duplicate object
+EMPLOYEE_HRIS_GO_INVALID_DATE_FIELD=Invalid date field format
+EMPLOYEE_HRIS_GO_INVALID_STRING_FIELD=Invalid string field format
+EMPLOYEE_HRIS_GO_INVALID_BOOLEAN_FIELD=Invalid boolean field format
+EMPLOYEE_HRIS_GO_INVALID_NUMERIC_FIELD=Invalid numeric field format
+EMPLOYEE_HRIS_GO_INVALID_USER_FIELD=Non-existent User id specified
+
+#MDF Todo Category Enums
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_DEDUCTIONS_REQUESTS = Deduction Requests
+EMPLOYEE_HRIS_GO_TODOCATEGORYENUM_IT_DECLARATION_REQUESTS = Income Tax Declaration Requests
+
+#MDF DataDictionaryField DataTypeEnum
+EMPLOYEE_HRIS_GO_DATATYPEENUM_STRING=String
+EMPLOYEE_HRIS_GO_DATATYPEENUM_NUMBER=Number
+EMPLOYEE_HRIS_GO_DATATYPEENUM_BOOLEAN=Boolean
+EMPLOYEE_HRIS_GO_DATATYPEENUM_DATE=Date
+EMPLOYEE_HRIS_GO_DATATYPEENUM_USER=User
+EMPLOYEE_HRIS_GO_DATATYPEENUM_LOOKUP=Lookup
+
+
+#Labels for MDF TimeZone
+EMPLOYEE_HRIS_GO_TimeZone=Time Zone
+EMPLOYEE_HRIS_GO_TimeZone_effectiveStartDate=Effective as of
+EMPLOYEE_HRIS_GO_TimeZone_externalCode=Code
+EMPLOYEE_HRIS_GO_TimeZone_name=Name
+EMPLOYEE_HRIS_GO_TimeZone_effectiveStatus=Status
+EMPLOYEE_HRIS_GO_TimeZone_country=Country
+EMPLOYEE_HRIS_GO_TimeZone_supported=Time Zone is supported
+EMPLOYEE_HRIS_GO_TimeZone_utcOffset=Offset to UTC
+EMPLOYEE_HRIS_GO_TimeZone_utcDstOffset=DST offset to UTC
+EMPLOYEE_HRIS_GO_TimeZone_comment=Comment

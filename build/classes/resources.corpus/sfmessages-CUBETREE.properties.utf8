@@ -1,0 +1,207 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-CUBETREE.properties.utf8 490460 2014-01-31 21:39:21Z dkoon $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+# Mobile Admin
+CUBETREE_MOBILE_ADMIN_SETTING=Mobile Settings
+CUBETREE_MOBILE_ADMIN_SETTING_DESC=Mobile Settings
+CUBETREE_MOBILE_ADMIN_SETTING_ALT=Mobile Settings
+
+CUBETREE_MOBILE_ENABLE_FEATURES=Enable Mobile Features
+CUBETREE_MOBILE_ENABLE_FEATURES_DESC=Enable Mobile Features
+CUBETREE_MOBILE_USERS=Mobile Users
+CUBETREE_MOBILE_MANAGE_USERS=Manage Mobile Users
+CUBETREE_MOBILE_MANAGE_USERS_DESC=Manage Mobile Users
+CUBETREE_MOBILE_ADMIN_INSTR=Turning OFF/ON mobile features will apply to all mobile enabled end-users. Setting up mobile access right for specific individuals or groups of people can be done in the {0} area. If a mobile feature is turned ON, only end-users that have mobile permissions from {1} will have access to that feature.
+CUBETREE_MOBILE_ADMIN_MOBILE_SPECIFIC=Mobile Specific
+CUBETREE_MOBILE_ADMIN_THEMING=Theming
+CUBETREE_MOBILE_ADMIN_THEMING_INSTR=As the admin, the header color and header logo of the iPad BizX Mobile app can be customized. The customized header will display for all end-users.
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_SUPPORT=On Device Support
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_SUPPORT_INSTR=In the "About" section of the BizX Mobile app, end-users can contact support. As the admin, the contact options can be configured.￼
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_SUPPORT_CONTACT_SUPPORT=Contact Support
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_SELECT_THE_TYPE=Select the type of Contact Support messaging
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_COMPOSE_EMAIL=Compose Email using native Email app on device
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_SPECIFY=Specifiy the email address that emails will be sent to
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_INSERT_EMAIL_ADDRESS=Insert email address
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_SIMPLE_POP_MESSAGE=Simple pop-up message with custom message
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_INSERT_CUSTOM_MESSAGE=Insert custom message
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_RETRY_ERROR=Error saving
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_SUPPORT_SETTING_HAS_BEEN_UPDATED=On Device Support Setting has been Updated
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_MAX_500_CHARACTERS=Max 500 characters
+CUBETREE_MOBILE_ADMIN_ON_DEVICE_THE_CONTACT_SUPPORT_BUTTON=The "Contact Support" button will launch this URL using Safari
+CUBETREE_MOBILE_ADMIN_PIN=Mobile PIN / Passcode
+CUBETREE_MOBILE_ADMIN_PIN_INSTR=End-users wil be required to create a PIN / Passcode for each mobile device.
+CUBETREE_MOBILE_ADMIN_CACHE=On-device Secure Storage
+CUBETREE_MOBILE_ADMIN_CACHE_INSTR=We strongly encourage leaving on device storage ON, in order to increase usability and offline / loss of connectivity capabilities. When turning OFF on device storage, a few items will still be cached on device: Learning off-line documents as well as SAP Jam documents.
+CUBETREE_MOBILE_ADMIN_ORG_CHART=Org Chart
+CUBETREE_MOBILE_ADMIN_ORG_CHART_INSTR=End-users browse through the Org Chart, similar to the web counterpart.
+CUBETREE_MOBILE_ADMIN_MODULES=Modules
+CUBETREE_MOBILE_ADMIN_JAM=SAP Jam
+CUBETREE_MOBILE_ADMIN_JAM_INSTR=Enable social collaboration on the go.
+CUBETREE_MOBILE_ADMIN_GOAL=Goals
+CUBETREE_MOBILE_ADMIN_GOAL_INSTR=Enable users to view and edit their goals and managers to access their team goals.
+CUBETREE_MOBILE_ADMIN_LEARNING=Learning
+CUBETREE_MOBILE_ADMIN_LEARNING_INSTR=Users can access their learning plans and launch content while on- and offline.
+CUBETREE_MOBILE_ADMIN_TIME_OFF=Time Off
+CUBETREE_MOBILE_ADMIN_TIME_OFF_INSTR=Employees and managers can record and view information on vacation, sick leave and other absence types.
+CUBETREE_MOBILE_ADMIN_ANALYTICS=Analytics Headlines
+CUBETREE_MOBILE_ADMIN_ANALYTICS_INSTR=Display Analytics Headlines for authorized users.
+CUBETREE_MOBILE_ADMIN_YOUCALC=Metric Tiles
+CUBETREE_MOBILE_ADMIN_YOUCALC_INSTR=Display metric tiles for authorized end users. These may include tiles with Workforce Analytics metrics or charts from the SuccessFactors dashboard framework.
+CUBETREE_MOBILE_ADMIN_REORG=Reorganization Planning
+CUBETREE_MOBILE_ADMIN_REORG_INSTR=Managers can reorganize their team.
+CUBETREE_MOBILE_ADMIN_ONBOARDING=Onboarding
+CUBETREE_MOBILE_ADMIN_ONBOARDING_INSTR=Reduce anxiety of your new hire by providing them with all the information they need through the mobile first day experience.
+CUBETREE_MOBILE_ADMIN_SEARCH_PEOPLE=Search People:
+
+CUBETREE_MOBILE_ADMIN_THEMING_OPTIONS=Theming Options
+CUBETREE_MOBILE_ADMIN_THEMING_HEADER=Header
+CUBETREE_MOBILE_ADMIN_THEMING_BACKGROUND_COLOR=Background Color
+CUBETREE_MOBILE_ADMIN_THEMING_FONT_COLOR=Font Color
+CUBETREE_MOBILE_ADMIN_THEMING_DEFAULT=Default
+CUBETREE_MOBILE_ADMIN_THEMING_CUSTOM_HEX=Enter custom hex value
+CUBETREE_MOBILE_ADMIN_THEMING_LOGO=Logo
+CUBETREE_MOBILE_ADMIN_THEMING_LOGO_INSTR=If you choose to upload a custom logo, upload a logo prepared for Retina display and non-Retina display.
+CUBETREE_MOBILE_ADMIN_THEMING_SELECT_FILE=Select file...
+CUBETREE_MOBILE_ADMIN_THEMING_RETINA_LABEL=Logo for retina (@2x)
+CUBETREE_MOBILE_ADMIN_THEMING_RETINA_INSTR=The image height cannot be larger than 60px. The image width cannot be larger than 300px.
+CUBETREE_MOBILE_ADMIN_THEMING_NON_RETINA_LABEL=Logo for non-retina
+CUBETREE_MOBILE_ADMIN_THEMING_NON_RETINA_INSTR=The image height cannot be larger than 30px. The image width cannot be larger than 150px.
+CUBETREE_MOBILE_ADMIN_THEMING_PREVIEW_CHANGES=Preview Your Changes:
+CUBETREE_MOBILE_ADMIN_THEMING_PREVIEW_1X_VERSION=(1x version)
+CUBETREE_MOBILE_ADMIN_THEMING_PREVIEW_2X_VERSION=(2x / Retina version)
+CUBETREE_MOBILE_ADMIN_THEMING_PREVIEW_TITLE=TITLE
+CUBETREE_MOBILE_ADMIN_THEMING_PREVIEW_TITLE_FONT_EXAMPLE=(Title Font example)
+CUBETREE_MOBILE_ADMIN_THEMING_MESSAGE_MISSING_BACKGROUND_COLOR=Enter a custom hex value for background color.
+CUBETREE_MOBILE_ADMIN_THEMING_MESSAGE_MISSING_FONT_COLOR=Enter a custom hex value for font color.
+CUBETREE_MOBILE_ADMIN_THEMING_MESSAGE_MISSING_LOGO_UPLOADED=Upload a logo prepared for Retina display and non-Retina display. 
+CUBETREE_MOBILE_ADMIN_THEMING_MESSAGE_MISSING_SAVE_FAILED=Save failed.
+CUBETREE_MOBILE_ADMIN_THEMING_MESSAGE_MISSING_RETRIEVE_FAILED=Retrieving theming data failed.
+CUBETREE_MOBILE_ADMIN_SEND_ACTIVATION_EMAIL=Send a New Mobile Activation Email
+
+CUBETREE_MOBILE_ADMIN_EMAIL_TEMPLATE_NOTIFICATION=Email Template Notification
+
+CUBETREE_MOBILE_ADMIN_CONNECTION_TIMEOUT_RETRIEVE_USERS_RETRY=The connection timed out while retrieving the list of mobile users. Would you like to retry?
+CUBETREE_MOBILE_ADMIN_CONNECTION_TIMEOUT_RETRIEVE_DEVICES_RETRY=The connection timed out while retrieving the list of devices for a user. Would you like to retry?
+CUBETREE_MOBILE_ADMIN_CONNECTION_TIMEOUT_DELETE_DEVICE_RETRY=The connection timed out while deleting a device for a user. Would you like to retry?
+CUBETREE_MOBILE_ADMIN_CONNECTION_TIMEOUT_UPDATE_PIN_SETTING_RETRY=The connection timed out while saving the change of number of retry operations allowed for entering the pin. Would you like to retry?
+CUBETREE_MOBILE_ADMIN_CONNECTION_TIMEOUT_ACTIVATE_DEVICE_RETRY=The connection timed out while activating a device for a user. Would you like to retry?
+
+CUBETREE_MOBILE_ADMIN_ACTION_ACTIVATING=Activating
+
+CUBETREE_MOBILE_ADMIN_ACTION_UPDATE_PIN_SETTING_SUCC=The change of number of retry is saved successfully.
+
+CUBETREE_MOBILE_ADMIN_CONNECTION_TIMEOUT=Connection time out
+CUBETREE_MOBILE_ADMIN_RETRY=Retry
+CUBETREE_MOBILE_NO_OF_DEVICES=# of Devices
+
+CUBETREE_MOBILE_USER_PERMISSIONS=User Permissions
+CUBETREE_MOBILE_ROLE_BASED_PERMISSIONS=Role Based Permissions
+CUBETREE_MOBILE_MOBILE_USER_PERMISSION=Mobile User Permissions
+CUBETREE_MOBILE_ADMIN_EMAIL_TEMPLATE_NOTIFICATION=Email Template Notification
+
+CUBETREE_MOBILE_CONFIRMATION=Confirmation
+CUBETREE_MOBILE_TURN_ON=Turn ON
+CUBETREE_MOBILE_TURN_OFF=Turn OFF
+CUBETREE_MOBILE_ON_CONFIRM=Are you sure you want to Turn ON {0}?
+CUBETREE_MOBILE_OFF_CONFIRM=Are you sure you want to Turn OFF {0}?
+
+#Mobile registration
+CUBETREE_MOBILE_REG_DATE_JUST_NOW=Just now
+CUBETREE_MOBILE_REG_DATE_1_MINUTE_AGO=1 minute ago
+CUBETREE_MOBILE_REG_DATE_N_MINUTE_AGO={0} minutes ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_HOUR_AGO=about 1 hour ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_HOURS_AGO=about {0} hours ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_DAY_AGO=about 1 day ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_DAYS_AGO=about {0} days ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_MONTH_AGO=about 1 month ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_MONTHS_AGO=about {0} months ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_YEAR_AGO=about 1 year ago
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_YEARS_AGO=about {0} years ago
+CUBETREE_MOBILE_REG_DATE_OVER_1_YEAR_AGO=over 1 year ago
+CUBETREE_MOBILE_REG_DATE_OVER_N_YEAR_AGO=over {0} year ago
+
+CUBETREE_MOBILE_REG_DATE_1_MINUTE_FROM_NOW=1 minute from now
+CUBETREE_MOBILE_REG_DATE_N_MINUTE_FROM_NOW={0} minutes from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_HOUR_FROM_NOW=about 1 hour from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_HOURS_FROM_NOW=about {0} hours from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_DAY_FROM_NOW=about 1 day from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_DAYS_FROM_NOW=about {0} days from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_MONTH_FROM_NOW=about 1 month from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_MONTHS_FROM_NOW=about {0} months from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_1_YEAR_FROM_NOW=about 1 year from now
+CUBETREE_MOBILE_REG_DATE_ABOUT_N_YEARS_FROM_NOW=about {0} years from now
+CUBETREE_MOBILE_REG_DATE_OVER_1_YEAR_FROM_NOW=over 1 year from now
+CUBETREE_MOBILE_REG_DATE_OVER_N_YEAR_FROM_NOW=over {0} year from now
+
+CUBETREE_MOBILE_REG_ADD_BUTTON=Activate a device
+CUBETREE_MOBILE_REG_HEADER_NAME=Device Name
+CUBETREE_MOBILE_REG_HEADER_KEY=Activation Code
+CUBETREE_MOBILE_REG_HEADER_ID=Identifier
+CUBETREE_MOBILE_REG_HEADER_ACTIVATED=Activated
+CUBETREE_MOBILE_REG_HEADER_ACTIONS=Actions
+CUBETREE_MOBILE_REG_HEADER_PASSCODE=Passcode
+CUBETREE_MOBILE_REG_DELETE_CANCEL_MSG=Are you sure you want to deactivate this device? The SuccessFactors App will not be able to access your account until the device is reactivated.
+CUBETREE_MOBILE_REG_FORM_ADD_DEVICE=Activate a device:
+CUBETREE_MOBILE_REG_ADD_DEVICE_INSTRUCTION=To get your activation code, install and launch the SuccessFactors Mobile App on your device.
+CUBETREE_MOBILE_REG_WHERE_IS_MY_KEY=Where is my activation code ?
+CUBETREE_MOBILE_REG_KEY=Activation code:
+CUBETREE_MOBILE_REG_DESCRIPTION=Device name (optional):
+CUBETREE_MOBILE_REG_NO_FEATURE_AVAILABLE={0} has not granted you access to this product. Please contact your system administrator.
+CUBETREE_MOBILE_REG_NO_MOBILE={0} has not enabled mobile communication for this product. Please contact your system administrator.
+CUBETREE_MOBILE_REG_ERROR_ADDING=Sorry, we were not able to complete activation. Please check the Activation Code on your device, and try again.
+CUBETREE_MOBILE_REG_ERROR_NO_PIN=None Entered
+CUBETREE_MOBILE_REG_PASSCODE_FIELD=Passcode:
+CUBETREE_MOBILE_REG_RE_ENTER_PASSCODE_FIELD=Re-enter Passcode:
+CUBETREE_MOBILE_REG_PASSCODE_HELP_TEXT=Passcode is a four digit number used to safeguard your mobile device.  You will be asked to enter this passcode before you are able to access BizX Mobile.
+CUBETREE_MOBILE_REG_ERROR_PIN_MUST_BE_NUMERIC=Pin must be numeric.
+CUBETREE_MOBILE_REG_ERROR_CONFIRM_PIN_DOESNT_MATCH=The Passcode entered does not match.
+CUBETREE_MOBILE_REG_EDIT_DEVICE=Edit Device
+CUBETREE_MOBILE_REG_ACTIVATE_DEVICE=Activate a device :
+CUBETREE_MOBILE_REG_MOBILE_AD_BANNER=BizX Mobile. Stay connected to your business--anywhere, anytime.
+CUBETREE_MOBILE_REG_MOBILE_AD_MOBILE_DEVICES_LABEL=See supported mobile devices
+CUBETREE_MOBILE_REG_MOBILE_AD_HUGE_MSG=<p>Great execution is about never loosing connection to your business. \
+ SuccessFactorsmobile keeps you in touch so you can get things done.</br></br>\
+ <b>Remain in contact. </b>Know the status of your team and projects. Stay up-to-date. \
+ receive real-time notifications and review  and update your To-Do lists.</br></br>\
+ <b>Instant Access. </b>Log in to your SuccessFactors account from anywhere to access $(COMMON_JAM) and recruiting management.</p>
+CUBETREE_MOBILE_REG_ADMIN_MSG=Give your employees access to Mobile features like Org Chart, Employee Profile and more.
+CUBETREE_MOBILE_REG_ADMIN_ACTIVATE_MSG=Activate Mobile
+CUBETREE_MOBILE_REG_HEADER_DESCRIPTION=Device Description
+CUBETREE_MOBILE_REG_HEADER_DEACTIVATE=Deactivate
+CUBETREE_MOBILE_REG_HEADER_DESCRIPTION_NO_ENTRY=None Entered
+CUBETREE_MOBILE_REG_PEOPLE_SEARCH=People Search:
+CUBETREE_MOBILE_REG_PEOPLE_DEVICE=Devices for {0}
+
+CUBETREE_MOBILE_PEOPLE_INSIGHTS=People Insights
+CUBETREE_MOBILE_AUTO_INSIGHTS=Auto Insights
+CUBETREE_MOBILE_YOUCALC=YouCalc
+CUBETREE_MOBILE_REORG=Reorganization Planning
+CUBETREE_MOBILE_TIME_OFF=Time Off
+CUBETREE_MOBILE_ONBOARDING=Onboarding
+
+CUBETREE_MOBILE_FB_JOB_TYPE_SEND_ACTIVATION_EMAIL=Send Mobile Activation Email Job
+
+CUBETREE_MOBILE_EMAIL_ACTIVATION=Mobile Activation Notification
+CUBETREE_MOBILE_EMAIL_ACTIVATION_DESC=Mobile Activation Notification will be sent when a user is activated for a mobile feature and he/she does not have a mobile device activated.  Additionally, this will be sent if an admin pushes a “re-notification” to the user for activating mobile devices.  The email will go to the person enabled for mobile.
+CUBETREE_MOBILE_EMAIL_ACTIVATION_TITLE=Mobile Activation Notification
+CUBETREE_MOBILE_EMAIL_ACTIVATION_SUBJ=[[ACTIVATION SUBJECT VARIABLE]]
+CUBETREE_MOBILE_EMAIL_ACTIVATION_BODY=Please be advised your administrator has enabled mobile features for [[EMP_NAME]].\n\
+ \n\Please follow the steps below to download and activate any mobile devices you wish to associate with your account.\n\
+ \n\Open this email on the device you would like to activate.\n\
+ \n\1) Download and install the application from [[DOWNLOAD URL]]\n\
+ \n\2) Return to this email, click this link [[ACTIVATION DEEP LINK]] to complete the activation process\n\
+ \n\3) Repeat for other devices you wish to activate\n\
+ \n\[[SIGNATURE]]

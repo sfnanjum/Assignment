@@ -1,0 +1,71 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-ATTACHMENT.properties.utf8 308415 2013-06-05 13:49:26Z dlett $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+#attachment management
+ATTACHMENT_FILE_TYPE=File Type
+ATTACHMENT_FILE_NAME=File name
+ATTACHMENT_FILE_SIZE=File Size
+ATTACHMENT_LAST_MODIFIED=Last Modified
+ATTACHMENT_USER_ID=User ID
+ATTACHMENT_FIRST_NAME=First Name
+ATTACHMENT_LAST_NAME=Last Name
+ATTACHMENT_USER_NAME=User Name
+ATTACHMENT_ERROR_NO_FETCH=There were problems getting attachment data
+ATTACHMENT_ERROR_NO_DELETE=There were problems deleting attachments
+ATTACHMENT_ERROR_NONE_SELECTED=There is no attachment selected for this operation.
+ATTACHMENT_ERROR_TOO_MANY=Too many attachments (greater than 1000 or total size greater than 50 MB) have been selected for this operation.
+ATTACHMENT_ERROR_TOO_BIG=The total file size exceeds the maximum (greater than 1000 or total size greater than 50 MB) allowed for export.
+ATTACHMENT_ERROR_EXPORT_FAILED=Export failed.  Please try again.
+ATTACHMENT_EMPTY=There are no attachments matching your filtering criteria.
+ATTACHMENT_HIDE_SUM=Hide filter summary
+ATTACHMENT_SHOW_SUM=Show filter summary
+ATTACHMENT_STARTS_WITH=Starts with
+ATTACHMENT_CONTAINS=Contains
+ATTACHMENT_FILE_TYPES=File Types:
+ATTACHMENT_AUTO_COMP=Auto-complete (exact match)
+ATTACHMENT_INTERNAL=Internal
+ATTACHMENT_EXTERNAL=External
+ATTACHMENT_ACTIVE=Display Active Attachments (Active Attachments cannot be purged via admin)
+ATTACHMENT_DELETED=Display Deleted Attachments (Deleted attachments can be physically purged)
+ATTACHMENT_UPDATE=Update
+ATTACHMENT_RESET=Reset
+ATTACHMENT_SIZE=Size
+ATTACHMENT_NAME_USRNAME=Name or Username:
+ATTACHMENT_ERROR_NO_FILE_SIZE=Please enter number in the file size field.
+ATTACHMENT_ERROR_FILE_SIZE_TOOBIG=File size entered exceeds the maximum limit.
+ATTACHMENT_TOTAL_CAPACITY=Total Capacity:
+ATTACHMENT_MANAGE=Manage Attachments
+ATTACHMENT_IMDONE=I'm Done
+ATTACHMENT_OVERALL=Overall Storage Usage
+ATTACHMENT_FILTER_OPT=Filter Options
+ATTACHMENT_DISPLAY_OPT=Display Options
+ATTACHMENT_ATTACHMENT=Attachment
+ATTACHMENT_NO_FILE_SPECIFIED=Please specify a file to upload
+ATTACHMENT_EXCEED_COMPANY_LIMIT=There\u2019s a company file storage limit of {0} kilobytes. Your attachment is too large to save in the remaining file storage space. Please reduce your file size and try again.
+ATTACHMENT_EXCEED_USER_LIMIT=the total file size exceeds the user size limit of {0} kilobytes
+ATTACHMENT_EXCEED_FILE_LIMIT=the file size of {0} exceeds the maximum file size limit of {1} kilobytes or the file size is 0
+ATTACHMENT_INVALID_FILE_TYPE=the file type of {0} is not supported for attachments
+ATTACHMENT_FEATURE_OFF=The Document attachment feature is disabled
+ATTACHMENT_MANAGER_LINK=File Storage Management
+ATTACHMENT_INVALID_MODULE_FILE_TYPE=the file type of {0} is not in the supported list {1}
+ATTACHMENT_INVALID_MODULE_FILE_DIMENSION=The image you have selected exceeds the dimension limitations of {0}x{1} pixels
+ATTACHMENT_INFECTED_FILE=The file content is not allowed to be uploaded.
+#Attachment
+ATTACHMENT_SUCCESSFUL_UPLOAD=Attachment is successfully uploaded.
+ATTACHMENT_UPLOAD_EXCEPTION=An exception was encountered while uploading Attachment.
+ATTACHMENT_ADMIN_LINK=File Storage Management                                                                                                                                          
+                                                                                                                                                         
+ATTACHMENT_ADMIN_LINK_HELPLINK=Access admin tools to manage file attachments in the suite. View total storage, and delete or export existing attachments.

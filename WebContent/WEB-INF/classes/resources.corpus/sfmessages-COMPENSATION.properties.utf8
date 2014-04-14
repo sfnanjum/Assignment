@@ -1,0 +1,1348 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-COMPENSATION.properties.utf8 490438 2014-01-31 19:43:01Z abhandare $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+COMPENSATION_ENTRY_GUIDELINE_FIELD_MIN={0} Guideline Minimum
+COMPENSATION_ENTRY_GUIDELINE_FIELD_MID={0} Guideline Mid-point
+COMPENSATION_ENTRY_GUIDELINE_FIELD_MAX={0} Guideline Maximum
+COMPENSATION_ENTRY_GUIDELINE_FIELD_LOW={0} Guideline Low
+COMPENSATION_ENTRY_GUIDELINE_FIELD_HIGH={0} Guideline High
+COMPENSATION_ENTRY_FIELD_ELIGIBILITY={0} Eligibility
+COMPENSATION_COMP_PLAN_BUDGET_COLUMN_LBL={0} Budget
+COMPENSATION_Compensation=$(Compensation)
+COMPENSATION_compensation=compensation
+COMPENSATION_Compensations=Compensations
+COMPENSATION_compensations=compensations
+
+# Messages for the Guideline Editor
+COMPENSATION_Error_Contact_Support=There was an error modifying the template. Please contact support.
+COMPENSATION_Warning_import_formula=There was warning in your uploaded data.
+COMPENSATION_Generic_Error=There was an error processing your request. Please contact support.
+COMPENSATION_Error_No_Permission=You do not have permission to process this request.
+COMPENSATION_Template_Does_Not_Exist=The compensation form does not exist.
+COMPENSATION_Error_Not_Manager=The given user is not a manager
+COMPENSATION_Error_Cannot_Set_Permissions=Cannot set permissions for the selected user
+COMPENSATION_ALERT_FIND_MANAGER=Please find a manager to view the hierarchy.
+COMPENSATION_Edit_Field_Required=Required
+COMPENSATION_Edit_Numerical_Range=Edit {0}
+COMPENSATION_To=To
+COMPENSATION_From=From
+COMPENSATION_Order=Order
+COMPENSATION_Formula_Name=Formula Name
+COMPENSATION_Rating_Range=Rating
+COMPENSATION_Ratio_Range=Ratio-Range
+COMPENSATION_Job_Level=Job Level
+COMPENSATION_Pay_Grade=Pay Grade
+COMPENSATION_Budget_Group=Budget Group
+COMPENSATION_Min=Min
+COMPENSATION_Low=Low
+COMPENSATION_Def=Default
+COMPENSATION_High=High
+COMPENSATION_Max=Max
+COMPENSATION_Formulas=Formulas
+COMPENSATION_Clone_Formula=Clone Formula
+COMPENSATION_Low_High=Low/High
+COMPENSATION_Range_Format={0}{1} to {2}{3}
+COMPENSATION_Undo_Delete=Undo Delete
+COMPENSATION_Cannot_Paginate=Cannot change the tab until all visible rows are validated.
+COMPENSATION_Cannot_Update_Filter=Cannot change the filter until all visible rows are validated.
+COMPENSATION_Cannot_Resort=All rows must be validated before resorting.
+COMPENSATION_Cannot_Clone_Invalidated_Row=Cannot clone a row that is not validated.
+COMPENSATION_Cannot_Save_Without_Validation=All rows must be validated before you save.
+COMPENSATION_Clear=Clear
+COMPENSATION_Formula_Actions=Actions
+COMPENSATION_Output_Values_Non_Decreasing=Must be &ge; {0}
+COMPENSATION_Output_Values_Required=Required
+COMPENSATION_Field=Field
+COMPENSATION_Case_Sensitive=(Case-Sensitive)
+COMPENSATION_Equals=Equals
+COMPENSATION_Contains=Contains
+COMPENSATION_Starts_With=Starts With
+COMPENSATION_Ends_With=Ends With
+COMPENSATION_Not_Equal_To=Not Equal To
+COMPENSATION_Less_Than=Less Than
+COMPENSATION_Less_Than_Or_Equal=Less Than Or Equal
+COMPENSATION_Greater_Than=Greater Than
+COMPENSATION_Greater_Than_Or_Equal=Greater Than Or Equal
+COMPENSATION_Filter=Filter
+COMPENSATION_AND=AND
+COMPENSATION_OR=OR
+COMPENSATION_No_Formulas_Matched_Filter=There were no formulas that matched the requested filter.
+COMPENSATION_From_Less_Than_To=From must be &le; To
+COMPENSATION_Column_Must_Be_Unique={0} must be unique
+COMPENSATION_Click_To_Sort=Click to sort by {0}
+COMPENSATION_Must_Have_At_Least_One_Formula=All rules must have at least one formula.
+COMPENSATION_Formula_Name_Clone=Clone of {0}
+COMPENSATION_Formula_Title={0} - {1}: $(ADMIN_COMPENSATION_FORMULA_LIST)
+COMPENSATION_Formula_Provide_Valid_Number=Enter a valid number
+COMPENSATION_EFFECTIVE_DATE=Effective Date:
+#Pagination links
+COMPENSATION_Update_Tab_Size=Items per page
+COMPENSATION_Page_X_of_Y=Page {0} of {1}
+COMPENSATION_First_Page=First Page
+COMPENSATION_Next_Page=Next Page
+COMPENSATION_Previous_Page=Previous Page
+COMPENSATION_Last_Page=Last Page
+#compensation plan
+COMPENSATION_Plan_Template_Title=Compensation Plan Templates
+COMPENSATION_Plan_Template_Name=Template Name
+COMPENSATION_Plan_Updated=Updated
+COMPENSATION_Plan_Actions=Actions
+COMPENSATION_Plan_Forms_Using_Plan=Forms using this plan
+COMPENSATION_Plan_Currency=Currency
+COMPENSATION_Plan_Take_Action=Take Action
+COMPENSATION_Plan_Edit_Plan=Edit Plan
+COMPENSATION_Plan_Clone_Plan=Copy Plan
+COMPENSATION_Plan_Click_Change_Sort_Order=Click to change sort order
+COMPENSATION_PlanColonName=<strong>Plan:</strong> {0}
+COMPENSATION_PLAN_USE_EC_PAYMATRIX=Use EC salary pay matrix
+COMPENSATION_PLAN_USE_PAYMATRIX_NAME=Salary pay matrix name
+COMPENSATION_PLAN_USE_PAYMATRIX_EFFDATE=Salary pay matrix effective date
+COMPENSATION_Audit_Select_PayMatrix_EffDate=Pay matrix effective date must be provided
+COMPENSATION_Audit_Plan_Activity=Compensation Plan Activity Audit
+COMPENSATION_Audit_View_activity_by=View activity by:
+COMPENSATION_Audit_Select_Form=Select Worksheet
+COMPENSATION_Audit_Export_Results=Export Results
+COMPENSATION_Audit_Select_Employee=Please select at least one $(employee)
+COMPENSATION_Audit_Template_Name=Template Name:<span class="required">*</span>
+COMPENSATION_Audit_Form=Worksheet:
+COMPENSATION_Audit_From=From:
+COMPENSATION_Audit_To=To:
+
+# clone dialog
+COMPENSATION_Plan_Instructions_Setup=Instructions Setup
+COMPENSATION_Plan_Clone_Plan_Template=Copy Plan Template
+COMPENSATION_Plan_Create_Clone_For=Create copy for
+COMPENSATION_Plan_Create_Clone_DATA_LOADING_INCOMPLETE=Compensation data loading incomplete
+COMPENSATION_Plan_Clone_Name_Template=Name for new plan template
+COMPENSATION_Plan_Clone_Name_Unique=Name must be unique
+COMPENSATION_Plan_Clone_Clone_Btn=Copy
+COMPENSATION_Plan_Clone_Cancel_Btn=Cancel
+COMPENSATION_Plan_Clone_Wait_Info=The selected plan template is being copied. This may take a while.
+COMPENSATION_Plan_Clone_Cloning=Copying
+COMPENSATION_Plan_Clone_Cloning_Complete=Copying complete.
+COMPENSATION_Plan_Clone_Save_As=The copied plan template is saved as
+COMPENSATION_Plan_Clone_OK_Btn=OK
+COMPENSATION_Plan_Clone_Fail=Fail to copy plan template!
+COMPENSATION_Plan_Clone_Clone_Of=Copy of
+#compensation admin
+COMPENSATION_Admin_Tools=Admin Tools
+COMPENSATION_Admin_Back_To=Back to
+COMPENSATION_No_Template_Found=No Template Found!
+#compensation rule
+COMPENSATION_Rule_Title=Rules
+COMPENSATION_Rule_Name=Rule Name
+COMPENSATION_Rule_Details=Rule Details
+COMPENSATION_Rule_Updated_On=Updated On
+COMPENSATION_Rule_Type=Type
+COMPENSATION_Rule_Number_Formulas=Number of formulas
+COMPENSATION_Rule_Actions=Actions
+COMPENSATION_Rule_Clone_Rule=Clone Rule
+COMPENSATION_Rule_Edit_Rule=Change Rule Settings
+COMPENSATION_Rule_Edit_Formula=View/Edit Formula
+COMPENSATION_Rule_Delete_Rule=Delete Rule
+#rule dialog
+COMPENSATION_Rule_Add_Rule=Add a New Rule
+COMPENSATION_Rule_No_Selection=No Selection
+COMPENSATION_Rule_Rule_Name_Unique=Rule name must be unique
+COMPENSATION_Rule_Rule_Type_Select=Please select Rule Type
+COMPENSATION_Rule_Formula_Criteria=Formula Criteria
+COMPENSATION_Rule_Rating=Rating
+COMPENSATION_Rule_Ratio_Range=Ratio Range
+COMPENSATION_Rule_Job_Level=Job Level
+COMPENSATION_Rule_Pay_Grade=Pay Grade
+COMPENSATION_Rule_Budget_Group=Budget Group
+COMPENSATION_Rule_Mode=Mode
+COMPENSATION_Rule_Amount=Amount
+COMPENSATION_Rule_Percentage=Percentage
+COMPENSATION_Rule_Benchmark=Benchmark
+COMPENSATION_Rule_Compa_Ratio=Compa-Ratio
+COMPENSATION_Rule_Range_Penetration=Range Penetration
+COMPENSATION_Range_Hard_Limit_Violation=Range Hard Limit Violation
+COMPENSATION_Rule_Hard_Limit_Violation=Rule Hard Limit Violation
+COMPENSATION_Budget_Exceed_Hard_Limit_Violation=Budget Exceed Hard Limit Violation
+COMPENSATION_Rule_Hard_Limit=Hard Limit
+COMPENSATION_Rule_Yes=Yes
+COMPENSATION_Rule_No=No
+COMPENSATION_Rule_High_Low_Action=High/Low Action
+COMPENSATION_Rule_Warn=Warn
+COMPENSATION_Rule_Allow=Allow
+COMPENSATION_Rule_Note=Note
+COMPENSATION_Rule_Save=Save
+COMPENSATION_Rule_Cancel=Cancel
+COMPENSATION_Rule_Prorating=Prorating
+COMPENSATION_Rule_Force_Default=Force Default On Rating Change
+COMPENSATION_Rule_Warning=Warning
+COMPENSATION_Rule_Warning_Remove=Removing an existing Formula Criteria will result in loss of data.
+COMPENSATION_Rule_Warning_Remove_Column=There are formulas created in the compensation plan that use the {0} column. Are you sure you want to proceed?
+COMPENSATION_Rule_Warning_Delete_Rule=Removing a rule will result in loss of all formulas related to this rule.
+COMPENSATION_Rule_Delete_Rule_Confirm=Are you sure you want to proceed?
+COMPENSATION_FORM_TEMPLATE_NAME=Form Template Name: {0}
+#COMPENSATION Store Compensation Data in Live Profile Event
+COMPENSATION_STORE_COMP_DATA_IN_LIVE_PROFILE_SUBJECT=Store Compensation Data in Live Profile Process Status ({0}).
+COMPENSATION_STORE_COMP_DATA_IN_LIVE_PROFILE_SUCCESS=Successful
+COMPENSATION_STORE_COMP_DATA_IN_LIVE_PROFILE_FAILURE=Failed
+COMPENSATION_STORE_COMP_DATA_IN_LIVE_PROFILE_MSG_FAILURE=Store Compensation Data failure: {0}.
+COMPENSATION_STORE_COMP_DATA_IN_LIVE_PROFILE_INITIALIZATION_FAILURE=Internal Error
+COMPENSATION_STORE_COMP_DATA_IN_LIVE_PROFILE_OK=The Store Compensation Data in Live Profile Process Request has been submitted successfully.  Please check your email for the final process status.  Keep in mind that the email notification will not be sent until the process has been completed.  The process could take half to an hour, depending on the number of forms. If you do not receive any email notification regarding your process at all, please contact our technical support.
+COMPENSATION_STORE_COMP_DATA_IN_ECT_OK=The Store Compensation Data in Employee Central Process Request has been submitted successfully. Please check your email for the final process status.  Keep in mind that the email notification will not be sent until the process has been completed.  The process could take half to an hour, depending on the number of forms. If you do not receive any email notification regarding your process at all, please contact our technical support.
+COMPENSATION_STORE_COMP_DATA_IN_ECT_SUBJECT=Store Compensation Data in Employee Central Process Status ({0}).
+COMPENSATION_STORE_COMP_DATA_IN_ECT_SUCCESS=Successful
+COMPENSATION_STORE_COMP_DATA_IN_ECT_FAILURE=Failed
+COMPENSATION_STORE_COMP_DATA_IN_ECT_MSG_FAILURE=Store Compensation Data failure: {0}.
+COMPENSATION_STORE_COMP_DATA_IN_ECT_INITIALIZATION_FAILURE=Internal Error
+
+#COMPENSATION rollup error message
+COMPENSATION_ROLLUP_NO_PERMISSION=The report could not be completed as requested due to insufficient permission.
+#Shown on form/HBA rollup report page to indicate that user do not have form. {0) will be replaced by user name.
+COMPENSATION_ROLLUP_NO_FORM={0} (No Form)
+
+#Compensation planner permission
+COMPENSATION_PLANNER_PERMISSION_Search_For_User=Search for a user to change planner permissions:
+COMPENSATION_PLANNER_PERMISSION_Select_Managers_In_Organization=Select the managers in your organization that will have planner permission:
+COMPENSATION_PLANNER_PERMISSION_Select_Managers=Select the managers that will have planner permission:
+COMPENSATION_PLANNER_PERMISSION_Back_To_List=Back to list
+COMPENSATION_PLANNER_PERMISSION_Not_A_Planner=You are not a planner for this form template.
+COMPENSATION_PLANNER_PERMISSION_Form_not_plannable=This form template does not require planners.
+COMPENSATION_PLANNER_PERMISSION_Cannot_set_permissions=You cannot set planner permissions for the selected form template
+COMPENSATION_PLANNER_PERMISSION_Cancel_title=Cancel Permission Changes
+COMPENSATION_PLANNER_PERMISSION_Cancel_message=Are you sure you want to cancel your changes?
+COMPENSATION_PLANNER_PERMISSION_Cancel_detail=Any changes not saved will be lost
+COMPENSATION_PLANNER_PERMISSION_Navigate_title=Unsaved Changes
+COMPENSATION_PLANNER_PERMISSION_Navigate_message=Are you sure you want to navigate away from the current user?
+COMPENSATION_PLANNER_PERMISSION_Navigate_detail=There are unsaved changes which will be lost if you navigate away from the currently selected user
+
+#Compensation template change validation
+# Used in both provisioning and admin UI. The parameter is field ID in compensation template.
+COMPENSATION_TEMPLATE_REPORTABLE_FIELD_CHANGED=You can no longer make changes to {0} because at least one Compensation Form has been created using this template.
+# Used in admin UI only.
+COMPENSATION_TEMPLATE_CUSTOM_FIELD_IN_BUDGET_CHANGED=You can no longer add or remove a budget calculation using custom field because at least one Compensation Form has been created using this template.
+# Used in admin UI only.
+COMPENSATION_TEMPLATE_CUSTOM_FIELD_IN_RULE_CHANGED=You can no longer add or remove a compensation rule using custom field because at least one Compensation Form has been created using this template.
+# Used in provisioning only. The comp-manager-hierarchy is an XML element, don't need to be translated.
+COMPENSATION_TEMPLATE_MANAGER_HIERARCHY_CHANGED=You can no longer change the comp-manager-hierarchy value because at least one Compensation Form has been created using this template.
+# Used in provisioning only. The comp-plan-creation is an XML element, don't need to be translated.
+COMPENSATION_TEMPLATE_PLAN_CREATION_CHANGED=You can no longer change the comp-plan-creation value because at least one Compensation Form has been created using this template.
+# Used in both provisioning and admin UI.
+COMPENSATION_TEMPLATE_ADD_REMOVE_RATING_SOURCE=You can no longer add or remove the compensation rating source because at least one Compensation Form has been created using this template.
+# Used in both provisioning and admin UI.
+COMPENSATION_TEMPLATE_RATING_SOURCE_FORM_ID_CHANGED=You can no longer change the form used for compensation rating source because at least one Compensation Form has been created using this template.
+# do not translate includeFTE or isActualSalaryImported (they are XML elements)
+COMPENSATION_TEMPLATE_FTE_CONFIG_CHANGED=You can no longer change includeFTE or isActualSalaryImported because at least one Compensation Form has been created using this template.
+
+#Conpemsation Email Notification
+COMPENSATION_EMAIL_TO_USER_DOCUMENT_UPDATED_MSG=Please be advised that the document {0} has been updated by {1}.
+COMPENSATION_EMAIL_TO_USER_YOU_CAN_REVIEW_MSG=You can review the form by accessing the form in your Inbox.
+COMPENSATION_EXECREVIEW_IMPORT_EMAIL_TO_ORIG_OWNER=Send email notification to original planner/manager of the affected compensation form
+COMPENSATION_EXECREVIEW_IMPORT_EMAIL_TO_CUR_OWNER=Send email notification to current reviewer of the affected compensation form
+
+#export formula
+COMPENSATION_Formula_Export_Formula=Export Formula
+COMPENSATION_Formula_Encoding=Encoding
+COMPENSATION_Formula_Cancel=Cancel
+
+#Validation error messages for the CGMFormulaBean
+COMPENSATION_Range_From_Greater_Than_To=The range value has to > from: {0} > {1}
+COMPENSATION_Both_Low_High_Required=High and low values are required
+COMPENSATION_Output_Non_Decreasing=Columns [{0}] must contain values in non-decreasing order
+COMPENSATION_Error_On_Row=Row No.{0}: {1}
+COMPENSATION_Formula_Row_Import_Succeeded=The upload was successful
+COMPENSATION_Formula_Import_Invalid_Data=Column {0} has invalid data "{1}"
+COMPENSATION_Invalid_Column_Name=Invalid Column Name "{0}"
+COMPENSATION_Formula_Import_Missing_Columns=Missing Columns {0}
+COMPENSATION_Formula_Import_Extra_Columns=Extra Columns {0}
+COMPENSATION_Formula_Import_Missing_And_Extra=Missing Columns {0}; Extra Columns {1}
+COMPENSATION_Formula_Input_Empty=The CSV file was empty
+COMPENSATION_Formula_Editing_Disabled=There are too many formulas (more than {0}) to edit through the Admin Tools
+COMPENSATION_Formula_Editing_Disabled_Detail=You can edit the formulas manually by using the export and import functionality
+
+#Provisioning Feature Settings
+COMPENSATION_PROV_FORM_UI_V2=Compensation form UI V2 [requires $(FEATURE_V11_UI)]
+COMPENSATION_PROV_DISABLE_SINGLE_CREATE=Disable Create New Form
+COMPENSATION_PROFILE_FEATURE=Enable Compensation Employee Profile (Individual View) for Compensation module. [requires Compensation form UI V2]
+
+#Eligibility Rules Engine
+COMPENSATION_Eligibility_Rule_Actions=Actions
+COMPENSATION_Eligibility_Rule_Name=Rule Name
+COMPENSATION_Eligibility_Rule_EC_Rule_Name=Rule Name:
+COMPENSATION_Eligibility_Select_Rule=Select Rule
+COMPENSATION_Eligibility_Apply=Apply
+COMPENSATION_Eligibility_Add_Rule=Add Rule
+COMPENSATION_Click_Rule_Above=Click on an eligibility rule above to begin
+COMPENSATION_Defined_Eligibility_Rules=Define the eligibility rules for your compensation plan template.
+COMPENSATION_Rules_Applied_By=The rules were last applied by {0} ({1}).
+COMPENSATION_Rules_Applied_Failure=There was an unexpected error during the process. Please contact support.
+COMPENSATION_Rule_Name_And_Conditions=Rule Name & Conditions:
+COMPENSATION_SELECT_EC_RULE=Select rule:
+COMPENSATION_Click_Cell_To_Edit=Click cell to edit
+COMPENSATION_JOIN_OR=or
+COMPENSATION_JOIN_AND=and
+COMPENSATION_Population_Eligible_For=Population is eligible for:
+COMPENSATION_Rule_Last_Modified_By=Last Modified by {0} ({1})
+COMPENSATION_Field_Removed_Message=(This field is no longer valid. Please remove it.)
+COMPENSATION_Applying_Rule=Applying Rule
+COMPENSATION_Applying_Rule_Warning=This rule has {0} warning field(s). Do you want to fix them now before re-applying the rule?
+COMPENSATION_Apply_Rule_Apply_Now=Apply Now
+COMPENSATION_Unsaved_Changes=You have unsaved changes
+COMPENSATION_Unsaved_Changes_Warning=Are you sure you want to navigate away from this rule? Any changes you made will be lost.
+COMPENSATION_BONUS_TARGET=Bonus Target (%)
+COMPENSATION_BONUS_TARGET_DISPLAY=Bonus Target: {0}%
+COMPENSATION_BONUS_SECTION_HAS_NO_DETAILS=No details available
+COMPENSATION_Eligibility_Edit_Rule=Edit
+COMPENSATION_Eligibility_Clone_Rule=Clone
+COMPENSATION_Eligibility_Remove_Rule=Remove
+COMPENSATION_Eligibility_Edit_Rule_Title=Edit the rule.
+COMPENSATION_Eligibility_Clone_Rule_Title=Clone the rule.
+COMPENSATION_Eligibility_Remove_Rule_Title=Remove the rule completely.
+COMPENSATION_Eligibility_Unknown_Eligibility=n/a
+COMPENSATION_Eligibility_Not_Applicable=Not Applicable
+COMPENSATION_Eligibility_Eligible_For=Eligible for {0}
+COMPENSATION_Eligibility_Not_Eligible_For=Not eligible for {0}
+COMPENSATION_Eligibility_Delete_Field=Delete field
+COMPENSATION_Eligibility_Delete_Expression=Delete expression
+COMPENSATION_Eligibility_Add_another=Add another
+COMPENSATION_Eligibility_Edit_Condition=Edit {0}:
+COMPENSATION_Eligibility_Join_Condition_Any=any of the following criteria
+COMPENSATION_Eligibility_Join_Condition_All=all of the following criteria
+COMPENSATION_Eligibility_Match=Match
+COMPENSATION_Eligibility_Field_Is={0} is
+COMPENSATION_Eligibility_Expression_Value_Required=Each field must contain a value
+COMPENSATION_Eligibility_Condition_Settings_Title=Condition Settings
+COMPENSATION_Eligibility_Select_Fields_To_Add=Select the eligibility field(s) to add:
+COMPENSATION_Eligibility_Italic_Custom_Field=<em>Italic</em> = Custom field
+COMPENSATION_Eligibility_Validation_Dialog_Title=Validation Error
+COMPENSATION_Eligibility_Validation_Dialog_Message=Please validate all fields before saving
+COMPENSATION_Eligibility_From_Less_Than_To=The 'from' value must be less than the 'to' value
+COMPENSATION_Eligibility_From_Date_Before_To=The 'from' date must be before the 'to' date
+COMPENSATION_Eligibility_Confirm_Delete_Rule=Are you sure you want to remove this rule?
+COMPENSATION_Eligibility_Confirm_Delete_Rule_Detail=Removing a rule will permanently delete the information contained within the rule
+COMPENSATION_Eligibility_Processing_Rules=Eligibility rules are being processed, no eligibility rule changes can be made until this process is completed. You can access the rest of the application by clicking links on the top.
+COMPENSATION_Eligibility_Delete_Invalid_Conditions=Please delete invalid conditions
+COMPENSATION_Eligibility_Confirm_Cancel_With_Changes=Are you sure you want to cancel?
+COMPENSATION_Eligibility_Confirm_Cancel_With_Changes_Detail=If you cancel now you will lose any unsaved changes.
+COMPENSATION_Eligibility_Cannot_Apply_Warning=There are {0} rule(s) with warnings.
+COMPENSATION_Eligibility_Cannot_Apply_Warning_Detail=Please correct these before applying.
+COMPENSATION_Eligibility_Apply_All_Rules=Apply All Rules
+COMPENSATION_Eligibility_Apply_Takes_Time=This process might take up to a few minutes.
+COMPENSATION_Eligibility_Apply_Stops_Edits=You cannot access or edit any rule during this time.
+COMPENSATION_Eligibility_Apply_Mulitple_Targets=Note: In the case where an employee is eligible for more than one bonus target, the system will set the bonus target to 0.
+COMPENSATION_Eligibility_Operator_Equal_To== (equal to)
+COMPENSATION_Eligibility_Operator_Less_Than=&lt; (less than)
+COMPENSATION_Eligibility_Operator_Less_Than_Or_Equal=&le; (less than or equal to)
+COMPENSATION_Eligibility_Operator_Greater_Than=&gt; (greater than)
+COMPENSATION_Eligibility_Operator_Greater_Than_Or_Equal=&ge; (greater than or equal to)
+COMPENSATION_Eligibility_Operator_Not_Equal_To=&ne; (not equal to)
+COMPENSATION_Eligibility_Operator_Range=[ ] (range)
+COMPENSATION_Eligibility_Operator_Contains=Contains
+COMPENSATION_Eligibility_Operator_Starts_With=Starts With
+COMPENSATION_Eligibility_Operator_Ends_With=Ends With
+COMPENSATION_Eligibility_Rule_Name_Unique=Must be unique
+COMPENSATION_Eligibility_Conditions_Required=At least one condition must be provided
+COMPENSATION_Eligibility_Conditions_Invalid=Each condition must have at least one value
+COMPENSATION_Eligibility_Error_Invalid_Date=The database contained an invalid date
+COMPENSATION_Eligibility_Error_Invalid_Rule_XML=The database contained an incorrectly formatted condition
+COMPENSATION_Eligibility_Error_Invalid_Field=The database contained an invalid field id
+COMPENSATION_Eligibility_Error_Invalid_Template=Invalid template provided
+COMPENSATION_Eligibility_Error_Cannot_Save_Rule=There was an error saving the rule. Please contact your system administrator for assistance.
+COMPENSATION_Eligibility_Error_Cannot_Get_Rules=There was an error getting the rules. Please contact your system administrator for assistance.
+COMPENSATION_Eligibility_Error_Cannot_Get_Rule=There was an error getting the rule. Please contact your system administrator for assistance.
+COMPENSATION_Eligibility_Error_Cannot_Apply_Rules=There was an error applying the rules. Please contact your system administrator for assistance.
+COMPENSATION_Eligibility_Error_Cannot_Delete_Rule=There was an error deleting the rule. Please contact your system administrator for assistance.
+COMPENSATION_Eligibility_Error_Cannot_Get_Applied_Status=There was an error getting the applied status. Please contact your system administrator for assistance.
+COMPENSATION_Eligibility_Continue=Continue
+#{0} is user name {1} is Compensation field label
+COMPENSATION_INELIGIBLE_FIELD_TOOLTIP={0} is not eligible for {1}
+COMPENSATION_FIELD_TOOLTIP={0} - {1}
+#compensation
+COMPENSATION_Plan_Template_Info=Template Information
+COMPENSATION_Plan_Template_Columns_Configuration=Column Designer
+COMPENSATION_Plan_Template_Eligibility_Rules=Eligibility Rules
+COMPENSATION_Plan_Template_Guideline_Matrix=Guideline Matrix
+COMPENSATION_Plan_Template_Instructions=Instructional Text
+COMPENSATION_Plan_Template_Eligibility_Rule_Apply=Apply
+COMPENSATION_Plan_Template_Eligibility_Rule_Import=Import
+COMPENSATION_Plan_Template_Eligibility_Rule_Export=Export
+COMPENSATION_Plan_Template_Eligibility_Rule_Add=Add Rule
+
+COMPENSATION_Plan_Template_Budgets=Budgets
+COMPENSATION_Plan_Template_Budgets_Instructions=Use this page to define Compensation Budget
+COMPENSATION_Plan_Template_Budgets_Add_Calculation=Add Budget Calculation
+COMPENSATION_Plan_Template_Budgets_Edit_Calculation=Edit Budget Calculation
+COMPENSATION_Plan_Template_Budgets_UseFor=Use For
+COMPENSATION_Plan_Template_Budgets_BasedOn=Based On
+COMPENSATION_Plan_Template_Budgets_BudgetOn=Budget On
+COMPENSATION_Plan_Template_Budgets_Mode=Mode
+COMPENSATION_Plan_Template_Budgets_Budget_Value=Budget Value
+COMPENSATION_Plan_Template_Budgets_Budget_Label=Budget Label
+COMPENSATION_Plan_Template_Budgets_Add_Rule=Add Budget Rule
+COMPENSATION_Plan_Template_Budgets_Edit_Rule=Edit Budget Rule
+COMPENSATION_Plan_Template_Budgets_Rules=Rules
+COMPENSATION_Plan_Template_Budgets_Allow_Exceed=Allow Exceed
+COMPENSATION_Plan_Template_Budgets_Allow_Save_On_Exceed=Allow Save On Exceed
+COMPENSATION_Plan_Template_Budgets_Include_Ineligible=Include Ineligible
+COMPENSATION_Plan_Template_Budgets_Prorating=Prorating
+COMPENSATION_Plan_Template_Budgets_Hide_Precentage=Hide Percentage
+COMPENSATION_Plan_Template_Budgets_Components=Components
+COMPENSATION_Plan_Template_Budgets_Family_Name=Family Name
+COMPENSATION_Plan_Template_Budgets_Import_Key=Import Key
+COMPENSATION_Plan_Template_Budgets_Base_Custom_Field=Base Custom Field
+COMPENSATION_Plan_Template_Budgets_Allocation_Columns=Allocation Columns
+COMPENSATION_Plan_Template_Budgets_Use_Final_Payout_For_VP_Budget=Use Final Payout For VP Budget
+COMPENSATION_Plan_Template_Budgets_Numeric_Value=Please enter a numeric value.
+COMPENSATION_Plan_Template_Budgets_Invalid_number=Invalid number, please verify your input.
+COMPENSATION_Plan_Template_Budgets_See_Advanced=See advanced options ...
+COMPENSATION_Plan_Template_Budgets_Hide_Advanced=Hide advanced options ...
+COMPENSATION_Plan_Template_Budgets_Delete_Confirm=Are you sure you want to remove this budget?
+COMPENSATION_Plan_Template_Budgets_Delete_Confirm_Detail=Removing a budget will permanently delete the information contained within it.
+COMPENSATION_Plan_Template_Rating_Sources=Rating Sources
+COMPENSATION_Plan_Template_Rating_Sources_Add_Btn=Add New Rating Source
+COMPENSATION_Plan_Template_Rating_Sources_Form=Form
+COMPENSATION_Plan_Template_Rating_Sources_Instructions=Use this page to define Compensation Rating Sources
+COMPENSATION_Plan_Template_Rating_Sources_Click_Rule_Above=Click on a rating source above to begin
+COMPENSATION_Plan_Template_Rating_Sources_Completed_Only=Completed Only
+COMPENSATION_Plan_Template_Rating_Sources_Use_Calculate_Rating=Use Calculated Rating
+COMPENSATION_Plan_Template_Rating_Sources_Scale=Scale
+COMPENSATION_Plan_Template_Rating_Sources_Rating_Type=Rating Type
+COMPENSATION_Plan_Template_Rating_Source_Delete_Confirm=Are you sure you want to remove this rating source?
+COMPENSATION_Plan_Template_Rating_Source_Delete_Confirm_Detail=Removing a rating source will permanently delete the information contained within it.
+
+#compensation admin
+COMPENSATION_ADMIN_PRORATION_DATE_VALIDATION_MSG=Please enter proration start date and proration end date
+COMPENSATION_ADMIN_PRORATION_DATE_VALIDATION=Start date should be earlier than End date
+COMPENSATION_ADMIN_PRORATION_BASE_DATE=Date
+COMPENSATION_ADMIN_PRORATION_ENTERPRISE_ONLY=Enterprise only
+COMPENSATION_ADMIN_PRORATION_BASE_DATE_START_DATE=Start Date
+COMPENSATION_ADMIN_PRORATION_BASE_DATE_END_DATE=End Date
+COMPENSATION_ADMIN_PRORATION_NEW_DATE_PRORATION=New proration dates
+COMPENSATION_ADMIN_PRORATION_BASE_PRECENTAGE=Percentage
+COMPENSATION_ADMIN_PRORATION_DATA_SOURCE_HIRE_DATE=Hire Date
+COMPENSATION_ADMIN_PRORATION_DATA_SOURCE_USER_FILE=Enter Prorating Start and End date from User file
+COMPENSATION_ADMIN_ENABLE_SALARY_PRORATION=Enable Salary Proration
+COMPENSATION_ADMIN_ENABLE_SALARY_PRORATION_HELP=When this setting is checked, salary guidelines will be adjusted for employees whose salaries are subject to proration.
+
+COMPENSATION_ADMIN_HOW_WOULD_YOU_LIKE_TO_BASE_YOUR_PRORATING=Prorate based on
+COMPENSATION_ADMIN_HOW_WOULD_YOU_LIKE_TO_BASE_YOUR_PRORATING_DATE_HELP=Date: To base your proration on particular dates, select this option. You will be prompted to bound overall proration for calculations, as well as define what fields you will base each employee proration on. 
+COMPENSATION_ADMIN_HOW_WOULD_YOU_LIKE_TO_BASE_YOUR_PRORATING_PERCENTAGE_HELP= Percentage: To base your proration on percentage, you must populate the prorating field in your user import file before launching. To populate your user file, navigate to the Export Users admin tool.
+COMPENSATION_ADMIN_CHOOSE_PRORATION_DATE=Proration Date
+COMPENSATION_ADMIN_CHOOSE_PRORATION_DATE_HELP=When you select to prorate employee salaries in your plan, you must define the dates that you want proration to be applicable. These are the dates that bound the proration calculations. These dates are the same as your compensation cycle, but can be different. For example, if your merit program is based on contributions for 1/1 through 12/31, these would be your proration start and end dates.
+COMPENSATION_ADMIN_CHOOSE_PRORATION_DATE_START_HELP=This is the date to begin bounding your proration calculations for this template by.
+COMPENSATION_ADMIN_CHOOSE_PRORATION_DATE_END_HELP=This is the date to end bounding your proration calculations for this template by.
+COMPENSATION_ADMIN_CHOOSE_PRORATION_DATE_SOURCE=Prorate salaries based on
+COMPENSATION_ADMIN_CHOOSE_PRORATION_DATE_SOURCE_HIRE_DATE_HELP=By selecting this, the proration will be based on the hire date for the specific employee in your user file. The end date of their prorated value will be the Proration End date. 
+COMPENSATION_ADMIN_CHOOSE_PRORATION_DATE_SOURCE_USER_FILE_HELP=If you select this option you must have done two things prior. First, you must have entered date fields and values into your user import file.  Second, your plan configuration requires you to update the Import Key in the Column Designer for the Prorating Start and Prorating End Date fields. The Column Designer is under the Design Worksheet tools in this Compensation Admin tool.
+
+
+COMPENSATION_Admin_Manage_Lookup_Table=Manage Lookup Table
+
+COMPENSATION_Admin_Manage_Lookup_Table_BTN_CREATE=Create
+COMPENSATION_Admin_Manage_Lookup_Table_DESC=Use this page to create, list lookup tables
+COMPENSATION_Admin_Manage_Lookup_Table_LBL_NAME=Name
+COMPENSATION_Admin_Manage_Lookup_Table_LBL_DESC=Description
+COMPENSATION_Admin_Manage_Lookup_Table_LBL_INPUTNUM=Number Of Input
+COMPENSATION_Admin_Manage_Lookup_Table_LBL_OUTPUTNUM=Number Of Output
+COMPENSATION_Admin_Manage_Lookup_Table_LBL_LASTMOD=Last Modification
+COMPENSATION_Admin_Manage_Lookup_Table_LBL_LASTMODIFIEDBY=Last Modified By
+COMPENSATION_Admin_Manage_Lookup_Table_MSG_CREATE_OK=The lookup table has been successfully created, please click the link to upload data
+COMPENSATION_Admin_Manage_Lookup_Table_MSG_CREATE_FAIL=Lookup table creation failed
+COMPENSATION_Admin_Manage_Lookup_Table_MSG_NO_LOOKUPTABLE_FOUND=No lookup table found
+COMPENSATION_Admin_Manage_Lookup_Table_MSG_LOOKUPTABLE_EXISTS=Same name lookup table already exists
+COMPENSATION_Admin_Manage_Lookup_Table_MSG_NAME_INVALID=Name empty or invalid
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR=Manage Lookup Table Entry
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_BTN_IMPORT=Import
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_BTN_EXPORT=Export
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_DESC=Use this page to view, import data for, or export the selected lookup table
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_FILE=File to import:
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_KEY=Lookup Key
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_KEY1=Key 1
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_KEY2=Key 2
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_KEY3=Key 3
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_KEY4=Key 4
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_KEY5=Key 5
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_VALUE=Lookup Value
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_VALUE1=Value 1
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_VALUE2=Value 2
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_VALUE3=Value 3
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_VALUE4=Value 4
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MGR_LBL_LOOKUP_VALUE5=Value 5
+COMPENSATION_Admin_Manage_Lookup_ENTRY_LBL_UP2ALL=Up to all lookup tables
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MSG_EXACTLY1=Please select exactly one lookup table to export
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MSG_IMPORT_OK=Lookup table successfully inserted
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MSG_EXPORT_OK=Lookup table successfully exported
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MSG_NO_ENTRY_FOUND=No lookup entry found
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MSG_LOOKUP_FILENAME_EMPTY=File name empty
+COMPENSATION_Admin_Manage_Lookup_ENTRY_MSG_LOOKUP_FILE_INVALID=File empty or format invalid
+COMPENSATION_Admin_Manage_Lookup_Table_FIRST_ROW_HEADER=Make first row header row
+COMPENSATION_Admin_Manage_lookup_ENTRY_DUPLICATE=Data entry line {0} is a duplicate of line {1}
+COMPENSATION_Admin_Manage_lookup_ENTRY_BLANK_KEY=Key columns cannot be blank
+COMPENSATION_SINGLE_CREATE_DISABLED=Admin Create New Form feature is disabled, please contact customer support.
+
+#compensation one admin
+COMPENSATION_ONE_ADMIN_COMPENSATION_PAGE_TITLE=Administration Tools - Compensation
+COMPENSATION_ONE_ADMIN_COMPENSATION_HOME=Compensation Home
+COMPENSATION_ONE_ADMIN_COMPENSATION_HOME_LINK=Compensation
+COMPENSATION_ONE_ADMIN_PLANS=Plans
+COMPENSATION_ONE_ADMIN_ACTIONS_ALL_PLANS=Actions - All Plans
+COMPENSATION_ONE_ADMIN_SET_UP_NEW_PLAN=Set Up a New Plan
+COMPENSATION_ONE_ADMIN_ADD_NEW_PLAN=Add new compensation plan
+COMPENSATION_ONE_ADMIN_ADD_NEW_PLAN_DESC=Import a new compensation plan template.
+COMPENSATION_ONE_ADMIN_ADD_NEW_VRP_PLAN=Add new variable pay plan
+COMPENSATION_ONE_ADMIN_ADD_NEW_VRP_PLAN_DESC=Create a new variable pay plan.
+COMPENSATION_ONE_ADMIN_COPY_PLAN=Copy a Plan
+COMPENSATION_ONE_ADMIN_COPY_PLAN_DESC=If you need to make a copy of an existing plan, please go to Back To Old Admin Tools.
+COMPENSATION_ONE_ADMIN_DATA_FOR_ALL_PLANS=Data for all Plans
+COMPENSATION_ONE_ADMIN_COMPENSATION_PLAN=Compensation Plan
+COMPENSATION_ONE_ADMIN_COMPENSATION_PLAN_DESC=$(COMPENSATION_ONE_ADMIN_COMPENSATION_PLAN)
+COMPENSATION_ONE_ADMIN_GLOBAL_DATA_ACTIONS=Actions for all plans
+COMPENSATION_ONE_ADMIN_GLOBAL_DATA_ACTIONS_DESC=Data imported and set up in this area will impact all plans.
+COMPENSATION_ONE_ADMIN_GLOBAL_DATA_ACTIONS_HINT=Data imported and setup in this area may be used across multiple plans. Therefore, changes made to this data will be applied to all associated plans and may impact existing in progress and completed worksheets.
+COMPENSATION_ONE_ADMIN_REPORTING=Reporting
+COMPENSATION_ONE_ADMIN_ROLLUP=Rollup
+COMPENSATION_ONE_ADMIN_ROLLUP_DESC=Summary of compensation planning and budget information.
+COMPENSATION_ONE_ADMIN_JOB_MONITOR_DESC=Monitor the status of jobs run in the system.
+COMPENSATION_ONE_ADMIN_AGGREGATE_EXPORT=Aggregate Export
+COMPENSATION_ONE_ADMIN_AGGREGATE_EXPORT_DESC=Export all compensation data from a plan.
+COMPENSATION_ONE_ADMIN_PLAN_SETUP=Plan Setup
+COMPENSATION_ONE_ADMIN_SETTINGS=Settings
+COMPENSATION_ONE_ADMIN_SIMPLE_Settings=$(COMPENSATION_ONE_ADMIN_SETTINGS)
+COMPENSATION_ONE_ADMIN_ADVANCED=Advanced Settings
+COMPENSATION_ONE_ADMIN_ROUTE_MAP=Route Map
+COMPENSATION_ONE_ADMIN_DESIGN_WORKSHEET=Design Worksheet
+COMPENSATION_ONE_ADMIN_LAUNCH_WORKSHEET_FOR_GROUP=Launch worksheet for specific group
+COMPENSATION_ONE_ADMIN_LAUNCH_WORKSHEET_OR=or
+COMPENSATION_ONE_ADMIN_LAUNCH_WORKSHEETS=Back to $(FB_COMP_ADMIN_PLAN_MASS_CREATE_LAUNCH_WORKSHEETS_HEADER)
+COMPENSATION_ONE_ADMIN_PlAN_INSTRUCTION=Plan Instruction
+COMPENSATION_ONE_ADMIN_CURRENCY_TEMPLATE_PERIOD_MAPPING=Define Compensation Period Data
+COMPENSATION_ONE_ADMIN_STOCK_TEMPLATE_PERIOD_MAPPING=Define Stock Period Data
+COMPENSATION_ONE_ADMIN_CURRENCY_PERIOD_MAPPING=Define Compensation Period Data
+COMPENSATION_ONE_ADMIN_STOCK_PERIOD_MAPPING=Define Stock Period Data
+COMPENSATION_ONE_ADMIN_MANAGE_USERS=Manage Users
+COMPENSATION_ONE_ADMIN_PLAN_DETAILS=Plan Details
+COMPENSATION_ONE_ADMIN_PlAN_BUDGET=Budget
+COMPENSATION_ONE_ADMIN_PlAN_ELIGIBILITY=Eligibility
+COMPENSATION_ONE_ADMIN_PlAN_GUIDELINES=Guidelines
+COMPENSATION_ONE_ADMIN_PlAN_RATING_SOURCES=Rating Sources
+COMPENSATION_ONE_ADMIN_COMPLETE=Complete Compensation Cycle
+COMPENSATION_ONE_ADMIN_MANAGE_WORKSHEET=Manage Worksheets
+COMPENSATION_ONE_ADMIN_PLAN_ACTIONS=Plan Actions
+COMPENSATION_ONE_ADMIN_LAUNCH_PLAN_DESC=After you have completed setting up your plan, you can now create worksheets for your planners.
+COMPENSATION_ONE_ADMIN_CREATE_WORKSHEET=Create Worksheets
+COMPENSATION_ONE_ADMIN_MANAGE_WORKSHEET_DESC=After you have published worksheets, you can delete the worksheets or export a list of existing worksheets.
+COMPENSATION_ONE_ADMIN_UPDATE_WORKSHEETS=Update Worksheets
+COMPENSATION_ONE_ADMIN_UPDATE_WORKSHEETS_DESC=From this section you can update worksheet data, add/move/delete $(employees), and update budgets and performance ratings.
+COMPENSATION_ONE_ADMIN_APPLY_WORKSHEET_UPDATES=Update all worksheets
+COMPENSATION_ONE_ADMIN_APPLY_SINGLE_WORKSHEET_UPDATE=Update a specific worksheet
+COMPENSATION_ONE_ADMIN_EMPLOYEE_MEMBERSHIP=$(Employee) Membership
+COMPENSATION_ONE_ADMIN_WORKSHEET_ADD_MEMBERS=Add $(employees)
+COMPENSATION_ONE_ADMIN_WORKSHEET_MOVE_MEMBERS=Move $(employees)
+COMPENSATION_ONE_ADMIN_WORKSHEET_DELETE_MEMBERS=Delete $(employees)
+COMPENSATION_ONE_ADMIN_BUDGET=Budget
+COMPENSATION_ONE_ADMIN_BUDGET_OVERRIDE=Budget Override
+COMPENSATION_ONE_ADMIN_BUDGET_ASSIGNMENT=Budget Assignment
+COMPENSATION_ONE_ADMIN_BUDGET_ASSIGNMENT_TITLE=Budget Assignment for {0}
+COMPENSATION_ONE_ADMIN_SUMMARY=Summary
+COMPENSATION_ONE_ADMIN_DEFINE_PLANNERS=Define Planners
+COMPENSATION_ONE_ADMIN_MANAGE_EXECUTIVE_PERMISSION=Executive Permission
+COMPENSATION_ONE_ADMIN_PUBLISH_DATA=Publish Data
+COMPENSATION_ONE_ADMIN_PUBLISH_IN_LIVE_PROFILE=Publish in Live Profile
+COMPENSATION_ONE_ADMIN_PUBLISH_IN_EMPLOYEE_CENTRAL=Publish in Employee Central
+COMPENSATION_ONE_ADMIN_REWARDS_STATEMENTS=Rewards Statements
+COMPENSATION_ONE_ADMIN_MANAGE_STATEMENT_PERMISSIONS=Set Default Template Permissions
+COMPENSATION_ONE_ADMIN_MANAGE_STATEMENTS=Manage Statement Templates
+COMPENSATION_ONE_ADMIN_MANAGE_STATEMENT_OPTIONS=Manage Statements Options
+COMPENSATION_ONE_ADMIN_MANAGE_STATEMENT_TEMPLATES=Add/Edit Statement Templates
+COMPENSATION_ONE_ADMIN_SELECT_STATEMENT_TEMPLATES=Select Statement Templates
+COMPENSATION_ONE_ADMIN_GENERATE_STATEMENTS=Generate Statements
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS=Recall Statements
+#{0}-Name of the Quartz Job, {1}-Job request ID
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_JOB_MSG=Recall-Statement job submitted (Job name {0} with request id: {1})
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_JOB_ERROR_MSG=Error occurred while deleting compensation statements
+COMPENSATION_ONE_ADMIN_LOADING_STAT_TEMPLATES_ERR_MSG=Error occurred while loading statement templates
+COMPENSATION_ONE_ADMIN_SAVING_RULES_ERR_MSG=Error occurred while saving statement templates
+COMPENSATION_ONE_ADMIN_LOADING_ASSIGNED_USERS=Error occurred while loading details of assigned employees
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_CONFIRM_HEADER_MSG=Recall statements confirmation
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_CONFIRM_CONTINUE=Continue
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_CONFIRM_CANCEL=Cancel
+#{0} - Name of compensation plan
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_BASED_ON_PLAN_PROMPT=You are about to recall all the personal statements belonging to {0}. Do you wish to continue?
+#{0} - Name of compensation plan, {1}- Name of Statement Template
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_BASED_ON_PLAN_AND_STMT_TEMPL_PROMPT=You are about to recall the personal statements belonging to the plan {0} and statement template {1}. Do you wish to continue?
+COMPENSATION_ONE_ADMIN_RECALL_STATEMENTS_SELECT_ALL_STAT_TEMPLATES=All Templates
+COMPENSATION_ONE_ADMIN_SELECT_STAT_TEMPLATES_LABEL=Select Statement Templates
+COMPENSATION_ONE_ADMIN_SELECT_TEMPLATE_POPUP_GRID_HEADER_NAME=Name
+COMPENSATION_ONE_ADMIN_SELECT_LABEL=Select
+COMPENSATION_ONE_ADMIN_CANCEL_LABEL=Cancel
+COMPENSATION_ONE_ADMIN_OK_LABEL=OK
+COMPENSATION_ONE_ADMIN_PLAN_SELECTION_POP_UP_HEADER=Select Plan
+COMPENSATION_ONE_ADMIN_TEMPLATE_GRID_HEADER_NAME=Name (Assigned Employees)
+COMPENSATION_ONE_ADMIN_TEMPLATE_GRID_HEADER_DESC=Description
+COMPENSATION_ONE_ADMIN_TEMPLATE_GRID_HEADER_DEFAULT=Default
+COMPENSATION_ONE_ADMIN_NO_TEMPLATE_MSG=No Templates for selection
+COMPENSATION_ONE_ADMIN_SELECT_TEMPLATE_POPUP_DESC=Choose a template and click Select to add them to your instance
+COMPENSATION_ONE_ADMIN_SELECT_TEMPLATE_PAGE_HEADER=Personal Compensation Statement Templates
+COMPENSATION_SELECT_TEMPLATE_POPUP_SEARCH_PLACEHOLDER=Search in Name or Description
+#{0} & {1} (in the two keys below) - Name of primary and secondary plans respectively
+COMPENSATION_ONE_ADMIN_SELECT_TEMPLATE_PAGE_MESSAGE_FOR_ONE_PLAN=The following statement templates have been selected for the {0}
+COMPENSATION_ONE_ADMIN_SELECT_TEMPLATE_PAGE_MESSAGE_FOR_TWO_PLANS=The following statement templates have been selected for {0} and {1}
+#{0} - Name of compensation plan
+COMPENSATION_ONE_ADMIN_MANAGE_TEMPLATE_EMPTY_PAGE_MESSAGE=There are currently no statement templates assigned to this plan. You can either select statement templates for {0}, or add a secondary plan to create combined statements.
+COMPENSATION_ONE_ADMIN_NO_TEMPLATE_MESSAGE=No templates defined yet
+COMPENSATION_ONE_ADMIN_SELECT_TEMPLATE_BUTTON_LABEL=Select Templates
+COMPENSATION_ONE_ADMIN_SAVE_N_REFRESH_BUTTON_LABEL=Save & Refresh
+COMPENSATION_ONE_ADMIN_TEMPLATE_GRID_HEADER_GENERATED=Generated
+COMPENSATION_ONE_ADMIN_TEMPLATE_GRID_HEADER_ASSIGNED_EMPLOYEES=Assigned Employees
+COMPENSATION_ONE_ADMIN_GROUP_NAME=Group Name
+COMPENSATION_ONE_ADMIN_TEMPLATE_UNASSIGNED_LABEL=None
+COMPENSATION_ONE_ADMIN_TEMPLATE_ACTION_MENU_PERM_LABEL=Manage Permissions
+COMPENSATION_ONE_ADMIN_TEMPLATE_ACTION_MENU_REMOVE_LABEL=Remove
+COMPENSATION_ONE_ADMIN_TEMPLATE_ACTION_MENU_ASSIGN_EMPLOYEES_LABEL=Assign Employees
+COMPENSATION_ONE_ADMIN_TEMPLATE_ACTION_MENU_VIEW_EMPLOYEES_LABEL=View Employees
+COMPENSATION_ONE_ADMIN_MODIFICATIONS_NOT_ALLOWED_MESSAGE1=You must recall all generated statements prior to changing employee assignments to statements
+COMPENSATION_ONE_ADMIN_MODIFICATIONS_NOT_ALLOWED_MESSAGE2=You must recall all generated statements prior to removing templates
+COMPENSATION_ONE_ADMIN_STATEMENT_GENERATED_INFO_MSG=To change the statement template user assignments, you must first recall all generated statements
+COMPENSATION_ONE_ADMIN_NO_TEMPLATE_ALERT_MSG=Please select at least one template
+COMPENSATION_ONE_ADMIN_RULES_FOR_EACH_SECTION_ALERT_MSG=Please select at least one statement template for all the plans.
+COMPENSATION_ONE_ADMIN_VIEW_EMPLOYEES_HEADER=View Assigned Employees
+COMPENSATION_ONE_ADMIN_VIEW_STATEMETN_GENERATED_HEADER=Statement Generated
+COMPENSATION_ONE_ADMIN_USERS_FIRST_NAME=First Name
+COMPENSATION_ONE_ADMIN_USERS_LAST_NAME=Last Name
+COMPENSATION_ONE_ADMIN_USERS_USERNAME=Username
+COMPENSATION_ONE_ADMIN_USERS_DEPARTMENT=Department
+COMPENSATION_ONE_ADMIN_USERS_DIVISION=Division
+COMPENSATION_ONE_ADMIN_USERS_MANAGER=Manager
+COMPENSATION_ONE_ADMIN_USERS_LOCATION=Location
+COMPENSATION_ONE_ADMIN_USERS_JOB_TITLE=Job Title
+COMPENSATION_ONE_ADMIN_USERS_COUNTRY=Country
+COMPENSATION_ONE_ADMIN_USERS_COUN_DIALOG_OK_BUTTON=OK
+COMPENSATION_ONE_ADMIN_REMOVE_RULE_CONFIRM=Are you sure you want to proceed?
+COMPENSATION_ONE_ADMIN_EDIT_SEC_PLAN_ALERT_MESSAGE=Changing or Removing the Secondary Plan will remove the statement template associations for Secondary and Combined plans. Are you sure you want to proceed?
+COMPENSATION_ONE_ADMIN_VARPAY_LABEL=Variable Pay
+COMPENSATION_ONE_ADMIN_COMP_LABEL=Compensation
+COMPENSATION_ONE_ADMIN_SELECT_PLAN_NONE_SELECTED=Plan Type
+COMPENSATION_ONE_ADMIN_GRID_HEADER_PLAN_NAME=Plan Name
+COMPENSATION_ONE_ADMIN_GRID_HEADER_PLAN_TYPE=Plan Type
+COMPENSATION_ONE_ADMIN_GRID_NO_PLANS_FOUND=No Plans Found
+COMPENSATION_ONE_ADMIN_GRID_ROW_TITLE=Click to Select this Plan
+COMPENSATION_ONE_ADMIN_SELECT_PLAN_SEARCH_PLACEHOLDER=Search for plan name
+COMPENSATION_ONE_ADMIN_ADD_PLAN_BUTTON_LABEL=Add Secondary Plan
+COMPENSATION_ONE_ADMIN_EDIT_LABEL=Edit
+COMPENSATION_ONE_ADMIN_EDIT_PLAN_OPTION_CHANGE=Change
+COMPENSATION_ONE_ADMIN_EDIT_PLAN_OPTION_REMOVE=Remove
+COMPENSATION_ONE_ADMIN_MENU_ACTIONS_LABEL=Actions
+COMPENSATION_ONE_ADMIN_PRIMARY_PLAN_LABEL=Primary Plan
+COMPENSATION_ONE_ADMIN_SECONDARY_PLAN_LABEL=Secondary Plan
+COMPENSATION_ONE_ADMIN_COMBINED_PLAN_LABEL=Combined Plan
+COMPENSATION_ONE_ADMIN_NA=N/A
+COMPENSATION_ONE_ADMIN_EDIT_ROUTE_MAP=Edit Route Map
+COMPENSATION_ONE_ADMIN_SELECT_ROUTE_MAP_FIRST=Please select a route map first!
+
+#Compensation Bulk Print Statements
+#this is the label of the text box in which we expect the customers to enter the name of the download job.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_ENTER_JOB_NAME=Download Job Name:
+#Dont add any special characters after translation of COMPENSATION_ONE_ADMIN_BULK_PRINT_JOB_NAME 
+COMPENSATION_ONE_ADMIN_BULK_PRINT_JOB_NAME=Personal Statement Bulk Print
+COMPENSATION_ONE_ADMIN_BULK_PRINT_SELET_FILE_TYPE=Select the type of PDF you want: 
+COMPENSATION_ONE_ADMIN_BULK_PRINT_STATEMENT_TEMPLATES=Statement Templates
+COMPENSATION_ONE_ADMIN_BULK_PRINT_ONE_LARGE_PDF=One Large PDF
+COMPENSATION_ONE_ADMIN_BULK_PRINT_MULTIPLE_SMALL_PDFS=Multiple Small PDF(s)
+COMPENSATION_ONE_ADMIN_BULK_PRINT_GRID_HEADER_TEMPLATE=Template
+COMPENSATION_ONE_ADMIN_BULK_PRINT_GRID_HEADER_GROUP_NAME=Group Name
+COMPENSATION_ONE_ADMIN_BULK_PRINT_JOB_SUBMISSION_SUCCESS=Your print job {0} was successfully scheduled. An email will be sent to you when the job is completed.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_JOB_SUBMISSION_SUCCESS_CLICK_LINK=You can also click below to see the status of all the submitted jobs.
+COMPENSATION_ONE_ADMIN_SCHEDULE_JOB_MONITOR_PAGE_ACCESS_DENIED=You don't have access to view the status of the job or to download the generated reports. Please contact your Report Administrator for the access. 
+COMPENSATION_ONE_ADMIN_BULK_PRINT_JOB_STATUS=Check print job status
+COMPENSATION_ONE_ADMIN_BULK_PRINT_ALL_STATEMENTS= Download Statements
+COMPENSATION_ONE_ADMIN_BULK_PRINT_STATEMENTS=Download Statements
+COMPENSATION_ONE_ADMIN_BULK_PRINT_ACTION=Print
+COMPENSATION_ONE_ADMIN_BULK_PRINT_BY_USER=Download statements for selected employee(s)
+COMPENSATION_ONE_ADMIN_BULK_PRINT_BY_USER_LIST=Download statements for list of usernames
+COMPENSATION_ONE_ADMIN_BULK_PRINT_ALL=Download all statements
+COMPENSATION_ONE_ADMIN_BULK_PRINT_SUBTITLE=Download statements into PDF for offline reading
+COMPENSATION_ONE_ADMIN_BULK_PRINT_NO_SPECIAL_CHARACTERS= Enter a valid report name; special characters are not allowed.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_REPORT_NAME_EMPTY=Please enter a  name for the print job.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_OKAY=Okay
+COMPENSATION_ONE_ADMIN_BULK_PRINT_CLOSE=Close
+# the following is a web page where a person can monitor the status of reports that are automatically scheduled.
+COMPENSATION_ONE_ADMIN_SCHEDULE_JOB_MONITOR_PAGE=Scheduled Reports Job Monitoring Page
+COMPENSATION_ONE_ADMIN_BULK_PRINT_ALL_LEGACY_STATEMENTS=All statements will be printed.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_NO_STATEMENTS_PRINTED=No statements were printed in this batch.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_ERR_MSG=Error Occurred while printing statements
+COMPENSATION_ONE_ADMIN_BULK_PRINT_STATEMENTS_ARE_NOT_GENERATED=A restricted operation was performed
+COMPENSATION_ONE_ADMIN_BULK_PRINT_STATEMENTS_JOB_NAME_IN_USE=Please give a different print job name as it already exists
+
+# Provisioning setting for batch size of compensation bulk print job.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_BATCH_SIZE=Compensation Bulk Print Job batch size
+
+#Following printed users and ignored users are used as part of file names created as part of compensation bulk print. 
+COMPENSATION_ONE_ADMIN_BULK_PRINT_PRINTED_USERS=printed_users
+COMPENSATION_ONE_ADMIN_BULK_PRINT_SKIPPED_USERS=skipped_users
+
+# Following COMPENSATION_ONE_ADMIN_BULK_PRINT_REPORTEXPORTSUCCEED_BODY_X messages are used as a body of the email notification
+# sent after compensation scheduled job completes. The content inside double brackets, [[ & ]] are tokens which are replaced by
+# the existing scheduled reports framework with appropriate values . These tokens stay as it is. And not meant for translation.
+
+# Token PROCESS_ID is replaced with the scheduled job name. And NO_OF_REPORTS are the count of generated statements.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_REPORTEXPORTSUCCEED_BODY_STATUS=Status: SUCCESSFUL.\n\n\
+ Your personal statement request, [[PROCESS_ID]], completed successfully. \
+ [[NO_OF_REPORTS]] statement(s) have been generated.\n
+# Following message is added to the body only if skipped users are present. IGNORED_USERS_COUNT is the token.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_REPORTEXPORTSUCCEED_BODY_SKIPPED=[[IGNORED_USERS_COUNT]] statement(s) have been skipped \
+ as you do not have permission to view information on these users. (administrative domain).\n
+# Following message is added to the body only if another job is created as part of the current job. NEXT_PROCESS_ID is the token.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_REPORTEXPORTSUCCEED_BODY_NEXT_JOB=[[NEXT_PROCESS_ID]] is the next scheduled statement processing job. \
+ for further processing the statements.\n
+# LOGIN_URL is the token. not meant for translation.
+COMPENSATION_ONE_ADMIN_BULK_PRINT_REPORTEXPORTSUCCEED_BODY_LOGIN_URL=Statement(s) are ready for downloading from the Scheduled Reports page.\
+ \n\n\
+ [[LOGIN_URL]]
+ 
+#compensation one admin common data
+COMPENSATION_COMMON_DATA_SUMMARY=Back to Instruction Page
+COMPENSATION_COMMON_DATA_IMPORT_EXPORT_DATA=Import/Export Data
+COMPENSATION_COMMON_DATA_ALL_PLANS=All Plans
+COMPENSATION_COMMON_DATA_EMPLOYEE_DATA=Employee Data Import
+COMPENSATION_COMMON_DATA_EMPLOYEE_DATA_EXPORT=Employee Data Export
+COMPENSATION_COMMON_DATA_CURRENCY_CONVERSION_TABLE=Currency Conversion Table
+COMPENSATION_COMMON_DATA_COMP_STATEMENT_TEMPLATES=Compensation Statement Templates
+COMPENSATION_COMMON_DATA_LOOKUP_TABLES=Lookup Tables
+COMPENSATION_COMMON_DATA_SALARY_PLANS=Salary Plans
+COMPENSATION_COMMON_DATA_SALARY_RANGES=Salary Ranges
+COMPENSATION_COMMON_DATA_JOBCODE_PAYGRADE_MAPPING=Job Code & Pay Grade Mapping
+COMPENSATION_COMMON_DATA_STOCK_PLANS=Stock Plans
+COMPENSATION_COMMON_DATA_STOCK_VALUE_TABLES=Stock Value Tables
+COMPENSATION_COMMON_DATA_STOCK_FACTOR_TABLES=Stock Factor Tables
+COMPENSATION_COMMON_DATA_STOCK_PARTICIPATION_GUIDELINE_TABLES=Stock Participation Guideline Tables
+COMPENSATION_COMMON_DATA_VARPAY_PLANS=Variable Pay Plans
+COMPENSATION_COMMON_DATA_GROUP_ASSIGNMENTS=Group Assignments
+COMPENSATION_COMMON_DATA_MANAGE_GROUPS=Manage Groups
+COMPENSATION_COMMON_DATA_ASSIGN_EMPLOYEE_TO_GROUP=Assign Employees to Group
+COMPENSATION_COMMON_DATA_IMPORT_GROUP_ASSIGNMENT=Import Group Assignment
+COMPENSATION_COMMON_DATA_EXPORT_GROUP_ASSIGNMENT=Export Group Assignment
+COMPENSATION_COMMON_DATA_MANAGE_FAMILIES_AND_GROUPS=Manage Families And Groups
+COMPENSATION_COMMON_DATA_COMPENSATION_PROFILE=Compensation Profile
+COMPENSATION_COMMON_DATA_DEFINE_HISTORY_PERIOD=Define a new period
+COMPENSATION_PROFILE_DELETE_CONFIRM=Are you sure you want to remove this period configuration?
+COMPENSATION_PROFILE_DELETE_CONFIRM_DETAIL=Removing a period will permanently delete the information contained within it.
+COMPENSATION_COMMON_DATA_HISTORY_PERIOD_LABEL_ERR_MSG=Please Enter Period Label
+COMPENSATION_COMMON_DATA_HISTORY_PERIOD_DESC_ERR_MSG=Please Enter Period Description
+COMPENSATION_COMMON_DATA_OR=Or
+COMPENSATION_COMMON_DATA_MANAGE_COMPENSATION_HISTORY=Add/Edit Compensation History
+COMPENSATION_COMMON_DATA_MANAGE_COMPENSATION_STOCK_HISTORY=Add/Edit Stock History
+COMPENSATION_COMMON_DATA_DISPLAY_ORDER=Order
+COMPENSATION_COMMON_DATA_PLAN_TEMPLATE=Plan
+COMPENSATION_COMMON_DATA_PAY_TYPE=Pay Type
+COMPENSATION_COMMON_DATA_HISTORY_PERIOD=Period
+COMPENSATION_COMMON_DATA_HISTORY_PERIOD_UPDATE_ORDER=Update Order
+COMPENSATION_COMMON_DATA_DESCRIPTION=Description
+COMPENSATION_COMMON_DATA_PERIOD_DESCRIPTION=Period Description
+COMPENSATION_COMMON_DATAINFO_HEADER=Define Your Data to display
+COMPENSATION_COMMON_DATA_Select_PERIOD=Select Period
+COMPENSATION_COMMON_DATA_Select_PLAN=Select a plan for this period
+COMPENSATION_COMMON_DATA_Select_Pay_Types=Select pay types
+COMPENSATION_COMMON_DATA_Action=Action
+COMPENSATION_COMMON_DATA_ADD_PERIOD=Add Period
+COMPENSATION_COMMON_DATA_PERIOD_SIZE_WARNING_MSG=characters left
+COMPENSATION_COMMON_DATA_DEFINE_PERIOD=Define Compensation Profile History View
+COMPENSATION_COMMON_DATA_DEFINE_PERIOD_DESC=Use this page to set up compensation history periods. Once these are created, visit Plan Setup>Design Worksheet>Define Compensation Period Data for your Plan to select the periods to display on the Compensation Profile history chart.
+COMPENSATION_COMMON_DATA_PERIOD_NAME_LABEL=Period
+COMPENSATION_COMMON_DATA_EXTRA_LABELS=Extra Labels in Other Languages
+COMPENSATION_COMMON_DATA_HIDE_EXTRA_LABELS=Hide Extra Labels in Other Languages
+COMPENSATION_COMMON_DATA_SELECT_PLAN_DESC_LABEL=Select a plan
+COMPENSATION_COMMON_ADD_ANOTHER_PLAN=Add Another Plan
+COMPENSATION_COMMON_DATA_SELECT_FIELD_DESC_LABEL=Pay types
+COMPENSATION_COMMON_TEMPLATE_PERIOD_MAPPING_INFO=Here is an example of what you will see on compensation profile after you setup the History Data
+COMPENSATION_COMMON_DATA_Select_PERIOD_LABEL=Which Periods do you want to display
+COMPENSATION_COMMON_DATA_SAVE_PLAN=Save Plan
+COMPENSATION_COMMON_DATA_HISTORY_PERIOD_EDIT=Edit Period
+COMPENSATION_COMMON_DATA_HISTORY_PERIOD_DELETE=Delete Period
+COMPENSATION_COMMON_DATA_HISTORY_PLAN_DELETE=Delete Plan
+COMPENSATION_COMMON_DATA_HISTORY_PLAN_ADD=Add Plan
+COMPENSATION_COMMON_DATA_CREATE_COMP_HISTORY_PERIOD=Create new Compensation history period
+COMPENSATION_COMMON_DATA_CREATE_STOCK_HISTORY_PERIOD=Create new Stock history period
+#compensation one admin summary page
+COMPENSATION_ONE_ADMIN_SUMMARY_TITLE=Summary
+COMPENSATION_ONE_ADMIN_SUMMARY_PLAN_STATUS_TITLE=Plan Status
+COMPENSATION_ONE_ADMIN_SUMMARY_ROUTEMAP_TITLE=Route map Progress
+COMPENSATION_ONE_ADMIN_SUMMARY_BUDGET_TITLE=Budget ({0})
+COMPENSATION_ONE_ADMIN_SUMMARY_ELIGILIBITY_TITLE=Eligibility ({0})
+COMPENSATION_ONE_ADMIN_SUMMARY_GUIDELINES_TITLE=Guidelines ({0})
+COMPENSATION_ONE_ADMIN_SUMMARY_NOT_DEFINED=Not Defined
+COMPENSATION_ONE_ADMIN_SUMMARY_SUBTITLE_PUBLISHED=Plan Published
+COMPENSATION_ONE_ADMIN_SUMMARY_PUBLISHED=Published
+COMPENSATION_ONE_ADMIN_SUMMARY_NOT_PUBLISHED=Not Published
+COMPENSATION_ONE_ADMIN_SUMMARY_SUBTITLE_HIERARCHY_TYPR=Hierarchy Type
+COMPENSATION_ONE_ADMIN_SUMMARY_PLANNER_METHOD__NAME_OTHER=Other
+COMPENSATION_ONE_ADMIN_SUMMARY_PLANNER_METHOD_DESC_OTHER=Other special planner method
+COMPENSATION_ONE_ADMIN_SUMMARY_SUBTITLE_NUMBER_OF_PLANNER=No. Of Planners
+COMPENSATION_ONE_ADMIN_SUMMARY_SUBTITLE_NUMBER_OF_WORKSHEETS=No. Of Worksheets
+COMPENSATION_ONE_ADMIN_SUMMARY_SUBTITLE_WORKSHEETS_LAUNCHED=Worksheets Launched
+COMPENSATION_ONE_ADMIN_SUMMARY_SUBTITLE_NUMBER_OF_EMPLOYEES_ON_WORKSHEETS=No. Of Employees on Worksheets
+COMPENSATION_ONE_ADMIN_SUMMARY_ROUTEMAP_NOT_DEFINED=Route map not defined.
+COMPENSATION_ONE_ADMIN_SUMMARY_PLAN_NOT_PUBLISHED=Plan not published.
+COMPENSATION_ONE_ADMIN_SUMMARY_ROUTEMAP_BAR_LABEL={0} ({1})
+COMPENSATION_ONE_ADMIN_SUMMARY_BUDGET_BAR_SUBTITLE_SPENT=Spent {0}{1}
+COMPENSATION_ONE_ADMIN_SUMMARY_BUDGET_BAR_SUBTITLE_REMAINING=Remaining {0}{1}
+COMPENSATION_ONE_ADMIN_SUMMARY_BUDGET_BAR_SUBTITLE_OVER=Over {0}{1}
+COMPENSATION_ONE_ADMIN_SUMMARY_BUDGET_BAR_LABEL={0}{1} ({2})
+COMPENSATION_ONE_ADMIN_SUMMARY_NO_BUDGET_DEFINED_YET=No budget defined yet.
+COMPENSATION_ONE_ADMIN_SUMMARY_SETUP_BUDGET_NOW=Setup Budget now.
+COMPENSATION_ONE_ADMIN_SUMMARY_ADD_RULE=+ Rule
+COMPENSATION_ONE_ADMIN_SUMMARY_GRIDE_HEADER_ELIGIBLE=Eligible
+COMPENSATION_ONE_ADMIN_SUMMARY_GRIDE_HEADER_NOT_ELIGIBLE=Not Eligible
+COMPENSATION_ONE_ADMIN_SUMMARY_GRIDE_HEADER_TOTAL=Total
+COMPENSATION_ONE_ADMIN_SUMMARY_ADD_GUIDELINE=+ Guideline
+COMPENSATION_ONE_ADMIN_SUMMARY_GRIDE_HEADER_EMPLOYEE_ASIGNED=Employees Assigned
+COMPENSATION_ONE_ADMIN_SUMMARY_GRIDE_HEADER_EMPLOYEE_NOT_ASIGNED=Employees Not Assigned
+COMPENSATION_ONE_ADMIN_SUMMARY_GRIDE_HEADER_TOTAL_EMPLOYEES=Total Employees
+COMPENSATION_ONE_ADMIN_SUMMARY_SUBTITLE_BUDGET_SPANT=Budget (% spent)
+
+
+COMPENSATION_APPLY_ELIG_RULES_EMAIL_SUBJECT=Eligibility Rule process status {0}.
+COMPENSATION_APPLY_ELIG_RULES_SUCCESS_EMAIL_MSG=Form Template Name: {0}\n Eligibility Rules have been applied successfully.
+COMPENSATION_APPLY_ELIG_RULES_SUCCESS_WITH_WARNING_EMAIL_MSG=Form Template Name: {0}\n Eligibility Rules have been applied with warning(s):\n
+COMPENSATION_APPLY_ELIG_RULES_ERROR_EMAIL_MSG=Form Template Name: {0}\n Eligibility Rules cannot be applied because of error: {1}.
+# Compensation display options
+COMPENSATION_Display_Option_Budget_Allocation=Budget Allocation :
+COMPENSATION_Display_Option_Show_As_Floating_Panel=Show as floating panel
+COMPENSATION_Display_full_view=Full View
+COMPENSATION_Display_fit_view=Fit View
+# Compensation Mass Create Form
+COMPENSATION_CREATE_FORM_PLAN_NAME=Plan Name
+COMPENSATION_CREATE_FORM_COMPENSATION_GROUP=Compensation Group
+COMPENSATION_CREATE_FORM_GROUP_PLANNER=Group Planner
+COMPENSATION_CREATE_FORM_SALARY_BUDGET=Salary Budget
+COMPENSATION_CREATE_FORM_BONUS_BUDGET=Bonus Budget
+COMPENSATION_CREATE_FORM_STOCK_BUDGET=Stock Budget
+COMPENSATION_CREATE_FORM_OPTIONS_BUDGET=Options Budget
+COMPENSATION_CREATE_FORM_BUDGET=Budget
+COMPENSATION_CREATE_FORM_LUMP_SUM=Lump Sum
+COMPENSATION_CREATE_FORM_LUMP_SUM2=Lump Sum 2
+COMPENSATION_CREATE_FORM_LUMP_SUM_LUMP_SUM2=Lump Sum + Lump Sum 2
+COMPENSATION_CREATE_FORM_STOCKS=Stocks
+COMPENSATION_CREATE_FORM_BONUS=Bonus
+COMPENSATION_CREATE_FORM_OPTIONS=Options
+COMPENSATION_CREATE_FORM_TOTAL_RAISE=Total Raise
+COMPENSATION_CREATE_FORM_CYCLE_START_DATE=Cycle Start Date
+COMPENSATION_CREATE_FORM_CYCLE_END_DATE=Cycle End Date
+COMPENSATION_CREATE_FORM_DUE_DATE=Due Date
+COMPENSATION_CREATE_FORM_COMPENSATION_FORM=Compensation Worksheet
+COMPENSATION_CREATE_FORM_DATE_FORMAT_ERROR=Please enter {0} in the correct format: {1}
+COMPENSATION_CREATE_FORM_REQUIRED_FIELD={0} is empty.
+COMPENSATION_CREATE_FORM_INVALID_NUMBER={0} is not a valid number.
+COMPENSATION_CREATE_FORM_NEGATIVE_NUMBER={0} cannot be a negative number.
+COMPENSATION_CREATE_FORM_SELECT_FORM=Please select a form.
+COMPENSATION_CREATE_FORM_START_BEFORE_END_DATE=$(COMPENSATION_CREATE_FORM_CYCLE_START_DATE) must be before $(COMPENSATION_CREATE_FORM_CYCLE_END_DATE).
+COMPENSATION_CREATE_FORM_DUE_DATE_BEFORE_START_DATE=$(COMPENSATION_CREATE_FORM_CYCLE_START_DATE) must be before $(COMPENSATION_CREATE_FORM_DUE_DATE).
+# Compensation Auto Complete
+COMPENSATION_AUTO_COMPLETE_BAD_REQUEST=Bad Request.
+COMPENSATION_AUTO_COMPLETE_REQUEST_FAILD=Failed to get results for search.
+COMPENSATION_AUTO_COMPLETE_SELECT_A_TEMPLATE=Please select a template.
+# Compensation Executive Review: Form View
+COMPENSATION_FEATURE_EXECREVIEW_FORM_VIEW=Enable Form View in Executive Review
+COMPENSATION_FORM_MANAGEMENT_ENABLE_COMP_EXEC_REVIEW_FORM_VIEW=Executive Review: enable form view (This will disable team view)
+COMPENSATION_EXECREVIEW_FILTER_OPTION_FORM_VIEW=Form View
+COMPENSATION_EXECREVIEW_MAX_YOUCALC_ENTRY_SIZE=Metrics cannot be displayed due to the number of users, please reduce the number of users from {0} to {1} to display.
+COMPENSATION_MAX_YOUCALC_ENTRY_SIZE=Maximum YouCalc Entry Size (default is 1000, only applicable to compensation executive review):
+COMPENSATION_MAX_YOUCALC_ENTRY_SIZE_ERR=Invalid max YouCalc entry size.
+
+
+#Start: COMPENSATION_ prefixed keys moved from messages.properties.utf8 to sfmessages.properties.utf8 on Tue Jun  2 16:21:50 IST 2009 - using movef.sh script
+COMPENSATION_NOT_ELIGIBLE=n/a
+COMPENSATION_READONLY=$(Compensation) (Read only)
+COMPENSATION_ELIGIBLE=$(Compensation) Eligible
+COMPENSATION_SAL_RATE_TYPE=$(Compensation) $(Salary) Rate Type
+COMPENSATION_SAL_RATE_UNITS=$(Compensation) $(Salary) Rate Units
+COMPENSATION_TEMPLATE_NAME=$(Compensation) Template Name
+COMPENSATION_PLAN_CHART=$(Compensation) Plan Chart
+#End: COMPENSATION_ prefixed keys moved from messages.properties.utf8 to sfmessages.properties.utf8 on Tue Jun  2 16:21:50 IST 2009 - using movef.sh script
+
+#COMPENSATION Personal statement permissions
+COMPENSATION_PERM_title=Set up Permissions to Personal Compensation Statement
+COMPENSATION_PERM_description=Use this page to set up permission access to Personal Compensation Statements.
+COMPENSATION_PERM_save=Save
+COMPENSATION_PERM_cancel=Cancel
+COMPENSATION_PERM_roles=Roles
+COMPENSATION_PERM_read=Read
+COMPENSATION_PERM_continue=Continue
+COMPENSATION_PERM_warning=Warning for permission settings
+COMPENSATION_PERM_warning_title=This screen only supports the basic permission settings.
+COMPENSATION_PERM_warning_detail=Your current configurations, '{0}', can only be modified in the XML template.
+COMPENSATION_PERM_warning_action=If you wish to modify your current configurations, click 'Cancel' and contact the Customers Support for your change requests. Otherwise, click 'Continue' to create a new set of permissions.
+COMPENSATION_PERM_applies_to=Applies to
+COMPENSATION_PERM_level_up=level(s) up
+COMPENSATION_PERM_all=all
+COMPENSATION_PERM_load_fail=Fail to load permission.
+COMPENSATION_PERM_save_fail=Fail to update permission.
+COMPENSATION_PERM_role_support_error=Fail to load unsupported role. Please edit data manually.
+COMPENSATION_PERM_role_E=Employee
+COMPENSATION_PERM_role_EM=Employee's Manager
+COMPENSATION_PERM_role_EH=Employee's HR Rep.
+COMPENSATION_PERM_role_EX=Employee's matrix manager
+COMPENSATION_PERM_role_EC=Employee's custom manager
+COMPENSATION_PERM_role_EA=Employee's second manager
+#COMPENSATION Column Definition (form designer)
+COMPENSATION_COLUMN_DEFINITION_Add_Column=Add Column
+COMPENSATION_COLUMN_DEFINITION_Add_Grouping=Add Grouping
+COMPENSATION_COLUMN_DEFINITION_Standard_Column=Standard
+COMPENSATION_COLUMN_DEFINITION_Custom_Column=Custom
+COMPENSATION_COLUMN_DEFINITION_Language=Language
+COMPENSATION_COLUMN_DEFINITION_Label=Label
+COMPENSATION_COLUMN_DEFINITION_Delete_Label=Delete Label
+COMPENSATION_COLUMN_DEFINITION_Default=Default
+COMPENSATION_COLUMN_DEFINITION_Delete_Group=Delete Grouping
+COMPENSATION_COLUMN_DEFINITION_Delete_Column=Delete Column
+COMPENSATION_COLUMN_DEFINITION_Column_Id=Column Id
+COMPENSATION_COLUMN_DEFINITION_Group_Id=Grouping Id
+COMPENSATION_COLUMN_DEFINITION_Read_Only=Read-only
+COMPENSATION_COLUMN_DEFINITION_Visible=Hide this column on the form
+COMPENSATION_COLUMN_DEFINITION_Exportable=Exportable hidden column
+COMPENSATION_COLUMN_DEFINITION_Type=Column Type
+COMPENSATION_COLUMN_DEFINITION_Money=Money
+COMPENSATION_COLUMN_DEFINITION_String=String
+COMPENSATION_COLUMN_DEFINITION_Percent=Percent
+COMPENSATION_COLUMN_DEFINITION_Amount=Amount
+COMPENSATION_COLUMN_DEFINITION_Date=Date
+COMPENSATION_COLUMN_DEFINITION_Options=Other Options
+COMPENSATION_COLUMN_DEFINITION_Specify_Labels=Specify the labels for other languages
+COMPENSATION_COLUMN_DEFINITION_This_Grouping=this group
+COMPENSATION_COLUMN_DEFINITION_This_Custom_Field=this custom field
+COMPENSATION_COLUMN_DEFINITION_Formula=Formula
+COMPENSATION_COLUMN_DEFINITION_Use_A_Field=Use a field:
+COMPENSATION_COLUMN_DEFINITION_Insert=Insert
+COMPENSATION_COLUMN_DEFINITION_Minimum_Value=Minimum Value (if any)
+COMPENSATION_COLUMN_DEFINITION_Maximum_Value=Maximum Value (if any)
+COMPENSATION_COLUMN_DEFINITION_Percentage_Amount=Percent or Amount
+COMPENSATION_COLUMN_DEFINITION_Show_Percent_And_Amount=Show both percent and amount
+COMPENSATION_COLUMN_DEFINITION_Hide_Percent=Show amount only
+COMPENSATION_COLUMN_DEFINITION_Hide_Amount=Show percent only
+COMPENSATION_COLUMN_DEFINITION_Import_Key=Import Key
+COMPENSATION_COLUMN_DEFINITION_Width=Column width
+COMPENSATION_COLUMN_DEFINITION_Percent_Width=Percentage column width
+COMPENSATION_COLUMN_DEFINITION_Percentage_Read_Only=Display percentage as Read-only
+COMPENSATION_COLUMN_DEFINITION_Reloadable=Reloadable
+COMPENSATION_COLUMN_DEFINITION_Reportable=Reportable
+COMPENSATION_COLUMN_DEFINITION_Need_Calc_Total=Calculate total
+COMPENSATION_COLUMN_DEFINITION_Display_Location=Display location
+COMPENSATION_COLUMN_DEFINITION_Money_Format=Money Format
+COMPENSATION_COLUMN_DEFINITION_Not_Specified=Not Specified
+COMPENSATION_COLUMN_DEFINITION_Default_Money_Format=Default Money Format
+COMPENSATION_COLUMN_DEFINITION_User_Rate_Type=User Rate Type
+COMPENSATION_COLUMN_DEFINITION_Always_Annual=Always Annual
+COMPENSATION_COLUMN_DEFINITION_Choose_Background_Color=Choose a background color or enter your own custom color
+COMPENSATION_COLUMN_DEFINITION_Add_Name_Columns=Add name columns
+COMPENSATION_COLUMN_DEFINITION_Add_Employee_data=Add employee data & compensation data columns
+COMPENSATION_COLUMN_DEFINITION_Configuring_Navigation_Fields=Configuring Navigation Fields
+COMPENSATION_COLUMN_DEFINITION_Configuring_Navigation_Fields_Message1=The navigation fields allow the Compensation planners to navigate between different types of forms: Salary, Bonus, Stock.
+COMPENSATION_COLUMN_DEFINITION_Configuring_Navigation_Fields_Message2=You can change the labels for the navigation fields on this screen.
+COMPENSATION_COLUMN_DEFINITION_Configuring_Form_Fields=Configuring Form Fields
+COMPENSATION_COLUMN_DEFINITION_Configuring_Form_Fields_Message=You can define the attributes for the column fields in a Compensation form. For Salary form, you could also arrange the ordering of the fields.
+COMPENSATION_COLUMN_DEFINITION_Configuring_Rollup_Fields=Configuring Rollup Report Fields
+COMPENSATION_COLUMN_DEFINITION_Configuring_Rollup_Fields_Message1=In addition to the Compensation form fields, the Rollup Report fields provide planners more information about the Compensation allocation.
+COMPENSATION_COLUMN_DEFINITION_Configuring_Rollup_Fields_Message2=You can configure the labels for those fields below.
+COMPENSATION_COLUMN_DEFINITION_Add_Standard_Columns=Add Standard Columns
+COMPENSATION_COLUMN_DEFINITION_Configure_Selected_Column=Configure the selected column
+COMPENSATION_COLUMN_DEFINITION_Configure_Selected_Group=Configure the selected group
+COMPENSATION_COLUMN_DEFINITION_Invalid_Color=Please enter a 6-digit hexadecimal value.
+COMPENSATION_COLUMN_DEFINITION_Original_Label=Original Label
+COMPENSATION_COLUMN_DEFINITION_Enter_Single_Word=Enter a valid single word, spaces and special characters are not allowed
+COMPENSATION_COLUMN_DEFINITION_Enter_Unique_Id=This id must be unique
+COMPENSATION_COLUMN_DEFINITION_Delete_Enum_Value=Delete value
+COMPENSATION_COLUMN_DEFINITION_Formula_Read_Only=A formula can only be entered for read-only fields.
+COMPENSATION_COLUMN_DEFINITION_Enum_Not_Read_Only=Enumerated values can only be entered for non read-only fields.
+COMPENSATION_COLUMN_DEFINITION_Enter_Formula=Enter a formula
+COMPENSATION_COLUMN_DEFINITION_Validation=Validation
+COMPENSATION_COLUMN_DEFINITION_No_Validation=No validation
+COMPENSATION_COLUMN_DEFINITION_Set_Range=Set a value range
+COMPENSATION_COLUMN_DEFINITION_Set_Enumerated_Values=Set enumerated values
+COMPENSATION_COLUMN_DEFINITION_Validation_Not_Read_Only=Validation only applies to non read-only fields.
+COMPENSATION_COLUMN_DEFINITION_Click_Add_Button=Click Add button to add values
+COMPENSATION_COLUMN_DEFINITION_Min_Value_Greater_Than_Max=Min value cannot be greater than max value
+COMPENSATION_COLUMN_DEFINITION_New_Column=New Column
+COMPENSATION_COLUMN_DEFINITION_New_Grouping=New Grouping
+COMPENSATION_COLUMN_DEFINITION_Confirm_Delete=Are you sure you want to delete {0}?
+COMPENSATION_COLUMN_DEFINITION_Confirm_Delete_Detail=Deleting {0} will not take effect until you click save.
+COMPENSATION_COLUMN_DEFINITION_Confirm_Cancel=Are you sure you want to cancel?
+COMPENSATION_COLUMN_DEFINITION_Confirm_Cancel_Detail=If you cancel now you will lose any unsaved changes.
+COMPENSATION_COLUMN_DEFINITION_Which_Type_Of_Fields=Which type of fields would you like to configure:
+COMPENSATION_COLUMN_DEFINITION_Form_Fields=Form Fields
+COMPENSATION_COLUMN_DEFINITION_Rollup_Report_Fields=Rollup Report Fields
+COMPENSATION_COLUMN_DEFINITION_Navigation_Fields=Navigation Fields
+COMPENSATION_COLUMN_DEFINITION_Rollup_Report_Field=Rollup Report Field
+COMPENSATION_COLUMN_DEFINITION_Navigation_Field=Navigation Field
+COMPENSATION_COLUMN_DEFINITION_Salary=Salary
+COMPENSATION_COLUMN_DEFINITION_Bonus=Bonus
+COMPENSATION_COLUMN_DEFINITION_Stock=Stock
+COMPENSATION_COLUMN_DEFINITION_Cannot_Get_Columns=There was an unknown error retrieving the column information
+COMPENSATION_COLUMN_DEFINITION_Hide_Instructions=Hide Instructions
+COMPENSATION_COLUMN_DEFINITION_Show_Instructions=Show Instructions
+COMPENSATION_COLUMN_DEFINITION_Description=Description
+COMPENSATION_COLUMN_DEFINITION_Default_Label=Label
+COMPENSATION_COLUMN_DEFINITION_Column_Name=Column Name
+COMPENSATION_COLUMN_DEFINITION_Include_Id=Include Id
+COMPENSATION_COLUMN_DEFINITION_Right_Side_Fields=Add fields that display on the right side of the form
+COMPENSATION_COLUMN_DEFINITION_Add_Fields_In_Section=Add {0} field(s)
+COMPENSATION_COLUMN_DEFINITION_Current_Color=Current Color
+COMPENSATION_COLUMN_DEFINITION_Hex_Color_Code=Hex Color Code No.
+COMPENSATION_COLUMN_DEFINITION_No_Default=No Default
+COMPENSATION_COLUMN_DEFINITION_Add_Another_Value=Add another value
+COMPENSATION_COLUMN_DEFINITION_Value_Range=Value Range
+COMPENSATION_COLUMN_DEFINITION_Default_Value=Default Value
+COMPENSATION_COLUMN_DEFINITION_Detailed_Bonus=detailed bonus
+COMPENSATION_COLUMN_DEFINITION_Label_Only=label only
+COMPENSATION_COLUMN_DEFINITION_Italics_Custom_Column=Italics = Custom Column
+COMPENSATION_COLUMN_DEFINITION_This_Is_A_Custom_Column=This is a custom column.
+COMPENSATION_COLUMN_DEFINITION_Click_Field=Click on a field on the left to begin.
+COMPENSATION_COLUMN_DEFINITION_Select_Language=Select language...
+COMPENSATION_COLUMN_DEFINITION_Original=original: {0}
+COMPENSATION_COLUMN_DEFINITION_Formula_Error=The column with id {0} had an invalid custom formula: {1}
+COMPENSATION_COLUMN_DEFINITION_Note_Employee_Full_Name=This will display the user's full name on the left side of the form. This field cannot be turned off.
+COMPENSATION_COLUMN_DEFINITION_Note_User_Name_Right=This will display the user's full name on the very right-hand side of the form.
+COMPENSATION_COLUMN_DEFINITION_Note_User_Name_Pre_Data=This will display the user's full name in a customized location within the form.
+COMPENSATION_COLUMN_DEFINITION_Note_Salary_Action=This displays on the right hand side of the salary form.
+COMPENSATION_COLUMN_DEFINITION_Note_Executive_Review_Only=This only applies to executive review display of the form.
+COMPENSATION_COLUMN_DEFINITION_Note_Guideline_Section=This field displays under the Guideline section of the stock tab.
+COMPENSATION_COLUMN_DEFINITION_Note_Recommendation_Section=This field displays under the Recommendation section of the stock tab.
+COMPENSATION_COLUMN_DEFINITION_Note_Bonus_Section=This field is a column header for each bonus section in the outer bonus row as well as the inner detailed sections.
+COMPENSATION_COLUMN_DEFINITION_Note_Label_Only=This field is used to customize a label on the form. It does not represent an actual data field.
+COMPENSATION_COLUMN_DEFINITION_Note_Label=Defines the default label for this column. Alternate labels can be defined for other languages.
+COMPENSATION_COLUMN_DEFINITION_Note_Field_Id=Create a unique identifying name for this column so it can be easily referenced when doing custom calculations. Use letters only, no special characters or spaces allowed.
+COMPENSATION_COLUMN_DEFINITION_Note_Validation_No_Validation=Don't do any error checking
+COMPENSATION_COLUMN_DEFINITION_Note_Validation_Set_Value_Range=Specify the lowest and highest values allowed in this column. Values that fall out of this range will get an error message.
+COMPENSATION_COLUMN_DEFINITION_Note_Validation_Set_Enumerated_Values=Specify the possible values that display as menu options in this column. Users must select one of these values.
+COMPENSATION_COLUMN_DEFINITION_Note_Column_Width=Optional information. Recommend that you leave the column width as-is unless you're sure that you want the column to be wider or shorter than it currently is. Type a number to set the width of the column. The unit of measurement is automatically determined based on the type of data that displays in this column.
+COMPENSATION_COLUMN_DEFINITION_Note_Visible=Select if you don't want this column to be visible on the form to planners. Hidden columns can still be factored into custom calculations.
+COMPENSATION_COLUMN_DEFINITION_Note_Exportable=Select if you want this hidden column to display in exported files. Hidden columns don't display on the form. This option is applicable only when the <strong>$(COMPENSATION_COLUMN_DEFINITION_Visible)</strong> checkbox is selected.
+COMPENSATION_COLUMN_DEFINITION_Note_Read_Only=Select Yes to make the column read-only, Read-only columns can't be edited in the form. Note: Some columns are always in read-only mode.
+COMPENSATION_COLUMN_DEFINITION_Note_Always_Read_Only=This column is always presented in read-only mode on the worksheet and cannot be selected for editing.
+COMPENSATION_COLUMN_DEFINITION_Note_Reloadable=Select if you want the data in this column to update every time the user opens or saves the form. If it is a custom field, you must have an <strong>$(COMPENSATION_COLUMN_DEFINITION_Import_Key)</strong> to use this option.
+COMPENSATION_COLUMN_DEFINITION_Note_AlwaysReloadable=This field is always reloadable. Data in this column updates every time the user opens or saves the form.
+COMPENSATION_COLUMN_DEFINITION_Note_Reportable=Select if you want this field to be available in ad-hoc report.
+COMPENSATION_COLUMN_DEFINITION_Note_Need_Calc_Total=Select if you're using a <strong>$(COMPENSATION_COLUMN_DEFINITION_Money)</strong> or <strong>$(COMPENSATION_COLUMN_DEFINITION_Amount)</strong> column type (see <strong>$(COMPENSATION_COLUMN_DEFINITION_Type)</strong> options) and want to display the sum of all values in a Total row.
+COMPENSATION_COLUMN_DEFINITION_Note_Hide_Amount_Not_Applicable=Displaying the percentage value only is not available for this column.
+COMPENSATION_COLUMN_DEFINITION_Note_Validation=Determine how editable fields will be checked for errors (validated).\
+ <br/><br/><em>Note</em>: <strong>$(COMPENSATION_COLUMN_DEFINITION_Read_Only)</strong> must be set to '<strong>$(COMMON_No)</strong>' to use validation.
+COMPENSATION_COLUMN_DEFINITION_Note_Import_Key=Optional information. If you want this column to be populated by data from the user import data file, create a unique identifying name (key) for this column and enter the same name (key) in the user import data file. The import key in both places must match. For a standard column, this import key overrides the default key. Use letters only, no special characters or spaces allowed.\
+ <br/><br/><em>Note</em>: If you're using a <strong>$(COMPENSATION_COLUMN_DEFINITION_Formula)</strong>, you cannot enter an import key.
+COMPENSATION_COLUMN_DEFINITION_Note_Type=Required information. Select the type of information you want to display in this column.\
+ <ul><li><strong>$(COMPENSATION_COLUMN_DEFINITION_String)</strong>: any alphanumeric set of characters\
+ <li><strong>$(COMPENSATION_COLUMN_DEFINITION_Money)</strong>: numeric value only with currency</li>\
+ <li><strong>$(COMPENSATION_COLUMN_DEFINITION_Percent)</strong>: percentage value only</li>\
+ <li><strong>$(COMPENSATION_COLUMN_DEFINITION_Amount)</strong>: numeric value only</li>\
+ <li><strong>$(COMPENSATION_COLUMN_DEFINITION_Date)</strong>: calendar date value only</li></ul>
+COMPENSATION_COLUMN_DEFINITION_Note_Money_Format=Optional information. Select the rate type associated with the money format you want to use for this column.\
+ <ul><li><strong>$(COMPENSATION_COLUMN_DEFINITION_Default_Money_Format)</strong>: Use the default money format for this template.</li>\
+ <li><strong>$(COMPENSATION_COLUMN_DEFINITION_User_Rate_Type)</strong>: Use the money format corresponding with the user's rate type (annual, hourly, weekly, etc).</li>\
+ <li><strong>$(COMPENSATION_COLUMN_DEFINITION_Always_Annual)</strong>: Always use the money format corresponding with annual rates.</li></ul>\
+ <em>Note</em>: Rate type rules were defined when the form template was created and can't be changed here.
+COMPENSATION_COLUMN_DEFINITION_Note_Formula=Optional information. \
+ Type the custom formula you want to use in this column. You can insert fields in your formula by selecting the ones you want from the <strong>Use a field</strong> menu below.\
+ <br/><br/><em>Note</em>: To use a formula:<ul>\
+ <li><strong>Set the $(COMPENSATION_COLUMN_DEFINITION_Read_Only)</strong> option to <strong>$(COMMON_Yes)</strong>.</li>\
+ <li>Make sure the <strong>$(COMPENSATION_COLUMN_DEFINITION_Import_Key)</strong> option is empty. Import keys cannot be used with formulas.</li></ul>
+COMPENSATION_COLUMN_DEFINITION_Note_Percentage_Readonly=Select if you want percentage values to display in read-only mode.\
+ <br/><br/><em>Note</em>: Before selecting this option, make sure that:<ul>\
+ <li>in the <strong>$(COMPENSATION_COLUMN_DEFINITION_Percentage_Amount)</strong> field, <strong>$(COMPENSATION_COLUMN_DEFINITION_Hide_Percent)</strong> is <em>not</em> selected.</li>\
+ <li>the <strong>$(COMPENSATION_COLUMN_DEFINITION_Read_Only)</strong> option is set to <strong>$(COMMON_No)</strong>.</li></ul>
+#COMPENSATION Individual View
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_DAILOG_HEADER=Compensation Profile for {0}
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_COMP_HISTORY=Compensation History
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_POS=Salary Positioning
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_POS_WITH_CURRENCY_CODE=$(COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_POS) ({0})
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_RECOMMENSATIONS=Recommendations
+#{0} stands for compensation field label string (as configured by users), e.g. 'You need to provide an explanation for {Merit} before submitting the worksheet.'
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_NEED_FORCE_COMMENT=You need to provide an explanation for {0} before submitting the worksheet.
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_COMMENT_RAISE={0} has received a raise.
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_COMMENT_NO_RAISE={0} has not received any raise.
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_TAB_LEVEL_COMMENT=Comment
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_TAB_LEVEL_COMMENT_DESC=Please add/edit notes below
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_TAB_LEVEL_COMMENT_UPDATED=Notes have been successfully saved
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_TAB_LEVEL_COMMENT_UPDATE_FAILED=Failed to save notes
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_TAB_COMMENT_NOT_AVAILABLE=No comment available
+# {0} is a number
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_TAB_LEVEL_COMMENT_ALERT_TEXT=Notes can be {0} characters at maximum, truncated!
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_RECOMMENSATIONS_WITH_CURRENCY_CODE=$(COMPENSATION_INDIVIDUAL_VIEW_PROFILE_RECOMMENSATIONS) ({0})
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_BELOW_MIN={0}'s salary is below the minimum of the range.
+#{0} is the person's name, {1} is the field label for compa-ratio, {2} and {3} are numeric percent values calculated for the user
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_BELOW_MID={0}'s salary has a {1} of {2}, which is {3} below the competitive average for the job.
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_ABOVE_MID={0}'s salary has a {1} of {2}, which is {3} above the competitive average for the job
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_AT_MID={0}'s salary has a {1} of {2}, which is at the competitive average for the job.
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_ABOVE_MAX={0}'s salary is above the maximum of the range.
+#{0} is the person's name, {1} is numeric percent value calculated for the user.
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY_RANGE_DESC={0}'s salary is {1} into the salary range.
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_NA_PAYGUIDE=Salary payguide market data not available
+COMPENSATION_INDIVIDUAL_VIEW_PROFILE_SALARY=Salary
+COMPENSATION_INDIVIDUAL_VIEW_SALARY_POS_TYPE_CUR=current
+COMPENSATION_INDIVIDUAL_VIEW_SALARY_POS_TYPE_NEW=new
+COMPENSATION_INDIVIDUAL_VIEW_SALARY_POS_MIN=min
+COMPENSATION_INDIVIDUAL_VIEW_SALARY_POS_MID=mid
+COMPENSATION_INDIVIDUAL_VIEW_SALARY_POS_MAX=max
+COMPENSATION_INDIVIDUAL_VIEW_SHOW_PROMOTION=Show Promotion
+COMPENSATION_INDIVIDUAL_VIEW_HIDE_PROMOTION=Hide Promotion
+COMPENSATION_INDIVIDUAL_VIEW_REMOVE_PROMOTION=Remove Promotion
+COMPENSATION_PROFILE_NO_RECOMMENDATION_DATA_AVAILABLE=No recommendation data available.
+COMPENSATION_PROFILE_OPEN=Open Profile
+COMPENSATION_PROFILE_PREVIOUS=<< Previous
+COMPENSATION_PROFILE_NEXT=Next >>
+COMPENSATION_PROFILE_HAVE_UNSAVED_CHANGES=You have unsaved changes
+COMPENSATION_PROFILE_FIELD_CHANGE_MOUSEOVER_DESC=Value has been changed from {0} to {1}
+COMPENSATION_PROFILE_NO_HISTORY_RECORD=There is no history data to display.
+COMPENSATION_PROFILE_HISTORY_CHART_NOT_APPLICABLE=The chart cannot be displayed due to incomparable currency data.
+# {0} is the field type. For example: Merit.
+COMPENSATION_PROFILE_AMT_PERCENTAGE_FIELD_PCT_TITLE={0} Percentage
+COMPENSATION_PROFILE_EXPAND_COLLAPSE_ALL_TITLE=Expand/Collapse All
+COMPENSATION_PROFILE_CONFIRM_PROFILE_CHANGE_MESSAGE=You have unsaved changes on the profile. Please save them or your changes will be lost.
+COMPENSATION_PROFILE_CONFIRM_WORKSHEET_CHANGE_MESSAGE=You have unsaved changes on the worksheet. Please save them before opening a profile or your changes will be lost.
+COMPENSATION_PROFILE_BACK_TO_PROFILE=Back to Profile
+COMPENSATION_PROFILE_BACK_TO_WORKSHEET=Back to Worksheet
+COMPENSATION_PROFILE_CONTINUE=Continue anyway
+COMPENSATION_PROFILE_HISTORY_IN_LIST_VIEW=The Compensation History is in list view 
+COMPENSATION_PROFILE_BONUS_PLANNING=Bonus Planning
+COMPENSATION_PROFILE_BONUS_SUMMARY=Summary
+#COMPENSATION Worksheet V3
+COMPENSATION_WORKSHEET_V3_FILTER=Filters
+COMPENSATION_WORKSHEET_V3_FILTER_DIALOG_TITLE=Worksheet Filters
+COMPENSATION_WORKSHEET_V3_APPLY_FILTER=Apply Filter
+COMPENSATION_WORKSHEET_V3_CONFIRM_FILTER_CHANGE_MESSAGE=You have made changes to the filter. Please apply them or your changes will be lost.
+COMPENSATION_WORKSHEET_V3_BACK_TO_FILTER=Back to Filter
+COMPENSATION_WORKSHEET_V3_CONTINUE=Continue anyway
+COMPENSATION_WORKSHEET_V3_FILTER_BY_NAME=Filter by $(Employee) Name
+COMPENSATION_WORKSHEET_V3_FILTER_BY_NAME_DESC=Select $(employees) you want to display on the worksheet.
+COMPENSATION_WORKSHEET_V3_FILTER_BY_CATEGORY=Filter by Category
+COMPENSATION_WORKSHEET_V3_FILTER_BY_CATEGORY_DESC=Select categories to narrow down the number of $(employees) on the worksheet.
+COMPENSATION_WORKSHEET_V3_FILTER_RESULT={0} result
+COMPENSATION_WORKSHEET_V3_FILTER_RESULTS={0} results
+COMPENSATION_WORKSHEET_V3_FILTER_CONFIRM_CLEAR=Are you sure you want to remove the '{0}' filter criteria?
+COMPENSATION_WORKSHEET_V3_FILTER_INVALID_HINT=There are some invalid selections, please correct them and try to filter again.
+COMPENSATION_WORKSHEET_V3_BUDGET=Budgets
+COMPENSATION_WORKSHEET_V3_INSTRUCTION=Instructions
+COMPENSATION_WORKSHEET_V3_ROUTE_MAP=Route Map
+COMPENSATION_WORKSHEET_V3_METRICS=Metrics
+COMPENSATION_WORKSHEET_V3_HIDE_PANEL=Hide
+COMPENSATION_WORKSHEET_V3_EMPLOYEE_INFO=Employee Information
+COMPENSATION_WORKSHEET_V3_ADD_NOTES=Add notes
+COMPENSATION_WORKSHEET_V3_VIEW_NOTES=View notes
+COMPENSATION_WORKSHEET_V3_DOWNLOAD_STATEMENT=Download Statement
+COMPENSATION_WORKSHEET_V3_INSTRUCTIONS_DO_NOT_SHOW=Do not show instructions on startup
+COMPENSATION_WORKSHEET_V3_DISPLAY_OPTIONS=Display
+#COMPENSATION Excel import
+COMPENSATION_EXCEL_IMPORT_executive_review=Import Executive Review
+COMPENSATION_EXCEL_IMPORT_note=Please note the following:
+COMPENSATION_EXCEL_IMPORT_note_a=This process may take a while. You will receive an email notification when process is done.
+COMPENSATION_EXCEL_IMPORT_note_b=File has to be saved in earlier versions of Excel (Excel 97-2003).
+COMPENSATION_EXCEL_IMPORT_note_c=Excel macros will be removed. Columns not recognized by the template will also be ignored.
+COMPENSATION_EXCEL_IMPORT_Select_file=Select a file you would like to import.
+COMPENSATION_EXCEL_IMPORT_msg_invalid_template_id=Invalid Template ID:
+COMPENSATION_EXCEL_IMPORT_msg_sucess=Successfully upload excel file! Note: you will get an email notification once all plan entries are updated.
+COMPENSATION_EXCEL_IMPORT_msg_invalid_file=Not a valid excel file or version(>2003) is not supported.
+COMPENSATION_EXCEL_IMPORT_msg_fail_convert=Fail to convert compensation plan bean into job data.
+COMPENSATION_EXCEL_IMPORT_msg_fail_parse=Fail to parse uploaded file! Please see detail in email.
+COMPENSATION_EXCEL_IMPORT_msg_fail_upload=Fail to upload excel file!
+COMPENSATION_EXCEL_IMPORT_msg_fail_process =Fail to process uploaded file! Please try it again.
+COMPENSATION_EXCEL_IMPORT_msg_template_name=Template Name:
+COMPENSATION_EXCEL_IMPORT_msg_update_success=Number of plan entries successfully updated
+COMPENSATION_EXCEL_IMPORT_msg_update_success_by=Following {0} user(s) data have been updated by {1}:
+COMPENSATION_EXCEL_IMPORT_msg_update_reject=Rejected plan entries
+COMPENSATION_EXCEL_IMPORT_msg_update_hard_violation=Following are hard limit violation
+COMPENSATION_EXCEL_IMPORT_msg_offline_imported_plan=Offline imported XLS plan:
+COMPENSATION_EXCEL_IMPORT_msg_offline_imported_plan_error=has following parsing errors:
+COMPENSATION_EXCEL_IMPORT_msg_error_title=Unable to import file.  This might due to one of the following:
+COMPENSATION_EXCEL_IMPORT_msg_error_file=File is not in Excel format.
+COMPENSATION_EXCEL_IMPORT_msg_error_format=File was not saved in earlier versions of Excel (Excel 97-2003).
+COMPENSATION_EXCEL_IMPORT_msg_error_export=Original file was not exported from the system.
+COMPENSATION_EXCEL_IMPORT_msg_success_title=Your import file was successfully submitted.
+COMPENSATION_EXCEL_IMPORT_msg_success_info=This process may take a while. You'll receive an email when the process is done.
+COMPENSATION_EXCEL_IMPORT_msg_success_update_detail_info=Some process information
+COMPENSATION_EXCEL_IMPORT_msg_success_update_validation_error=Validation errors
+#{0} is name of job, {1} is ID number
+COMPENSATION_EXCEL_IMPORT_msg_job_info=Executive Review Offline Edit Job name {0} with request ID {1}
+#compensation excel csv export
+COMPENSATION_EXCEL_CSV_EXPORT_export=Export
+COMPENSATION_EXCEL_CSV_EXPORT_offline=I want to add my compensation changes to the exported file, then upload it when I'm done. Recommended if you want to primarily make changes by import.
+COMPENSATION_EXCEL_CSV_EXPORT_offline_recommend=We recommend selecting this option if you plan to import your compensation changes into system.
+COMPENSATION_EXCEL_CSV_EXPORT_format=Format
+COMPENSATION_EXCEL_CSV_EXPORT_excel=Export as Excel
+COMPENSATION_EXCEL_CSV_EXPORT_csv=Export as CSV
+COMPENSATION_EXCEL_OFFLINE_EDIT_ENABLED=Enable Compensation Excel Offline Edit
+
+#compensation planner permission
+COMPENSATION_MANAGER_ASSIGN_PLANNER_PERMISSION=Allow Compensation Managers to grant/revoke planner permission via UI [requires $(FEATURE_V11_UI)]
+COMPENSATION_MANAGE_USERS_TRAVERSE_UP=Display next level up 
+
+#compensation hierarchy based approvals
+COMPENSATION_HIERARCHY_BASED_APPROVALS=Hierarchy Based Approvals [requires $(FEATURE_V11_UI)]
+COMPENSATION_HIERARCHY_BASED_APPROVALS_VIEWONLY=Enable View Only Mode for Hierarchy Based Approvals
+COMPENSATION_HBA_Team_View=Team View
+COMPENSATION_HBA_Approval_Notification=Send approval status notification to planners in my organization
+COMPENSATION_HBA_Reject_Notification=Send reject status notification to the selected planner
+COMPENSATION_HBA_Approve_All=Approve All
+COMPENSATION_HBA_APPROVAL_HISTORY=Approval History
+COMPENSATION_HBA_Back_To_Template_List=$(COMMON_Back)
+COMPENSATION_HBA_Me={0} (Me)
+COMPENSATION_HBA_Select_User=View Approval for {0}
+COMPENSATION_HBA_Too_Many_Forms=This user has more than one form for template {0}.
+COMPENSATION_HBA_Too_Many_Forms_Detail=You may navigate to another user with exactly one form instance.
+COMPENSATION_HBA_No_Form=This user does not have any form defined for template {0}.
+COMPENSATION_HBA_No_Form_In_Hierarchy=You and planners in your organization do not have any compensation plan created for template "{0}".
+COMPENSATION_HBA_No_Form_Detail=$(COMPENSATION_HBA_Too_Many_Forms_Detail)
+COMPENSATION_HBA_Form_Error=$(COMPENSATION_Generic_Error)
+COMPENSATION_HBA_Form_Error_Detail=$(COMPENSATION_HBA_Too_Many_Forms_Detail)
+COMPENSATION_HBA_My_Team=$(Direct_Reports)
+COMPENSATION_HBA_Entire_Organization=Entire Organization
+COMPENSATION_HBA_Approve_Title=$(COMPENSATION_HBA_Approve_All)
+COMPENSATION_HBA_COMMON_YOU=You
+COMPENSATION_HBA_Reject_Title=$(COMPENSATION_FORM_APPROVAL_Action_Reject)
+COMPENSATION_HBA_Approve_Message=Are you sure you want to approve compensation plans for the entire organization?
+COMPENSATION_HBA_Approve_Self_Detail=You and compensation planners in your organization will not be able to edit compensation data once the compensation plans are approved.
+COMPENSATION_HBA_Approve_Other_Detail={0} and compensation planners in their organization will not be able to edit compensation data once the compensation plans are approved.
+COMPENSATION_HBA_Reject_Message=Are you sure you want to reject compensation plan of {0}?
+COMPENSATION_HBA_Reject_Detail={0} will be able to edit their compensation plan once it is rejected.
+COMPENSATION_HBA_Approve_Success_Title=$(COMPENSATION_HBA_Approve_Title)
+COMPENSATION_HBA_Reject_Success_Title=$(COMPENSATION_HBA_Reject_Title)
+COMPENSATION_HBA_Approve_Success=Compensation plan approved successfully
+COMPENSATION_HBA_Approve_Self_Success_Detail=You and planners in your organization cannot edit compensation plans now
+COMPENSATION_HBA_Approve_Others_Success_Detail={0} and planners in their organization cannot edit compensation plans now
+COMPENSATION_HBA_Approve_Self_Success_Detail_1STLINE_MANAGER=You cannot edit your compensation plan now
+COMPENSATION_HBA_Approve_Others_Success_Detail_1STLINE_MANAGER={0} cannot edit their compensation plan now
+COMPENSATION_HBA_Reject_Success=Compensation plan rejected successfully
+COMPENSATION_HBA_Reject_Success_Detail={0} can edit their compensation plan now
+COMPENSATION_HBA_Approval_Title=$(COMMON_COMPENSATION_TAB): {0} {1} ({2})
+COMPENSATION_HBA_Approval_support_error=Hierarchy based approval feature doesn't support the planner mode. To leverage this feature either first manager or second manager hierarchy needs to be enabled. Please contact your administrator for more information.
+COMPENSATION_HBA_Too_Many_Forms_For_USERS=The following planner(s) in your organization have more than one compensation plan created for template "{0}": {1}. \n\
+ This feature cannot be used when there are multiple compensation plans created for same planner with same template.
+COMPENSATION_HBA_TOPDOWN_APPROVAL=Top-Down Approval
+COMPENSATION_HBA_ALREADY_APPROVED=Compensation plan "{0}" has already been approved by {1}
+COMPENSATION_HBA_NOT_APPROVED=Compensation plan "{0}" has not been approved
+COMPENSATION_HBA_ALREADY_REJECTED=Compensation plan {0} has been rejected by {1}
+COMPENSATION_HBA_USER_HAS_NO_FORM={0} does not have a compensation plan created for template "{1}"
+COMPENSATION_HBA_HIGHER_MANAGER_APPROVED=Unable to reject. At least one of the managers of {0} has approved compensation plans for their entire organization.
+COMPENSATION_HBA_APPROVAL_MAIL_SUBJECT=Your compensation plan has been approved
+COMPENSATION_HBA_APPROVAL_MAIL_BODY=Dear {0}: \n\
+  Your compensation plan "{1}" has been approved by {2}. \n\
+  Approval Comments: {3} \n\
+  Please note that this plan can no longer be edited by you. \n
+COMPENSATION_HBA_REJECT_MAIL_SUBJECT=Your compensation plan has been rejected
+COMPENSATION_HBA_REJECT_MAIL_BODY=Dear {0}: \n\
+  Your compensation plan "{1}" has been rejected by {2}. \n\
+  Reject Comments: {3} \n\
+  Please note that this plan can now be edited. Please make required modification and resubmit. \n
+COMPENSATION_HBA_REAPPROVE_MAIL_SUBJECT=Compensation plan you rejected has been re-approved
+COMPENSATION_HBA_REAPPROVE_MAIL_BODY=Dear {0}: \n\
+  Compensation plan "{1}" you rejected has been re-approved by {2}. \n\
+  Approval Comments: {3} \n
+COMPENSATION_HBA_APPROVAL_COMMENTS=Approval Comments
+COMPENSATION_HBA_REJECTION_COMMENTS=Rejection Comments
+COMPENSATION_HBA_STATUS_APPROVED=Approved
+COMPENSATION_HBA_STATUS_REJECTED=Rejected
+COMPENSATION_HBA_HISTORY_DATE=Date
+COMPENSATION_HBA_HISTORY_ACTIVITY=Activity
+COMPENSATION_HBA_HISTORY_FROM=From
+COMPENSATION_HBA_HISTORY_COMMENTS=Comments
+COMPENSATION_HBA_HISTORY_ACTIVITY_ARRPOVE=Approve
+COMPENSATION_HBA_HISTORY_ACTIVITY_REJECT=Reject
+COMPENSATION_HBA_HISTORY_COMMENTS_MORE=more
+COMPENSATION_HBA_HISTORY_COMMENTS_LESS=less
+
+#COMPENSATION instructions
+COMPENSATION_INSTRUCTION_instruction_a=A custom message can be displayed to provide instructions for users. The message will be displayed at the top of the form (
+COMPENSATION_INSTRUCTION_instruction_link=See example
+COMPENSATION_INSTRUCTION_instruction_b=). You can setup custom messages for different languages. To begin, select the language you want for the message, then enter the message below.
+COMPENSATION_INSTRUCTION_instruction_example=Example
+COMPENSATION_INSTRUCTION_instruction_example_da=Your custom message will be displayed at the top position (
+COMPENSATION_INSTRUCTION_instruction_example_dorange=marked in orange below
+COMPENSATION_INSTRUCTION_instruction_example_db=) of your Compensation Form.
+COMPENSATION_INSTRUCTION_change_language=Change Language
+COMPENSATION_INSTRUCTION_salary=Salary
+COMPENSATION_INSTRUCTION_bonus=Bonus
+COMPENSATION_INSTRUCTION_stock=Stock
+COMPENSATION_INSTRUCTION_summary=Summary
+COMPENSATION_INSTRUCTION_add_language=Add language
+COMPENSATION_INSTRUCTION_remove_language=Remove custom message for language:
+COMPENSATION_INSTRUCTION_select_language=Please select language
+COMPENSATION_INSTRUCTION_language_select_instruction=Select the language to appear in Change Language list:
+COMPENSATION_INSTRUCTION_language_enabled_lang=Enabled languages
+COMPENSATION_INSTRUCTION_language_flag=Flag
+COMPENSATION_INSTRUCTION_language_language =Language
+COMPENSATION_INSTRUCTION_default_local=default
+
+#compensation hierarchy approval
+COMPENSATION_FORM_APPROVAL_STATUS=Status
+COMPENSATION_FORM_APPROVAL_Action=Action
+COMPENSATION_FORM_APPROVAL_Action_Reject=Reject
+COMPENSATION_FORM_APPROVAL_Status_Reject=Rejected
+COMPENSATION_FORM_APPROVAL_Status_Submitted=Submitted
+COMPENSATION_FORM_APPROVAL_Status_Not_Submitted=Not Submitted
+COMPENSATION_FORM_APPROVAL_View=View
+COMPENSATION_FORM_APPROVAL_View_Edit=View/Edit
+COMPENSATION_FORM_APPROVAL_direct_reporters= $(Direct_Reports)
+
+#compensation budget override
+COMPENSATION_FORM_plan_name=Plan Name
+COMPENSATION_FORM_plan_owner=Planner
+COMPENSATION_BUDGET_budget_override=Budget Override
+COMPENSATION_BUDGET_find_compesnation_plan=Find a compensation plan
+COMPENSATION_BUDGET_add_plan=Add Plan
+COMPENSATION_BUDGET_plan_already_added=Plan is already added!
+COMPENSATION_BUDGET_NO_BUDGET=Selected compensation form has no budget!
+COMPENSATION_BUDGET_enter_valid_number=Please enter valid number
+COMPENSATION_BUDGET_invalid_plan=Please select a valid plan
+COMPENSATION_BUDGET_CONFIRM_CANCEL=Are you sure you want to cancel your changes?
+
+#compensation guideline threshold
+COMPENSATION_GUIDELINE_THRESHOLD=Guideline threshold:
+
+#Generate Statement permission messages
+COMPENSATION_NO_PLAN_RULES_DEFAULT_PERMISSIONS=You have not set permissions for group {0}. Default permissions will be used.
+COMPENSATION_PERMISSIONS_FROM_RULE=Permissions for the group {0} are set to {1}
+#used when a statement template is default and has no rules & group name
+COMPENSATION_NO_PLAN_RULES_NO_GROUP_NAME_DEFAULT_PERMISSIONS=You have not set permissions for this default template. Default permissions will be used.
+COMPENSATION_NO_GROUP_NAME_PERMISSIONS_FROM_RULE=The permissions for this default template are set to {0}
+
+#Manage Permission for a plan-statement rule
+COMPENSATION_STATEMENT_RULE_PERMISSION_NONE=Generated statements are not viewable
+COMPENSATION_STATEMENT_RULE_PERMISSION_DEFAULT=Default permissions
+COMPENSATION_STATEMENT_RULE_PERMISSION_CUSTOM=Change permissions for who can view generated statements
+
+COMPENSATION_GROUP_NAME_PERMISSIONS_SET_TO_NONE=Warning: No one has permission to see personal compensation statements at this time for group {0}
+COMPENSATION_DEFAULT_GROUP_PERMISSIONS_SET_TO_NONE=Warning: No one has permission to see personal compensation statements at this time for the selected default template
+
+#default template permission statements
+COMPENSATION_PERM_COMBINED_STATEMENT=Combined
+COMPENSATION_PERM_VARPAY_STATEMENT=Variable Pay
+COMPENSATION_PERM_COMPENSATION_STATEMENT=Compensation
+COMPENSATION_PERM_STATEMENT_DESCRIPTION=Use this page to set the default viewing permissions for personal statements.
+
+#Compensation History related labels
+COMPENSATION_HISTORY_Compensation=Compensation
+COMPENSATION_HISTORY_Stock=Stock
+
+COMPENSATION_STATUS=Status
+COMPENSATION_ACTIVE=Active
+COMPENSATION_INACTIVE=Inactive
+
+COMPENSATION_VALIDATE_N_ADD_BTN_LABEL=Validate and Add
+COMPENSATION_GENERATE_USER_LIST_SEARCH_LABEL=Enter comma-separated list of usernames
+COMPENSATION_GENERATE_AT_LEAST_ONE_USER_MSG=Please provide at least one user-name
+#{0} - Max no. of users
+COMPENSATION_MAX_USERS_ALLOWED_MSG=You can add only {0} users at max
+COMPENSATION_GENERATE_SYSTEM_ALERT_LABEL=System Alert
+COMPENSATION_GENERATE_INVALID_USERS_MSG=Some users could not be selected. Please find the details below.
+COMPENSATION_GENERATE_NOT_IN_SYS_MSG=The following usernames were not found in the system 
+COMPENSATION_GENERATE_NOT_IN_PLAN_MSG=The following employees are not eligible for this plan 
+COMPENSATION_GENERATE_NOT_GENERATED_IN_PLAN_MSG= The following employee(s) do not have a statement generated
+COMPENSATION_GENERATE_ERROR_DIALOG_HEADER=Employee(s) not found/ineligible
+COMPENSATION_GENERATE_PRINT_BY_USER_EMPLOYEE_NAME=Employee Name
+COMPENSATION_GENERATE_PRINT_BY_USER_VALID_USER_ERROR_MSG=Please enter a valid user
+COMPENSATION_GENERATE_PRINT_BY_USER_OVERWRITE_CONFIRMATION=This will overwrite the already selected users.Do you want to continue?
+COMPENSATION_GENERATE_PRINT_BY_USER_OVERWRITE_CONFIRMATION_HEADER=Warning
+COMPENSATION_GENERATE_PRINT_BY_USER_VALIDATING_USERS_OVERLAY=Validating Users

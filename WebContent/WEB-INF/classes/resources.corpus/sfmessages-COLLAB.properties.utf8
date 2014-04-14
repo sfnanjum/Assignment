@@ -1,0 +1,224 @@
+# Copyright 2001-2010 SuccessFactors, Inc.
+# All Rights Reserved
+# $Id: sfmessages-COLLAB.properties.utf8 277808 2013-03-14 17:12:55Z dlett $
+#
+###############################################################
+###############################################################
+##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##
+# !!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!! ##
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! ##
+## All keys need to be prefixed with component names         ##
+## Please see com.sf.sfv4.tools.msggen.MessagesEnum          ##
+## in the V4-tools SVN project for allowed component         ##
+## prefixes.                                                 ##
+###############################################################
+###############################################################
+
+#Collaboration
+COLLAB_FEEDS = Discussions
+COLLAB_SHARE = Share
+COLLAB_SEARCH = Search
+COLLAB_GROUP_MEMBERS = Members
+COLLAB_GROUP_CURRENT_MEMBERS = Current Members
+COLLAB_WHATS_GOING_ON = What's going on
+COLLAB_HOME_FEEDS = Discussions
+COLLAB_CREATE_GROUP = Create New Group
+COLLAB_MY_GROUPS = My Groups
+COLLAB_ALL_GROUPS = All Groups
+COLLAB_GROUP = Group
+COLLAB_RECENT_ACTIVITIES = Recent Activities
+COLLAB_ACTIVITIES = Total Activities
+COLLAB_MANAGE_COLLAB = Manage Collaboration
+#Join a collaboration group
+COLLAB_JOIN = Join Group
+COLLAB_LEAVE=Quit Group
+#Invite people to join a collaboration group
+COLLAB_INVITE = Invite More
+COLLAB_SEND_INVITAION=Send Invitation
+COLLAB_SAVE_CHANGES=Save Changes
+# used like "10 NEW Activities" on the browse groups list
+COLLAB_NEW_ACTIVITY_COUNT = New Activities
+COLLAB_NOTIFICATION_SETTING_INVITE_MEMBERS = Collaboration Join Group Notification
+COLLAB_NOTIFICATION_SETTING_INVITE_MEMBERS_DESC = This is an invitation email sent to the user to join collaboration group.
+COLLAB_POST_FEED_EMAIL = Update discussions by email
+COLLAB_DIGEST_FEED_EMAIL = Daily digest email.
+COLLAB_INVITE_MEMBERS=Invite Members
+COLLAB_INVITE_NEW_PEOPLE=Invite
+COLLAB_MODERATOR=Host
+COLLAB_INVITE_INSTRUCTION=You can invite other people to join this group.
+COLLAB_INVITE_SEE_MORE=Preview or change invitation message
+COLLAB_CREATE_GROUP_BUTTON=Create Group
+COLLAB_EDIT_GROUP=Edit Group
+COLLAB_GROUP_NAME=Group Name
+COLLAB_GROUP_DESCRIPTION=Group Description
+COLLAB_DESCRIPTION=Description
+COLLAB_INVITAION_TEXT=Invitation Message
+COLLAB_GROUP_PHOTO=Upload Photo
+COLLAB_CREATE_SEE_MORE=Customize this group
+COLLAB_CREATE_CUSTOMIZE_INSTRUCTION=Customize this group by adding a photo, group description, or personal invitation message.
+COLLAB_REQUIRED_INFORMATION=Required Information
+COLLAB_DISCUSSION=Discussion
+COLLAB_WRITEANSWER=Write an answer...
+COLLAB_WRITECOMMENT=Write a comment...
+COLLAB_VIEWALLANSWERS=View all {0} answers...
+COLLAB_SUBMIT=Submit
+COLLAB_QUESTION=Question
+COLLAB_MESSAGE=Message
+COLLAB_ASK_LBL=Ask {0}
+COLLAB_ASK=Ask
+COLLAB_SHARE_WITH_LBL=Share with {0}
+COLLAB_SHARE_WITH=Share with
+COLLAB_Search_Results=Search Results
+COLLAB_Results_For=Results for "{0}"
+COLLAB_SHOWOLDER=Show older posts >>
+COLLAB_POSTING_ELLIPSE=Posting...
+COLLAB_BLANKSLATE_GROUP=<p>Welcome to the {0} discussion page.</p><p>All group discussions get posted here.</p><p>Be the first to start the discussion by asking a question, sharing a tip, or making an announcement.</p><br/>
+COLLAB_BLANKSLATE_HOME_NO_GROUP=<p>Welcome to the Discussions home page.</p><p>All group discussions get posted here.</p><p><a onclick="FeedsBlankSlateContent.gotoAllGroups(); return false;" href="javascript:void(0)">Join a group</a> or <a onclick="FeedsBlankSlateContent.createGroup();" href="javascript:void(0)">create a new group</a> and start participating in a discussion.</p><br/>
+COLLAB_BLANKSLATE_HOME_NO_FEED=<p>Welcome to the discussion page.</p><p>All group discussions get posted here.</p><p>Be the first to start the discussion by asking a question, sharing a tip, or making an announcement.</p><br/>
+# Options/Notifications page for email notification options per user
+COLLAB_EMAIL_NOTIFICATION_INSTRUCTIONS=Choose the type of email notifications you want to receive.
+COLLAB_EMAIL_GENERAL_ACTIVITIES=General Activities
+COLLAB_EMAIL_RECEIVE=Receive Email
+COLLAB_EMAIL_SEND_TO_ME=Send emails to me
+COLLAB_EMAIL_NO_EMAIL=No Email
+COLLAB_EMAIL_IN_SYSTEM=Read messages in the system
+COLLAB_EMAIL_TYPES=My Network, Groups, and Discussions
+COLLAB_EMAIL_IMMEDIATE=Individual Email
+COLLAB_EMAIL_SEND_IMMEDIATE=Send emails to me immediately
+COLLAB_EMAIL_DIGEST=Daily Digest Email
+COLLAB_EMAIL_SEND_DIGEST=Send one consolidated email per day
+#Collaboration default email templates
+COLLAB_DEFAULT_INVITATION_MESSAGE=I hope you will join this group with me. You'll find a lot of good information and ideas here.
+COLLAB_INVITE_MEMBERS_EMAIL_SUBJ=You're invited to join a group in SuccessFactors
+COLLAB_INVITE_MEMBERS_EMAIL_BODY=Hello [[INVITEE]],\n\
+ [[INVITER]] is inviting you to join this group: [[GROUP_NAME]]\n\
+ \n\
+ [[INVITER]] says:\n\
+ [[MESSAGE]]\n\
+ \n\
+ Click the link below to join the group.\n\
+ [[JOIN_GROUP_URL]]\n\
+ \n\
+ \n\
+ A little bit about [[GROUP_NAME]]:\n\
+ [[GROUP_DESCRIPTION]]\n\
+ \n
+COLLAB_POST_FEED_EMAIL_SUBJ=[[GROUP_NAME]] Instant Update
+COLLAB_POST_FEED_EMAIL_BODY=Discussion happening now on [[COLLAB_HOME_NAME]]\n\
+ <hr align=left noshade size=3 width=300> \n\
+ \n\
+ \n\
+ [[GROUP_NAME]] \n\
+ \n\
+ [[MESSAGE]]\n\
+ \n\
+ <hr align=left noshade size=3 width=300> \n\
+ Want to adjust your email settings?  [[EMAIL_SETTING_LINK_URL]]\n\
+ \n\
+ \n
+COLLAB_DIGEST_FEED_EMAIL_SUBJ=Today's updates from [[COLLAB_HOME_NAME]]
+COLLAB_DIGEST_FEED_EMAIL_BODY=Today's activities posted by your Groups\n\
+ <hr align=left noshade size=3 width=300> \n\
+ \n\
+ [[MESSAGE]]\n\
+ \n\
+ \n\
+ <hr align=left noshade size=3 width=300> \n\
+ Want to adjust your email settings?  [[EMAIL_SETTING_LINK_URL]]\n\
+ \n\
+ <small>This is an automated email service, so please don't reply to this email if you're looking for a response.</small>\n\
+ \n\
+ \n
+COLLAB_CLICK_TO_VIEW_OR_ANSWER = Click to view or answer conversation
+#Collaboration error messages
+#For the below set of messages, {0} represents the user name and {1} represents the group name.
+COLLAB_ERROR_ALREADY_GROUP_MEMBER = {0} is already a member of this group: {1}.
+COLLAB_ERROR_GROUP_OWNER_CANNOT_LEAVE ={0} is currently the host of this group and can't quit the group until a replacement host is named.
+COLLAB_ERROR_INVITE_EMAIL_DISABLED =The Join A Group Invitation email template is not enabled. You must enable the email template before you can invite members into the group.
+COLLAB_ERROR_NEW_OWNER_NOT_A_MEMBER ={0} is currently not a member of this group: {1}, so {0} can't be assigned as the host for the group.
+COLLAB_ERROR_DUPLICATE_GRP_NAME =This group name already exists. Please choose a different name for your group.
+COLLAB_ERROR_GROUP_CANNOT_BE_DELETED_DUETO_FEEDS= This group already includes at least one Discussion thread so it can no longer be deleted.
+COLLAB_ERROR_GROUP_CANNOT_BE_DELETED_DUETO_MEMBERS= This group already includes at least one member so it can no longer be deleted.
+COLLAB_ERROR_POST_FEED_EMAIL_DISABLED = The Discussions Instant Updates email template is not enabled. You must enable the template before you can start any Discussions.
+COLLAB_ERROR_DIGEST_FEED_EMAIL_DISABLED = The Discussions Daily Digest email template is not enabled. You must enable the template to send Discussions threads to group members.
+COLLAB_ERROR_DIGEST_JOB_FAILURE_SUBJ = Failed: The Daily Digest email was not sent successfully. Please try sending again.
+COLLAB_ERROR_GROUP_NOT_FOUND = <h3>Sorry...</h3><br/>The Group you requested was not found.  You may have clicked on an expired link or mistyped the address.<br/><br/> Please check out one of the other groups.
+COLLAB_ERROR_NEW_AUTHOR_NOT_A_MEMBER ={0} is currently not a member of this group: {1}, so {0} can't post for the group.
+COLLAB_CLOSE_WINDOW = Close Window
+COLLAB_ALERT=Alert
+COLLAB_PHOTO_UPLOAD_NO_GROUP_ERROR=Unable to upload photo because this group does not exist.
+COLLAB_PHOTO_INTRUCTIONS=You can upload a JPG, GIF or PNG file (File size limit is 2 MB).
+COLLAB_WARNING=Wait!
+COLLAB_CONFIRM_LEAVE_GROUP=Are you sure you want to quit this group?  Quitting means you're no longer a member.  Click Quit to continue.
+COLLAB_QUIT=Quit
+COLLAB_SORRY=Wait!
+COLLAB_ERROR_UPDATE_MODERATOR=You are currently the host.  You must make someone else the host before you can quit this group.
+COLLAB_TRANSFER_MODERATOR=Assign a new host.
+COLLAB_CURRENT_PHOTO=Current Photo
+COLLAB_UPLOAD_PHOTO=Upload Photo
+COLLAB_DELETE_PHOTO_OPTION=Delete photo and use system default.
+COLLAB_UPLOADING_PHOTO=Uploading photo...
+COLLAB_CREATING_GROUP=Creating Group...
+COLLAB_MY_GROUPS_BLANK_STATE=See a list of your groups here.<br/><br/>This space is empty now because you don't belong to any groups yet.<br/>
+COLLAB_BROWSE_ALL_GROUPS=Browse and join a group now
+COLLAB_START_NEW_GROUP=Start a new group
+COLLAB_ALL_GROUPS_BLANK_STATE=See a list of all company groups here.<br/><br/> No groups are shown because no groups have been created yet.<br/>
+COLLAB_ALL_GROUPS_BLANK_STATE_MORE=Groups are great for collaborating and communicating ideas.  Why not create a group around a project, task force, activities, upcoming event, or even your team or department, and get people talking to each other.
+COLLAB_BE_FIRST_TO_CREATE=Be the first in your company to create a group
+COLLAB_DELETE_GROUP=Delete Group
+COLLAB_CONFIRM_DELETE_GROUP=Are you sure you want to delete this group?
+COLLAB_CONFIRM_UPDATE_GROUP_HOST =Only the host can update the group photo, group name, or description.<br/><br/>Are you sure you want to make {0} the host? Click Change to continue.
+COLLAB_CHANGE =Change
+COLLAB_WARNING_TEXT =Warning!
+#Collaboration members portlet
+COLLAB_GROUP_SINGLE_MEMBER = Member
+COLLAB_GROUP_ACTIVE_MEMBERS =Most active members
+COLLAB_GROUP_SHOW_ALL_MEMBERS =Show all members
+COLLAB_GROUP_ALL_MEMBERS = Members
+COLLAB_GROUP_MEMBER_RECENT_ACTIVITY =Recent Activity
+COLLAB_GROUP_MEMBER_TOTAL_GROUP_ACTIVITY =Total Group Activity
+COLLAB_GROUP_HOST =Host
+COLLAB_MEMBERS_OF_MESSAGE = {0} Members of {1}
+COLLAB_FEEDS_IN = in
+COLLAB_TOTAL_RESPONSES= Total {0} responses
+#Collaboration My Groups portlet
+COLLAB_MYGROUPS_NEW_MESSAGE={0} New Messages
+COLLAB_MYGROUPS_NEW_MEMBERS={0} New Members
+COLLAB_MYGROUPS_VIEW_MORE=View more...
+#Collaboration search box
+COLLAB_SEARCH_BOX_LABEL=Search Experts/Groups
+COLLAB_BROWSE_ORG_CHART =Browse Org Chart
+COLLAB_EXPERT_SEARCH_TITLE =Experts
+COLLAB_SEARCH_RESULT_NO ={0} Results
+COLLAB_NAMES_SEARCH_TITLE =Names
+COLLAB_NAMES_SEARCH_RESULT_NO ={0} Results
+COLLAB_SEARCH_NO_RESULT_FOUND =No results found.
+COLLAB_SEARCH_SHOW_NEXT=Show next {0}
+COLLAB_SEARCH_HIDE_LAST=Hide last {0}
+COLLAB_SEARCH_SHOW_ALL=Show All results
+COLLAB_SEARCH_TOP_RESULT_SHOWN =Top {0} results shown
+COLLAB_SEARCH_PHOTOCARD_FACEBOOK_LINK =Facebook
+COLLAB_SEARCH_PHOTOCARD_LINKEDIN_LINK =LinkedIn
+COLLAB_SEARCH_PHOTOCARD_ORGCHART =Org Chart
+COLLAB_SEARCH_PHOTOCARD_TAGS =Tags
+COLLAB_SEARCH_PHOTOCARD_MORE =More...
+COLLAB_SEARCH_PHOTOCARD_MAP =Map
+COLLAB_GROUP_SEARCH_TITLE =Groups
+COLLAB_GROUP_NAME_LABEL =Group Name
+COLLAB_GROUP_DESCRIPTION_LABEL =Group Description
+COLLAB_GROUP_DISCUSSIONS_LABEL =Discussions
+COLLAB_GROUP_MEMBERS_COUNT ={0} Members
+COLLAB_GROUP_ACTIVITIES_COUNT ={0} Activities
+COLLAB_defaultPilotGroupName=Connect Pilot Users
+COLLAB_PilotGroupGetError=Error retrieving pilot group permissions.
+COLLAB_PilotGroupSaveError=Error saving pilot group permissions.
+COLLAB_EntireCompany=Entire Company
+COLLAB_PilotUsersTitle=Pilot User Selection
+COLLAB_PilotUsers=Pilot Users
+COLLAB_SelectPilotUsers=Select Pilot Users
+COLLAB_ExcludePilotUsers=Exclude these people
+COLLAB_ExcludePilotInstruction=
+COLLAB_PILOT_GROUP_USER_NOT_IN=User is not in Pilot group
+COLLAB_PILOT_GROUP_INCORRECT_SETTING=Pilot group is not setup correctly
+COLLAB_PILOT_GROUP_MISSING_CRITERIA=Please provide selection criteria for your group of pilot users.
+COLLAB_PILOT_GROUP_SAVE_CONF=Pilot users saved!
